@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "cohort_id": "QA_DIVERSE_ROOSEVELTOVA_20261023",
+  "role": "BL",
+  "model": "gpt-5.6-terra",
+  "actual_model_evidence": {
+    "actual_model": null,
+    "evidence": null,
+    "status": "unknown_not_exposed_by_native_goal_or_tooling"
+  },
+  "case": {
+    "case_id": "ROOSEVELTOVA-CP539-001",
+    "source_id": "cab231a5-392f-42d1-9ab5-f2cce57fb488",
+    "blind_manifest_sha256": "E5F43237B9584AD76479C677003C16B40C24E72FAB5B0CE35EBB8AA0AE8E79D4"
+  },
+  "source": {
+    "path": "[interní cesta nezveřejněna]",
+    "sha256": "37946D3C58DFF64DE44560D82EA28E3C711C60DE7D4E9707C2DCD2FF53A34137",
+    "dimensions": [
+      3036,
+      2160
+    ]
+  },
+  "variant": {
+    "id": "BK-RV-CP539-001-A01",
+    "path": "[interní cesta nezveřejněna]",
+    "sha256": "03AC60F1A293B35D50A93560AA52C9EE07786E5B17241DD49AB985C090AEFF3B",
+    "dimensions": [
+      1486,
+      1059
+    ],
+    "attempt_number": 1
+  },
+  "phase": "color_only",
+  "visual_review_performed": true,
+  "review_method": {
+    "source_and_variant_opened": true,
+    "normal_view": "full-scene comparison; source resampled from 3036x2160 to 1486x1059 using HighQualityBicubic, variant displayed at native 1486x1059",
+    "native_100pct_detail": "separate left-facade and header crops were inspected at native pixels; no interpolation or resampling in these detail crops",
+    "scope_limit": "Only the frozen blind manifest, its stated source/variant, and its listed annotation/material metadata were used before this vote."
+  },
+  "image_fidelity": {
+    "machine_verdict": "positive",
+    "minor_deviations": [
+      "Variant has a lower native raster resolution than the source (1486x1059 versus 3036x2160); this is recorded for metadata/web disclosure and did not show a material content loss in the reviewed regions."
+    ]
+  },
+  "color_hypothesis": {
+    "machine_verdict": "review",
+    "reason": "The source is monochrome and the permitted blind material contains no independent chromatic ground truth. The palette is internally plausible, but cannot be promoted from the manifest's provisional model hypotheses to historical fact."
+  },
+  "identity_gate": {
+    "machine_verdict": "positive",
+    "reason": "The original visibly bears the handwritten 539 label and arrow at the upper-left, preserved by the variant; combined with the frozen source_id and single CP539 record in the blind manifest, this supports the case identity. It is not a live API re-verification."
+  },
+  "verdict": "review",
+  "findings": [
+    {
+      "id": "BL-F-001",
+      "kind": "preserved_visible_content",
+      "machine_verdict": "positive",
+      "normalized_box": {
+        "x": 0.0,
+        "y": 0.023,
+        "width": 0.402,
+        "height": 0.694
+      },
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "The left facade, its openings and projecting architectural detail, iron fence, foreground pedestrian, bare trees, pole/wires, masonry wall, snow and the adjacent corner building remain aligned with the source rather than being cleaned or reconstructed.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "2EE5A380583909DF67BA48AA364FE47F0BDB78894FD0AC3D6656031DE051E85E",
+          "purpose": "normal_view_comparison"
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "EC59F49B07D73269E55FAFE54504B22BF847D6D2E7D82B5933956D386D3EB409",
+          "purpose": "source_native_100pct"
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "774F94EF2A60C9BB7A726C8ECEC567143AC3D6849437D8ECE985A621DEAE3855",
+          "purpose": "variant_native_100pct"
+        }
+      ]
+    },
+    {
+      "id": "BL-F-002",
+      "kind": "colour_hypothesis_limit",
+      "machine_verdict": "review",
+      "normalized_box": {
+        "x": 0.0,
+        "y": 0.023,
+        "width": 1.0,
+        "height": 0.694
+      },
+      "historical_impact": "unknown",
+      "visibility": "normal_view",
+      "significance_reason": "Ochre, cream, green-grey, clay-red and dark-brown readings are visibly coherent, but the monochrome original alone cannot validate their historical truth. All remain provisional model hypotheses.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "2EE5A380583909DF67BA48AA364FE47F0BDB78894FD0AC3D6656031DE051E85E",
+          "purpose": "normal_view_colour_context"
+        }
+      ]
+    },
+    {
+      "id": "BL-F-003",
+      "kind": "identity_annotation_preserved",
+      "machine_verdict": "positive",
+      "normalized_box": {
+        "x": 0.04,
+        "y": 0.0,
+        "width": 0.257,
+        "height": 0.074
+      },
+      "historical_impact": "material",
+      "visibility": "normal_view",
+      "significance_reason": "The handwritten 539 label and arrow are historically material for associating the photographed left-side building with the candidate case; both remain visible in the variant.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "70555E249B8CF72ABD436AC85E396F8B9C255B243B86EBB55B71EAF62023007E",
+          "purpose": "source_native_100pct"
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "09C35A9CA60B374C198E9DEB40A50329B73B0BFA6C49259A615ABC8E29FF618B",
+          "purpose": "variant_native_100pct"
+        }
+      ]
+    }
+  ],
+  "token_metrics_receipt": {
+    "thread_id": "01a16889-5de3-7db0-9c13-94084936835a",
+    "goal_id": "01a16889-5de3-7db0-9c13-94084936835a",
+    "model": "gpt-5.6-terra",
+    "reasoning_effort": "high",
+    "phase": "blind_visual_QA",
+    "started_at_native_unix_seconds": 1792755350,
+    "ended_at_native_unix_seconds": 1792755710,
+    "token_counter_source": "native get_goal goal.tokensUsed; same goal scope",
+    "tokens_start": 0,
+    "tokens_end": 48654,
+    "tokens_delta": 48654,
+    "input_tokens_if_exposed": null,
+    "cached_input_tokens_if_exposed": null,
+    "output_tokens_if_exposed": null,
+    "reasoning_tokens_if_exposed": null,
+    "image_usage_if_separately_exposed": null,
+    "remaining_percent_start": null,
+    "remaining_percent_end": null,
+    "unique_sources_attempted": 1,
+    "image_edits": 0,
+    "accepted_unique_photos": 0,
+    "accepted_cleanup_derivatives": 0,
+    "rejected_variants": 0,
+    "remote_hash_verified": 0,
+    "limitations": "Counters not exposed remain null; E was absent and is recorded as backup_pending_E. This QA vote does not accept, upload, publish or remotely verify the candidate."
+  },
+  "checked_at": "2026-10-23T11:44:28Z"
+}

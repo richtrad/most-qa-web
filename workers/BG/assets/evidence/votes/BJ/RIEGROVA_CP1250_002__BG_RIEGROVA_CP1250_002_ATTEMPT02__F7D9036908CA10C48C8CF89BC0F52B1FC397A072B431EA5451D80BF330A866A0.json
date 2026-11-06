@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "role": "BJ",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "thread_id": "01a16844-ec6d-7981-8ebb-2951397e6d75",
+  "case_id": "RIEGROVA_CP1250_002",
+  "source_id": "a25242e9-fe43-4ac5-9e1f-1e0ba592bd6b",
+  "source_sha256": "71A3D7F63C054875CBF7220ABED5023CE44913D8250307A8DC9DC3033CA6F117",
+  "variant_id": "BG_RIEGROVA_CP1250_002_ATTEMPT02",
+  "variant_sha256": "F7D9036908CA10C48C8CF89BC0F52B1FC397A072B431EA5451D80BF330A866A0",
+  "attempt_number": 2,
+  "phase": "color_only",
+  "visual_review_performed": true,
+  "verdict": "negative",
+  "findings": [
+    {
+      "code": "unsupported_chromatic_brick_courses",
+      "result": "fail",
+      "finding": "Above the upper-right courtyard window, a bounded red-brown patch with horizontal gray mortar-like courses remains visible in colour. The source shows a soft pale/dark damaged patch without resolved brick courses at those positions. The V3 grayscale retains the source closely, so I do not claim new luminance edges; nevertheless, the chromatic pattern supplies an exposed-brick/mortar layout not supported by the source. This residual invented material detail prevents acceptance as a faithful material reference.",
+      "normalized_box": [
+        0.58,
+        0.15,
+        0.69,
+        0.24
+      ],
+      "source_and_variant_pixel_box": [
+        1253,
+        447,
+        1490,
+        715
+      ],
+      "evidence_path": "[interní cesta nezveřejněna]"
+    },
+    {
+      "code": "protected_content",
+      "result": "observed_preserved",
+      "finding": "Courtyard openings and narrow apertures, roof/chimneys/vents, pipe, adjacent balconies and laundry, tree/trunk/branches, shed remnants and cloth, graffiti, steps, debris and foreground platform are retained.",
+      "evidence_path": "[interní cesta nezveřejněna]"
+    },
+    {
+      "code": "inscriptions",
+      "result": "source_legibility_retained_with_limits",
+      "finding": "The circular chalk mark by the lower opening and neighboring small marks remain at source-level legibility. No house identity is inferred from them."
+    },
+    {
+      "code": "material_interpretation",
+      "finding": "Rear green joinery versus front brown joinery is not treated as inconsistency without dated entity evidence. The rejection concerns the specific unsupported brick-course colour pattern above the window."
+    },
+    {
+      "code": "diagnostic_support",
+      "finding": "Matched dimensions and very close grayscale structure support the visual preservation findings but are not a visual pass or proof of historical colours. Chroma-only material patterns must be judged in colour.",
+      "data": {
+        "method": "Pillow grayscale BT601 coefficients on stored nonlinear RGB; no geometric registration or source/output changes. Comparison is diagnostic, not a visual verdict.",
+        "grayscale_mae_8bit": 1.438412070274353,
+        "grayscale_p99_abs_error": 7,
+        "grayscale_pearson": 0.9998130626593538,
+        "fraction_abs_error_gt10": 3.1092207049225185e-07
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "source_photo_opened",
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "71A3D7F63C054875CBF7220ABED5023CE44913D8250307A8DC9DC3033CA6F117",
+      "visual_inspection_performed": true
+    },
+    {
+      "kind": "V3_variant_opened",
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "F7D9036908CA10C48C8CF89BC0F52B1FC397A072B431EA5451D80BF330A866A0",
+      "visual_inspection_performed": true
+    },
+    {
+      "kind": "detail_comparison_opened",
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "CDB6DBB561E09E69E5D650BCCBA30E4457CD5CBD6CFF6595F4252C15DC46AD4F",
+      "visual_inspection_performed": true
+    },
+    {
+      "kind": "native_focus_comparison_opened",
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "39A86728750697A8B9504BEA59458CD6F373DD356A97E2B89BB3058FAA5D9677",
+      "visual_inspection_performed": true
+    },
+    {
+      "kind": "live_area_metadata",
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "5261E5801D4B744B16DA5FEE3419BBD1EA6E6C91DDE064F66CAEB770149E7640",
+      "scope": "Frozen input reference only; no opinions or other votes."
+    },
+    {
+      "kind": "workflow",
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "E30433C316FA49DB234AD2C2754DA8AB08A058A7B6BAF98D1A131358C354E2AC",
+      "scope": "Frozen input reference only; no opinions or other votes."
+    }
+  ],
+  "checked_at": "2026-10-23T11:37:49.003905+00:00",
+  "token_metrics_receipt": "[interní cesta nezveřejněna]",
+  "analysis_receipt": "[interní cesta nezveřejněna]",
+  "input_manifest": {
+    "path": "[interní cesta nezveřejněna]",
+    "sha256": "6B0AB974043AB92D81FAC711F219140EBED0B28C796BA2A127C61E1210583E2C",
+    "blind_version": 3
+  },
+  "identity_status": "pending",
+  "ownership_status": "verified",
+  "input_gate": {
+    "identity_status": "pending",
+    "ownership_status": "verified",
+    "upload_input_hold": true,
+    "identity_resolved_by_vote": false
+  },
+  "materials_supplied": {
+    "surfaces": [
+      "facade_plaster",
+      "exposed_masonry",
+      "window_and_door_joinery",
+      "roof_covering",
+      "metalwork",
+      "ground_surface"
+    ],
+    "status": "model_hypothesis",
+    "confidence": "provisional",
+    "locked": false
+  },
+  "material_status": {
+    "classification": "model_hypothesis",
+    "status": "provisional",
+    "locked": false,
+    "historically_verified_colours": false
+  },
+  "checks": {
+    "full_original_and_exact_variant_opened": true,
+    "detail_and_native_focus_opened": true,
+    "architecture_windows_doors_roof": "source structure visually retained; individual visible openings scanned in overview and detail panels",
+    "foreground_objects": "retained; no cleanup or occluder removal expected in COLOR_ONLY",
+    "damage": "large source damage and tonal pattern retained; local chromatic caveats in findings",
+    "archival_frame": "original white frame and archive marks retained; no visible generated external black padding",
+    "dimensions": {
+      "source": [
+        2160,
+        2978
+      ],
+      "variant": [
+        2160,
+        2978
+      ],
+      "same_dimensions": true
+    },
+    "grain_tonality": "closely source-like in grayscale/native crops; no whole-image sharpening/restoration credited",
+    "cross_view_material_consistency": "CP1248 front/courtyard compared only where the supplied views provide matching surfaces; no canonical IDs or dates supplied. No fabricated historical lock.",
+    "hidden_surface_reconstruction": "none authorized or credited"
+  },
+  "independence": {
+    "other_qa_votes_read": false,
+    "majority_decisions_read": false,
+    "producer_notes_or_assessments_read": false,
+    "V3_assessed_against_original_not_previous_verdict": true
+  },
+  "decision_scope": "Exact V3 source/variant SHA, independent visual COLOR_ONLY vote only. Does not resolve identity, authorize upload, or aggregate any votes.",
+  "backup_status": "backup_pending_E"
+}

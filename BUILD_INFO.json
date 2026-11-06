@@ -1,0 +1,17 @@
+{
+  "version": "20261106-public-1",
+  "prepared_at": "2026-11-06T14:34:04.972707+00:00",
+  "private_source_main": "f78cf22e7e4815670f7f22d14e26996cc0c49ae9",
+  "archive_roles": 73,
+  "archive_distinct_entries": 64,
+  "newer_form_cases": 71,
+  "image_preview_blobs": 1997,
+  "originals_unchanged": true,
+  "application_status": "not_applied",
+  "answers_sent_to_server": false,
+  "historical_qa": false,
+  "full_model_browser_qa": false,
+  "public_repository": "richtrad/most-qa-web",
+  "public_url": "https://richtrad.github.io/most-qa-web/",
+  "working_glb_models_remain_private": true
+}

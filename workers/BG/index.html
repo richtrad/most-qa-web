@@ -1,0 +1,1559 @@
+<!doctype html><html lang="cs"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Riegrova — soukromý předávací přehled</title><style>
+:root{color-scheme:light;--ink:#17212b;--muted:#536170;--line:#d4dce4;--panel:#fff;--bg:#f3f6f8;--accent:#175d70;--amber:#805500;--red:#8b2d25}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,Segoe UI,sans-serif}header{background:#123444;color:white;padding:24px clamp(16px,4vw,48px)}header p{max-width:1050px;color:#e0ebef;margin:8px 0}main{max-width:1200px;margin:24px auto;padding:0 16px}.bar,.case,.summary{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px;margin:14px 0}.bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.bar button,.bar select{font:inherit;padding:9px 12px;border-radius:8px;border:1px solid #9aabb8;background:white;color:var(--ink)}.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(135px,1fr));gap:10px}.metric{background:#eaf0f3;padding:12px;border-radius:8px}.metric b{display:block;font-size:1.35rem}.case h2{margin:0}.meta{color:var(--muted);font-size:.93rem}.status{display:inline-block;padding:3px 8px;background:#e9eef2;border-radius:99px;font-size:.85rem;margin:2px}.status.warn{background:#fff1ce;color:#654400}.status.bad{background:#fce4e1;color:#7a211a}.compare{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:14px;margin-top:14px}.figure{border:1px solid var(--line);border-radius:9px;padding:10px;background:#fafcfd}.figure img{width:100%;max-height:680px;object-fit:contain;background:#e6eaed}.variant{border-top:1px solid var(--line);padding-top:12px;margin-top:14px}.review{font-size:.92rem;color:#334250;margin:6px 0;padding-left:12px;border-left:3px solid #b2c4cf}.decision{margin-top:18px;background:#f5f8fa;padding:14px;border-radius:9px}.decision label{display:block;font-weight:600}.decision select,.decision textarea{font:inherit;width:100%;margin:5px 0 10px;padding:9px;border:1px solid #9aabb8;border-radius:7px}.decision textarea{min-height:68px}.note{background:#fff4d9;border-left:4px solid #bd8c1b;padding:10px 12px}.footer{color:var(--muted);font-size:.9rem;margin:24px 0}button{cursor:pointer}@media(max-width:540px){header{padding:18px 16px}.case,.summary{padding:14px}.figure img{max-height:450px}}
+</style></head><body><aside style="position:relative;z-index:10;padding:14px;background:#fff0c8;color:#243337;font:15px/1.5 system-ui;border-bottom:2px solid #a37727"><a href="/most-qa-web/index.html">← Centrální hodnocení a nové případy</a> · Veřejná webová kopie archivu 23.–24. 10. 2026. Obrazy jsou <b>webové náhledy</b>; originály a původní hashe jsou v privátním archivu. Jemné detaily bez originálu neoznačujte za ověřené. Poznámky zůstávají jen v tomto prohlížeči; použijte zdejší export JSON. Rozhodnutí se sama neaplikují.</aside><header><h1 data-cz="Riegrova — soukromý předávací přehled" data-en="Riegrova — private handoff review">Riegrova — soukromý předávací přehled</h1><p data-cz="Lokální pracovní kopie pro kontrolu existující práce BG. Stránka nic neodesílá a uživatelská rozhodnutí se zatím neaplikují na QA, produkci ani Libuši." data-en="Local working copy for review of BG’s existing work. This page sends nothing; user decisions are not applied to QA, production, or Libuše.">Lokální pracovní kopie pro kontrolu existující práce BG. Stránka nic neodesílá a uživatelská rozhodnutí se zatím neaplikují na QA, produkci ani Libuši.</p></header><section style="margin:1rem auto;max-width:1100px;padding:1rem;border:1px solid #d4dce4;background:#fff"><h2 data-cz="Kontrola plánů k identitě" data-en="Plan review for identity">Kontrola plánů k identitě</h2><p data-cz="Byly otevřeny tři dostupné plány. Skica Riegrovy uvádí 387/1 a dvorní kontext, ale neurčuje zobrazenou fasádu. Výkres CP1289/1290 z listopadu 1907 neurčuje, která fasáda v uliční fotografii je CP1289. Obě identity zůstávají pending." data-en="Three available plans were opened. The Riegrova sketch labels 387/1 and courtyard context but does not identify the photographed facade. The CP1289/1290 drawing from November 1907 does not identify which facade in the street photograph is CP1289. Both identities remain pending.">Byly otevřeny tři dostupné plány. Skica Riegrovy uvádí 387/1 a dvorní kontext, ale neurčuje zobrazenou fasádu. Výkres CP1289/1290 z listopadu 1907 neurčuje, která fasáda v uliční fotografii je CP1289. Obě identity zůstávají pending.</p><p><a href="assets/evidence/BG_RIEGROVA_IDENTITY_PLAN_REVIEW.json">Plan review receipt</a> · <a href="/most-qa-web/media/2ca35bc873ac3a289a8e8c01ca02a63939fa06aa.webp">CP1289 plan title crop</a> · <a href="assets/evidence/BG_RIEGROVA_COLOR_ONLY_PHASE_STATUS_V15.json">Phase status V15</a></p></section><section style="margin:1rem auto;max-width:1100px;padding:1rem;border:1px solid #d4dce4;background:#fff"><h2 data-cz="Výsledek jediné korekce" data-en="Single-correction result">Výsledek jediné korekce</h2><p data-cz="CP387_003: korekce zachovala kompozici, ale rozlišení zůstalo 1088×1446; čeká na nezávislé QA. CP1289_001: korekce 2 je odmítnuta kvůli nepodložené opakované ornamentální textuře; korekce 1 zůstává nezkontrolovaným kandidátem. Celkem 17 verzí, 2 odmítnuté varianty zachovány. Bez nezávislého QA a bez uploadu." data-en="CP387_003: correction preserved composition but remained 1088×1446; independent QA is pending. CP1289_001: correction 2 is rejected for unsupported repeated ornamental texture; correction 1 remains an unreviewed candidate. 17 total versions, 2 rejected variants preserved. No independent QA and no upload.">CP387_003: korekce zachovala kompozici, ale rozlišení zůstalo 1088×1446; čeká na nezávislé QA. CP1289_001: korekce 2 je odmítnuta kvůli nepodložené opakované ornamentální textuře; korekce 1 zůstává nezkontrolovaným kandidátem. Celkem 17 verzí, 2 odmítnuté varianty zachovány. Bez nezávislého QA a bez uploadu.</p><p><a href="assets/evidence/BG_RIEGROVA_CORRECTION_ATTEMPT02_REVIEW.json">Correction review receipt</a> · <a href="assets/evidence/BG_RIEGROVA_COLOR_ONLY_PHASE_STATUS_V14.json">Phase status V14</a></p></section><section style="margin:1rem auto;max-width:1100px;padding:1rem;border:1px solid #d4dce4;background:#fff"><h2 data-cz="Doplnění zdrojových záznamů a kontroly" data-en="Source record and review update">Doplnění zdrojových záznamů a kontroly</h2><p data-cz="Pro CP387_003 a CP1289_001 je vybraným zdrojem samostatný záznam PHOTO,BW; duplicitní PLANE,BW záznam se nepoužil. Vizuální samokontrola BG zaznamenala zachovanou kompozici, ale také přibližně poloviční lineární rozlišení. Nezávislé QA a přiřazení cílové fasády zůstávají otevřené; upload se neprováděl." data-en="For CP387_003 and CP1289_001, the selected sources are separate PHOTO,BW records; duplicate PLANE,BW records were not used. BG visual self-review noted preserved composition and roughly half linear resolution. Independent QA and target facade mapping remain open; no upload was performed.">Pro CP387_003 a CP1289_001 je vybraným zdrojem samostatný záznam PHOTO,BW; duplicitní PLANE,BW záznam se nepoužil. Vizuální samokontrola BG zaznamenala zachovanou kompozici, ale také přibližně poloviční lineární rozlišení. Nezávislé QA a přiřazení cílové fasády zůstávají otevřené; upload se neprováděl.</p><p><a href="assets/evidence/BG_RIEGROVA_PHOTO_RECORD_DISAMBIGUATION.json">Source record receipt</a> · <a href="assets/evidence/BG_RIEGROVA_PRODUCER_VISUAL_REVIEW.json">Producer visual review</a> · <a href="assets/evidence/BG_RIEGROVA_COLOR_ONLY_PHASE_STATUS_V13.json">Phase status V13</a></p></section><main><section class="summary"><h2 data-cz="Stav dávky" data-en="Batch status">Stav dávky</h2><div class="metrics" id="metrics"></div><p class="note" data-cz="Pět variant má dokončené slepé V3 hodnocení: jedna má vizuální většinu 2/3 a čtyři zůstávají bez většiny. Další dvě fotografie mají COLOR_ONLY pokusy, které čekají na nezávislé QA. Identita všech sedmi případů zůstává nevyřešená; upload není povolen." data-en="Five variants have completed blind V3 review: one has a 2/3 visual majority and four have no majority. Two additional photos have COLOR_ONLY attempts awaiting independent QA. Identity remains unresolved for all seven cases; upload is not authorized.">Pět variant má dokončené slepé V3 hodnocení: jedna má vizuální většinu 2/3 a čtyři zůstávají bez většiny. Další dvě fotografie mají COLOR_ONLY pokusy, které čekají na nezávislé QA. Identita všech sedmi případů zůstává nevyřešená; upload není povolen.</p></section><section class="bar"><label for="lang" data-cz="Jazyk" data-en="Language">Jazyk</label><select id="lang"><option value="cs">Čeština</option><option value="en">English</option></select><button id="export" data-cz="Stáhnout rozhodnutí JSON" data-en="Download decision JSON">Stáhnout rozhodnutí JSON</button><button id="clear" data-cz="Vymazat místní volby" data-en="Clear local choices">Vymazat místní volby</button><span id="saved" aria-live="polite"></span></section><div id="cases"></div><p class="footer" data-cz="Jen interní draft. Modely 3D nejsou k dispozici. Historické barvy zůstávají pracovní hypotézou; COLOR_ONLY zachovává lidi, zvířata, vegetaci, kabely a další objekty viditelné na zdrojích. Publikace ani upload tímto formulářem nejsou možné." data-en="Internal draft only. No 3D models are available. Historical colors remain working hypotheses; COLOR_ONLY preserves people, animals, vegetation, cables, and other objects visible in the sources. This form cannot publish or upload anything.">Jen interní draft. Modely 3D nejsou k dispozici. Historické barvy zůstávají pracovní hypotézou; COLOR_ONLY zachovává lidi, zvířata, vegetaci, kabely a další objekty viditelné na zdrojích. Publikace ani upload tímto formulářem nejsou možné.</p></main><script type="application/json" id="payload">{
+  "schema_version": 1,
+  "producer": "BG",
+  "street": "Riegrova",
+  "phase": "color_only",
+  "generated_at_utc": "2026-10-23T13:54:53.3173516+02:00",
+  "local_only": true,
+  "application_status": "not_applied",
+  "publication_status": "not_published",
+  "unique_sources": 10,
+  "cases": [
+    {
+      "case_id": "RIEGROVA_CP1250_cp_1250_001",
+      "cp": "1250",
+      "filename": "cp_1250_001.jpg",
+      "source_id": "6a70ac94-57cd-45a5-ae1c-aae74eca29c9",
+      "source_sha256": "016B193EED66416E294836D38C9F6B370C0FCB9141D91C23137E883DB07416D0",
+      "source_asset": "/most-qa-web/media/13c06212c4ab6d7729fa2ab706cced8d542b6780.webp",
+      "identity_status": "pending",
+      "ownership_status": "verified",
+      "identity_evidence": "PHOTO ID is attached to structure 1250; single principal facade but no reliable number reading or cross-photo match. [interní cesta nezveřejněna]",
+      "variants": [
+        {
+          "variant_id": "BG_RIEGROVA_CP1250_001_ATTEMPT01",
+          "variant_sha256": "D2580266BAB6E2CDB26EB64910D016D80F44CFFAA2D49E28356D28AFB5FA1EB2",
+          "attempt_number": 1,
+          "phase": "color_only",
+          "status": "superseded_after_no_majority",
+          "asset": "/most-qa-web/media/830a00e34a4ca6bc4c795d8d0e676323a7b39061.webp",
+          "materials": {
+            "surfaces": [
+              "facade_plaster",
+              "exposed_masonry",
+              "window_and_door_joinery",
+              "roof_covering",
+              "metalwork",
+              "ground_surface"
+            ],
+            "status": "model_hypothesis",
+            "confidence": "provisional",
+            "locked": false
+          },
+          "reviews": [
+            {
+              "role": "BH",
+              "verdict": "positive",
+              "findings": [
+                "Visual COLOR_ONLY pass: facade massing, opening layout, damaged roof/pediment, cables, graffiti, archival border and photographic wear are retained.",
+                "No black edge-fill band was observed; material color is provisional/model_hypothesis.",
+                "identity_status=pending remains an input hold and this vote does not authorize upload."
+              ],
+              "vote_sha256": "1AC2FB87DD5DCE87F41C604DCD3E8D1260D5F10A1F95A8F44B5E12AA1E825217"
+            },
+            {
+              "role": "BI",
+              "verdict": "review",
+              "findings": [
+                "Source and variant were both opened. The facade window/door layout, roof damage, exposed masonry, visible graffiti, street surface and archival framing remain visually represented; no outer black fill strip was seen.",
+                "The blind input marks identity_status pending. This visual comparison does not establish building identity or remove the input hold; unknown identity is not a positive vote and does not authorize upload."
+              ],
+              "vote_sha256": "FC123171A63DAED0AA00DF2EAF040DFEBC69320DE634D6F413DB913AEE7F1776"
+            },
+            {
+              "role": "BJ",
+              "verdict": "negative",
+              "findings": [
+                {
+                  "code": "documented_surface_redrawn",
+                  "severity": "major",
+                  "result": "fail",
+                  "finding": "The upper-facade strip between windows retains its large moldings but gains conspicuous white flakes and sweeping squiggle-like relief absent from the source's smooth mottled wall. Grayscale makes the new fine material geometry visible. This violates preservation of documented plaster/damage and photographic character.",
+                  "normalized_box": [
+                    0.25,
+                    0.22,
+                    0.35,
+                    0.35
+                  ],
+                  "evidence_path": "[interní cesta nezveřejněna]"
+                },
+                {
+                  "code": "preserved_content_observed",
+                  "severity": "observation",
+                  "result": "checked",
+                  "finding": "Ornamented central roof pediment, four upper windows, two lower windows, entrance, basement apertures, wiring/insulators, downpipes, major graffiti locations, steps and street layout remain.",
+                  "evidence_path": "[interní cesta nezveřejněna]"
+                },
+                {
+                  "code": "text_fidelity_limits",
+                  "severity": "limitation",
+                  "result": "review",
+                  "finding": "Large chalk strokes beside the entrance remain recognizable, but line widths and small lettering are redrawn and cannot be certified exact. The dedicated graffiti focus is evidence of this limitation, not an asserted transcription."
+                },
+                {
+                  "code": "additional_context",
+                  "severity": "observation",
+                  "finding": "The red archival stamp at the upper-right border remains. Mortar/exposed-brick texture at the base is sharpened beyond what is resolved in the source. Input identity remains pending."
+                },
+                {
+                  "code": "resolution_reduction",
+                  "severity": "limitation",
+                  "source_dimensions": [
+                    2160,
+                    2866
+                  ],
+                  "variant_dimensions": [
+                    1089,
+                    1445
+                  ],
+                  "finding": "Variant is approximately half the linear source resolution. Not by itself the rejection reason; it limits fine lettering, grain and tiny-object verification."
+                }
+              ],
+              "vote_sha256": "26E652A621409D62868C0813911CE3BE43AC0635DE38EB538077C32B8FAAF660"
+            }
+          ]
+        },
+        {
+          "variant_id": "BG_RIEGROVA_CP1250_001_ATTEMPT02",
+          "variant_sha256": "148E4199C474160C434D996641B88A04F443B39B2DCCF0904459F0A889888869",
+          "attempt_number": 2,
+          "phase": "color_only",
+          "status": "no_majority_acceptance_review_hold",
+          "asset": "/most-qa-web/media/ed3ca77da033d7aa773a4edb568aa959dfda75d0.webp",
+          "materials": {
+            "surfaces": [
+              "facade_plaster",
+              "exposed_masonry",
+              "window_and_door_joinery",
+              "roof_covering",
+              "metalwork",
+              "ground_surface"
+            ],
+            "status": "model_hypothesis",
+            "confidence": "provisional",
+            "locked": false
+          },
+          "reviews": [
+            {
+              "role": "BH",
+              "verdict": "positive",
+              "findings": [
+                "The facade, roofline and pediment, openings, cables, documented marks, and archival framing are retained.",
+                "No prohibited removal or reconstruction is observed in this COLOR_ONLY comparison."
+              ],
+              "vote_sha256": "0AFD8F0A4F29CAE9BBC4B4EAB4EED4E8D3B5847FEDFE2F1CB1087AA4E08A9569"
+            },
+            {
+              "role": "BH",
+              "phase": "blind_v3",
+              "verdict": "positive",
+              "findings": [
+                "The facade, roofline and pediment, openings, cables, documented marks, and archival framing are retained.",
+                "No prohibited removal or reconstruction is observed in this COLOR_ONLY comparison."
+              ],
+              "vote_sha256": "0AFD8F0A4F29CAE9BBC4B4EAB4EED4E8D3B5847FEDFE2F1CB1087AA4E08A9569",
+              "vote_path": "[interní cesta nezveřejněna]",
+              "independent_blind": true,
+              "identity_status": "pending",
+              "upload_authorization": "none"
+            },
+            {
+              "role": "BI",
+              "phase": "blind_v3",
+              "verdict": "review",
+              "findings": [
+                "Source and assigned V3 variant were opened and visually compared at their full native dimensions.",
+                "Facade opening layout, entrance, ornamented upper facade, damaged roofline, graffiti, street surface and archival border remain visually readable; no externally added solid-black edge fill was observed.",
+                "The manifest declares identity_status pending. This independent image QA does not resolve that input hold or authorize upload."
+              ],
+              "vote_sha256": "EEDC687F581E4709EBFE436A0622A3BDC9711FBFF71A6CD7DF2F93CD4E548909",
+              "vote_path": "[interní cesta nezveřejněna]",
+              "independent_blind": true,
+              "identity_status": "pending",
+              "upload_authorization": "none"
+            },
+            {
+              "role": "BJ",
+              "phase": "blind_v3",
+              "verdict": "review",
+              "findings": [
+                {
+                  "code": "residual_chromatic_coating_pattern_uncertain",
+                  "result": "uncertain",
+                  "finding": "Pediment, moldings, openings, graffiti and photographic grain retain the source structure. However, the upper wall between windows shows pale colour islands and vertical curled colour bands on ochre. These are much less evident in the native source and disappear substantially in the grayscale comparison. They may overstate peeling coatings/material layering; supplied references do not resolve that interpretation. I do not call this a displaced geometry or rewritten-grain failure, but cannot give an unconditional positive visual material-reference vote.",
+                  "normalized_box": [
+                    0.25,
+                    0.22,
+                    0.35,
+                    0.35
+                  ],
+                  "source_and_variant_pixel_box": [
+                    540,
+                    631,
+                    756,
+                    1003
+                  ],
+                  "evidence_path": "[interní cesta nezveřejněna]"
+                },
+                {
+                  "code": "protected_content",
+                  "result": "observed_preserved",
+                  "finding": "Central pediment and ornament, four upper windows, two lower windows, doorway, basement apertures, downpipes, insulators/wires, broken glazing, large chalk marks, steps, stamp and street remain in position.",
+                  "evidence_path": "[interní cesta nezveřejněna]"
+                },
+                {
+                  "code": "inscriptions",
+                  "result": "source_legibility_retained_with_limits",
+                  "finding": "The large chalk strokes beside the door and marks on the door are retained at source-level legibility; no new exact transcription is claimed."
+                },
+                {
+                  "code": "material_interpretation",
+                  "finding": "Materials remain distinguishable and provisional; ordinary unknown hue does not by itself cause review. The unresolved question is whether the local colour islands encode new damage/material edges."
+                },
+                {
+                  "code": "diagnostic_support",
+                  "finding": "Matched dimensions and very close grayscale structure support the visual preservation findings but are not a visual pass or proof of historical colours. Chroma-only material patterns must be judged in colour.",
+                  "data": {
+                    "method": "Pillow grayscale BT601 coefficients on stored nonlinear RGB; no geometric registration or source/output changes. Comparison is diagnostic, not a visual verdict.",
+                    "grayscale_mae_8bit": 1.2292356491088867,
+                    "grayscale_p99_abs_error": 6,
+                    "grayscale_pearson": 0.9998254070461307,
+                    "fraction_abs_error_gt10": 4.846088237574629E-07
+                  }
+                }
+              ],
+              "vote_sha256": "1376CB10C8C8C40AAE1BE14595E7FB3F187CD93B1CC88AC275D33652B32C0793",
+              "vote_path": "[interní cesta nezveřejněna]",
+              "independent_blind": true,
+              "identity_status": "pending",
+              "upload_authorization": "none"
+            }
+          ],
+          "coordinator_decision": "no_majority_acceptance_review_hold",
+          "upload_eligible": false,
+          "upload_blocker": "identity_status_pending"
+        }
+      ]
+    },
+    {
+      "case_id": "RIEGROVA_CP1248_cp_1248_002",
+      "cp": "1248",
+      "filename": "cp_1248_002.jpg",
+      "source_id": "7b35e23d-fad9-4d72-bb46-4b6bdb87e953",
+      "source_sha256": "1D8910F1A58B91756139E5B6162449F307E9080FC073905520CBF177F3D0D482",
+      "source_asset": "/most-qa-web/media/84232179e96cb53ccda152d85c78797279556224.webp",
+      "identity_status": "pending",
+      "ownership_status": "verified",
+      "identity_evidence": "PHOTO ID is attached to structure 1248; demolition courtyard contains multiple facades without target boundary. [interní cesta nezveřejněna]",
+      "variants": [
+        {
+          "variant_id": "BG_RIEGROVA_CP1248_002_ATTEMPT01",
+          "variant_sha256": "80A09F9561F347658575817AF96BA79225E267F0F4C6BAFCD6325D9825BF6C1D",
+          "attempt_number": 1,
+          "phase": "color_only",
+          "status": "superseded_after_no_majority",
+          "asset": "/most-qa-web/media/5a9b9b1d2950f5c1a5ce9634f74e91cca8f80271.webp",
+          "materials": {
+            "surfaces": [
+              "facade_plaster",
+              "exposed_masonry",
+              "window_and_door_joinery",
+              "roof_covering",
+              "metalwork",
+              "ground_surface"
+            ],
+            "status": "model_hypothesis",
+            "confidence": "provisional",
+            "locked": false
+          },
+          "reviews": [
+            {
+              "role": "BH",
+              "verdict": "positive",
+              "findings": [
+                "Visual COLOR_ONLY pass: roofline, damaged gable, vertical openings, rear-yard debris, vegetation and archival border are preserved.",
+                "No black edge-fill band was observed; documented damage was not repaired.",
+                "Material result remains provisional/model_hypothesis; identity is not asserted.",
+                "identity_status=pending remains an input hold and this vote does not authorize upload."
+              ],
+              "vote_sha256": "DFF0E7A5CBA1CF11199219266ECEE7BEBD944B9978BFD994F8A091F70EE9A719"
+            },
+            {
+              "role": "BI",
+              "verdict": "review",
+              "findings": [
+                "Source and variant were both opened. The roofline, gable damage, vertical window openings, downpipe, courtyard vegetation, exposed beams and rubble remain visually represented; no outer black fill strip was seen.",
+                "The blind input marks identity_status pending. This visual comparison does not establish building identity or remove the input hold; unknown identity is not a positive vote and does not authorize upload."
+              ],
+              "vote_sha256": "111DC13644F7110DF9C17CCBB792BFAF22673113D8297578F284E6A5CF6DF44F"
+            },
+            {
+              "role": "BJ",
+              "verdict": "negative",
+              "findings": [
+                {
+                  "code": "documented_surface_redrawn",
+                  "severity": "major",
+                  "result": "fail",
+                  "finding": "Between the upper and lower courtyard windows, source mottling and a faint vertical trace become a highly articulated branching crack plus dense curving plaster strokes in the variant. Broad surviving wall texture has been newly drawn; grayscale shows the extra linear and flaked structure.",
+                  "normalized_box": [
+                    0.65,
+                    0.35,
+                    0.85,
+                    0.52
+                  ],
+                  "evidence_path": "[interní cesta nezveřejněna]"
+                },
+                {
+                  "code": "preserved_content_observed",
+                  "severity": "observation",
+                  "result": "checked",
+                  "finding": "Courtyard wall/openings, gable/chimneys, drainpipe, broken shed roof lattice, diagonal beam, hanging cloth, damaged walls, chair/cushion-like object, fabric in rubble, tree/vegetation and major debris layout remain recognizable. No foreground cleanup is required in this phase.",
+                  "evidence_path": "[interní cesta nezveřejněna]"
+                },
+                {
+                  "code": "text_fidelity_limits",
+                  "severity": "limitation",
+                  "result": "review",
+                  "finding": "No legible new inscription is established; cloth in the lower window is retained. Identity remains pending and is not resolved by the visual preservation review."
+                },
+                {
+                  "code": "additional_context",
+                  "severity": "observation",
+                  "finding": "Fine foliage and rubble are sharpened/regenerated; individual tiny pieces cannot all be certified at half linear resolution. This uncertainty is recorded separately from the definite wall-surface alteration."
+                },
+                {
+                  "code": "resolution_reduction",
+                  "severity": "limitation",
+                  "source_dimensions": [
+                    2160,
+                    3050
+                  ],
+                  "variant_dimensions": [
+                    1056,
+                    1490
+                  ],
+                  "finding": "Variant is approximately half the linear source resolution. Not by itself the rejection reason; it limits fine lettering, grain and tiny-object verification."
+                }
+              ],
+              "vote_sha256": "1FCBD8CC6013C8300BD4C4EE94A2CA9AEA4C0DE58C1A6DC4B325F1003B166FEF"
+            }
+          ]
+        },
+        {
+          "variant_id": "BG_RIEGROVA_CP1248_002_ATTEMPT02",
+          "variant_sha256": "D2E1C3643A62CAD510F0CB070E3E9D21EC4399C458EC450E8259CDAF2DA63733",
+          "attempt_number": 2,
+          "phase": "color_only",
+          "status": "accepted_color_only_majority",
+          "asset": "/most-qa-web/media/77d10f6eeb2a50f3291a018e34fa61e930ad7a50.webp",
+          "materials": {
+            "surfaces": [
+              "facade_plaster",
+              "exposed_masonry",
+              "window_and_door_joinery",
+              "roof_covering",
+              "metalwork",
+              "ground_surface"
+            ],
+            "status": "model_hypothesis",
+            "confidence": "provisional",
+            "locked": false
+          },
+          "reviews": [
+            {
+              "role": "BH",
+              "verdict": "positive",
+              "findings": [
+                "The damaged rear elevation, openings, rubble, vegetation, and archival framing remain visible and structurally consistent with the source.",
+                "No prohibited cleanup, inpainting, hidden-surface reconstruction, or new black edge fill is observed."
+              ],
+              "vote_sha256": "52717427FA7E7EEF01FF2528B6880C3623DD56620582C9EC8CC60B0257A51C99"
+            },
+            {
+              "role": "BH",
+              "phase": "blind_v3",
+              "verdict": "positive",
+              "findings": [
+                "The damaged rear elevation, openings, rubble, vegetation, and archival framing remain visible and structurally consistent with the source.",
+                "No prohibited cleanup, inpainting, hidden-surface reconstruction, or new black edge fill is observed."
+              ],
+              "vote_sha256": "52717427FA7E7EEF01FF2528B6880C3623DD56620582C9EC8CC60B0257A51C99",
+              "vote_path": "[interní cesta nezveřejněna]",
+              "independent_blind": true,
+              "identity_status": "pending",
+              "upload_authorization": "none"
+            },
+            {
+              "role": "BI",
+              "phase": "blind_v3",
+              "verdict": "review",
+              "findings": [
+                "Source and assigned V3 variant were opened and visually compared at their full native dimensions.",
+                "Roofline, chimneys, window openings, exposed masonry, courtyard vegetation, damaged outbuilding and archival border remain visually readable; no externally added solid-black edge fill was observed.",
+                "The manifest declares identity_status pending. This independent image QA does not resolve that input hold or authorize upload."
+              ],
+              "vote_sha256": "7E3A0EDCF02A9EF15990D2220F2C5F37979AD4C703595F4939C7E0D4DC88C53B",
+              "vote_path": "[interní cesta nezveřejněna]",
+              "independent_blind": true,
+              "identity_status": "pending",
+              "upload_authorization": "none"
+            },
+            {
+              "role": "BJ",
+              "phase": "blind_v3",
+              "verdict": "positive",
+              "findings": [
+                {
+                  "code": "visual_color_only_preservation_pass",
+                  "result": "pass",
+                  "finding": "Full-photo and native/detail comparisons retain the courtyard opening arrangement, thin cracks and stains, gable and roof/chimneys, downpipe, damaged wall outlines, shed lattice and diagonal beam, hanging cloth, vegetation, cushion/chair-like object, fabric and major rubble forms. No concrete removal, reconstructed hidden area, shifted opening, rewritten inscription or added luminance texture was found in the reviewed views. Colour boundaries follow the visible main surfaces closely enough for a provisional COLOR_ONLY visual vote.",
+                  "normalized_box": [
+                    0.65,
+                    0.35,
+                    0.85,
+                    0.52
+                  ],
+                  "source_and_variant_pixel_box": [
+                    1404,
+                    1068,
+                    1836,
+                    1586
+                  ],
+                  "evidence_path": "[interní cesta nezveřejněna]"
+                },
+                {
+                  "code": "protected_content",
+                  "result": "observed_preserved",
+                  "finding": "Courtyard wall and apertures, fabric in lower window, shed roof frame and cloth, broken walls, foliage, debris and foreground paving remain present. Original dimensions and archive frame are retained.",
+                  "evidence_path": "[interní cesta nezveřejněna]"
+                },
+                {
+                  "code": "inscriptions",
+                  "result": "source_legibility_retained_with_limits",
+                  "finding": "No legible inscription is newly established; source marks and fabric remain at the source's level of detail."
+                },
+                {
+                  "code": "material_interpretation",
+                  "finding": "Pale ochre/brown-gray plaster, reddish exposed masonry, brown timber, gray metal and green vegetation are readable without a global sepia/gray wash. Colours remain model_hypothesis/provisional/unlocked. This positive vote is visual only; identity remains pending and upload is held."
+                },
+                {
+                  "code": "diagnostic_support",
+                  "finding": "Matched dimensions and very close grayscale structure support the visual preservation findings but are not a visual pass or proof of historical colours. Chroma-only material patterns must be judged in colour.",
+                  "data": {
+                    "method": "Pillow grayscale BT601 coefficients on stored nonlinear RGB; no geometric registration or source/output changes. Comparison is diagnostic, not a visual verdict.",
+                    "grayscale_mae_8bit": 1.1669502258300781,
+                    "grayscale_p99_abs_error": 4,
+                    "grayscale_pearson": 0.9999320070823865,
+                    "fraction_abs_error_gt10": 0
+                  }
+                }
+              ],
+              "vote_sha256": "DB75C44374B46AE40DD8FB8896FD5448EB8C08279904E49C88B88D9D5C53AAB8",
+              "vote_path": "[interní cesta nezveřejněna]",
+              "independent_blind": true,
+              "identity_status": "pending",
+              "upload_authorization": "none"
+            }
+          ],
+          "coordinator_decision": "accepted_color_only_majority",
+          "upload_eligible": false,
+          "upload_blocker": "identity_status_pending"
+        }
+      ]
+    },
+    {
+      "case_id": "RIEGROVA_CP1250_cp_1250_002",
+      "cp": "1250",
+      "filename": "cp_1250_002.jpg",
+      "source_id": "a25242e9-fe43-4ac5-9e1f-1e0ba592bd6b",
+      "source_sha256": "71A3D7F63C054875CBF7220ABED5023CE44913D8250307A8DC9DC3033CA6F117",
+      "source_asset": "/most-qa-web/media/7abbfa3d777dda79b1829891aed149dd0a470ff6.webp",
+      "identity_status": "pending",
+      "ownership_status": "verified",
+      "identity_evidence": "PHOTO ID is attached to structure 1250; courtyard view contains multiple facades without confirmed mapping. [interní cesta nezveřejněna]",
+      "variants": [
+        {
+          "variant_id": "BG_RIEGROVA_CP1250_002_ATTEMPT01",
+          "variant_sha256": "97921CADC655251C73C0C70C9455D7B2ACDC69E38CD33169981BC55A462B7512",
+          "attempt_number": 1,
+          "phase": "color_only",
+          "status": "superseded_after_no_majority",
+          "asset": "/most-qa-web/media/e7314999c82c89eca5e85811b7b8a92bea61fd19.webp",
+          "materials": {
+            "surfaces": [
+              "facade_plaster",
+              "exposed_masonry",
+              "window_and_door_joinery",
+              "roof_covering",
+              "metalwork",
+              "ground_surface"
+            ],
+            "status": "model_hypothesis",
+            "confidence": "provisional",
+            "locked": false
+          },
+          "reviews": [
+            {
+              "role": "BH",
+              "verdict": "positive",
+              "findings": [
+                "Visual COLOR_ONLY pass: rear facade opening pattern, roofline, visible damage, tree, yard rubble, archival border and photo wear are retained.",
+                "No black edge-fill band was observed; material color is provisional/model_hypothesis.",
+                "identity_status=pending remains an input hold and this vote does not authorize upload."
+              ],
+              "vote_sha256": "1B9DFCAD44731139569F7A8849C4CF6267086CC7DD2AE2898827B7571D2771F8"
+            },
+            {
+              "role": "BI",
+              "verdict": "review",
+              "findings": [
+                "Source and variant were both opened. The courtyard facade layout, roofline, open window/door pattern, vegetation, balcony/adjacent facade and rubble remain visually represented; no outer black fill strip was seen.",
+                "The blind input marks identity_status pending. This visual comparison does not establish building identity or remove the input hold; unknown identity is not a positive vote and does not authorize upload."
+              ],
+              "vote_sha256": "030F6E17081F082D9AE144BE42D27544E78BCE470EDDD162F8D35EAB8A91A5F6"
+            },
+            {
+              "role": "BJ",
+              "verdict": "negative",
+              "findings": [
+                {
+                  "code": "documented_surface_redrawn",
+                  "severity": "major",
+                  "result": "fail",
+                  "finding": "Above the upper-right courtyard window, the source shows a pale, mottled damaged patch without resolved brick courses. The variant turns it into a sharply bounded triangular exposed-red-brick patch with explicit horizontal joints and individual units, while adding surrounding swirled/chipped plaster. This assigns new visible material boundaries and detail beyond the source; its structure persists in grayscale.",
+                  "normalized_box": [
+                    0.58,
+                    0.15,
+                    0.69,
+                    0.24
+                  ],
+                  "evidence_path": "[interní cesta nezveřejněna]"
+                },
+                {
+                  "code": "preserved_content_observed",
+                  "severity": "observation",
+                  "result": "checked",
+                  "finding": "Courtyard opening arrangement, two small narrow framed apertures, roof/chimneys and vent caps, drainpipe, adjacent balconies, hanging laundry, tree/trunk/branches, broken shed frame and cloth, steps, rubble and foreground platform remain recognizable.",
+                  "evidence_path": "[interní cesta nezveřejněna]"
+                },
+                {
+                  "code": "text_fidelity_limits",
+                  "severity": "limitation",
+                  "result": "review",
+                  "finding": "The large circular chalk mark near the lower opening and neighboring faint marks remain in their general locations; exact tiny strokes are not certified. Neighboring balcony and laundry are retained."
+                },
+                {
+                  "code": "additional_context",
+                  "severity": "observation",
+                  "finding": "Tree foliage and debris have generated fine detail; unseen facade is not claimed reconstructed. Input identity stays pending. Rear joinery differs from front joinery but is not called inconsistent without a dated material/entity reference."
+                },
+                {
+                  "code": "resolution_reduction",
+                  "severity": "limitation",
+                  "source_dimensions": [
+                    2160,
+                    2978
+                  ],
+                  "variant_dimensions": [
+                    1068,
+                    1472
+                  ],
+                  "finding": "Variant is approximately half the linear source resolution. Not by itself the rejection reason; it limits fine lettering, grain and tiny-object verification."
+                }
+              ],
+              "vote_sha256": "824C56022013B1BED725ED8533A3E6A647DA343F4142EB896CBE9EC9F4109661"
+            }
+          ]
+        },
+        {
+          "variant_id": "BG_RIEGROVA_CP1250_002_ATTEMPT02",
+          "variant_sha256": "F7D9036908CA10C48C8CF89BC0F52B1FC397A072B431EA5451D80BF330A866A0",
+          "attempt_number": 2,
+          "phase": "color_only",
+          "status": "no_majority_acceptance_review_hold",
+          "asset": "/most-qa-web/media/000ac88ea806eb76b0b07ec22e44f3bdd6ff48b3.webp",
+          "materials": {
+            "surfaces": [
+              "facade_plaster",
+              "exposed_masonry",
+              "window_and_door_joinery",
+              "roof_covering",
+              "metalwork",
+              "ground_surface"
+            ],
+            "status": "model_hypothesis",
+            "confidence": "provisional",
+            "locked": false
+          },
+          "reviews": [
+            {
+              "role": "BH",
+              "verdict": "positive",
+              "findings": [
+                "The rear facade, roofline, openings, vegetation, rubble, neighbor edge, and archival framing are retained and consistent with the source.",
+                "No prohibited cleanup, inpainting, hidden-surface reconstruction, or new edge padding is observed."
+              ],
+              "vote_sha256": "80681C53AF19085A4011444CDE9AD41288DE6969C3E88D495384281C110FC9A6"
+            },
+            {
+              "role": "BH",
+              "phase": "blind_v3",
+              "verdict": "positive",
+              "findings": [
+                "The rear facade, roofline, openings, vegetation, rubble, neighbor edge, and archival framing are retained and consistent with the source.",
+                "No prohibited cleanup, inpainting, hidden-surface reconstruction, or new edge padding is observed."
+              ],
+              "vote_sha256": "80681C53AF19085A4011444CDE9AD41288DE6969C3E88D495384281C110FC9A6",
+              "vote_path": "[interní cesta nezveřejněna]",
+              "independent_blind": true,
+              "identity_status": "pending",
+              "upload_authorization": "none"
+            },
+            {
+              "role": "BI",
+              "phase": "blind_v3",
+              "verdict": "review",
+              "findings": [
+                "Source and assigned V3 variant were opened and visually compared at their full native dimensions.",
+                "Roofline, chimney pattern, window and door openings, damaged plaster, courtyard vegetation, debris and archival border remain visually readable; no externally added solid-black edge fill was observed.",
+                "The manifest declares identity_status pending. This independent image QA does not resolve that input hold or authorize upload."
+              ],
+              "vote_sha256": "CBE7AC2F449F6E40A083BDD9803D56902FADD552D5456007A4D9FC87D0DEA5DC",
+              "vote_path": "[interní cesta nezveřejněna]",
+              "independent_blind": true,
+              "identity_status": "pending",
+              "upload_authorization": "none"
+            },
+            {
+              "role": "BJ",
+              "phase": "blind_v3",
+              "verdict": "negative",
+              "findings": [
+                {
+                  "code": "unsupported_chromatic_brick_courses",
+                  "result": "fail",
+                  "finding": "Above the upper-right courtyard window, a bounded red-brown patch with horizontal gray mortar-like courses remains visible in colour. The source shows a soft pale/dark damaged patch without resolved brick courses at those positions. The V3 grayscale retains the source closely, so I do not claim new luminance edges; nevertheless, the chromatic pattern supplies an exposed-brick/mortar layout not supported by the source. This residual invented material detail prevents acceptance as a faithful material reference.",
+                  "normalized_box": [
+                    0.58,
+                    0.15,
+                    0.69,
+                    0.24
+                  ],
+                  "source_and_variant_pixel_box": [
+                    1253,
+                    447,
+                    1490,
+                    715
+                  ],
+                  "evidence_path": "[interní cesta nezveřejněna]"
+                },
+                {
+                  "code": "protected_content",
+                  "result": "observed_preserved",
+                  "finding": "Courtyard openings and narrow apertures, roof/chimneys/vents, pipe, adjacent balconies and laundry, tree/trunk/branches, shed remnants and cloth, graffiti, steps, debris and foreground platform are retained.",
+                  "evidence_path": "[interní cesta nezveřejněna]"
+                },
+                {
+                  "code": "inscriptions",
+                  "result": "source_legibility_retained_with_limits",
+                  "finding": "The circular chalk mark by the lower opening and neighboring small marks remain at source-level legibility. No house identity is inferred from them."
+                },
+                {
+                  "code": "material_interpretation",
+                  "finding": "Rear green joinery versus front brown joinery is not treated as inconsistency without dated entity evidence. The rejection concerns the specific unsupported brick-course colour pattern above the window."
+                },
+                {
+                  "code": "diagnostic_support",
+                  "finding": "Matched dimensions and very close grayscale structure support the visual preservation findings but are not a visual pass or proof of historical colours. Chroma-only material patterns must be judged in colour.",
+                  "data": {
+                    "method": "Pillow grayscale BT601 coefficients on stored nonlinear RGB; no geometric registration or source/output changes. Comparison is diagnostic, not a visual verdict.",
+                    "grayscale_mae_8bit": 1.438412070274353,
+                    "grayscale_p99_abs_error": 7,
+                    "grayscale_pearson": 0.9998130626593538,
+                    "fraction_abs_error_gt10": 3.1092207049225185E-07
+                  }
+                }
+              ],
+              "vote_sha256": "2E9341D34663A393F20775CFC7B0487977EC5E3A8E28F69FBC29949751BF15E6",
+              "vote_path": "[interní cesta nezveřejněna]",
+              "independent_blind": true,
+              "identity_status": "pending",
+              "upload_authorization": "none"
+            }
+          ],
+          "coordinator_decision": "no_majority_acceptance_review_hold",
+          "upload_eligible": false,
+          "upload_blocker": "identity_status_pending"
+        }
+      ]
+    },
+    {
+      "case_id": "RIEGROVA_CP387_cp_387_002",
+      "cp": "387",
+      "filename": "cp_387_002.jpg",
+      "source_id": "2a2429ed-7bb3-4e93-9a22-4ce85aa635e1",
+      "source_sha256": "9D99C6D349B443DF10D74FB9076A19DD1605E5E982A4589D56F070389818821E",
+      "source_asset": "/most-qa-web/media/55d875986fc5738925406de2bb42e8ebc6f340e1.webp",
+      "identity_status": "confirmed",
+      "ownership_status": "verified",
+      "identity_evidence": "PHOTO ID is attached to structure 387; visible facade/window/roof/damage geometry corresponds to the verified CP387/001 view. [interní cesta nezveřejněna]",
+      "variants": [
+        {
+          "variant_id": "BG_RIEGROVA_CP387_002_ATTEMPT01",
+          "variant_sha256": "893E23A9D4D5B3A9C75EA59EEF50DE4B89EE6175D5AD9072B97961B234D6E177",
+          "attempt_number": 1,
+          "phase": "color_only",
+          "status": "accepted_by_2_of_3_remote_verified",
+          "asset": "/most-qa-web/media/0c9b4a1e04918f0bfb4b66672ad2a1a7eba451df.webp",
+          "materials": {
+            "surfaces": [
+              "facade_plaster",
+              "exposed_masonry",
+              "window_and_door_joinery",
+              "roof_covering",
+              "metalwork",
+              "ground_surface"
+            ],
+            "status": "model_hypothesis",
+            "confidence": "provisional",
+            "locked": false
+          },
+          "reviews": [
+            {
+              "role": "BH",
+              "verdict": "positive",
+              "findings": [
+                "Visual COLOR_ONLY pass: the damaged roof, exposed brick, collapsed right-hand structure, openings and facade damage are preserved.",
+                "People, pram, tree, cables, archive border and photographic wear remain visible.",
+                "Material result is consistent with the other CP387 view and remains provisional/model_hypothesis."
+              ],
+              "vote_sha256": "54569CE478451B4827E5B74B76DF4348017DAD2C3A1F37C3E82C52B74BDEF4F7"
+            },
+            {
+              "role": "BI",
+              "verdict": "positive",
+              "findings": [
+                "Source and variant were both opened and compared. The collapsed roof, exposed structure, chimney group, open windows, facade damage, people, pram, tree, street perspective and archive border are retained.",
+                "No outer black generative fill strip was seen. Color and material interpretation stays provisional/model_hypothesis and is not presented as verified history."
+              ],
+              "vote_sha256": "9E5BD8F3C64024A4E61EC3C30624A9E74A784CB48B3BAFA630CC2B81A9A94007"
+            },
+            {
+              "role": "BJ",
+              "verdict": "negative",
+              "findings": [
+                {
+                  "code": "documented_surface_redrawn",
+                  "severity": "major",
+                  "result": "fail",
+                  "finding": "On the upper wall immediately left of the demolished end, the source's broad staining is replaced/overlaid with a dense curled, chipped plaster pattern. Numerous fine pale strokes and distinct scratches have no matching source marks. The same effect is present away from the demolition and persists in grayscale.",
+                  "normalized_box": [
+                    0.62,
+                    0.3,
+                    0.73,
+                    0.54
+                  ],
+                  "evidence_path": "[interní cesta nezveřejněna]"
+                },
+                {
+                  "code": "preserved_content_observed",
+                  "severity": "observation",
+                  "result": "checked",
+                  "finding": "Demolished right end, exposed timber beams, missing end wall/floors, rubble slope, open/broken window positions, door openings, electrical hardware, people, pram and tree remain. No reconstruction of the missing end was credited or requested.",
+                  "evidence_path": "[interní cesta nezveřejněna]"
+                },
+                {
+                  "code": "text_fidelity_limits",
+                  "severity": "limitation",
+                  "result": "review",
+                  "finding": "No new verified facade inscription is supplied by this source; small details of distant people and fittings are reduced. Identity gate is inherited as confirmed from the blind input, corroborated by snapshot attachment and architectural comparison, not established by vote."
+                },
+                {
+                  "code": "additional_context",
+                  "severity": "observation",
+                  "finding": "Large-scale destruction is retained, but retaining the ruin silhouette does not compensate for rewriting the known surviving plaster surface. Same-building ochre/brown hypothesis broadly matches CP387_001."
+                },
+                {
+                  "code": "resolution_reduction",
+                  "severity": "limitation",
+                  "source_dimensions": [
+                    2955,
+                    2160
+                  ],
+                  "variant_dimensions": [
+                    1468,
+                    1071
+                  ],
+                  "finding": "Variant is approximately half the linear source resolution. Not by itself the rejection reason; it limits fine lettering, grain and tiny-object verification."
+                }
+              ],
+              "vote_sha256": "05DD1F29C37BABE176A7BC1DFD96E21E270EC7031E8B6862CB4875BD07677F8F"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "RIEGROVA_CP1289_cp_1289_001",
+      "cp": "1289",
+      "filename": "cp_1289_001.jpg",
+      "source_id": "03c30d96-f2d2-40b2-983b-740b716418c0",
+      "source_sha256": "4E6846BDCA5ECEEE2E86367F5CAEF21E35F9314D61A767CF60AA40B9045FC9CA",
+      "source_asset": "/most-qa-web/media/8e0b6fef32a780873300051e721a59afdf4ac143.webp",
+      "identity_status": "pending",
+      "ownership_status": "verified",
+      "identity_evidence": "PHOTO ID is attached to structure 1289; street view includes several facades without unique target boundary. [interní cesta nezveřejněna]",
+      "variants": [
+        {
+          "variant_id": "BG_RIEGROVA_CP1289_001_ATTEMPT01",
+          "variant_sha256": "A9DF276D8183F087CF18D16AA6D9139101DF0260A01BF87BA2B35356A050E6DC",
+          "attempt_number": 1,
+          "phase": "color_only",
+          "status": "candidate_pending_independent_qa",
+          "asset": "/most-qa-web/media/dc9a66e1d33ecd9690bdf6cdf264b0f05a79cef6.webp",
+          "materials": {
+            "historically_verified_color": false,
+            "assignment_reference": "none_found_for_exact_cp",
+            "status": "model_hypothesis",
+            "locked": false,
+            "confidence": "provisional"
+          },
+          "reviews": [],
+          "qa_status": "candidate_pending_independent_qa",
+          "upload_status": "not_authorized",
+          "identity_status": "pending",
+          "upload_eligible": false
+        },
+        {
+          "variant_id": "BG_RIEGROVA_CP1289_001_ATTEMPT02",
+          "variant_sha256": "9CCFB385FA6E3DD94A42C04FDD22B7C19B0E2FD7ED79CB4226EDA8C07A074327",
+          "attempt_number": 2,
+          "phase": "color_only",
+          "status": "rejected_variant_preserved",
+          "asset": "/most-qa-web/media/e50afa4b61409e9a16fcf4030fe5fc99613ed1f9.webp",
+          "materials": {
+            "historically_verified_color": false,
+            "assignment_reference": "none_found_for_exact_cp",
+            "status": "model_hypothesis",
+            "locked": false,
+            "confidence": "provisional"
+          },
+          "reviews": [],
+          "qa_status": "rejected_variant_preserved",
+          "producer_visual_review": "Repeated ornamental/pattern texture across facades and road is unsupported by the source.",
+          "upload_status": "not_authorized",
+          "identity_status": "pending",
+          "upload_eligible": false
+        }
+      ],
+      "source_record_tags": "PHOTO,BW",
+      "separate_plan_record_id": "d2b3ee87-f5cf-48bd-b236-4f29fccadd15",
+      "producer_visual_review_status": "self_review_only_not_QA_accepted"
+    },
+    {
+      "case_id": "RIEGROVA_CP1248_cp_1248_001",
+      "cp": "1248",
+      "filename": "cp_1248_001.jpg",
+      "source_id": "0927fbdb-38be-449a-a6f1-f8b0d0db4189",
+      "source_sha256": "B8003579ED2DD624C3E3CF5AAE6E6CD23223D3192E9C1CA691ED6917EA7B9181",
+      "source_asset": "/most-qa-web/media/69f265ece19937ed33d7f81f44042da7829fa1f2.webp",
+      "identity_status": "pending",
+      "ownership_status": "verified",
+      "identity_evidence": "PHOTO ID is attached to structure 1248; one dominant facade, but no reliable plaque reading or cross-photo match. [interní cesta nezveřejněna]",
+      "variants": [
+        {
+          "variant_id": "BG_RIEGROVA_CP1248_001_ATTEMPT01",
+          "variant_sha256": "EC0BA0B2D33EF66143A27CB7F46F5418ACD795FDFF2772C917DA2380C65A34B6",
+          "attempt_number": 1,
+          "phase": "color_only",
+          "status": "superseded_after_no_majority",
+          "asset": "/most-qa-web/media/bd4d59b28e61886bc4989b8f0f330b5254d0de40.webp",
+          "materials": {
+            "surfaces": [
+              "facade_plaster",
+              "exposed_masonry",
+              "window_and_door_joinery",
+              "roof_covering",
+              "metalwork",
+              "ground_surface"
+            ],
+            "status": "model_hypothesis",
+            "confidence": "provisional",
+            "locked": false
+          },
+          "reviews": [
+            {
+              "role": "BH",
+              "verdict": "review",
+              "findings": [
+                "Visual review cannot safely be positive: the colored variant adds two crisp blue number plaques whose characters are not legible in the source.",
+                "The architectural openings, cat, border and weathered facade remain visible, but the unsupported plaque legibility requires review.",
+                "identity_status=pending remains an independent input hold; this vote does not authorize upload."
+              ],
+              "vote_sha256": "63CA04B2BC577C227D0EC99B7CD92317AEFBDF53B52248A361402552778EDBC5"
+            },
+            {
+              "role": "BI",
+              "verdict": "review",
+              "findings": [
+                "Source and variant were both opened. The facade opening pattern, roofline, damaged plaster, cat, street surface, visible debris and archive border are retained; no outer black fill strip was seen.",
+                "The blind input marks identity_status pending. This visual comparison does not establish building identity or remove the input hold; unknown identity is not a positive vote and does not authorize upload."
+              ],
+              "vote_sha256": "78E724360B9050CC0B0232CD42F330F1998B95E4762B4E309ACAF9CE823EB418"
+            },
+            {
+              "role": "BJ",
+              "verdict": "negative",
+              "findings": [
+                {
+                  "code": "documented_surface_redrawn",
+                  "severity": "major",
+                  "result": "fail",
+                  "finding": "On the upper facade between the first and second windows, the source contains soft broad stains and grain. The variant supplies many new sharp exposed-looking patches, diagonal curled strokes and hard chip boundaries, including on the vertical band. The grayscale detail confirms that these are new tonal structures rather than color alone.",
+                  "normalized_box": [
+                    0.29,
+                    0.2,
+                    0.42,
+                    0.31
+                  ],
+                  "evidence_path": "[interní cesta nezveřejněna]"
+                },
+                {
+                  "code": "preserved_content_observed",
+                  "severity": "observation",
+                  "result": "checked",
+                  "finding": "Four upper and three lower windows, doorway and basement openings, cornices, roofline/chimneys, wires/insulators, pavement, drain cover/tray, litter, small dog and tree edge remain broadly aligned. White archival border and top photographic marks remain.",
+                  "evidence_path": "[interní cesta nezveřejněna]"
+                },
+                {
+                  "code": "text_fidelity_limits",
+                  "severity": "limitation",
+                  "result": "review",
+                  "finding": "Small number plaques and the faint marks on the door are too soft in the source for exact reading. No house number is confirmed from an invented or sharpened rendition."
+                },
+                {
+                  "code": "additional_context",
+                  "severity": "observation",
+                  "finding": "Lower damaged masonry remains broadly in the original zones, but new mortar/brick-level detail is not historical evidence. Input identity remains pending. The upper-window plant-like feature is not used as a categorical added-object finding because source detail is ambiguous."
+                },
+                {
+                  "code": "resolution_reduction",
+                  "severity": "limitation",
+                  "source_dimensions": [
+                    2160,
+                    2997
+                  ],
+                  "variant_dimensions": [
+                    1065,
+                    1477
+                  ],
+                  "finding": "Variant is approximately half the linear source resolution. Not by itself the rejection reason; it limits fine lettering, grain and tiny-object verification."
+                }
+              ],
+              "vote_sha256": "FEC116F7A3CE979FD195BA9A506B38D67AD4B4B4C8C6B19B84963976809333D9"
+            }
+          ]
+        },
+        {
+          "variant_id": "BG_RIEGROVA_CP1248_001_ATTEMPT02",
+          "variant_sha256": "9C876C235A46A017EB776388D0297AF58DF456A4B3EEF77649317DD37D2C979B",
+          "attempt_number": 2,
+          "phase": "color_only",
+          "status": "no_majority_acceptance_review_hold",
+          "asset": "/most-qa-web/media/128c9b9be1e5e33f79622bfa18c24601f4c4a99d.webp",
+          "materials": {
+            "surfaces": [
+              "facade_plaster",
+              "exposed_masonry",
+              "window_and_door_joinery",
+              "roof_covering",
+              "metalwork",
+              "ground_surface"
+            ],
+            "status": "model_hypothesis",
+            "confidence": "provisional",
+            "locked": false
+          },
+          "reviews": [
+            {
+              "role": "BH",
+              "verdict": "review",
+              "findings": [
+                "The cat, facade composition, documented damage, and archival border are retained; their presence is not penalized under COLOR_ONLY.",
+                "Crisply legible blue-white plaques at the door-adjacent area are not legible to the same extent in the source; evidence is insufficient for a positive visual verdict."
+              ],
+              "vote_sha256": "E696806D2B0FDDBC7F96F921D53807E5BE3772CC70234030506167D5629CD74B"
+            },
+            {
+              "role": "BH",
+              "phase": "blind_v3",
+              "verdict": "review",
+              "findings": [
+                "The cat, facade composition, documented damage, and archival border are retained; their presence is not penalized under COLOR_ONLY.",
+                "Crisply legible blue-white plaques at the door-adjacent area are not legible to the same extent in the source; evidence is insufficient for a positive visual verdict."
+              ],
+              "vote_sha256": "E696806D2B0FDDBC7F96F921D53807E5BE3772CC70234030506167D5629CD74B",
+              "vote_path": "[interní cesta nezveřejněna]",
+              "independent_blind": true,
+              "identity_status": "pending",
+              "upload_authorization": "none"
+            },
+            {
+              "role": "BI",
+              "phase": "blind_v3",
+              "verdict": "review",
+              "findings": [
+                "Source and assigned V3 variant were opened and visually compared at their full native dimensions.",
+                "The visible facade, roofline, damaged plaster, cat, cobbled street and archival border remain readable; no externally added solid-black edge fill was observed.",
+                "The manifest declares identity_status pending. This independent image QA does not resolve that input hold or authorize upload."
+              ],
+              "vote_sha256": "57B217FA59A9F1BD600013BF5AB81BFD040B02CF2C1763EAF922FFDBDB49371D",
+              "vote_path": "[interní cesta nezveřejněna]",
+              "independent_blind": true,
+              "identity_status": "pending",
+              "upload_authorization": "none"
+            },
+            {
+              "role": "BJ",
+              "phase": "blind_v3",
+              "verdict": "review",
+              "findings": [
+                {
+                  "code": "chromatic_material_boundaries_require_review",
+                  "result": "uncertain",
+                  "finding": "The native focus retains the source's photographic grain and tonal staining, but introduces red-brown islands and pale colour boundaries along the upper facade strip between windows. Some coincide with source staining; others imply a distinct exposed substrate or chipped coating that cannot be resolved from the supplied grayscale source. I cannot certify that these are only hue variations on the existing surface, nor establish a definite geometric alteration. Human material-boundary review is required rather than a positive vote.",
+                  "normalized_box": [
+                    0.29,
+                    0.2,
+                    0.42,
+                    0.31
+                  ],
+                  "source_and_variant_pixel_box": [
+                    626,
+                    599,
+                    907,
+                    929
+                  ],
+                  "evidence_path": "[interní cesta nezveřejněna]"
+                },
+                {
+                  "code": "protected_content",
+                  "result": "observed_preserved",
+                  "finding": "All four upper windows, three lower windows, entrance, basement openings, steps, moldings, chimneys, wiring, archive marks, dog, drain/tray, pavement and litter remain aligned. White archive border is retained.",
+                  "evidence_path": "[interní cesta nezveřejněna]"
+                },
+                {
+                  "code": "inscriptions",
+                  "result": "source_legibility_retained_with_limits",
+                  "finding": "Faint door marks and tiny plaques retain source-level shapes and legibility; no exact house-number reading is asserted."
+                },
+                {
+                  "code": "material_interpretation",
+                  "finding": "Ordinary brown/ochre/roof-red choices remain allowed provisional hypotheses. The review concerns local material segmentation, not the absence of historically proven colour."
+                },
+                {
+                  "code": "diagnostic_support",
+                  "finding": "Matched dimensions and very close grayscale structure support the visual preservation findings but are not a visual pass or proof of historical colours. Chroma-only material patterns must be judged in colour.",
+                  "data": {
+                    "method": "Pillow grayscale BT601 coefficients on stored nonlinear RGB; no geometric registration or source/output changes. Comparison is diagnostic, not a visual verdict.",
+                    "grayscale_mae_8bit": 1.1134834289550781,
+                    "grayscale_p99_abs_error": 4,
+                    "grayscale_pearson": 0.999871557965628,
+                    "fraction_abs_error_gt10": 0
+                  }
+                }
+              ],
+              "vote_sha256": "8E7E13D6C84E0A53DD251C80C3E4022C40B0D944F8E56E0ACD496D1DAD1F7F2B",
+              "vote_path": "[interní cesta nezveřejněna]",
+              "independent_blind": true,
+              "identity_status": "pending",
+              "upload_authorization": "none"
+            }
+          ],
+          "coordinator_decision": "no_majority_acceptance_review_hold",
+          "upload_eligible": false,
+          "upload_blocker": "identity_status_pending"
+        }
+      ]
+    },
+    {
+      "case_id": "RIEGROVA_CP387_cp_387_003",
+      "cp": "387",
+      "filename": "cp_387_003.jpg",
+      "source_id": "184de19a-2ba4-48f9-8708-f2bdf1f23839",
+      "source_sha256": "5054A0C389E8464F47B0378A1A037E549CCEBF3AA47B682F7CD8DC41AF10DAF9",
+      "source_asset": "/most-qa-web/media/ccd5f48d7569be1fa5d388dc707403e1ffc394ea.webp",
+      "identity_status": "pending",
+      "ownership_status": "verified",
+      "identity_evidence": "PHOTO ID is attached to structure 387, but courtyard facade does not match the verified street view closely enough. [interní cesta nezveřejněna]",
+      "variants": [
+        {
+          "variant_id": "BG_RIEGROVA_CP387_003_ATTEMPT01",
+          "variant_sha256": "A1C5005AD1E6F072C814383AA9C9596CE351F7DF428F4B4B8692B4A5B52269BD",
+          "attempt_number": 1,
+          "phase": "color_only",
+          "status": "candidate_pending_independent_qa",
+          "asset": "/most-qa-web/media/9cfc63165d29eea6f80d360a2ed2627415692755.webp",
+          "materials": {
+            "historically_verified_color": false,
+            "assignment_reference": "none_found_for_exact_cp",
+            "status": "model_hypothesis",
+            "locked": false,
+            "confidence": "provisional"
+          },
+          "reviews": [],
+          "qa_status": "candidate_pending_independent_qa",
+          "upload_status": "not_authorized",
+          "identity_status": "pending",
+          "upload_eligible": false
+        },
+        {
+          "variant_id": "BG_RIEGROVA_CP387_003_ATTEMPT02",
+          "variant_sha256": "CAB9FF57C2A221F39AF657E43759CEC4AA298F8FAAF5A7B7F5B2EC6298F6EE43",
+          "attempt_number": 2,
+          "phase": "color_only",
+          "status": "candidate_pending_independent_qa_resolution_limitation",
+          "asset": "/most-qa-web/media/603869b37e1fac212d5a3e9c469b0b3ea799d73e.webp",
+          "materials": {
+            "historically_verified_color": false,
+            "assignment_reference": "none_found_for_exact_cp",
+            "status": "model_hypothesis",
+            "locked": false,
+            "confidence": "provisional"
+          },
+          "reviews": [],
+          "qa_status": "candidate_pending_independent_qa",
+          "producer_visual_review": "Composition and visible objects preserved; still 1088x1446, no resolution gain.",
+          "upload_status": "not_authorized",
+          "identity_status": "pending",
+          "upload_eligible": false
+        }
+      ],
+      "source_record_tags": "PHOTO,BW",
+      "separate_plan_record_id": "a2703a13-c98b-4e28-bbaf-139ddf9d3698",
+      "producer_visual_review_status": "self_review_only_not_QA_accepted"
+    },
+    {
+      "case_id": "RIEGROVA_CP1289_cp_1289_002",
+      "cp": "1289",
+      "filename": "cp_1289_002.jpg",
+      "source_id": "e8c24312-e47d-4b45-a688-e48e209c59bf",
+      "source_sha256": "55E9D2ADEEEC8D6AA6ABA3F8B36208FEC1D65EBDF117B429A8FD2184DF218695",
+      "source_asset": "/most-qa-web/media/f907300aca57ea2ff7ed3bbc455c2502744be0a8.webp",
+      "identity_status": "conflict",
+      "ownership_status": "conflict",
+      "identity_evidence": "PHOTO ID is attached to 1289, but visible entrance sign reads 1290, which is assigned to AA. [interní cesta nezveřejněna]",
+      "variants": []
+    },
+    {
+      "case_id": "RIEGROVA_CP387_cp_387_001",
+      "cp": "387",
+      "filename": "cp_387_001.jpg",
+      "source_id": "8f566c88-bced-4411-869c-77e576fd4adc",
+      "source_sha256": "FE7132F347FD086075017E5011CDFE19D29723A9448B469AEC57AFB38C30F2BA",
+      "source_asset": "/most-qa-web/media/f98abb25b142765f8370247e0cdcf241f9486f84.webp",
+      "identity_status": "verified",
+      "ownership_status": "verified",
+      "identity_evidence": "Visible plaque reads 387 and exact PHOTO ID is attached to structure 387. [interní cesta nezveřejněna]",
+      "variants": [
+        {
+          "variant_id": "BG_RIEGROVA_CP387_001_ATTEMPT02",
+          "variant_sha256": "FF06E1B793EEC56D17EB3B43F43699433B832C6C1076EBB8CF7E12A522A81661",
+          "attempt_number": 2,
+          "phase": "color_only",
+          "status": "accepted_by_2_of_3_remote_verified",
+          "asset": "/most-qa-web/media/4d70c9325c6a99026a9ffd56a286c4bea63d95a3.webp",
+          "materials": {
+            "surfaces": [
+              "facade_plaster",
+              "exposed_masonry",
+              "window_and_door_joinery",
+              "roof_covering",
+              "metalwork",
+              "ground_surface"
+            ],
+            "status": "model_hypothesis",
+            "confidence": "provisional",
+            "locked": false
+          },
+          "reviews": [
+            {
+              "role": "BH",
+              "verdict": "positive",
+              "findings": [
+                "Visual COLOR_ONLY pass: roofline, window/door geometry, house-number plaque, archival border, scratches and documented facade wear are retained.",
+                "Foreground people, pram, tree, overhead wires and other visible scene content remain; they are correctly not treated as defects in COLOR_ONLY.",
+                "Material reading is internally plausible and remains provisional/model_hypothesis per manifest."
+              ],
+              "vote_sha256": "42BAE9F3537A8DCEC9DA150048D818672300D543EB795E36AE21C58BF3B6015A"
+            },
+            {
+              "role": "BI",
+              "verdict": "positive",
+              "findings": [
+                "Source and variant were both opened and compared. The house number 387, facade openings, roofline, wiring, people, pram, tree, street scene, archive border and visible photographic wear remain present.",
+                "No outer black generative fill strip was seen. The warm facade/roof and joinery colors remain a provisional material hypothesis, not asserted historical fact."
+              ],
+              "vote_sha256": "39E9D475F4B6AF68FEF935EE1D5F81CFC17FAF9177A0B50DE3776BE729E4E970"
+            },
+            {
+              "role": "BJ",
+              "verdict": "negative",
+              "findings": [
+                {
+                  "code": "documented_surface_redrawn",
+                  "severity": "major",
+                  "result": "fail",
+                  "finding": "Between upper-floor windows, the source has broad, relatively smooth mottled plaster and a vertical strip. The variant adds conspicuous sweeping/curled trowel-like marks and many discrete pale chips across this documented surface. These structures remain visible in variant grayscale and do not correspond to source photographic grain or stains.",
+                  "normalized_box": [
+                    0.45,
+                    0.31,
+                    0.58,
+                    0.56
+                  ],
+                  "evidence_path": "[interní cesta nezveřejněna]"
+                },
+                {
+                  "code": "preserved_content_observed",
+                  "severity": "observation",
+                  "result": "checked",
+                  "finding": "Overall oblique composition; three upper windows and two lower windows with entrance; roof/dormer profile; electrical insulators and wiring; five foreground people, pram, basin, dog, two distant pedestrians, tree and shop sign remain.",
+                  "evidence_path": "[interní cesta nezveřejněna]"
+                },
+                {
+                  "code": "text_fidelity_limits",
+                  "severity": "limitation",
+                  "result": "review",
+                  "finding": "387 remains readable and MASO UZENINY remains recognizable. Small street-label lettering and faint wall chalk cannot be certified character-for-character at the reduced variant resolution."
+                },
+                {
+                  "code": "additional_context",
+                  "severity": "observation",
+                  "finding": "Do not treat the new fine plaster pattern as historical stucco or documented damage. The photograph retains its white border and broad subject bounds; no external black padding is visible."
+                },
+                {
+                  "code": "resolution_reduction",
+                  "severity": "limitation",
+                  "source_dimensions": [
+                    2970,
+                    2160
+                  ],
+                  "variant_dimensions": [
+                    1470,
+                    1070
+                  ],
+                  "finding": "Variant is approximately half the linear source resolution. Not by itself the rejection reason; it limits fine lettering, grain and tiny-object verification."
+                }
+              ],
+              "vote_sha256": "ADDE42DF244A2E039DED0D53399097D8B4FF6785A7824A5E5D2158F3ADE62C43"
+            }
+          ]
+        },
+        {
+          "variant_id": "BG_RIEGROVA_CP387_001_ATTEMPT01",
+          "variant_sha256": "BCC8DCE48D82B3A979E36570EF61897038C7C16E215B2EC88C4AA451D90F21C8",
+          "attempt_number": 1,
+          "phase": "color_only",
+          "status": "rejected",
+          "asset": "/most-qa-web/media/cbb407ba0c706d5f75a219d866292fe12b42c424.webp",
+          "rejection_reason": "Changed the visible plaque from 387 to 347.",
+          "reason_status": "recorded",
+          "reviews": []
+        }
+      ]
+    },
+    {
+      "case_id": "RIEGROVA_CP677_cp_677_001",
+      "cp": "677",
+      "filename": "cp_677_001.jpg",
+      "source_id": "ad55866f-580c-4e34-bcf2-588a1a2d2c7c",
+      "source_sha256": "8551CE550E1BA0E67B17B3529D6094C7FCDB68C238675F13EBB5F33DDC9B668F",
+      "source_asset": "/most-qa-web/media/93da8c57edab52c10b547c39bc384d9986e9d69d.webp",
+      "identity_status": "pending",
+      "ownership_status": "verified",
+      "identity_evidence": "PHOTO ID is attached to structure 677; small plaque is not legible enough to independently confirm. [interní cesta nezveřejněna]",
+      "variants": [
+        {
+          "variant_id": "BG_RIEGROVA_CP677_001_ATTEMPT01",
+          "variant_sha256": "D2A4917DA521E6536C02EE0B13FACDBFA315164209FC4857B674488B9D570CF1",
+          "attempt_number": 1,
+          "phase": "color_only",
+          "status": "superseded_after_no_majority",
+          "asset": "/most-qa-web/media/50151ebc2450bf8a12b89552342c914a28843ff8.webp",
+          "materials": {
+            "surfaces": [
+              "facade_plaster",
+              "exposed_masonry",
+              "window_and_door_joinery",
+              "roof_covering",
+              "metalwork",
+              "ground_surface"
+            ],
+            "status": "model_hypothesis",
+            "confidence": "provisional",
+            "locked": false
+          },
+          "reviews": [
+            {
+              "role": "BH",
+              "verdict": "review",
+              "findings": [
+                "Visual review cannot safely be positive: the colored variant makes a small right-gable opening and a 677 number plaque much more definite than they are legible in the source.",
+                "No claim is made that this is a documented feature; source support is insufficient at the inspected resolution.",
+                "Vegetation, archive border and the documented facade wear are otherwise retained.",
+                "identity_status=pending remains an independent input hold; this vote does not authorize upload."
+              ],
+              "vote_sha256": "D4CCA9643C63547267448FE7D4CA153D8E800369D0AB428650DB9DBAD4993B90"
+            },
+            {
+              "role": "BI",
+              "verdict": "review",
+              "findings": [
+                "Source and variant were both opened. The facade, window layout, roof/chimneys, peeling plaster, foreground grass, vegetation and archive border remain visually represented; no outer black fill strip was seen.",
+                "The blind input marks identity_status pending. This visual comparison does not establish building identity or remove the input hold; unknown identity is not a positive vote and does not authorize upload."
+              ],
+              "vote_sha256": "99459A8A61D650C056C9BC42B828F4C245BA15BBD1CB844A3CABC15729F1C352"
+            },
+            {
+              "role": "BJ",
+              "verdict": "negative",
+              "findings": [
+                {
+                  "code": "documented_surface_redrawn",
+                  "severity": "major",
+                  "result": "fail",
+                  "finding": "The narrow upper-wall strip beside a window is relatively continuous, grainy plaster in the source. The variant introduces broad wavy/swirling ridges, new pale flakes and strong chip boundaries. This is a change to the visible material surface, not merely hue assignment; it is clear in the grayscale comparison.",
+                  "normalized_box": [
+                    0.425,
+                    0.27,
+                    0.48,
+                    0.47
+                  ],
+                  "evidence_path": "[interní cesta nezveřejněna]"
+                },
+                {
+                  "code": "preserved_content_observed",
+                  "severity": "observation",
+                  "result": "checked",
+                  "finding": "Four upper front openings, lower double gate, lower door and window, roof/chimneys, annex, major missing-plaster patches, ivy, large tree, grass, leaning board and thin garden pole remain in place.",
+                  "evidence_path": "[interní cesta nezveřejněna]"
+                },
+                {
+                  "code": "text_fidelity_limits",
+                  "severity": "limitation",
+                  "result": "review",
+                  "finding": "A number plaque is retained; the variant renders 677 strongly. Source plaque legibility is limited, so no independent identity confirmation or exact-text certification is inferred from the rendition."
+                },
+                {
+                  "code": "additional_context",
+                  "severity": "observation",
+                  "finding": "Input identity remains pending despite filename, metadata attachment and plausible plaque; upload_input_hold remains true. Large damage outlines are largely retained, while their detailed surface rendering is regenerated."
+                },
+                {
+                  "code": "resolution_reduction",
+                  "severity": "limitation",
+                  "source_dimensions": [
+                    3024,
+                    2160
+                  ],
+                  "variant_dimensions": [
+                    1484,
+                    1060
+                  ],
+                  "finding": "Variant is approximately half the linear source resolution. Not by itself the rejection reason; it limits fine lettering, grain and tiny-object verification."
+                }
+              ],
+              "vote_sha256": "E64E157DFF0E2C109195BC90B2A2F16B0E4274D3A84F840D4499C9CEA0F3C7AF"
+            }
+          ]
+        },
+        {
+          "variant_id": "BG_RIEGROVA_CP677_001_ATTEMPT02",
+          "variant_sha256": "0A273C22F3AB0760CF28C2F99B64586ECA916BE04B66CE98FBA5B4953C3DDA88",
+          "attempt_number": 2,
+          "phase": "color_only",
+          "status": "no_majority_acceptance_review_hold",
+          "asset": "/most-qa-web/media/004ff205aecde46a589ff8dcb45217840f360929.webp",
+          "materials": {
+            "surfaces": [
+              "facade_plaster",
+              "exposed_masonry",
+              "window_and_door_joinery",
+              "roof_covering",
+              "metalwork",
+              "ground_surface"
+            ],
+            "status": "model_hypothesis",
+            "confidence": "provisional",
+            "locked": false
+          },
+          "reviews": [
+            {
+              "role": "BH",
+              "verdict": "review",
+              "findings": [
+                "Architecture, archival border, visible damage, and foreground vegetation are retained in the COLOR_ONLY variant.",
+                "A crisply legible white numeric plaque or lettering near the upper door position is not equivalently resolved in the source, so this detail needs review rather than a positive visual verdict."
+              ],
+              "vote_sha256": "8363D93D03E88C56CD048BBAD7896B17A5625C6565953D58B5C6E841967BF60A"
+            },
+            {
+              "role": "BH",
+              "phase": "blind_v3",
+              "verdict": "review",
+              "findings": [
+                "Architecture, archival border, visible damage, and foreground vegetation are retained in the COLOR_ONLY variant.",
+                "A crisply legible white numeric plaque or lettering near the upper door position is not equivalently resolved in the source, so this detail needs review rather than a positive visual verdict."
+              ],
+              "vote_sha256": "8363D93D03E88C56CD048BBAD7896B17A5625C6565953D58B5C6E841967BF60A",
+              "vote_path": "[interní cesta nezveřejněna]",
+              "independent_blind": true,
+              "identity_status": "pending",
+              "upload_authorization": "none"
+            },
+            {
+              "role": "BI",
+              "phase": "blind_v3",
+              "verdict": "review",
+              "findings": [
+                "Source and assigned V3 variant were opened and visually compared at their full native dimensions.",
+                "Facade opening layout, roofline, chimneys, visible damaged plaster, foreground vegetation and the archival border remain visually readable; no externally added solid-black edge fill was observed.",
+                "The manifest declares identity_status pending. This independent image QA does not resolve that input hold or authorize upload."
+              ],
+              "vote_sha256": "045682FE5D43FA53E9452A12C5B714EB69150B77E9C14826C7069C2B0BA3907A",
+              "vote_path": "[interní cesta nezveřejněna]",
+              "independent_blind": true,
+              "identity_status": "pending",
+              "upload_authorization": "none"
+            },
+            {
+              "role": "BJ",
+              "phase": "blind_v3",
+              "verdict": "negative",
+              "findings": [
+                {
+                  "code": "unsupported_chromatic_flaking_pattern",
+                  "result": "fail",
+                  "finding": "The upper front wall beside the windows carries pale, wavy, chip-like colour boundaries not resolved as corresponding edges in the source. In the native focus crop, these boundaries are conspicuous in colour while largely disappearing in grayscale. Geometry and source grain are closely retained, but the chromatic pattern still suggests newly drawn peeling/plaster layers. This is a specific material-surface preservation failure, not a rejection of an ordinary provisional hue.",
+                  "normalized_box": [
+                    0.425,
+                    0.27,
+                    0.48,
+                    0.47
+                  ],
+                  "source_and_variant_pixel_box": [
+                    1285,
+                    583,
+                    1452,
+                    1015
+                  ],
+                  "evidence_path": "[interní cesta nezveřejněna]"
+                },
+                {
+                  "code": "protected_content",
+                  "result": "observed_preserved",
+                  "finding": "Four upper front windows, lower gate, entrance and lower window, chimneys, roof edge, annex, major damage patches, ivy, tree, grass, leaning board and pole remain aligned and recognizable.",
+                  "evidence_path": "[interní cesta nezveřejněna]"
+                },
+                {
+                  "code": "inscriptions",
+                  "result": "source_legibility_retained_with_limits",
+                  "finding": "Source plaque stays similarly soft; its digits are not promoted to confirmed identity. No newly sharpened transcription is credited."
+                },
+                {
+                  "code": "material_interpretation",
+                  "finding": "Ochre plaster, brown timber, gray-green gate, tile red and greenery are distinguishable and treated as provisional. The residual upper-wall flake-shaped colour boundaries are the rejection reason."
+                },
+                {
+                  "code": "diagnostic_support",
+                  "finding": "Matched dimensions and very close grayscale structure support the visual preservation findings but are not a visual pass or proof of historical colours. Chroma-only material patterns must be judged in colour.",
+                  "data": {
+                    "method": "Pillow grayscale BT601 coefficients on stored nonlinear RGB; no geometric registration or source/output changes. Comparison is diagnostic, not a visual verdict.",
+                    "grayscale_mae_8bit": 1.6734074354171753,
+                    "grayscale_p99_abs_error": 8,
+                    "grayscale_pearson": 0.9997596537180361,
+                    "fraction_abs_error_gt10": 8.221266901822457E-05
+                  }
+                }
+              ],
+              "vote_sha256": "20E3F663D8B4D3A7EC4D593148DD7F795347267094CE0C7E9868E5A1976EDFEC",
+              "vote_path": "[interní cesta nezveřejněna]",
+              "independent_blind": true,
+              "identity_status": "pending",
+              "upload_authorization": "none"
+            }
+          ],
+          "coordinator_decision": "no_majority_acceptance_review_hold",
+          "upload_eligible": false,
+          "upload_blocker": "identity_status_pending"
+        }
+      ]
+    }
+  ],
+  "coordinator_v3_decision": {
+    "path": "[interní cesta nezveřejněna]",
+    "sha256": "AF782E2B2F1C0E7B08794DC1FF9D509253AD16F6D758E6CD9D347A8C9D1A733A",
+    "majority_count": 1,
+    "no_majority_count": 4,
+    "upload_eligible_count": 0,
+    "identity_status": "pending"
+  },
+  "additional_candidate_receipt": {
+    "path": "[interní cesta nezveřejněna]",
+    "sha256": "DC3D615393319343651A0FD8F11F57FDBB0BD1CD8824E9E4F2C9941629605A3F",
+    "candidate_count": 2,
+    "upload_authorized": 0
+  },
+  "phase_status_v8": "[interní cesta nezveřejněna]",
+  "colorized_unique_sources_attempted": 9,
+  "frozen_variant_versions": 17,
+  "phase_status_v13": "[interní cesta nezveřejněna]",
+  "source_record_disambiguation": {
+    "receipt": "assets/evidence/BG_RIEGROVA_PHOTO_RECORD_DISAMBIGUATION.json",
+    "sha256": "551CB43015E0FCCB90024B34452977F850EDA006CBE9C1E4E463377C44E786EA",
+    "source": "Exact source IDs used for both candidates are individual PHOTO,BW records; same-filename PLANE,BW records are separate and excluded."
+  },
+  "producer_visual_review": {
+    "receipt": "assets/evidence/BG_RIEGROVA_PRODUCER_VISUAL_REVIEW.json",
+    "sha256": "D260485BB5A5B45F6313FABBE06D2465FCAAFFB149E0D0D972E3FB4FA5E5C94C",
+    "independent": false,
+    "qa_acceptance": 0,
+    "resolution_limit": "Both candidates are about half the source linear resolution."
+  },
+  "phase_status_v14": "[interní cesta nezveřejněna]",
+  "correction_attempt02_review": {
+    "receipt": "assets/evidence/BG_RIEGROVA_CORRECTION_ATTEMPT02_REVIEW.json",
+    "sha256": "9019A40CBA4FC9E82562E286E065078E4B5727C0D381AADC2FBF418CED4047F1",
+    "producer_review_only": true,
+    "rejected_attempts": 1,
+    "candidate_pending": 1
+  },
+  "phase_status_v15": "[interní cesta nezveřejněna]",
+  "identity_plan_review": {
+    "receipt": "assets/evidence/BG_RIEGROVA_IDENTITY_PLAN_REVIEW.json",
+    "sha256": "43B15248386BA6DDA6DBEB6BC4E47DF3029A004B4E9B8DD33243443E8A5C1CDB",
+    "plans": [
+      "/most-qa-web/media/2ce605cfc9f182655b328d67ba922a10db388162.webp",
+      "/most-qa-web/media/f951f42fcf31d9a0137084052303399a86a36f6f.webp",
+      "/most-qa-web/media/8f588c217ea7549b813b9a341a4d9df2d89895ba.webp"
+    ],
+    "plan_title_crop": "/most-qa-web/media/2ca35bc873ac3a289a8e8c01ca02a63939fa06aa.webp",
+    "resolved": 0,
+    "remaining_pending": [
+      "CP387_003",
+      "CP1289_001"
+    ]
+  }
+}</script><script>
+const DATA=JSON.parse(document.getElementById('payload').textContent), CASE_VERSION='BG_RIEGROVA_COLOR_ONLY_PHASE_STATUS_V30_20261023T134342Z', KEY='most-private-qa:BG:Riegrova:v2:V30', state=JSON.parse(localStorage.getItem(KEY)||'{}');const tx=(cs,en)=>document.documentElement.lang==='en'?en:cs;function save(){localStorage.setItem(KEY,JSON.stringify(state));document.getElementById('saved').textContent=tx('Uloženo pouze v tomto prohlížeči','Saved in this browser only')}
+function render(){const cases=DATA.cases;const allVariants=cases.flatMap(c=>c.variants),v3=allVariants.filter(v=>(v.reviews||[]).some(r=>r.phase==='blind_v3')),v3Accepted=v3.filter(v=>v.coordinator_decision==='accepted_color_only_majority'||v.status==='accepted_color_only_majority').length,v3Review=v3.filter(v=>v.coordinator_decision==='no_majority_acceptance_review_hold'||v.status==='no_majority_acceptance_review_hold').length,priorUploads=allVariants.filter(v=>v.status==='accepted_by_2_of_3_remote_verified').length,unresolved=cases.filter(c=>c.identity_status==='pending').length,conflict=cases.filter(c=>c.identity_status==='conflict').length;document.getElementById('metrics').innerHTML=[[cases.length,tx('unikátních zdrojů','unique sources')],[v3.length,tx('variant V3','V3 variants')],[v3Accepted,tx('V3 přijatých většinou (identita stále blokuje upload)','V3 majority accepted (identity still blocks upload)')],[v3Review,tx('V3 bez většiny / v revizním holdu','V3 no-majority review holds')],[priorUploads,tx('dříve vzdáleně ověřených uploadů','previously remote-verified uploads')],[unresolved,tx('čekajících identit','identity holds')],[conflict,tx('konfliktů identity','identity conflicts')]].map(([n,l])=>`<div class="metric"><b>${n}</b>${l}</div>`).join('');document.getElementById('cases').innerHTML=cases.map(c=>{const id=state[c.case_id]||{};const variants=c.variants.map(v=>`<div class="variant"><span class="status ${v.status==='rejected'?'bad':v.status.includes('pending')?'warn':''}">${v.status.replaceAll('_',' ')}</span><div><b>${v.variant_id}</b> · ${tx('pokus','attempt')} ${v.attempt_number} · SHA-256 <code>${v.variant_sha256}</code></div>${v.rejection_reason?`<p class="note">${tx('Proč byla varianta odmítnuta: ','Why this variant was rejected: ')}${v.rejection_reason}</p>`:''}<div class="figure"><img loading="lazy" src="${v.asset}" alt="${v.variant_id}"><div class="meta">COLOR_ONLY · ${v.materials?.status||'model_hypothesis'} · ${v.materials?.confidence||'provisional'} · locked=${v.materials?.locked??false}</div></div>${(v.reviews||[]).map(r=>`<p class="review"><b>${r.role}: ${r.verdict}</b> — ${(r.findings||[]).join(' ')}</p>`).join('')}</div>`).join('');return `<article class="case"><h2>${tx('Čp. ','No. ')}${c.cp} <span class="status ${c.identity_status==='conflict'?'bad':c.identity_status==='pending'?'warn':''}">${tx('identita: ','identity: ')}${c.identity_status}</span></h2><p class="meta">${c.filename} · source ID ${c.source_id} · source SHA-256 <code>${c.source_sha256}</code><br>${c.identity_public_summary||tx('Identita zůstává nevyřešená; podrobnosti jsou v soukromé technické evidenci.','Identity remains unresolved; details are kept in private technical evidence.')}</p><div class="compare"><div class="figure"><h3>${tx('Původní fotografie','Original photo')}</h3><img loading="lazy" src="${c.source_asset}" alt="${c.filename}"></div>${variants}</div>${c.upload?`<p class="note">${tx('Vzdáleně ověřený upload: ','Remote verified upload: ')}${c.upload.remote_photo_id}, SHA ${c.upload.remote_sha256}</p>`:''}<div class="decision"><h3>${tx('Soukromá poznámka a rozhodnutí','Private note and decision')}</h3><label>${tx('Volba (neaplikuje se)','Choice (not applied)')}<select data-id="${c.case_id}" data-field="choice"><option value="">${tx('Bez volby','No choice')}</option>${[['accept_for_handoff','Přijmout do handoffu','Accept for handoff'],['needs_review','Potřebuje další kontrolu','Needs more review'],['unknown','Nevím','I do not know'],['keep_blocked','Ponechat blokované','Keep blocked']].map(([v,cs,en])=>`<option value="${v}" ${id.choice===v?'selected':''}>${tx(cs,en)}</option>`).join('')}</select></label><label>${tx('Komentář','Comment')}<textarea data-id="${c.case_id}" data-field="comment">${(id.comment||'').replaceAll('<','&lt;')}</textarea></label></div></article>`}).join('');document.querySelectorAll('[data-id]').forEach(el=>el.addEventListener('input',()=>{const id=el.dataset.id;state[id]??={};state[id][el.dataset.field]=el.value;state[id].updated_at=new Date().toISOString();save()}))}
+document.getElementById('lang').addEventListener('change',e=>{document.documentElement.lang=e.target.value;document.querySelectorAll('[data-cz]').forEach(el=>el.textContent=e.target.value==='en'?el.dataset.en:el.dataset.cz);render()});document.getElementById('export').addEventListener('click',()=>{const entries=DATA.cases.filter(c=>state[c.case_id]?.choice||state[c.case_id]?.comment).map(c=>({case_id:c.case_id,source_id:c.source_id,source_sha256:c.source_sha256,case_version:CASE_VERSION,variant_ids:c.variants.map(v=>v.variant_id),variant_sha256s:c.variants.map(v=>v.variant_sha256),decision:state[c.case_id]?.choice||null,comment:state[c.case_id]?.comment||'',updated_at:state[c.case_id]?.updated_at||null}));const body={schema_version:2,case_version:CASE_VERSION,producer:'BG',street:'Riegrova',application_status:'not_applied',local_only:true,exported_at:new Date().toISOString(),decisions:entries};const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(body,null,2)],{type:'application/json'}));a.download='BG_Riegrova_user_decisions_v1.json';a.click();URL.revokeObjectURL(a.href)});document.getElementById('clear').addEventListener('click',()=>{if(confirm(tx('Smazat uložené místní volby?','Clear saved local choices?'))){localStorage.removeItem(KEY);location.reload()}});render();
+</script><p><a href="gis-identity-evidence-v1.html">GIS identity evidence / doplněk GIS identity</a></p><script defer src="/most-qa-web/public-tools.js"></script></body></html>
+
+
+
+
+

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "receipt_type": "correction_attempt_review",
+  "street": "Riegrova",
+  "owner": "BG",
+  "reviewed_at_utc": "2026-10-23T12:15:06Z",
+  "phase": "color_only",
+  "reviewer_role": "BG producer visual review",
+  "independent": false,
+  "prior_self_review": "BG_RIEGROVA_PRODUCER_VISUAL_REVIEW_20261023T141100Z.json",
+  "records": [
+    {
+      "attempt01_sha256": "A1C5005AD1E6F072C814383AA9C9596CE351F7DF428F4B4B8692B4A5B52269BD",
+      "attempt02_sha256": "CAB9FF57C2A221F39AF657E43759CEC4AA298F8FAAF5A7B7F5B2EC6298F6EE43",
+      "attempt_cap_reached": true,
+      "filename": "cp_387_003.jpg",
+      "finding": "Visible composition and objects remain preserved; output resolution remains about half source size and does not improve on attempt01.",
+      "disposition": "candidate_pending_independent_qa_resolution_limitation",
+      "source_sha256": "5054A0C389E8464F47B0378A1A037E549CCEBF3AA47B682F7CD8DC41AF10DAF9",
+      "attempt02_path": "[interní cesta nezveřejněna]",
+      "attempt02_dimensions": "1088x1446"
+    },
+    {
+      "attempt01_sha256": "A9DF276D8183F087CF18D16AA6D9139101DF0260A01BF87BA2B35356A050E6DC",
+      "attempt02_sha256": "9CCFB385FA6E3DD94A42C04FDD22B7C19B0E2FD7ED79CB4226EDA8C07A074327",
+      "attempt_cap_reached": true,
+      "filename": "cp_1289_001.jpg",
+      "finding": "Unnatural repeated ornamental/pattern texture appears across facade materials and roadway; not supported by source detail.",
+      "disposition": "rejected_variant_preserved",
+      "source_sha256": "4E6846BDCA5ECEEE2E86367F5CAEF21E35F9314D61A767CF60AA40B9045FC9CA",
+      "attempt02_path": "[interní cesta nezveřejněna]",
+      "attempt02_dimensions": "1093x1439"
+    }
+  ],
+  "independent_QA": "not_performed_pending_user_authorization_for_BI_BJ",
+  "identity_status": "pending_for_both",
+  "upload_authorized": 0,
+  "upload_performed": 0,
+  "all_variants_preserved": true
+}

@@ -1,0 +1,161 @@
+{
+  "schema_version": "2.0",
+  "source_version": "H_BEZRUCOVA_STREET_RECEIPT:0c01e76f",
+  "cases": [
+    {
+      "case_id": "H-BEZRUCOVA-f40d0487-9ba5-41a7-bec2-ba41a4441e54",
+      "cp": "593",
+      "source_id": "f40d0487-9ba5-41a7-bec2-ba41a4441e54",
+      "source_file": "cp_593_002__2.jpg",
+      "source_sha256": "5088e560c0595cd54d23e8daa9886dad6b088e0b9baef994916eccb37303cc50",
+      "output_sha256": "ac7b1b7d446916ce0090ef77ced0f04e7d169613d662ba4e97ad0e8e2e899d3a",
+      "source_asset": "/most-qa-web/media/cb7b67668fe7c61a022a27ca6f9c0680c5389d0f.webp",
+      "output_asset": "/most-qa-web/media/a8265f253f6f8c8366697e3d70b994fd59606a62.webp",
+      "qa_status": "passed_provisional",
+      "upload_status": "upload_pending_single_publisher_A"
+    },
+    {
+      "case_id": "H-BEZRUCOVA-bf0c37eb-5eb8-4af5-a0df-a9417b0e335e",
+      "cp": "274",
+      "source_id": "bf0c37eb-5eb8-4af5-a0df-a9417b0e335e",
+      "source_file": "cp_274_003__2.jpg",
+      "source_sha256": "20a91218808188ccc390364dc13e343aec12e3b5f803fccb5bada4edb07571e6",
+      "output_sha256": "509f641cdfc6b3c14744b480e677096069e83ae45da50c60895e573ba1e40e22",
+      "source_asset": "/most-qa-web/media/e49bddb89c40e31f22cbf7a7f5c95d3cb70abd18.webp",
+      "output_asset": "/most-qa-web/media/295f0d99a4074b9352efa94fd10dd341c548c34f.webp",
+      "qa_status": "passed_provisional",
+      "upload_status": "upload_pending_single_publisher_A"
+    },
+    {
+      "case_id": "H-BEZRUCOVA-a7c8b043-be18-4ac2-b92c-a3bc9068b76b",
+      "cp": "593",
+      "source_id": "a7c8b043-be18-4ac2-b92c-a3bc9068b76b",
+      "source_file": "cp_593_003__2.jpg",
+      "source_sha256": "3c379c2cdefb0f512317295cfe9da3aa92959aabea7facad40fdde7f1fe9ddaa",
+      "output_sha256": "aed13147ff9c7e2035b801207e06aeba2fec9853b3b517b9e638cff1a421f8ce",
+      "source_asset": "/most-qa-web/media/f90e9dffd99d5442dae1802580f8e667c334c8b6.webp",
+      "output_asset": "/most-qa-web/media/58d536765eee2515a4c3f3f36a4b1f046cc19dcf.webp",
+      "qa_status": "passed_provisional",
+      "upload_status": "upload_pending_single_publisher_A"
+    },
+    {
+      "case_id": "H-BEZRUCOVA-731d31c3-ab70-4793-97bc-8528755da2d4",
+      "cp": "593",
+      "source_id": "731d31c3-ab70-4793-97bc-8528755da2d4",
+      "source_file": "cp_593_004__2.jpg",
+      "source_sha256": "469f15c06b737ba0754c6030cab2fa58fa06171119c7e8712c85840a14f1fe67",
+      "output_sha256": "d1bc9dc4c6b99ae56cdb07d2f59b24eaba811ba9ffd5de71b5c622b457a7bfb9",
+      "source_asset": "/most-qa-web/media/1579602be24d2f8aad4a5b7e7d20bc1791843768.webp",
+      "output_asset": "/most-qa-web/media/2abc3bbbf90dfd181447efa1089830ba85dc58b0.webp",
+      "qa_status": "passed_provisional",
+      "upload_status": "upload_pending_single_publisher_A"
+    },
+    {
+      "case_id": "H-BEZRUCOVA-8c27fd1f-d526-40ed-8c36-a5c23095efd6",
+      "cp": "274",
+      "source_id": "8c27fd1f-d526-40ed-8c36-a5c23095efd6",
+      "source_file": "cp_274_004__2.jpg",
+      "source_sha256": "ab17e5d01c6ea9794fcf098f347ed4fda01b6376dd2127b337e7731728a2765b",
+      "output_sha256": "5fe22a55ccb9dc31ae3ec35671b8cd8231c21dabc73b5d32e177d920b994649d",
+      "source_asset": "/most-qa-web/media/95daf19fcae999bd8aa0ced7cfb467c4c7e49d33.webp",
+      "output_asset": "/most-qa-web/media/54736847b36933bb86226dc72f079f161a555f55.webp",
+      "qa_status": "passed_provisional",
+      "upload_status": "upload_pending_single_publisher_A"
+    },
+    {
+      "case_id": "H-BEZRUCOVA-0c36a7f1-3e22-4f3f-a8a1-af1e1ec475ae",
+      "cp": "274",
+      "source_id": "0c36a7f1-3e22-4f3f-a8a1-af1e1ec475ae",
+      "source_file": "cp_274_006__2.jpg",
+      "source_sha256": "83da6a7e285d9ae1706e9059aa54bd886f6ff5ceeb0c4522d8d543581e57439f",
+      "output_sha256": "8a69082e2e810dde49cacb24513ca95efc9a2fccea5313da516c1c6961bdc4ba",
+      "source_asset": "/most-qa-web/media/d2e6866ccfaf6ed7a6c0d01d388d1e7e9e8054a3.webp",
+      "output_asset": "/most-qa-web/media/0d11e3f21804bd9407fad778c44aaaf325871f92.webp",
+      "qa_status": "passed_provisional",
+      "upload_status": "upload_pending_single_publisher_A"
+    }
+  ],
+  "holds": [
+    {
+      "decision": "not_generated",
+      "reason": "matching colorized outputs already present in the live-area snapshot; no duplicate output created",
+      "sources": [
+        "cp_53_001.jpg",
+        "cp_53_002.jpg",
+        "cp_274_001.jpg",
+        "cp_274_002.jpg",
+        "cp_355_001.jpg",
+        "cp_593_007.jpg",
+        "cp_657_001.jpg"
+      ]
+    },
+    {
+      "sources": [
+        "cp_593_001.jpg"
+      ],
+      "decision": "excluded",
+      "reason": "visual audit identifies this attachment as a plan/drawing rather than a historical photograph; colorization is prohibited"
+    },
+    {
+      "decision": "human_review_required",
+      "reason": "dense branches and debris cover substantial facade/ground geometry; a clean result would require too much undocumented reconstruction",
+      "sources": [
+        "cp_53_003.jpg",
+        "cp_53_004.jpg",
+        "cp_53_005.jpg"
+      ]
+    },
+    {
+      "decision": "human_review_required",
+      "reason": "archive cards identify adjacent cp56 / connecting gallery; shared scene and ownership ambiguity",
+      "sources": [
+        "cp_355_002__2.jpg",
+        "cp_355_003__2.jpg"
+      ]
+    },
+    {
+      "decision": "human_review_required",
+      "reason": "very dark courtyard view with extensive branches and uncertain hidden geometry",
+      "sources": [
+        "cp_593_005__2.jpg"
+      ]
+    },
+    {
+      "decision": "human_review_required",
+      "reason": "archive card mentions a connected courtyard building of cp57/58; image attachment alone does not safely resolve identity",
+      "sources": [
+        "cp_593_006.jpg"
+      ]
+    },
+    {
+      "decision": "human_review_required",
+      "reason": "cards explicitly reference courtyard of cp55/cp56 and surrounding buildings; shared-scene ownership ambiguity",
+      "sources": [
+        "cp_657_002__2.jpg",
+        "cp_657_003__2.jpg"
+      ]
+    },
+    {
+      "decision": "not_generated",
+      "reason": "multi-building street scene, with other historical structures prominently visible",
+      "sources": [
+        "cp_274_005__2.jpg"
+      ]
+    },
+    {
+      "decision": "not_generated",
+      "reason": "near-duplicate of accepted cp_274_006 side/corner geometry without a new independently useful facade",
+      "sources": [
+        "cp_274_007__2.jpg"
+      ]
+    },
+    {
+      "decision": "not_generated",
+      "reason": "duplicate-version candidates associated with already colorized cp274 groups; no new safe unique view established",
+      "sources": [
+        "cp_274_001__3.jpg",
+        "cp_274_002__3.jpg"
+      ]
+    }
+  ]
+}

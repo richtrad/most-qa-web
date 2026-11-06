@@ -1,0 +1,172 @@
+{
+  "reviewer_role": "BT",
+  "model": "gpt-5.6-sol/high",
+  "actual_model_evidence": null,
+  "protocol_sha256": "8b4b87143156cd62946aa657511c4e19ca5bc36df1c2b853a00e44c7311bcd7f",
+  "manifest_sha256": "a35166f2b12bc59201648fc0561a277de9c9036ad57d38d52f6c94ded6ce3e70",
+  "case_id": "CASE-02",
+  "source_sha256": "37946d3c58dff64de44560d82ea28e3c711c60de7d4e9707c2dcd2ff53a34137",
+  "variant_sha256": "03ac60f1a293b35d50a93560aa52c9ee07786e5b17241dd49ab985c090aeff3b",
+  "visual_review_performed": true,
+  "image_fidelity": {
+    "verdict": "positive",
+    "reason": "Buildings, rooflines, windows, trees and fine branches, poles and overhead lines, fences, snowbanks, road texture, all visible people, handwritten labels/arrows and the archival border are preserved. Minor deviations consist of downsampling/fine texture changes and a few faint modeled cloud patches in the sky."
+  },
+  "color_hypothesis": {
+    "verdict": "positive",
+    "reason": "Winter snow, sky, stone, plaster, brick, wood, vegetation and clothing have a plausible restrained palette with consistent separation of materials and illumination. All hues remain provisional hypotheses.",
+    "historical_truth": null,
+    "status": "provisional",
+    "locked": false
+  },
+  "identity_gate": {
+    "verdict": "positive",
+    "reason": "The source visibly carries the handwritten label 539 and a downward arrow above the partially visible building at the left edge, matching the supplied claim and scope. This supports only the supplied source-local designation, not a new live identity audit."
+  },
+  "verdict": "positive",
+  "findings": [
+    {
+      "id": "C02-ID-539",
+      "dimension": "identity_gate",
+      "assessment": "positive",
+      "normalized_box": [
+        0.0,
+        0.0,
+        0.24,
+        0.46
+      ],
+      "description": "The handwritten 539 label and arrow remain visible above the left-edge facade, whose openings and cornices are preserved.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "This is direct source-local support for the supplied identity claim.",
+      "confidence": 0.99,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "58ac6bddbac46b2677db130e57ab12270e855ba51ee318f3d3e6f451cb365288",
+          "scale_note": "Both SOURCE and RESULT crops preserved at native pixels; unequal pixel dimensions retained"
+        }
+      ]
+    },
+    {
+      "id": "C02-FID-CENTER",
+      "dimension": "image_fidelity",
+      "assessment": "positive",
+      "normalized_box": [
+        0.36,
+        0.17,
+        0.78,
+        0.67
+      ],
+      "description": "The central buildings, ornate corner facade, poles, wires, tree branches, snow roofs and distant pedestrians retain their source layout.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "The dense overlap of architecture, branches and lines provides a strong preservation test.",
+      "confidence": 0.97,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "3b239a79ec45849d2fe2d373b2f21516633d86230c850a48ffd4c617e496592a",
+          "scale_note": "SOURCE crop downsampled with Lanczos to RESULT crop dimensions; RESULT native pixels"
+        }
+      ]
+    },
+    {
+      "id": "C02-FID-PERSON",
+      "dimension": "image_fidelity",
+      "assessment": "positive",
+      "normalized_box": [
+        0.0,
+        0.52,
+        0.38,
+        0.86
+      ],
+      "description": "The foreground pedestrian, fence, retaining wall, snow edge and road marks are retained without cleanup or reconstruction.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "The preserved person and street furniture directly satisfy COLOR_ONLY requirements.",
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "5ff5f83e533b05c84ce3cb4ca88ab8bd43cc745556c67609ad6e9c05979b7c59",
+          "scale_note": "SOURCE crop downsampled with Lanczos to RESULT crop dimensions; RESULT native pixels"
+        }
+      ]
+    },
+    {
+      "id": "C02-FID-SKY",
+      "dimension": "image_fidelity",
+      "assessment": "minor_deviation",
+      "normalized_box": [
+        0.24,
+        0.0,
+        0.78,
+        0.3
+      ],
+      "description": "The result adds faint small cloud patches and stronger sky tonality relative to the nearly featureless source sky.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "The alteration is visible but confined to sky appearance and does not change mapped historical structures or objects.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "fe48df3dbf5df18f63242a18aefdeff1299a1c3ee5a6f4203dd07278e9e329f6",
+          "scale_note": "SOURCE downsampled with Lanczos; RESULT converted to grayscale at native result pixels; analytical evidence only"
+        }
+      ]
+    },
+    {
+      "id": "C02-COLOR-WINTER",
+      "dimension": "color_hypothesis",
+      "assessment": "positive",
+      "normalized_box": [
+        0.36,
+        0.17,
+        0.78,
+        0.67
+      ],
+      "description": "Snow remains neutral-to-cool while plaster, brick, branches and sky are materially distinct and spatially consistent.",
+      "historical_impact": "unknown",
+      "visibility": "normal_view",
+      "significance_reason": "The coloring is plausible and coherent for the depicted winter scene, without asserting historical truth.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "3b239a79ec45849d2fe2d373b2f21516633d86230c850a48ffd4c617e496592a",
+          "scale_note": "SOURCE crop downsampled with Lanczos to RESULT crop dimensions; RESULT native pixels"
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "972c64b46329000d5d197670e01a23fad4196e93c7f36f9580a1f3d221bbaa1a",
+      "scale_note": "SOURCE downsampled with Lanczos to RESULT dimensions; RESULT native pixels"
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "58ac6bddbac46b2677db130e57ab12270e855ba51ee318f3d3e6f451cb365288",
+      "scale_note": "Both SOURCE and RESULT crops preserved at native pixels; unequal pixel dimensions retained"
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "3b239a79ec45849d2fe2d373b2f21516633d86230c850a48ffd4c617e496592a",
+      "scale_note": "SOURCE crop downsampled with Lanczos to RESULT crop dimensions; RESULT native pixels"
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "5ff5f83e533b05c84ce3cb4ca88ab8bd43cc745556c67609ad6e9c05979b7c59",
+      "scale_note": "SOURCE crop downsampled with Lanczos to RESULT crop dimensions; RESULT native pixels"
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "fe48df3dbf5df18f63242a18aefdeff1299a1c3ee5a6f4203dd07278e9e329f6",
+      "scale_note": "SOURCE downsampled with Lanczos; RESULT converted to grayscale at native result pixels; analytical evidence only"
+    }
+  ],
+  "checked_at": "2026-10-23T16:16:26+02:00"
+}

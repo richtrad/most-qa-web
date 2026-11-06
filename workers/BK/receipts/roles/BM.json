@@ -1,0 +1,401 @@
+{
+  "schema_version": 1,
+  "cohort_id": "QA_DIVERSE_ROOSEVELTOVA_20261023",
+  "cohort_manifest_sha256": "E5F43237B9584AD76479C677003C16B40C24E72FAB5B0CE35EBB8AA0AE8E79D4",
+  "role": "BM",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "actual_model_evidence": {
+    "source": "own native rollout turn_context",
+    "session_log": "[interní cesta nezveřejněna]",
+    "timestamp": "2026-10-23T11:33:47.714Z",
+    "model": "gpt-6.1-sol",
+    "effort": "high"
+  },
+  "thread_id": "01a16889-89b9-7ee0-8527-cf667b6c0daa",
+  "case_id": "ROOSEVELTOVA-CP539-001",
+  "source_id": "cab231a5-392f-42d1-9ab5-f2cce57fb488",
+  "source_path": "[interní cesta nezveřejněna]",
+  "source_sha256": "37946D3C58DFF64DE44560D82EA28E3C711C60DE7D4E9707C2DCD2FF53A34137",
+  "variant_id": "BK-RV-CP539-001-A01",
+  "variant_path": "[interní cesta nezveřejněna]",
+  "variant_sha256": "03AC60F1A293B35D50A93560AA52C9EE07786E5B17241DD49AB985C090AEFF3B",
+  "attempt_number": 1,
+  "phase": "color_only",
+  "visual_review_performed": true,
+  "verdict": "positive",
+  "verdict_detail": "positive_with_minor_deviations",
+  "image_fidelity": {
+    "verdict": "positive",
+    "status": "positive_with_minor_deviations",
+    "finding_ids": [
+      "BM-F01",
+      "BM-F02",
+      "BM-F03",
+      "BM-F04",
+      "BM-F05"
+    ],
+    "minor_deviations_must_remain_in_metadata_web": true,
+    "limitations": [
+      "Source 3036x2160, variant 1486x1059; smaller variant cannot preserve all original detail.",
+      "Local contrast, grain and fine snow/branch texture differ; no pixel-identical preservation claimed."
+    ]
+  },
+  "color_hypothesis": {
+    "verdict": "positive",
+    "scope": "plausibility_and_internal_material_consistency_only",
+    "historical_accuracy": null,
+    "status": "provisional",
+    "confidence": "model_hypothesis",
+    "locked": false,
+    "materials": [
+      {
+        "status": "provisional",
+        "locked": false,
+        "material_id": "FACADE_OCHRE_01",
+        "confidence": "model_hypothesis"
+      },
+      {
+        "status": "provisional",
+        "locked": false,
+        "material_id": "FACADE_CREAM_01",
+        "confidence": "model_hypothesis"
+      },
+      {
+        "status": "provisional",
+        "locked": false,
+        "material_id": "FACADE_GREEN_GREY_01",
+        "confidence": "model_hypothesis"
+      },
+      {
+        "status": "provisional",
+        "locked": false,
+        "material_id": "ROOF_CLAY_RED_01",
+        "confidence": "model_hypothesis"
+      },
+      {
+        "status": "provisional",
+        "locked": false,
+        "material_id": "WOOD_DARK_BROWN_01",
+        "confidence": "model_hypothesis"
+      }
+    ],
+    "finding_ids": [
+      "BM-F07"
+    ]
+  },
+  "identity_gate": {
+    "verdict": "positive",
+    "scope": "CP539 is partial left-edge building; no automatic CP mapping for other visible buildings.",
+    "evidence": [
+      "Original handwritten 539 and arrow, independently opened.",
+      "Listed photo record cab231a5-392f-42d1-9ab5-f2cce57fb488; verified assignment has photo group attached only to CP539."
+    ],
+    "ownership_status": "BK assignment SHA verified; listed source group has reserved_for empty and excluded_overlap false.",
+    "live_api_rechecked": false,
+    "finding_ids": [
+      "BM-F06"
+    ]
+  },
+  "findings": [
+    {
+      "finding_id": "BM-F01",
+      "assessment": "positive",
+      "dimension": "image_fidelity",
+      "normalized_box": [
+        0,
+        0.025,
+        0.15,
+        0.52
+      ],
+      "box_format": "[x0,y0,x1,y1] normalized to full frame",
+      "source_sha256": "37946D3C58DFF64DE44560D82EA28E3C711C60DE7D4E9707C2DCD2FF53A34137",
+      "variant_sha256": "03AC60F1A293B35D50A93560AA52C9EE07786E5B17241DD49AB985C090AEFF3B",
+      "evidence_path": "[interní cesta nezveřejněna]",
+      "evidence_sha256": "3C8C4D85CF7389E296391180356B34DD407E26D11D948326A06EA9AD22BA329A",
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "3C8C4D85CF7389E296391180356B34DD407E26D11D948326A06EA9AD22BA329A",
+          "view": "100pct_variant_and_matched_source",
+          "resampling": "Whole source downsampled 3036x2160 to 1486x1059 LANCZOS before crop; variant crop unresampled; no local registration."
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "D03108A3A2BB23E4171C775D0A2EFB1BE9DAC3FF77AD702C7F3DD154E4338DAA",
+          "view": "100pct_source",
+          "resampling": "none; one source pixel per file pixel"
+        }
+      ],
+      "description": "Na dome pri levem okraji zustavaji polohy oken v obou viditelnych podlazich, otevrene prave horni kridlo s pricniky, sikme parapety a vodorovna mezipatrova rimsa. Srovnani cele vyrezane fasady neukazuje presun nebo nahrazeni otvoru. Ostry barevny obraz ovsem nevraci puvodni rozliseni.",
+      "historical_impact": "material",
+      "visibility": "normal_view",
+      "significance_reason": "Otvory a otevreny stav okna jsou konkretni architektonicke doklady CP539; zachovana geometrie je duvodem kladneho hlasu, nikoli jen pritomnost stromu.",
+      "confidence": 0.94
+    },
+    {
+      "finding_id": "BM-F02",
+      "assessment": "positive",
+      "dimension": "image_fidelity",
+      "normalized_box": [
+        0.14,
+        0.14,
+        0.42,
+        0.57
+      ],
+      "box_format": "[x0,y0,x1,y1] normalized to full frame",
+      "source_sha256": "37946D3C58DFF64DE44560D82EA28E3C711C60DE7D4E9707C2DCD2FF53A34137",
+      "variant_sha256": "03AC60F1A293B35D50A93560AA52C9EE07786E5B17241DD49AB985C090AEFF3B",
+      "evidence_path": "[interní cesta nezveřejněna]",
+      "evidence_sha256": "1F108E02289A304491B346B4645B890725FD4B928AE7F5444422884EB292D5E7",
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "1F108E02289A304491B346B4645B890725FD4B928AE7F5444422884EB292D5E7",
+          "view": "100pct_variant_and_matched_source",
+          "resampling": "Whole source downsampled 3036x2160 to 1486x1059 LANCZOS before crop; variant crop unresampled; no local registration."
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "2F26DA0E58422CEA639934D44F87D186014B321748C14D630716F6AD0DFE9B13",
+          "view": "100pct_source",
+          "resampling": "none; one source pixel per file pixel"
+        }
+      ],
+      "description": "Na prostrednim dome, oznacenem na originalu 315, souhlasi dvojice hornich oken, obloukovy nastavec nad strechou, kupole se spici a pravy narozni rizalit. Drobne ornamenty jsou zesilene, ale jejich zakladni relief je patrny i v nativnim zdroji; neshledavam zde dolozeny novy velky architektonicky prvek.",
+      "historical_impact": "material",
+      "visibility": "normal_view",
+      "significance_reason": "Zachovani strechni siluety a otvoru okolni zastavby chrani historicky kontext; tuto budovu neprirazuji k CP539.",
+      "confidence": 0.91
+    },
+    {
+      "finding_id": "BM-F03",
+      "assessment": "positive",
+      "dimension": "image_fidelity",
+      "normalized_box": [
+        0.365,
+        0.43,
+        0.515,
+        0.605
+      ],
+      "box_format": "[x0,y0,x1,y1] normalized to full frame",
+      "source_sha256": "37946D3C58DFF64DE44560D82EA28E3C711C60DE7D4E9707C2DCD2FF53A34137",
+      "variant_sha256": "03AC60F1A293B35D50A93560AA52C9EE07786E5B17241DD49AB985C090AEFF3B",
+      "evidence_path": "[interní cesta nezveřejněna]",
+      "evidence_sha256": "DFCC20C11BB2CB15656DC9F8FE42BAC66698FCAD0074961F967F3F444B149282",
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "DFCC20C11BB2CB15656DC9F8FE42BAC66698FCAD0074961F967F3F444B149282",
+          "view": "100pct_variant_and_matched_source",
+          "resampling": "Whole source downsampled 3036x2160 to 1486x1059 LANCZOS before crop; variant crop unresampled; no local registration."
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "738E1A9B049D9D524C565487680401E66F25E26D437C0BE2B6E71D16F013AE16",
+          "view": "100pct_source",
+          "resampling": "none; one source pixel per file pixel"
+        }
+      ],
+      "description": "V originalu je tmava postava u paty prostredniho domu a dve postavy na prave strane ulice. Ve variante zustavaji v odpovidajicich polohach; tmavy tvar vlevo neni nova vymyslena osoba. Souhlasi take hlavni bloky prizemnich otvoru protilehleho nizkeho domu.",
+      "historical_impact": "minor",
+      "visibility": "100pct_only",
+      "significance_reason": "Samostatny detail brani mylnemu posouzeni zesileneho kontrastu postavy jako pridani nebo odstraneni objektu v COLOR_ONLY.",
+      "confidence": 0.91
+    },
+    {
+      "finding_id": "BM-F04",
+      "assessment": "minor_deviation",
+      "dimension": "image_fidelity",
+      "normalized_box": [
+        0.42,
+        0.69,
+        0.8,
+        0.98
+      ],
+      "box_format": "[x0,y0,x1,y1] normalized to full frame",
+      "source_sha256": "37946D3C58DFF64DE44560D82EA28E3C711C60DE7D4E9707C2DCD2FF53A34137",
+      "variant_sha256": "03AC60F1A293B35D50A93560AA52C9EE07786E5B17241DD49AB985C090AEFF3B",
+      "evidence_path": "[interní cesta nezveřejněna]",
+      "evidence_sha256": "127A56751D5CA9E7C233AEA0588A8E96162395F6945E5C5CD99E5139334A64F9",
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "127A56751D5CA9E7C233AEA0588A8E96162395F6945E5C5CD99E5139334A64F9",
+          "view": "100pct_variant_and_matched_source",
+          "resampling": "Whole source downsampled 3036x2160 to 1486x1059 LANCZOS before crop; variant crop unresampled; no local registration."
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "E6C53202C04E5771D5F53D3967D7CBE516321B84A068CDBAE75CB37BA705E9C5",
+          "view": "100pct_source",
+          "resampling": "none; one source pixel per file pixel"
+        }
+      ],
+      "description": "Varianta ma vyrazne ostrejsi zrnitou az hrudkovitou strukturu snehu a vozovky a zvyseny lokalni kontrast oproti originalu i po jeho zmenseni na stejne rozliseni. Trhlina archivniho papiru dole je zachovana. Nejde pouze o pridani chromaticity a puvodni skenovy sum neni presne zachovan.",
+      "historical_impact": "minor",
+      "visibility": "normal_view",
+      "significance_reason": "Jde prevazne o mikrotexturu povrchu bez presunu silnice nebo zmeny dolozene architektury. Pro tento kolorovany referencni pohled ji prijimam s povinnym zaznamem; neni vernou kopii zrnitosti skenu.",
+      "confidence": 0.97,
+      "metadata_web_required": true,
+      "automatic_fail": false
+    },
+    {
+      "finding_id": "BM-F05",
+      "assessment": "minor_deviation",
+      "dimension": "image_fidelity",
+      "normalized_box": [
+        0.54,
+        0.18,
+        0.98,
+        0.72
+      ],
+      "box_format": "[x0,y0,x1,y1] normalized to full frame",
+      "source_sha256": "37946D3C58DFF64DE44560D82EA28E3C711C60DE7D4E9707C2DCD2FF53A34137",
+      "variant_sha256": "03AC60F1A293B35D50A93560AA52C9EE07786E5B17241DD49AB985C090AEFF3B",
+      "evidence_path": "[interní cesta nezveřejněna]",
+      "evidence_sha256": "CBD8A532F848840E8981AD685EE12ABC5FDC18EE83C8D97E72972F9A8C124125",
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "CBD8A532F848840E8981AD685EE12ABC5FDC18EE83C8D97E72972F9A8C124125",
+          "view": "100pct_variant_and_matched_source",
+          "resampling": "Whole source downsampled 3036x2160 to 1486x1059 LANCZOS before crop; variant crop unresampled; no local registration."
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "875A44C96053F0C48235C8EE0CE899BCB04D03E3D8E22964F874520B235CCA01",
+          "view": "100pct_source",
+          "resampling": "none; one source pixel per file pixel"
+        }
+      ],
+      "description": "Hlavni kmeny, sikmy pravy kmen i puvodni bile okenni sestavy zustavaji ve stejnych polohach. Jemne vetvicky, jejich kontrast a snehove odlesky jsou doostrene nebo lokalne reinterpretovane; jednotlivou nejjemnejsi vetev nelze povazovat za presnou stopu originalu.",
+      "historical_impact": "minor",
+      "visibility": "100pct_only",
+      "significance_reason": "Nezjistil jsem odstraneni hlavni prekazky ani zmenu okna. Zmeny drobne kresby nemaji dolozeny zasadni historicky obsah, ale museji zustat v metadatech/webu.",
+      "confidence": 0.91,
+      "metadata_web_required": true,
+      "automatic_fail": false
+    },
+    {
+      "finding_id": "BM-F06",
+      "assessment": "positive",
+      "dimension": "identity_gate",
+      "normalized_box": [
+        0,
+        0,
+        0.22,
+        0.08
+      ],
+      "box_format": "[x0,y0,x1,y1] normalized to full frame",
+      "source_sha256": "37946D3C58DFF64DE44560D82EA28E3C711C60DE7D4E9707C2DCD2FF53A34137",
+      "variant_sha256": "03AC60F1A293B35D50A93560AA52C9EE07786E5B17241DD49AB985C090AEFF3B",
+      "evidence_path": "[interní cesta nezveřejněna]",
+      "evidence_sha256": "6165DFCC292047845BFF9F351032A50C1B5DAA13072092A3C8ADE97383E0681A",
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "6165DFCC292047845BFF9F351032A50C1B5DAA13072092A3C8ADE97383E0681A",
+          "view": "100pct_variant_and_matched_source",
+          "resampling": "Whole source downsampled 3036x2160 to 1486x1059 LANCZOS before crop; variant crop unresampled; no local registration."
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "CC846318B0325895C6CE430F1F4F49393C25EB2B6EE6EC354D70822B256DC5D9",
+          "view": "100pct_source",
+          "resampling": "none; one source pixel per file pixel"
+        }
+      ],
+      "description": "Rucni 539, podtrzeni a sipka u leveho domu jsou citelne v originalu i variante. Slepym manifestem uvedeny zaznam PHOTO/BW a overeny STREET_ASSIGNMENT spojuji cp_539_001.jpg s CP539; zadny cizi CP tomuto domu neprirazuji. Prostredni dum ma na hornim okraji samostatnou poznamku 315.",
+      "historical_impact": "material",
+      "visibility": "normal_view",
+      "significance_reason": "Maly archivni napis je zasadni pro identitu. CP539 znamena dum vstupujici z leveho okraje, nikoli nejvyraznejsi dum uprostred fotografie.",
+      "confidence": 0.95,
+      "identity_scope": "Only source photo and partially visible left-edge CP539. Other structures not independently assigned.",
+      "live_api_rechecked": false
+    },
+    {
+      "finding_id": "BM-F07",
+      "assessment": "positive",
+      "dimension": "color_hypothesis",
+      "normalized_box": [
+        0,
+        0.025,
+        0.15,
+        0.52
+      ],
+      "box_format": "[x0,y0,x1,y1] normalized to full frame",
+      "source_sha256": "37946D3C58DFF64DE44560D82EA28E3C711C60DE7D4E9707C2DCD2FF53A34137",
+      "variant_sha256": "03AC60F1A293B35D50A93560AA52C9EE07786E5B17241DD49AB985C090AEFF3B",
+      "evidence_path": "[interní cesta nezveřejněna]",
+      "evidence_sha256": "3C8C4D85CF7389E296391180356B34DD407E26D11D948326A06EA9AD22BA329A",
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "3C8C4D85CF7389E296391180356B34DD407E26D11D948326A06EA9AD22BA329A",
+          "view": "100pct_variant_and_matched_source",
+          "resampling": "Whole source downsampled 3036x2160 to 1486x1059 LANCZOS before crop; variant crop unresampled; no local registration."
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "D03108A3A2BB23E4171C775D0A2EFB1BE9DAC3FF77AD702C7F3DD154E4338DAA",
+          "view": "100pct_source",
+          "resampling": "none; one source pixel per file pixel"
+        }
+      ],
+      "description": "Tlumeny okrovy nater leve fasady, tmavohnede drevo a chladne zimni stiny jsou uvnitr teto varianty soudrzne a materialove rozlisitelne. Barevne rodiny kremove okolni fasady, cervene krytiny a zelene sedeho praveho domu jsou viditelne v celkovem srovnani. Zadna z techto barev neni dokazatelna z BW pramene.",
+      "historical_impact": "unknown",
+      "visibility": "normal_view",
+      "significance_reason": "Kladny hlas se tyka pouzitelnosti a vnitrni konzistence modelove barevne hypotezy. Historicka spravnost konkretniho odstinu zustava neoverena.",
+      "confidence": 0.88,
+      "color_historical_accuracy": null,
+      "model_hypothesis": true,
+      "status": "provisional",
+      "locked": false,
+      "cross_photo_material_consistency": null
+    }
+  ],
+  "evidence": [
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "EAAC868C31D3085644198C4E2C95F60C7A20B15504439E86498801273FC0CEDF",
+      "view": "normal_view",
+      "resampling": "Both resized independently to 720x513 LANCZOS; no registration or tonal adjustment."
+    }
+  ],
+  "evidence_index": {
+    "path": "[interní cesta nezveřejněna]",
+    "sha256": "5A5D6C8D551BB711751FC9497AB6E1F26C3F33940B807B8FC06D3285BD8F786D"
+  },
+  "inspection": {
+    "normal_view": {
+      "each_image_dimensions": [
+        720,
+        513
+      ],
+      "resampling": "Both independently Lanczos resized from full frame; no registration."
+    },
+    "native_detail": "Source-native crops plus paired source downsampled once by Lanczos to 1486x1059 and unresampled native variant crops; labels explicitly identify scale.",
+    "initial_source_tool_view": "Viewer resized source to 1888x1343; not used as a 100 percent detail.",
+    "alignment": "Whole-frame normalized coordinates; no local deformation, sharpening or exposure adjustment in QA assets.",
+    "aspect_ratio_difference_percent_approx": 0.17
+  },
+  "independence": {
+    "producer_readiness_or_opinion_read": false,
+    "other_qa_votes_read": false,
+    "coordinator_decisions_read": false,
+    "riegrova_findings_read": false,
+    "read_scope": "Three required protocols, frozen blind manifest, listed source and variant, listed assignment, own native counters and own evidence only."
+  },
+  "token_metrics_receipt": "[interní cesta nezveřejněna]",
+  "checked_at": "2026-10-23T11:40:49.366078+00:00",
+  "immutable": true,
+  "upload_authorized_by_this_vote": false,
+  "remote_verified": false,
+  "E_verified": false,
+  "backup_pending_E": true,
+  "minor_deviations": [
+    "BM-F04",
+    "BM-F05"
+  ]
+}

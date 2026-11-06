@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "role": "AZ",
+  "thread_id": "01a163ea-cd21-7a52-9eb1-163c6f2a0a41",
+  "street": "Nerudova",
+  "phase": "COLOR_ONLY",
+  "source": {
+    "filename": "cp_392_001.jpg",
+    "source_id": "b35f1789-d23d-41a4-ac7a-926ddd3afeee",
+    "covered_cps": [
+      "392"
+    ],
+    "type": "PHOTO,BW"
+  },
+  "attempts": [
+    {
+      "id": "attempt1",
+      "sha256": "C6D2F9138A8A8EAC8A892BE9E9A741E288E2DBB65DEA2978DB15DEC92EB13741",
+      "path": "[interní cesta nezveřejněna]"
+    },
+    {
+      "id": "attempt2",
+      "sha256": "1DA712CFDDE060D079A64831ED3CE9AE72AF4711443178A1B19F2BE785BC250B",
+      "path": "[interní cesta nezveřejněna]"
+    }
+  ],
+  "visual_qa": {
+    "result": "rejected_human_review_required",
+    "reason": "Both permitted COLOR_ONLY attempts altered legible source lettering or vehicle registration characters. Preservation fidelity was not met.",
+    "passed": false
+  },
+  "production_status": "blocked_for_human_review",
+  "upload_status": "not_uploaded",
+  "limitations": [
+    "One initial attempt and one correction have been used; do not generate another variant automatically."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "event": "final_native_counters",
+  "role": "BE",
+  "street": "Pražská",
+  "recorded_at_utc": "20261023T102608Z",
+  "goal_thread_id": "01a1683f-1a8e-7790-8cee-775247f35558",
+  "token_counter_source": "native_get_goal",
+  "tokens_start": 58250,
+  "tokens_end": 216279,
+  "tokens_delta": 158029,
+  "remaining_percent_start": 81,
+  "remaining_percent_end": 80,
+  "quota_counter_source": "get_usage_limits shared Codex primary usedPercent 19 then 20",
+  "unique_sources_attempted": 0,
+  "image_edits": 0,
+  "accepted_unique_photos": 0,
+  "accepted_cleanup_derivatives": 0,
+  "rejected_variants": 0,
+  "remote_hash_verified": 0,
+  "limitations": [
+    "Account percentage is shared and not attributed solely to BE.",
+    "No image generation/upload was permitted after source identity audit."
+  ],
+  "states": {
+    "production": "blocked_no_safe_generation",
+    "review": "human_review_required_building_identity",
+    "upload": "not_started",
+    "handoff_web": "waiting_for_serial_slot",
+    "backup": "F_verified_E_backup_pending"
+  }
+}

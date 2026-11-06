@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "pilot_id": "SPECIALIZED_20261022_MANESOVA",
+  "role": "AM",
+  "qa_phase": "color_only",
+  "qa_status": "failed_color_only",
+  "passed_color_only": false,
+  "cleanup_pass": null,
+  "attempts_used": 1,
+  "remaining_edit_attempts": 1,
+  "source_path": "[local evidence path omitted]",
+  "source_sha256": "a1a4a6d4b8390ef6dc6f89c04d57f58dff180744d6dcb07dbebb989b4de79421",
+  "output_path": "[local evidence path omitted]",
+  "output_sha256": "dbf56ced9c820eb4e3ad60b5f6e5b5bc3976df36b70f0ae4261aabc168941bf5",
+  "reference_records": [
+    {
+      "source_id": "f81fbe03-3fb6-444d-9a28-3c6d4b005ea1",
+      "path": "[local evidence path omitted]",
+      "sha256": "5cff6098528aaf0ecbb5acb39ab1c4eb448a5cd1f4c4f979a6162508bc1fc689"
+    },
+    {
+      "source_id": "440819c1-e90f-498d-8fdb-832dcfbb1cb7",
+      "path": "[local evidence path omitted]",
+      "sha256": "e35a15c5380bd157955297acfd9bdd071533167ef989e15455857bee1beb211d"
+    },
+    {
+      "source_id": "e6b5303d-38df-48bb-8075-c71604ab26e2",
+      "path": "[local evidence path omitted]",
+      "sha256": "0d2e479e3ae73b637d43d5b548760e821e6b56a5c20ee1831e01740547e986d8"
+    }
+  ],
+  "material_brief_path": "[local evidence path omitted]",
+  "material_brief_sha256": "8e344fda1cffed314a6f6b16441d7d0fcab7488f3792d356c10196e40c566879",
+  "qa_receipt": "[local evidence path omitted]",
+  "actual_model": "gpt-6-astra",
+  "colour_evidence": {
+    "confidence": "model_hypothesis",
+    "status": "provisional",
+    "locked": false
+  },
+  "completed_at_utc": "2026-10-22T06:01:02.056709+00:00",
+  "job_id": "AJ_MAN_14_a1a4a6d4b8",
+  "result": "repair",
+  "visual_inspection": {
+    "source_opened": true,
+    "output_opened": true,
+    "references_opened": true,
+    "identity": "L3C1 card explicitly workshop1269; left wing649 is context only.",
+    "objects": "Bush masses, roof opening, skylight, foreground wall and large lower-left archive spot retained.",
+    "roof": "Slate-grey hue consistent, but diffuse white weathering on upper-right roof has been substantially replaced by regular dark slate and isolated sharp white fragments."
+  },
+  "findings": [
+    {
+      "severity": "blocking",
+      "region_normalized": [
+        0.57,
+        0.12,
+        0.79,
+        0.3
+      ],
+      "issue": "Broad pale worn roof surface surrounding and below skylight in source changed into dark regular slate with sharp-edged chips. Original damage/weathering tonality lost.",
+      "required_action": "Restore source extent and diffuse pattern of white worn material; retain holes, scattered fragments and seams without reconstructing cleaner regular tiles."
+    },
+    {
+      "severity": "major",
+      "region_normalized": [
+        0.04,
+        0.07,
+        0.3,
+        0.3
+      ],
+      "issue": "Background facade texture greatly sharpened and warm cream relative to default grey context; left foreground edge also gains sharp masonry texture.",
+      "required_action": "Preserve original soft grain/tonality of non-target surfaces and use brief context warm-grey. Do not add new structural details."
+    }
+  ],
+  "upload_crop": {
+    "applied": false,
+    "reason": "Dark vertical left strip belongs inside original photo, not generated padding; original cream border remains."
+  },
+  "limitations": [
+    "Only cp1269 is target, other card references remain context.",
+    "Fine leaves and roofing seams are not pixel-exact; repair must prioritize original detail fidelity.",
+    "Material color assignments remain provisional."
+  ]
+}

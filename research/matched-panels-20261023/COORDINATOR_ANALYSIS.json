@@ -1,0 +1,83 @@
+{
+  "created_at": "2026-10-23T14:23:28.945Z",
+  "status": "coordinator_interpretation_not_human_gold_standard",
+  "cases": [
+    {
+      "case_id": "CASE-01",
+      "original_case_id": "RIEGROVA_CP387_002",
+      "panel_A": {
+        "positive": 2,
+        "negative": 1,
+        "review": 0,
+        "result": "accepted_research_majority"
+      },
+      "panel_B": {
+        "positive": 2,
+        "negative": 1,
+        "review": 0,
+        "result": "accepted_research_majority"
+      },
+      "disagreements": [
+        "BQ Sol6.1 flags added cloud band as material scene change.",
+        "BS Sol6.1 flags newly rendered plaster relief and cloud forms; raw findings retained.",
+        "BT Sol5.6 acknowledges clouds and surface changes but assesses them as minor/none historical impact.",
+        "BO/BP/BR Terra positive; their local preservation evidence does not refute all specific surface/sky objections."
+      ],
+      "identity": "All six image-only identity gates review; packet did not include full original catalog evidence. This does not revoke previous identity records."
+    },
+    {
+      "case_id": "CASE-02",
+      "original_case_id": "ROOSEVELTOVA-CP539-001",
+      "panel_A": {
+        "positive": 3,
+        "negative": 0,
+        "review": 0,
+        "result": "accepted_research_majority"
+      },
+      "panel_B": {
+        "positive": 3,
+        "negative": 0,
+        "review": 0,
+        "result": "accepted_research_majority"
+      },
+      "disagreements": [
+        "Snow/grain, clouds, contrast and fine branches differ in detection/visibility/severity; full reviewer arguments remain.",
+        "BQ supplemental changes visibility from 100pct_only to normal_view without changing overall positive."
+      ],
+      "identity": "All six positive for original 539 label/arrow and partial left-edge building; not live database verification."
+    },
+    {
+      "case_id": "CASE-03",
+      "original_case_id": "RIEGROVA_CP387_001",
+      "panel_A": {
+        "positive": 1,
+        "negative": 2,
+        "review": 0,
+        "result": "not_accepted"
+      },
+      "panel_B": {
+        "positive": 1,
+        "negative": 2,
+        "review": 0,
+        "result": "not_accepted"
+      },
+      "disagreements": [
+        "BP/BR Terra and BQ/BS Sol6.1 negative on image fidelity.",
+        "BO Terra positive with no material surface alteration reported.",
+        "BT Sol5.6 reports stronger swirling plaster texture but assesses historical impact minor and votes positive.",
+        "BQ and BS both describe newly explicit leaves in dark window; BQ rates material, BS minor. This subsidiary disagreement must remain visible."
+      ],
+      "identity": "All six positive on visible 387 plate; does not override image-fidelity rejection."
+    }
+  ],
+  "conclusion": "Both panels reached identical majorities and counts on all three pairs. This run does not demonstrate a decision-quality gain from model diversity. It demonstrates persistent detection/severity disagreements, including within the same model and between versions of Sol. Mandatory evidence improves auditability but does not guarantee adequate coverage or the same threshold.",
+  "limits": [
+    "Three purposefully selected pairs; two views of one house.",
+    "One realization per reviewer; no significance test or population inference.",
+    "No independent blinded human gold-standard adjudication.",
+    "Protocol differs from the original historical pilots; changes against old votes cannot be attributed to model composition alone.",
+    "Original operational acceptance/upload decisions remain unchanged; no new uploads or publications."
+  ],
+  "rule": "2_of_3_unchanged",
+  "veto": "proposal_only_not_applied"
+}

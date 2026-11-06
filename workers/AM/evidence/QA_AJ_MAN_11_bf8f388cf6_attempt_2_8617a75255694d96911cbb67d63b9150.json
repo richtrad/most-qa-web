@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "pilot_id": "SPECIALIZED_20261022_MANESOVA",
+  "role": "AM",
+  "qa_phase": "color_only",
+  "qa_status": "failed_color_only",
+  "passed_color_only": false,
+  "cleanup_pass": null,
+  "attempts_used": 2,
+  "remaining_edit_attempts": 0,
+  "source_path": "[local evidence path omitted]",
+  "source_sha256": "bf8f388cf633e0498854d0ac6eaf2e2beb74a20a93e0eae7dc43940cfbd9691f",
+  "output_path": "[local evidence path omitted]",
+  "output_sha256": "9184b5103dd4bfdd7a23825631a8dc74d645f81a54af491137676ca042cc311d",
+  "reference_records": [
+    {
+      "source_id": "6ba80718-ab63-4b9b-bd44-d08e3121553d",
+      "path": "[local evidence path omitted]",
+      "sha256": "0671104da42f858867cd1eb6a714fef060d298e67712770202e9e9e3e57d32ee"
+    },
+    {
+      "source_id": "440819c1-e90f-498d-8fdb-832dcfbb1cb7",
+      "path": "[local evidence path omitted]",
+      "sha256": "e35a15c5380bd157955297acfd9bdd071533167ef989e15455857bee1beb211d"
+    },
+    {
+      "source_id": "e6b5303d-38df-48bb-8075-c71604ab26e2",
+      "path": "[local evidence path omitted]",
+      "sha256": "0d2e479e3ae73b637d43d5b548760e821e6b56a5c20ee1831e01740547e986d8"
+    }
+  ],
+  "material_brief_path": "[local evidence path omitted]",
+  "material_brief_sha256": "7e1e4a9ae7a32bf2df851d78e7db9f9d4d2a291754b3976d4d4d425c55d7ac22",
+  "qa_receipt": "[local evidence path omitted]",
+  "actual_model": "gpt-6-astra",
+  "colour_evidence": {
+    "confidence": "model_hypothesis",
+    "status": "provisional",
+    "locked": false
+  },
+  "completed_at_utc": "2026-10-22T07:54:16.333461+00:00",
+  "job_id": "AJ_MAN_11_bf8f388cf6",
+  "result": "review",
+  "visual_inspection": {
+    "source_opened": true,
+    "output_opened": true,
+    "references_opened": true,
+    "reference_note": "Identity card and two plans were visually inspected in previous AM QA segment; unchanged reference hashes are rechecked now.",
+    "identity": "Workshop1269 remains confirmed. Prior note about uncertain background-house transcription stands; no additional house links.",
+    "repair_check": "Synthetic cloud bands and terracotta workshop edge removed; grey roof edge now consistent.",
+    "architecture_and_objects": "Principal doors, broken window panes, vegetation and loose debris retained.",
+    "damage": "New diagonal red masonry strip now runs below right gable slope, absent as resolved brick exposure in original."
+  },
+  "findings": [
+    {
+      "severity": "blocking",
+      "region_normalized": [
+        0.69,
+        0.22,
+        0.81,
+        0.4
+      ],
+      "issue": "Second attempt converts original dark/weathered gable plaster into a conspicuous diagonal exposed-brick band. Material boundary and resolved brick courses are not supported by original.",
+      "required_action": "Human review; attempts_used2 exhausted. No upload or third edit."
+    }
+  ],
+  "upload_crop": {
+    "applied": false,
+    "reason": "Cream archive border preserved; no new outer black padding."
+  },
+  "limitations": [
+    "Remaining fine synthesized texture and sharpening are not source evidence.",
+    "All hues provisional hypotheses.",
+    "Background house identities from brief must not expand target1269."
+  ]
+}

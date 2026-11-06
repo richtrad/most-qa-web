@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "role": "AZ",
+  "thread_id": "01a163ea-cd21-7a52-9eb1-163c6f2a0a41",
+  "street": "Nerudova",
+  "phase": "COLOR_ONLY",
+  "source": {
+    "filename": "cp_918_003.jpg",
+    "source_id": "55ef4680-4d5e-4695-9b80-09220a6593eb",
+    "structure_id": "8f91de89-8896-4ec7-a955-b24ab17414c5",
+    "covered_cps": [
+      "918"
+    ],
+    "type": "PHOTO,BW",
+    "sha256": "E4DEBFEF76D114139D85FFF109B1DDF180F74AAF7947BB40B868B142ABAC6D70"
+  },
+  "variant": {
+    "id": "attempt1",
+    "output_sha256": "011F970D6DB8F48190A9B85AB5A96997B2462F71FE76F7DDD6141581CE44D258",
+    "status": "accepted_as_final_color_only",
+    "paths": {
+      "d": "[interní cesta nezveřejněna]",
+      "e": "[interní cesta nezveřejněna]",
+      "f": "[interní cesta nezveřejněna]"
+    }
+  },
+  "materials": [
+    {
+      "id": "BRICK_WARM_RED_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "PLASTER_GREY_BEIGE_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "WOOD_WEATHERED_DARK_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "ROOF_SLATE_GREY_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    }
+  ],
+  "visual_qa": {
+    "result": "passed_color_only",
+    "checked": [
+      "archival border, courtyard geometry, tree, rubble and temporary wooden structure retained",
+      "visible damage, openings, rooflines and all foreground material retained",
+      "no object cleanup, inpainting, crop or geometry reconstruction",
+      "no external black padding"
+    ],
+    "limitations": [
+      "No direct period colour source found in current inventory; all colours are model hypotheses.",
+      "Editor output remains a lower-resolution provisional colour reference, not replacement source imagery."
+    ]
+  },
+  "production_status": "passed_color_only_local",
+  "upload_status": "pending_pipeline_live_dedup_lock_and_remote_byte_hash_verify",
+  "backup_status": "attempt D/E/F SHA256 verified",
+  "created_at_utc": "2026-10-22T14:45:47Z"
+}

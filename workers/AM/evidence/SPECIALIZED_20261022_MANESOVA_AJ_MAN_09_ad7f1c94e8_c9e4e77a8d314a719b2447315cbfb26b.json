@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "pilot_id": "SPECIALIZED_20261022_MANESOVA",
+  "job_id": "AJ_MAN_09_ad7f1c94e8",
+  "role": "AN",
+  "phase": "color_only",
+  "started_at": "2026-10-22T05:55:11.003065+00:00",
+  "actual_model": "gpt-6-astra",
+  "source_id": "962ffd6c-b72f-4cf4-a59f-8e38263038a2",
+  "source_sha256": "ad7f1c94e8a1f649998e46d48bc976f0fb994d2986d1c3379ee4c15808519958",
+  "target_cps": [
+    "1267"
+  ],
+  "structure_ids": [
+    "50e26ede-9ef6-41bb-9c8f-319785967a90"
+  ],
+  "qa_receipt": "[local evidence path omitted]",
+  "accepted_output_sha256": "f6e953310a900bc0b065923baede047be6f047fc90586ca91d90802b349f4b5b",
+  "run_id": "c9e4e77a8d314a719b2447315cbfb26b",
+  "remote_mutations": 1,
+  "qa_sha256": "38711ab6534ca33b8192f29fc547e7e370f0bc6ddbae3f8d1d3fcddad4cb2d35",
+  "colour_evidence": {
+    "confidence": "model_hypothesis",
+    "status": "provisional",
+    "locked": false
+  },
+  "qa_limitations": [
+    "All hues model_hypothesis/provisional/unlocked.",
+    "No cleanup or hidden reconstruction.",
+    "AN can use only exact accepted hash; later views must preserve rear warm-grey material assignment."
+  ],
+  "qa_crop": {
+    "applied": false,
+    "reason": "No new exterior black padding"
+  },
+  "cleanup_pass": null,
+  "local_output": "[local evidence path omitted]",
+  "tags": [
+    "PHOTO",
+    "BW",
+    "COLOR"
+  ],
+  "result": "verified",
+  "links": [
+    {
+      "cp": "1267",
+      "structure_id": "50e26ede-9ef6-41bb-9c8f-319785967a90",
+      "photo_id": "5fb19758-2b22-45eb-a6ac-7cb6008aadf5",
+      "filename": "cp_1267_002_col.png",
+      "tags": [
+        "PHOTO",
+        "BW",
+        "COLOR"
+      ],
+      "remote_copy": "[local evidence path omitted]",
+      "remote_sha256": "f6e953310a900bc0b065923baede047be6f047fc90586ca91d90802b349f4b5b",
+      "http_status": 200
+    }
+  ],
+  "photo_ids": [
+    "5fb19758-2b22-45eb-a6ac-7cb6008aadf5"
+  ],
+  "remote_sha256": "f6e953310a900bc0b065923baede047be6f047fc90586ca91d90802b349f4b5b",
+  "remote_copy": "[local evidence path omitted]",
+  "verified_links": 1,
+  "filename": "cp_1267_002_col.png",
+  "ended_at": "2026-10-22T05:55:13.935511+00:00",
+  "active_processing_seconds": 2.932446,
+  "ledger_receipt": "[local evidence path omitted]"
+}

@@ -1,0 +1,151 @@
+{
+  "reviewer_role": "BO",
+  "model": "gpt-5.6-terra/high",
+  "actual_model_evidence": null,
+  "protocol_sha256": "8b4b87143156cd62946aa657511c4e19ca5bc36df1c2b853a00e44c7311bcd7f",
+  "manifest_sha256": "a35166f2b12bc59201648fc0561a277de9c9036ad57d38d52f6c94ded6ce3e70",
+  "case_id": "CASE-03",
+  "source_sha256": "fe7132f347fd086075017e5011cdfe19d29723a9448b469aec57afb38c30f2ba",
+  "variant_sha256": "ff06e1b793eec56d17eb3b43f43699433b832c6c1076ebb8cf7e12a522a81661",
+  "visual_review_performed": true,
+  "image_fidelity": {
+    "verdict": "positive",
+    "reason": "The photo border, roof and wires, tree, façade texture and openings, number plaque, shop sign, people, pram and street scene are retained; no content-changing edit was observed."
+  },
+  "color_hypothesis": {
+    "verdict": "positive",
+    "reason": "The warm yellow plaster, red-brown joinery and roof, shaded masonry and green tree are mutually coherent while remaining unverified historical color hypotheses.",
+    "historical_truth": null,
+    "status": "provisional",
+    "locked": false
+  },
+  "identity_gate": {
+    "verdict": "positive",
+    "reason": "The source visibly carries a 387 plaque on the target façade, supporting the supplied identity claim."
+  },
+  "verdict": "positive",
+  "findings": [
+    {
+      "id": "FID-01",
+      "dimension": "image_fidelity",
+      "assessment": "positive",
+      "normalized_box": [
+        0.25,
+        0.06,
+        0.99,
+        0.6
+      ],
+      "description": "The photo border, roof and wires, tree, façade texture and openings, number plaque, shop sign, people, pram and street scene are retained; no content-changing edit was observed.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "Required visible archival content is retained in the paired detail.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "22e51f0ca969ed868d047bf91d559dfb8af65999145324fc49c179569ab70c0a",
+          "scale_note": "Native-pixel deterministic crop; no resampling or local deformation; normalized box recorded with the finding."
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "1b246ab86448a2fd90c412c25e901368f0b6fe30f7257e0be34fc93944940c81",
+          "scale_note": "Native-pixel deterministic crop; no resampling or local deformation; normalized box recorded with the finding."
+        }
+      ]
+    },
+    {
+      "id": "COL-01",
+      "dimension": "color_hypothesis",
+      "assessment": "positive",
+      "normalized_box": [
+        0.1,
+        0.58,
+        0.82,
+        0.98
+      ],
+      "description": "The warm yellow plaster, red-brown joinery and roof, shaded masonry and green tree are mutually coherent while remaining unverified historical color hypotheses.",
+      "historical_impact": "unknown",
+      "visibility": "normal_view",
+      "significance_reason": "Assessment concerns internal plausibility and consistency only; independent historical hue evidence was not supplied.",
+      "confidence": "medium",
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "86f1eec2305fed76e850c91e22ea91859eb93fac9f2b864aae9aae6546804674",
+          "scale_note": "Native-pixel deterministic crop; no resampling or local deformation; normalized box recorded with the finding."
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "b52bdf38a63df563b05ae9a991d3be395a435ed5cc48a3761faf3cff676b93db",
+          "scale_note": "Native-pixel deterministic crop; no resampling or local deformation; normalized box recorded with the finding."
+        }
+      ]
+    },
+    {
+      "id": "ID-01",
+      "dimension": "identity_gate",
+      "assessment": "positive",
+      "normalized_box": [
+        0.65,
+        0.6,
+        0.79,
+        0.78
+      ],
+      "description": "The source visibly carries a 387 plaque on the target façade, supporting the supplied identity claim.",
+      "historical_impact": "unknown",
+      "visibility": "normal_view",
+      "significance_reason": "Visible 387 façade plaque supports the supplied scope.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "86f1eec2305fed76e850c91e22ea91859eb93fac9f2b864aae9aae6546804674",
+          "scale_note": "Native-pixel deterministic crop; no resampling or local deformation; normalized box recorded with the finding."
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "b52bdf38a63df563b05ae9a991d3be395a435ed5cc48a3761faf3cff676b93db",
+          "scale_note": "Native-pixel deterministic crop; no resampling or local deformation; normalized box recorded with the finding."
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "5a900a3db6bd9f3a890a41aee5fadbcd8ef3c0e2a0d33d8fbd6a602ff8f94a86",
+      "scale_note": "Paired overview; source and variant deterministically downscaled to 800 x 585 px panels for whole-scene comparison; no generative edit."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "22e51f0ca969ed868d047bf91d559dfb8af65999145324fc49c179569ab70c0a",
+      "scale_note": "Native-pixel deterministic crop; no resampling or local deformation; normalized box recorded with the finding."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "1b246ab86448a2fd90c412c25e901368f0b6fe30f7257e0be34fc93944940c81",
+      "scale_note": "Native-pixel deterministic crop; no resampling or local deformation; normalized box recorded with the finding."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "86f1eec2305fed76e850c91e22ea91859eb93fac9f2b864aae9aae6546804674",
+      "scale_note": "Native-pixel deterministic crop; no resampling or local deformation; normalized box recorded with the finding."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "b52bdf38a63df563b05ae9a991d3be395a435ed5cc48a3761faf3cff676b93db",
+      "scale_note": "Native-pixel deterministic crop; no resampling or local deformation; normalized box recorded with the finding."
+    }
+  ],
+  "checked_at": "2026-10-23T14:12:19.5888235Z",
+  "blind_isolation": {
+    "external_reviews_read": false,
+    "web_or_api_used": false,
+    "contamination_detected": false
+  },
+  "storage": {
+    "f_evidence_root": "[interní cesta nezveřejněna]",
+    "backup_pending_E": true,
+    "f_preflight_sha256": "be04a12eebc9417f2e8afa2465923649efb249995136d9677d7d23bf920531bb"
+  }
+}

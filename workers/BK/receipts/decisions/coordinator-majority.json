@@ -1,0 +1,76 @@
+{
+  "case_id": "ROOSEVELTOVA-CP539-001",
+  "source_id": "cab231a5-392f-42d1-9ab5-f2cce57fb488",
+  "source_sha256": "37946D3C58DFF64DE44560D82EA28E3C711C60DE7D4E9707C2DCD2FF53A34137",
+  "variant_id": "BK-RV-CP539-001-A01",
+  "variant_sha256": "03AC60F1A293B35D50A93560AA52C9EE07786E5B17241DD49AB985C090AEFF3B",
+  "votes": [
+    {
+      "role": "BL",
+      "configured_model": "gpt-5.6-terra",
+      "verdict": "review",
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "5a588b0833df7d913b1be021a5aec2cd9036982bcc56694563a5f44cbe003329",
+      "evidence_files_verified": 7,
+      "actual_model_evidence": {
+        "actual_model": null,
+        "evidence": null,
+        "status": "unknown_not_exposed_by_native_goal_or_tooling"
+      }
+    },
+    {
+      "role": "BM",
+      "configured_model": "gpt-6.1-sol",
+      "verdict": "positive",
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "ed012408a4060456f73cdeacb77fcc8e4e70cbf8ae913272975eee5178299f78",
+      "evidence_files_verified": 13,
+      "actual_model_evidence": {
+        "source": "own native rollout turn_context",
+        "session_log": "[interní cesta nezveřejněna]",
+        "timestamp": "2026-10-23T11:33:47.714Z",
+        "model": "gpt-6.1-sol",
+        "effort": "high"
+      }
+    },
+    {
+      "role": "BN",
+      "configured_model": "gpt-5.6-sol",
+      "verdict": "positive",
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "6dc1c3f2ad5bcc102fbcb327b14a77683dfe35104a1a98db706500d4f466c008",
+      "evidence_files_verified": 7,
+      "actual_model_evidence": null
+    }
+  ],
+  "positive_roles": [
+    "BM",
+    "BN"
+  ],
+  "majority_threshold_met": true,
+  "input_identity": "annotation 539 and single candidate source; positive identity gate in all three reviews; no fresh upload dedup performed",
+  "minor_deviations": [
+    "reduced raster 3036x2160 to1486x1059",
+    "synthetic fine snow texture at100pct",
+    "fine branches/grain/local contrast changes"
+  ],
+  "upload_performed": false,
+  "manifest_sha256": "e5f43237b9584ad76479c677003c16b40c24e72fab5b0ce35ebb8aa0ae8e79d4",
+  "decision": "accepted_by_2_of_3_with_minor_deviations",
+  "rule": "user_two_of_three_unchanged",
+  "input_gate": "Visually supported CP539 annotation + source/assignment mapping; all reviewers positive identity; ownership BK reservation",
+  "actual_model_BN_verified": {
+    "model": "gpt-5.6-sol",
+    "effort": "high",
+    "basis": "Own BN session turn_context 2026-10-23T11:34:02Z independently read by coordinator; no raw session copied"
+  },
+  "minority": "BL review only for lack of independent historical color truth; image fidelity and identity positive. Original review vote preserved, not converted to positive.",
+  "mandatory_disclosure": [
+    "reduced raster 3036x2160 to1486x1059",
+    "synthetic fine snow texture at100pct",
+    "fine branches/grain/local contrast changes"
+  ],
+  "upload_gate": "BK must first preserve minor-deviation metadata and local handoff web, then fresh quota/live dedup/lock/crop/tag/remote byte verify; no overwrite on conflict",
+  "checked_at": "2026-10-23T11:50:49.105Z",
+  "tokens_total": null
+}

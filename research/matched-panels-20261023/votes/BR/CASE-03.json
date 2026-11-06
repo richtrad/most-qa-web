@@ -1,0 +1,133 @@
+{
+  "reviewer_role": "BR",
+  "model": "gpt-5.6-terra",
+  "actual_model_evidence": "User-provided delegation instruction states gpt-5.6-terra/high; not independently machine-verifiable.",
+  "protocol_sha256": "8b4b87143156cd62946aa657511c4e19ca5bc36df1c2b853a00e44c7311bcd7f",
+  "manifest_sha256": "a35166f2b12bc59201648fc0561a277de9c9036ad57d38d52f6c94ded6ce3e70",
+  "case_id": "CASE-03",
+  "source_sha256": "fe7132f347fd086075017e5011cdfe19d29723a9448b469aec57afb38c30f2ba",
+  "variant_sha256": "ff06e1b793eec56d17eb3b43f43699433b832c6c1076ebb8cf7e12a522a81661",
+  "visual_review_performed": true,
+  "image_fidelity": {
+    "verdict": "negative",
+    "reason": "Přes zachované otvory a střechu se na původně obyčejné, nepravidelně poškozené omítce objevuje plošná opakovaná ornamentální kresba. Jde o nově doplněný obrazový obsah, ne o přibarvení."
+  },
+  "color_hypothesis": {
+    "verdict": "negative",
+    "reason": "Plošně opakovaný ornament ve žluté omítce není v dodaném zdroji materiálově doložen a narušuje věrohodnost hypotézy povrchu; historická pravdivost odstínů zůstává neověřená.",
+    "historical_truth": null,
+    "status": "provisional",
+    "locked": false
+  },
+  "identity_gate": {
+    "verdict": "positive",
+    "reason": "Čitelné číslo 387 u vstupu je ve zdroji i výsledku zachováno a přímo podporuje dodaný claim."
+  },
+  "verdict": "negative",
+  "findings": [
+    {
+      "id": "F-01",
+      "dimension": "identity_gate",
+      "assessment": "positive",
+      "normalized_box": [
+        0.56,
+        0.56,
+        0.83,
+        0.95
+      ],
+      "description": "Číslo 387, vstup, osoby a přilehlé zdivo zůstávají viditelné a čitelné.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "Přímá viditelná opora identity dodaného cíle.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "b7dcd1e2946e6b456ac3ed3d0ecdaaedc07646e47349003f993589525f56f486",
+          "scale_note": "Matched normalized crop, resampled only for pair."
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "83a4d6aef4e8c481170e0bc8e4a6f83a6d1069fde0cfa68da45524e6c94c5bb4",
+          "scale_note": "Native-pixel source crop."
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "a0519231a95eb45571dde320de4dda3b125f4a26724c876e206d81b7153156ad",
+          "scale_note": "Native-pixel result crop."
+        }
+      ]
+    },
+    {
+      "id": "F-02",
+      "dimension": "image_fidelity",
+      "assessment": "negative",
+      "normalized_box": [
+        0.35,
+        0.06,
+        0.98,
+        0.66
+      ],
+      "description": "Na omítce mezi okny a pod okapem přibyla opakovaná svinutá/květinová kresba, která ve zdroji jako samostatný dekorativní povrch není.",
+      "historical_impact": "material",
+      "visibility": "normal_view",
+      "significance_reason": "Mění dokumentovaný charakter fasádního materiálu na rozsáhlé ploše.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "6d50cfaab940041511cb03c749f3bcc548ab926bcb95677b1525031fc920b0cc",
+          "scale_note": "Matched normalized crop, resampled only for pair."
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "43f99375227b01569b25556db6486fcc623ed073ec785a7c0b3c0b5092b597e7",
+          "scale_note": "Native-pixel source crop."
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "8d8237f073fbe148a3a576babed3a920997337529b003d78a0d8ca37b2d40c6a",
+          "scale_note": "Native-pixel result crop."
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "91484a1603a2d3efd853a4f146a2beca0a54600c9da47c95e821901fdf5a69d5",
+      "scale_note": "Source and result are resampled only for a single paired overview; no local deformation or retouching."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "b7dcd1e2946e6b456ac3ed3d0ecdaaedc07646e47349003f993589525f56f486",
+      "scale_note": "Matched normalized crop, resampled only for side-by-side display."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "6d50cfaab940041511cb03c749f3bcc548ab926bcb95677b1525031fc920b0cc",
+      "scale_note": "Matched normalized crop, resampled only for side-by-side display."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "83a4d6aef4e8c481170e0bc8e4a6f83a6d1069fde0cfa68da45524e6c94c5bb4",
+      "scale_note": "Native-pixel source crop; deterministic crop only."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "a0519231a95eb45571dde320de4dda3b125f4a26724c876e206d81b7153156ad",
+      "scale_note": "Native-pixel result crop; deterministic crop only."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "43f99375227b01569b25556db6486fcc623ed073ec785a7c0b3c0b5092b597e7",
+      "scale_note": "Native-pixel source crop; deterministic crop only."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "8d8237f073fbe148a3a576babed3a920997337529b003d78a0d8ca37b2d40c6a",
+      "scale_note": "Native-pixel result crop; deterministic crop only."
+    }
+  ],
+  "checked_at": "2026-10-23T14:10:34.3487132Z"
+}

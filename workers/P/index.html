@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b1017">
+<title>Předání k lidské revizi · Hřbitovní · MOST</title>
+<meta name="description" content="Soukromé předání COLOR_ONLY role P: všechny vstupy, varianty, doložená rozhodnutí, QA omezení a otevřené otázky.">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body><aside style="position:relative;z-index:10;padding:14px;background:#fff0c8;color:#243337;font:15px/1.5 system-ui;border-bottom:2px solid #a37727"><a href="/most-qa-web/index.html">← Centrální hodnocení a nové případy</a> · Veřejná webová kopie archivu 23.–24. 10. 2026. Obrazy jsou <b>webové náhledy</b>; originály a původní hashe jsou v privátním archivu. Jemné detaily bez originálu neoznačujte za ověřené. Poznámky zůstávají jen v tomto prohlížeči; použijte zdejší export JSON. Rozhodnutí se sama neaplikují.</aside>
+<a class="skip" href="#main">Přeskočit na obsah</a>
+<header><a class="brand" href="index.html">MOST</a><span class="tag">Soukromé předání · role P</span><a class="lang" href="en/index.html" lang="en">English</a></header>
+<main class="wrap" id="main">
+<p class="crumb">MOST / Hřbitovní / Předání role P</p>
+<section class="hero">
+<div><p class="eyebrow">PŘEDÁNÍ K LIDSKÉ REVIZI · 22. 10. 2026</p><h1>Hřbitovní<br>co je hotové a co zbývá</h1>
+<p class="lead">Kolorizace COLOR_ONLY má tři unikátní fotografické skupiny a šest doložených pokusů. Uživatel zvolil pokus 2 u dvou případů; tyto soubory jsou nahrané a jejich vzdálené bajty jsou ověřené podle uložených receiptů.</p>
+<p><span class="status good">COLOR_ONLY dokončeno s omezeními</span> <span class="status warn">webový draft čeká na funkční a browser QA</span></p>
+<p class="muted">Tato lokální soukromá příprava nepřepisuje produkční QA ani aktuální stav Libuše. Náhled a nové poznámky jsou oddělené od dříve doložených rozhodnutí.</p></div>
+<img class="hero-image" src="/most-qa-web/media/9a7b9d48db9ad4a7caf257dc67f8fb0496154986.webp" alt="Kontaktní list dříve přijatého kolorovaného snímku Hřbitovní.">
+</section>
+<section class="stats" aria-label="Souhrn dávky">
+<div class="stat"><strong id="case-count">3</strong>unikátní fotografické skupiny</div>
+<div class="stat"><strong id="attempt-count">6</strong>pokusů v původní dávce</div>
+<div class="stat"><strong id="attachment-count">5</strong>vzdálených vazeb podle receipts</div>
+<div class="stat"><strong>2</strong>otevřené kontroly evidence</div>
+</section>
+<section class="panel">
+<h2>Odpověď na předání</h2>
+<p><strong>Produkční výběr v COLOR_ONLY nečeká na nové rozhodnutí:</strong> cp_691,1894_001 zůstává přijatý s omezením; u cp_691_003 a cp_691,1894_002 byly pokusy 2 výslovně schváleny a nahrány.</p>
+<p><strong>Otevřené jsou dvě kontroly evidence:</strong> inventář řadí dva rukopisné informační listy jako PHOTO,BW a současně uvádí has_archive_card=false; a ve výběru byly dva blízké snímky přeskočeny podle směru a geometrie. Karty níže umožňují zapsat lidské stanovisko, ale nic samy neaplikují.</p>
+<p><strong>Další blokace/omezení:</strong> barvy jsou provizorní hypotézy; sdílené fotografie nedokládají samy o sobě přesné hranice jednotlivých fasád; historická datace rukopisných poznámek není nezávisle ověřena; 3D model není k dispozici. Cleanup, rekonstrukce skrytých ploch, FRONT a MULT nejsou součástí této fáze.</p>
+<p><span class="status warn">Stav webu: draft_functional_qa_pending</span> <span class="status warn">Snímek obrazovky: screenshot_pending</span></p>
+<a class="jump" href="street_page/index.html">Přejít na přehled ulice Hřbitovní →</a>
+</section>
+<section>
+<p class="eyebrow">TŘI FOTOGRAFICKÉ SKUPINY · VSTUPY A POKUSY V PLNÉM ROZLIŠENÍ</p>
+<h2>Porovnání a rozhodovací karty</h2>
+<p class="muted">U každé fotografie lze obrázek otevřít v plné velikosti. Odmítnutí, pozdější uživatelské schválení, QA a remote ověření jsou vedené odděleně.</p>
+<div id="cases"></div>
+</section>
+<section>
+<p class="eyebrow">ROZPORY A VYNECHANÉ VSTUPY</p>
+<h2>Otevřené kontroly evidence</h2>
+<p class="muted">Nejde o povolení ke kolorování ani novému pokusu. Fotografie a rukopisné karty jsou přiložené, aby šly zkontrolovat společně.</p>
+<div id="open-reviews"></div>
+<h2 id="all-inputs">Další vstupní snímky</h2>
+<p class="muted">Celkem sedm originálních vstupů: tři fotografické skupiny výše, dva přeskočené blízké záběry a dvě rukopisné informační karty níže.</p>
+<div id="other-sources"></div>
+</section>
+<section class="panel">
+<h2>Uložit místní stanovisko</h2>
+<p>Rozpracované volby se ukládají pouze do localStorage tohoto prohlížeče pod odděleným klíčem role P / Hřbitovní / COLOR_ONLY. Tato stránka nic neposílá na server.</p>
+<div class="actions"><button class="button" id="export-json" type="button">Stáhnout JSON stanoviska</button><button class="button secondary" id="clear-local" type="button">Smazat místní rozpracované volby</button></div>
+<p class="note">Export obsahuje schema_version, case/source/variant ID, SHA-256, verzi výchozího stavu, komentář, čas a <code>application_status: not_applied</code>. Nezmění QA, upload ani rozhodnutí v původní evidenci a nepovoluje nový obrazový pokus či upload.</p>
+<p class="note">V tomto webovém stagingu nebylo provedeno browser QA; žádné screenshoty zde nejsou předstírány. Soukromý balík čeká na následné funkční/browser ověření koordinátorem.</p>
+</section>
+</main>
+<footer>Projekt MOST · role P · Hřbitovní. Původní zdroje a varianty jsou zachovány; barvy zůstávají provizorními materiálovými hypotézami.</footer>
+<script src="review-data.js"></script>
+<script src="assets/js/app.js"></script>
+<script defer src="/most-qa-web/public-tools.js"></script></body>
+</html>

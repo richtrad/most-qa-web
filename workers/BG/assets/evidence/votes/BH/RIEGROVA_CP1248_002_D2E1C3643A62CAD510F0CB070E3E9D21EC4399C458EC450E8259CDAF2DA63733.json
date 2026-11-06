@@ -1,0 +1,54 @@
+{
+  "role": "BH",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "model_source": "delegated_role_assignment",
+  "case_id": "RIEGROVA_CP1248_002",
+  "source_id": "7b35e23d-fad9-4d72-bb46-4b6bdb87e953",
+  "source_sha256": "1D8910F1A58B91756139E5B6162449F307E9080FC073905520CBF177F3D0D482",
+  "variant_id": "BG_RIEGROVA_CP1248_002_ATTEMPT02",
+  "variant_sha256": "D2E1C3643A62CAD510F0CB070E3E9D21EC4399C458EC450E8259CDAF2DA63733",
+  "phase": "color_only",
+  "visual_review_performed": true,
+  "verdict": "positive",
+  "findings": [
+    "The damaged rear elevation, openings, rubble, vegetation, and archival framing remain visible and structurally consistent with the source.",
+    "No prohibited cleanup, inpainting, hidden-surface reconstruction, or new black edge fill is observed."
+  ],
+  "evidence": [
+    {
+      "source_path": "[interní cesta nezveřejněna]",
+      "source_sha256": "1D8910F1A58B91756139E5B6162449F307E9080FC073905520CBF177F3D0D482",
+      "variant_path": "[interní cesta nezveřejněna]",
+      "variant_sha256": "D2E1C3643A62CAD510F0CB070E3E9D21EC4399C458EC450E8259CDAF2DA63733",
+      "comparison": "source and exact V3 variant actually opened and visually compared by BH"
+    }
+  ],
+  "input_gates": {
+    "identity_status": "pending",
+    "ownership_status": "verified",
+    "identity_resolution_performed": false,
+    "upload_authorized_by_this_vote": false
+  },
+  "blind_protocol": {
+    "manifest_path": "[interní cesta nezveřejněna]",
+    "manifest_sha256": "6B0AB974043AB92D81FAC711F219140EBED0B28C796BA2A127C61E1210583E2C",
+    "independent_review": "BH did not read producer verdicts, other QA votes, or a shared decision before this immutable vote."
+  },
+  "material_status": {
+    "status": "model_hypothesis",
+    "confidence": "provisional",
+    "locked": false
+  },
+  "token_metrics_receipt": {
+    "path": "[interní cesta nezveřejněna]",
+    "sha256": "7041035362816D4B01F1E31FE367CD6B734460ED74020067E1225810F20551DF",
+    "copy_status": "D_and_F_sha256_verified; backup_pending_E"
+  },
+  "checked_at": "2026-10-23T11:19:16.1400397Z",
+  "storage": {
+    "d_copy": "written",
+    "f_copy": "written_and_sha256_verified",
+    "e_copy": "backup_pending_E"
+  }
+}

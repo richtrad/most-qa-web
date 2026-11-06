@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "receipt_type": "producer_visual_preservation_review",
+  "street": "Riegrova",
+  "owner": "BG",
+  "reviewed_at_utc": "2026-10-23T12:09:03Z",
+  "phase": "color_only",
+  "reviewer_role": "BG producer self-review",
+  "independent": false,
+  "source_record_receipt": "[interní cesta nezveřejněna]",
+  "source_record_receipt_sha256": "551CB43015E0FCCB90024B34452977F850EDA006CBE9C1E4E463377C44E786EA",
+  "records": [
+    {
+      "limitations": [
+        "noticeable loss of fine detail at roughly half linear resolution",
+        "facade-to-CP mapping remains unresolved because courtyard view does not match the verified street view"
+      ],
+      "filename": "cp_387_003.jpg",
+      "variant_sha256": "A1C5005AD1E6F072C814383AA9C9596CE351F7DF428F4B4B8692B4A5B52269BD",
+      "variant_dimensions": "1087x1446",
+      "observed_preserved": [
+        "facade geometry, roofline, chimney, windows, visible damage and archival border",
+        "trees, truck, fence, path, stone edging and yard composition"
+      ],
+      "source_id": "184de19a-2ba4-48f9-8708-f2bdf1f23839",
+      "variant": "cp_387_003_col.png",
+      "observed_color_hypotheses": "warm plaster, exposed brick, terracotta roof, blue sky and muted vegetation; all provisional",
+      "source_dimensions": "2160x2872",
+      "source_sha256": "5054A0C389E8464F47B0378A1A037E549CCEBF3AA47B682F7CD8DC41AF10DAF9",
+      "disposition": "self_review_only_not_QA_accepted"
+    },
+    {
+      "limitations": [
+        "noticeable loss of fine facade detail and lettering at roughly half linear resolution",
+        "the photo includes several facades without a uniquely confirmed CP1289 target boundary"
+      ],
+      "filename": "cp_1289_001.jpg",
+      "variant_sha256": "A9DF276D8183F087CF18D16AA6D9139101DF0260A01BF87BA2B35356A050E6DC",
+      "variant_dimensions": "1092x1440",
+      "observed_preserved": [
+        "multi-facade composition, openings, roofline, street, traffic sign and pole",
+        "visible facade graffiti/marks, archival border and upper-right red stamp"
+      ],
+      "source_id": "03c30d96-f2d2-40b2-983b-740b716418c0",
+      "variant": "cp_1289_001_col.png",
+      "observed_color_hypotheses": "distinct red, ochre, olive/gray facade materials and gray road; all provisional",
+      "source_dimensions": "2160x2844",
+      "source_sha256": "4E6846BDCA5ECEEE2E86367F5CAEF21E35F9314D61A767CF60AA40B9045FC9CA",
+      "disposition": "self_review_only_not_QA_accepted"
+    }
+  ],
+  "overall_status": "visual observations recorded; no independent QA pass",
+  "independent_QA": "pending_user_authorization_for_BI_BJ",
+  "identity": "pending for both",
+  "materials": "model_hypothesis/provisional/locked=false",
+  "upload_authorized": 0,
+  "upload_performed": 0,
+  "no_content_mutation": true
+}

@@ -1,0 +1,74 @@
+{
+  "reviewer_role": "BP",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "actual_model_evidence": null,
+  "protocol_sha256": "8b4b87143156cd62946aa657511c4e19ca5bc36df1c2b853a00e44c7311bcd7f",
+  "manifest_sha256": "a35166f2b12bc59201648fc0561a277de9c9036ad57d38d52f6c94ded6ce3e70",
+  "case_id": "CASE-03",
+  "source_sha256": "fe7132f347fd086075017e5011cdfe19d29723a9448b469aec57afb38c30f2ba",
+  "variant_sha256": "ff06e1b793eec56d17eb3b43f43699433b832c6c1076ebb8cf7e12a522a81661",
+  "visual_review_performed": true,
+  "image_fidelity": {
+    "verdict": "negative",
+    "reason": "At the upper-right open window, the result contains distinct green foliage-like content not resolved as drawing/content in the source. This is more than a color assignment and is material to the depicted facade, despite other preserved elements."
+  },
+  "color_hypothesis": {
+    "verdict": "positive",
+    "reason": "Independently of the fidelity failure, the plaster, roof, joinery, sky, tree and clothing colors form an internally consistent provisional material hypothesis; historical truth is not asserted.",
+    "historical_truth": null,
+    "status": "provisional",
+    "locked": false
+  },
+  "identity_gate": {
+    "verdict": "positive",
+    "reason": "A readable 387 plaque is visible beside the central entrance in the source and corresponds to the supplied target-facade claim."
+  },
+  "verdict": "negative",
+  "findings": [
+    {
+      "id": "CASE-03-FID-NEG",
+      "dimension": "image_fidelity",
+      "assessment": "added_or_unresolved_content",
+      "normalized_box": [
+        0.4,
+        0,
+        1,
+        0.6
+      ],
+      "description": "The upper-right open window in the result contains distinct green foliage-like forms; the corresponding source opening does not resolve this content.",
+      "historical_impact": "material",
+      "visibility": "normal_view",
+      "significance_reason": "Adds a discernible element inside a documented opening and can mislead later facade reconstruction.",
+      "confidence": 0.84,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "522ff3d423352f594f513dcb9579d38ca063c5aebd8874d322677ac1068e857f",
+          "scale_note": "Paired raster: left source region resampled to the corresponding native result-region dimensions without crop/content alteration; right native result region."
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "b21fd02637e9342a95af5c273a8c00b2b626b5d39ddc966d36311f063d4b1c44",
+      "scale_note": "Paired full view: left source raster resampled to native result dimensions; right native result raster."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "e06b97480c4de75c74984e921c961d354777ab923e92fd706363938a1789be01",
+      "scale_note": "Paired raster: left source region resampled to the corresponding native result-region dimensions without crop/content alteration; right native result region."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "522ff3d423352f594f513dcb9579d38ca063c5aebd8874d322677ac1068e857f",
+      "scale_note": "Paired raster: left source region resampled to the corresponding native result-region dimensions without crop/content alteration; right native result region."
+    }
+  ],
+  "checked_at": "2026-10-23T14:08:47.1519784Z",
+  "original_vote_path": "[interní cesta nezveřejněna]",
+  "original_vote_sha256": "650217b39654d47e6fe18bd5d338140b33236c800e66b13543afd1a534ab4368",
+  "schema_correction": "Structure-only correction: flat evidence arrays and explicit model/reasoning fields; verdicts, reasons and retained original finding content are unchanged."
+}

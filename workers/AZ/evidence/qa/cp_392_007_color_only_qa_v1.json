@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-22T15:54:00Z",
+  "role": "AZ",
+  "thread_id": "01a163ea-cd21-7a52-9eb1-163c6f2a0a41",
+  "street": "Nerudova",
+  "phase": "COLOR_ONLY",
+  "source": {
+    "filename": "cp_392_007.jpg",
+    "source_type": "PHOTO,BW",
+    "source_id": "969275b4-9649-4f5a-99bd-efd47001f8f3",
+    "covered_cps": [
+      "392"
+    ],
+    "sha256": "B91DCF5564074F1DD90E4817A05EF8C35A26CDBD136826D618E6F43447338085"
+  },
+  "candidate": {
+    "filename": "cp_392_007_col__attempt1.png",
+    "sha256": "EE05A640C4CF717EFBFB32CC084951CFBB1A4D50C473DB2C8CF8D73536DE9915",
+    "attempt": 1,
+    "max_attempts": 2
+  },
+  "decision": "passed_color_only_local_pending_automatic_qa",
+  "checks": {
+    "source_is_direct_photo": true,
+    "one_source_to_one_output": true,
+    "architecture_and_composition_preserved": true,
+    "trees_wires_wall_damage_and_distant_silhouette_preserved": true,
+    "archival_white_border_preserved": true,
+    "no_cleanup_or_object_removal": true,
+    "no_front_or_mult_derivative": true,
+    "no_external_black_padding": true,
+    "model_hypothesis_metadata_required": true
+  },
+  "materials": [
+    {
+      "id": "BRICK_RED_BROWN_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "PLASTER_WARM_GREY_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "ROOF_TERRACOTTA_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "WOOD_WEATHERED_DARK_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    }
+  ],
+  "limitations": [
+    "No direct period colour reference was found; every assigned colour is a provisional model hypothesis.",
+    "Automatic pipeline QA and, only after passing it, upload remain outstanding."
+  ]
+}

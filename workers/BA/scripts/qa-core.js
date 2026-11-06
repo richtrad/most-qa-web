@@ -1,0 +1,12 @@
+(function(g,f){var a=f();if(typeof module==='object'&&module.exports)module.exports=a;g.MostQaCore=a;})(typeof globalThis!=='undefined'?globalThis:this,function(){'use strict';
+var roots=['assets/originals/','assets/accepted_outputs/','assets/attempts/','assets/evidence/','assets/data/'];
+function locale(x){if(x!=='cs'&&x!=='en')throw Error('Unsupported locale');return x;}
+function safePath(p){if(typeof p!=='string'||!p||p[0]==='/'||p.indexOf(String.fromCharCode(92))>=0)throw Error('Unsafe path');var a=p.split('/').map(function(s){var d;try{d=decodeURIComponent(s);}catch(e){throw Error('Bad encoding');}if(!s||d==='.'||d==='..'||d.indexOf('/')>=0||d.indexOf(String.fromCharCode(92))>=0||d.indexOf(':')>=0)throw Error('Unsafe segment');return d;}).join('/');if(!roots.some(function(r){return a.indexOf(r)===0;}))throw Error('Unapproved root');return a;}
+function assetUrl(l,p,set){locale(l);var s=safePath(p);if(set&&!set.has(s))throw Error('Unmanifested asset');return '../'+s.split('/').map(encodeURIComponent).join('/');}
+function decodeAssetUrl(u){if(typeof u!=='string'||u.indexOf('../assets/')!==0)throw Error('Unexpected URL');return safePath(u.slice(3));}
+function localeHref(a,b){locale(a);locale(b);return '../'+b+'/index.html';}
+function resolveVariant(c,id,h){if(!id||!h||!c||!Array.isArray(c.variants))return null;return c.variants.find(function(v){return v.variant_id===id&&String(v.sha256).toUpperCase()===String(h).toUpperCase();})||null;}
+function storageKey(id){if(typeof id!=='string'||!id||id.indexOf('/')>=0||id.indexOf(String.fromCharCode(92))>=0)throw Error('Invalid case id');return 'mostqa:BA:case:v1:'+id;}
+function decision(x){return ['undecided','accept_selected_variant','request_more_sources','leave_blocked'].indexOf(x)>=0?x:'undecided';}
+function exportDecision(c,s,v){s=s||{};var x=resolveVariant(c,s.selected_variant_id,s.selected_variant_sha256),d=decision(s.decision);if(d==='accept_selected_variant'&&!x)d='undecided';var q=c.source||{};return {case_id:c.case_id,source:{source_record_id:q.source_record_id||null,filename:q.filename||null,sha256:q.sha256||null,included:!!q.included},variant:x?{variant_id:x.variant_id,sha256:x.sha256}:{variant_id:null,sha256:null},decision:d,comment:typeof s.comment==='string'?s.comment:'',version:v||'1.0.0',application_status:'not_applied'};}
+return {safeAssetPath:safePath,assetUrl:assetUrl,decodeAssetUrl:decodeAssetUrl,localeHref:localeHref,resolveVariant:resolveVariant,storageKey:storageKey,normalizeDecision:decision,exportDecision:exportDecision};});

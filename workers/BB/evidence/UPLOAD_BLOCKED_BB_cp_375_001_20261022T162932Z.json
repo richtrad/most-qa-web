@@ -1,0 +1,20 @@
+{
+  "record_type": "sanitized_receipt_extract",
+  "receipt_filename": "UPLOAD_BLOCKED_BB_cp_375_001_20261022T162932Z.json",
+  "source": {
+    "filename": "cp_375_001.jpg"
+  },
+  "output": {
+    "filename": "cp_375_001_col.png",
+    "sha256": "228C28B11D67724624DD3E9179F97F99589271A341CA3D6C05F0FA08690350F3"
+  },
+  "phase_qa": "passed_color_only recorded before remote block",
+  "upload": {
+    "required_resolution": "Human or authorized remote-data reconciliation must identify both existing attachments and verify byte/hash and intended structure linkage before any future action.",
+    "remote_mutation": false,
+    "status": "blocked_remote_duplicate_exact_filename"
+  },
+  "limitations": [
+    "No replace, delete, relink, or blind retry."
+  ]
+}

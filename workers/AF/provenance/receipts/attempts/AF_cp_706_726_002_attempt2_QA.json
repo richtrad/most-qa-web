@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "receipt_type": "color_only_attempt_qa",
+  "attempt_id": "AF-706-46fb8d4f-attempt-2",
+  "source_photo_id": "46fb8d4f-21c3-4ab2-996e-bc7492f4cbc5",
+  "source_filename": "cp_706,726_002.jpg",
+  "source_path": "[interní cesta nezveřejněna]",
+  "source_sha256": "218299A9980DE92B3BEB48AF7623136D6752F0A326BC083E49DDF082B2C4F606",
+  "variant_id": "AF-706-46fb8d4f-attempt-2",
+  "variant_path": "[interní cesta nezveřejněna]",
+  "variant_sha256": "78FB909D6EA8FD2CC9E662CB28DBE80152D97B6451EB3F7C00799DB054A02931",
+  "variant_E_path": "[interní cesta nezveřejněna]",
+  "variant_E_sha256": "78FB909D6EA8FD2CC9E662CB28DBE80152D97B6451EB3F7C00799DB054A02931",
+  "variant_dimensions": "1548x1016",
+  "source_dimensions": "3294x2160",
+  "phase": "color_only",
+  "visual_review_method": "side_by_side_original_and_verified_D_copy",
+  "status": "human_review_required",
+  "rejection_reason": "After the single repair, the output still relocates the printed “Brüx. Vogelstange” caption, redraws facade/window/roof detail and introduces new sky and road texture. These are changes to protected source content; no further image attempt is allowed.",
+  "reason_status": "recorded_current_visual_review",
+  "findings": {
+    "road": "surface texture is generated/reinterpreted",
+    "crop": "archival edge retained; no new continuous black outer padding observed",
+    "sky": "new cloud pattern appears beyond source detail",
+    "architecture": "facade geometry and fine window/roof details redrawn",
+    "foreground_objects": "people, fence, vegetation and poles remain visible but are not pixel-faithful",
+    "color": "natural distinct families, but protected content does not pass",
+    "text": "caption remains readable but is no longer at its source position/contrast"
+  },
+  "repair_limit": "maximum two attempts reached",
+  "next_action": "human review; do not generate again",
+  "upload_status": "not_uploaded",
+  "materials": {
+    "canonical_material_ids": [],
+    "family_notes": "Observed provisional family guidance only: light warm plaster, red-brown roof material, dark timber, green vegetation and neutral sky/ground; no exact RGB or canonical per-house assignment established.",
+    "evidence_ids": [
+      "PHOTO-ID-7422428d-9530-4fdb-80f7-ecf937b3f23a",
+      "PHOTO-ID-8f546b28-86d1-488a-97d0-fa2241d660f8",
+      "PHOTO-ID-73673c39-b9ec-4cea-9a2f-4b4896cd4f45",
+      "PHOTO-ID-a0402361-a9f2-4d61-887a-6e463c546e57"
+    ]
+  }
+}

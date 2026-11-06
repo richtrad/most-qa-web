@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "pilot_id": "SPECIALIZED_20261022_MANESOVA",
+  "role": "AM",
+  "qa_phase": "color_only",
+  "qa_status": "failed_color_only",
+  "passed_color_only": false,
+  "cleanup_pass": null,
+  "attempts_used": 1,
+  "remaining_edit_attempts": 1,
+  "source_path": "[local evidence path omitted]",
+  "source_sha256": "83aeef21e06b85701f577c8ff6f6e50a4125bd89fd5fb57f17c9b1f44525679f",
+  "output_path": "[local evidence path omitted]",
+  "output_sha256": "5af7ff225a0ec1dec5c94e9acd3e8bed5fed36252143f6ac68b78c8938a2182a",
+  "reference_records": [
+    {
+      "source_id": "11f8d187-a3c2-4366-a1b4-e1d376542a31",
+      "path": "[local evidence path omitted]",
+      "sha256": "6342498504a26d724e8bbcbb81c05084638dd88d32e9065c435f4d07300a60b0"
+    }
+  ],
+  "material_brief_path": "[local evidence path omitted]",
+  "material_brief_sha256": "464bcc26aabe31b2b157e0562057d7b85b4767c0759c257bb75b11d636823468",
+  "qa_receipt": "[local evidence path omitted]",
+  "actual_model": "gpt-6-astra",
+  "colour_evidence": {
+    "confidence": "model_hypothesis",
+    "status": "provisional",
+    "locked": false
+  },
+  "completed_at_utc": "2026-10-22T05:53:40.631922+00:00",
+  "job_id": "AJ_MAN_06_83aeef21e0",
+  "result": "repair",
+  "visual_inspection": {
+    "source_opened": true,
+    "output_opened": true,
+    "references_opened": true,
+    "architecture_openings": "Stepped volute gable, four arched upper windows, descending lower rows, turret/bays retained",
+    "damage": "Broad plaster losses and broken panes remain; fine texture much sharper",
+    "lettering": "Truck door carries small white marks; preserve ambiguity, no asserted reading",
+    "people_vehicles": "Truck retained with same cab/bed/wheel arrangement; green is provisional",
+    "vegetation_wires": "Bare trees, fence, wire and snow retained",
+    "composition_border": "Full composition and pale margin preserved",
+    "materials": "1241 roof incorrectly red rather than assigned slate grey; facade cream/bay timber plausible",
+    "padding": "No added black padding; no crop"
+  },
+  "findings": [
+    {
+      "severity": "major",
+      "normalized_output_roi": [
+        0.14,
+        0.38,
+        0.46,
+        0.58
+      ],
+      "finding": "Visible roof slopes coloured clay-red although1241 brief specifies ROOF_SLATE_GREY_01 and other1241 views use grey. This violates within-building material consistency."
+    },
+    {
+      "severity": "moderate",
+      "normalized_output_roi": [
+        0.53,
+        0.11,
+        0.81,
+        0.49
+      ],
+      "finding": "Original large irregular damaged gable surface must remain; avoid interpreting exposed rough masonry as smooth restored plaster or inventing crisp brick relief."
+    }
+  ],
+  "repair_instruction": "Final attempt2. Apply1241 roof slate-grey family to existing visible roof covering while preserving snow and exact course texture. Do not change material identity based on roof-colour guess. Preserve all gable plaster-loss boundaries, rough masonry, broken panes, truck/its ambiguous white writing, fence/wire/snow. Retain original grain and softer photographic detail; no restoration of damage.",
+  "limitations": [
+    "Truck green and architectural hues are hypotheses, not historically verified.",
+    "No cleanup required; truck must stay.",
+    "No upload until exact-hash AM acceptance."
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "pilot_id": "SPECIALIZED_20261022_MANESOVA",
+  "role": "AM",
+  "qa_phase": "color_only",
+  "qa_status": "failed_color_only",
+  "passed_color_only": false,
+  "cleanup_pass": null,
+  "attempts_used": 2,
+  "remaining_edit_attempts": 0,
+  "source_path": "[local evidence path omitted]",
+  "source_sha256": "dc09103e45e674f81b61c9256ee4091bf6cf6d99ee2be22ff1101fb4cb27cc39",
+  "output_path": "[local evidence path omitted]",
+  "output_sha256": "fa69e864f3903aab84557fe74601255130a98fbff25e054d8a5135e54c0d8ed1",
+  "reference_records": [
+    {
+      "source_id": "2d461aa0-d5ff-4b8e-bafd-eb254bd2ceac",
+      "path": "[local evidence path omitted]",
+      "sha256": "5f9a9d34fe1ee37845a8019d3302579543e5469f6bec809190ca34bb0835a9d8"
+    },
+    {
+      "source_id": "440819c1-e90f-498d-8fdb-832dcfbb1cb7",
+      "path": "[local evidence path omitted]",
+      "sha256": "e35a15c5380bd157955297acfd9bdd071533167ef989e15455857bee1beb211d"
+    },
+    {
+      "source_id": "e6b5303d-38df-48bb-8075-c71604ab26e2",
+      "path": "[local evidence path omitted]",
+      "sha256": "0d2e479e3ae73b637d43d5b548760e821e6b56a5c20ee1831e01740547e986d8"
+    }
+  ],
+  "material_brief_path": "[local evidence path omitted]",
+  "material_brief_sha256": "9fda733b67522e13d79a991f26605556af23f7661dcdc63675a12fce03a96e3c",
+  "qa_receipt": "[local evidence path omitted]",
+  "actual_model": "gpt-6-astra",
+  "colour_evidence": {
+    "confidence": "model_hypothesis",
+    "status": "provisional",
+    "locked": false
+  },
+  "completed_at_utc": "2026-10-22T07:55:13.855321+00:00",
+  "job_id": "AJ_MAN_12_dc09103e45",
+  "result": "review",
+  "visual_inspection": {
+    "source_opened": true,
+    "output_opened": true,
+    "references_opened": true,
+    "reference_note": "L3AC card and plans inspected in prior AM segment; exact reference hashes rechecked.",
+    "repair_check": "Unsupported red brick courses on target rear facade replaced by grey rough substrate; major flaking plaster arrangement now closer.",
+    "objects": "Five source dark spots, foreground white strip, bushes, branches and open window layout preserved.",
+    "materials": "Main1269 roof clay and workshop roof slate retained; distant1032 roof has incorrectly changed from grey to terracotta."
+  },
+  "findings": [
+    {
+      "severity": "blocking",
+      "region_normalized": [
+        0.55,
+        0.3,
+        0.68,
+        0.39
+      ],
+      "issue": "Distant gable and narrow roof identified as1032 by L3AC card/brief now have red clay roofing; immutable brief requires ROOF_SLATE_GREY_01 for1032, consistent with accepted1032 view. Previous attempt was grey.",
+      "required_action": "Human review, no third edit after attempts_used2."
+    },
+    {
+      "severity": "major",
+      "region_normalized": [
+        0.57,
+        0.31,
+        0.94,
+        0.51
+      ],
+      "issue": "Artificial swirling texture on background plaster remains more pronounced than original photographic grain.",
+      "required_action": "Retain as limitation supporting review; do not promote as exact material evidence."
+    }
+  ],
+  "upload_crop": {
+    "applied": false,
+    "reason": "Original cream border preserved; no added black padding."
+  },
+  "limitations": [
+    "Color hypotheses remain provisional/unlocked.",
+    "No additional649 or1032 upload links inferred from background.",
+    "No cleanup or source modification performed."
+  ]
+}

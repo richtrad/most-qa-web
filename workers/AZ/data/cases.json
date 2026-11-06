@@ -1,0 +1,3355 @@
+{
+  "schemaVersion": "most-private-qa-web/1.1",
+  "dataVersion": "AZ-NERUDOVA-PRIVATE-DATA-REV2-2026-10-23",
+  "appVersion": "AZ-NERUDOVA-PRIVATE-DRAFT-REV2-2026-10-23",
+  "generatedAtUtc": "2026-10-23T00:22:10.443Z",
+  "applicationStatus": "not_applied",
+  "street": {
+    "name": "Nerudova",
+    "areaId": "2ca7c2e1-d0ad-4958-9e97-3af77c3d313c",
+    "role": "AZ"
+  },
+  "reconciliation": {
+    "localAcceptedOutputs": 15,
+    "remoteVerified": 12,
+    "remoteFilenameHashConflicts": 3,
+    "explanation": "15 locally accepted outputs are not all remote verified: 12 have historical stored remote verification and 3 remain blocked by documented filename/hash conflicts."
+  },
+  "limitations": [
+    "Private local QA draft only; no publication, hosting, remote mutation, or credential use.",
+    "Remote proofs are historical local receipts and byte/hash copies, not a new live remote verification.",
+    "Browser/mobile/screenshot validation is pending and has not been performed."
+  ],
+  "counts": {
+    "unprocessed_local": 42,
+    "skipped_near_duplicate": 1,
+    "remote_verified": 12,
+    "mapping_review_required": 6,
+    "rejected_human_review": 1,
+    "human_review_required": 4,
+    "blocked_remote_filename_hash_conflict": 3,
+    "unclassified_not_edited": 2
+  },
+  "cases": [
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:ato119-10-2-001-jpg",
+      "source": {
+        "filename": "ATO119_10_2_001.jpg",
+        "sourceId": "4ab003cd-1ecb-4f3b-a172-8de44b293eaa",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "994"
+        ],
+        "relativePath": "/most-qa-web/media/a1b4d34e3a413a608be1e833fca363d4c9fcd31e.webp",
+        "sha256": "09E29FE2E629BE15580269C7F56AB1DEFC1DCC00956C40CBA9F83B35DB54ACA0",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj ATO119_10_2_001.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source ATO119_10_2_001.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:ato119-10-2-002-jpg",
+      "source": {
+        "filename": "ATO119_10_2_002.jpg",
+        "sourceId": "a1c9393a-ef89-44b4-93d7-19b584ed0591",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "994"
+        ],
+        "relativePath": "/most-qa-web/media/58353fd76a0c23c98413429ed826955e312d7d0e.webp",
+        "sha256": "9129794F2FDCF2711AD88928B290C6377A0CF6A9DF5974572C6975B8133311CC",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj ATO119_10_2_002.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source ATO119_10_2_002.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:ato119-10-2-003-jpg",
+      "source": {
+        "filename": "ATO119_10_2_003.jpg",
+        "sourceId": "032e6885-3f07-4804-9ba7-5f97cc68a333",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "994"
+        ],
+        "relativePath": "/most-qa-web/media/42e074de62aaaf26ea3c3bd499fd348c29cba006.webp",
+        "sha256": "74050A4B0B0DC93BCB276533C7FE1044526CDB7C512817430BECC81636BABA71",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj ATO119_10_2_003.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source ATO119_10_2_003.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:ato119-10-2-004-jpg",
+      "source": {
+        "filename": "ATO119_10_2_004.jpg",
+        "sourceId": "0f3d9671-d319-47db-b7da-941ab959efb0",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "994"
+        ],
+        "relativePath": "/most-qa-web/media/c54ff644a9e57bb04b1a0ebf1b5304e161272366.webp",
+        "sha256": "2BCE7C83465C79EB531BA791BCAA19120772F115744461AB83BBCEB0BDCF6A63",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj ATO119_10_2_004.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source ATO119_10_2_004.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:ato119-10-2-005-jpg",
+      "source": {
+        "filename": "ATO119_10_2_005.jpg",
+        "sourceId": "9d30cd40-1b6b-4e99-afbe-10138e47cf37",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "994"
+        ],
+        "relativePath": "/most-qa-web/media/b8d807345f16836e49ca7feeeed934f2f87d3982.webp",
+        "sha256": "012ADC4AE73506CFDF1C1E3B2E34C530C7FFEC486591F6593D9B6CF247A93E8E",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj ATO119_10_2_005.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source ATO119_10_2_005.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:ato119-10-2-006-jpg",
+      "source": {
+        "filename": "ATO119_10_2_006.jpg",
+        "sourceId": "b9a98735-7a17-449e-84cb-9eea2fe13765",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "994"
+        ],
+        "relativePath": "/most-qa-web/media/6aba0667f6dc802ee58de13e30b7e6a0e5c7b47b.webp",
+        "sha256": "C5E68FC338A61053E7DE8C38D724064D0C747123583067DB5AC415DBD28FBC03",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj ATO119_10_2_006.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source ATO119_10_2_006.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:ato119-10-2-007-jpg",
+      "source": {
+        "filename": "ATO119_10_2_007.jpg",
+        "sourceId": "1a98740d-112e-445f-a546-38e714dd9683",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "994"
+        ],
+        "relativePath": "/most-qa-web/media/ce7b6454a65e6d3542c14d27babeebada3c2e00e.webp",
+        "sha256": "2E9643C50E9F3E90C8840E3268A24EB1E8078A7684EAF188BC43FF4500210B51",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj ATO119_10_2_007.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source ATO119_10_2_007.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:ato119-10-2-008-jpg",
+      "source": {
+        "filename": "ATO119_10_2_008.jpg",
+        "sourceId": "c250f194-74a4-4179-9895-c5f55598372b",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "994"
+        ],
+        "relativePath": "/most-qa-web/media/9d0eb82d2b886b0d52d4bac2a98968a1e346c102.webp",
+        "sha256": "F3CD82EA2D17508D02681F9CD0C98310EFCCC48B8C8ACD2349BE49C290CAE587",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj ATO119_10_2_008.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source ATO119_10_2_008.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:ato119-10-2-009-jpg",
+      "source": {
+        "filename": "ATO119_10_2_009.jpg",
+        "sourceId": "f9e03852-f215-435d-b407-4acbad952fa7",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "994"
+        ],
+        "relativePath": "/most-qa-web/media/909404ce50c342d3f69232d7a78b5b1df303d751.webp",
+        "sha256": "4B8884D4F88C450129F0C40189DAA0645C2C20FC82E6F90CD09BCFDB8A70835A",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj ATO119_10_2_009.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source ATO119_10_2_009.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:ato119-10-2-010-jpg",
+      "source": {
+        "filename": "ATO119_10_2_010.jpg",
+        "sourceId": "6205143d-028b-40e9-a92e-d82b3435b381",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "965"
+        ],
+        "relativePath": "/most-qa-web/media/d69485ac3d80802bc5a876127c225adb1af48250.webp",
+        "sha256": "0312167BE8ADD3049E63D4962E7C57644C38DB496BB73EF8863BFAB56C3CE2B0",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj ATO119_10_2_010.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source ATO119_10_2_010.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:ato119-10-2-011-jpg",
+      "source": {
+        "filename": "ATO119_10_2_011.jpg",
+        "sourceId": "62a22547-c09f-459a-baf4-f07d0ba68a9c",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "965"
+        ],
+        "relativePath": "/most-qa-web/media/ad2063f10e487539b6e8e7d3b281fedd201d5808.webp",
+        "sha256": "82FB6408EB9F745253DBF01853AD6E97E2D292E6B6B582190D05CA91479AF526",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj ATO119_10_2_011.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source ATO119_10_2_011.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:ato119-10-2-012-jpg",
+      "source": {
+        "filename": "ATO119_10_2_012.jpg",
+        "sourceId": "5f95e93b-0411-48cf-9355-98ca15efb66e",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "965"
+        ],
+        "relativePath": "/most-qa-web/media/2685411a23fd23db62cedd7881637119f3480cd8.webp",
+        "sha256": "C7A9F5C8ADA628EA94BCF7E5726FABB4F3526BEF938A475C5BD482655364718E",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj ATO119_10_2_012.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source ATO119_10_2_012.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:ato119-10-2-013-jpg",
+      "source": {
+        "filename": "ATO119_10_2_013.jpg",
+        "sourceId": "f3778014-7771-498a-a7bf-08f98c313b1d",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "918"
+        ],
+        "relativePath": "/most-qa-web/media/232e928603e88b8373eca4b27ff8c5777018e633.webp",
+        "sha256": "511C01046C7A18E06A0059695C57D7B4A2A00787644C3BFCE4B5917A4ABBD671",
+        "availability": "preserved_local_copy"
+      },
+      "state": "skipped_near_duplicate",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "duplicate_reason",
+          "detail": "Visual review found the same rear facade, opening arrangement, roofline, rubble and viewpoint, with no independently useful geometric information.",
+          "source": "screening_receipt"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Potvrďte, zda má zůstat přeskočení téměř duplicitního zdroje ATO119_10_2_013.jpg? Doložený důvod: Visual review found the same rear facade, opening arrangement, roofline, rubble and viewpoint, with no independently useful geometric information.",
+        "en": "Confirm whether the near-duplicate skip should remain for ATO119_10_2_013.jpg? Documented reason: Visual review found the same rear facade, opening arrangement, roofline, rubble and viewpoint, with no independently useful geometric information."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [
+        {
+          "kind": "screening",
+          "relativePath": "evidence/screening/ATO119_10_2_013_screening_v1.json"
+        }
+      ],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:ato119-10-2-014-jpg",
+      "source": {
+        "filename": "ATO119_10_2_014.jpg",
+        "sourceId": "ba2c6708-48bd-4cda-afcd-1325cec89215",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "918"
+        ],
+        "relativePath": "/most-qa-web/media/794d6757538a7ddc5b2ceb860f5f2a587afd5f6a.webp",
+        "sha256": "60584207141F8F2FE68DF091CD6DDA29D3EEBF4004706B3BBE6385E819C194A6",
+        "availability": "preserved_local_copy"
+      },
+      "state": "remote_verified",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "stored_remote_proof",
+          "detail": "Historical stored ledger result=remote_verified; sha256_match=true. This web revision performed no live verification.",
+          "source": "ledger_receipt"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Potvrďte, že historický uložený remote důkaz pro ATO119_10_2_014.jpg? Doložený důvod: Historical stored ledger result=remote_verified; sha256_match=true. This web revision performed no live verification.",
+        "en": "Confirm that the historical stored remote proof for ATO119_10_2_014.jpg? Documented reason: Historical stored ledger result=remote_verified; sha256_match=true. This web revision performed no live verification."
+      },
+      "variants": [
+        {
+          "variantId": "generated_variant:ATO119_10_2_014_col__attempt1.png",
+          "role": "generated_variant",
+          "filename": "ATO119_10_2_014_col__attempt1.png",
+          "relativePath": "/most-qa-web/media/2b95c9fcf87ab340d0b2039b0a1ab3aebcee025d.webp",
+          "sha256": "20313536B8CA95801582B22551E8EDD17E24BF821920274A63CB312CCB83EFF6",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "accepted_as_final_color_only",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        },
+        {
+          "variantId": "accepted_output:ATO119_10_2_014_col.png",
+          "role": "accepted_output",
+          "filename": "ATO119_10_2_014_col.png",
+          "relativePath": "/most-qa-web/media/2b95c9fcf87ab340d0b2039b0a1ab3aebcee025d.webp",
+          "sha256": "20313536B8CA95801582B22551E8EDD17E24BF821920274A63CB312CCB83EFF6",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "accepted_as_final_color_only",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        }
+      ],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [
+        {
+          "filename": "ATO119_10_2_014_col__photo_9437d62f-9063-4c21-8076-a0a90cc27c4b.png",
+          "relativePath": "/most-qa-web/media/2b95c9fcf87ab340d0b2039b0a1ab3aebcee025d.webp",
+          "sha256": "20313536B8CA95801582B22551E8EDD17E24BF821920274A63CB312CCB83EFF6"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "qa",
+          "relativePath": "evidence/qa/ATO119_10_2_014_color_only_qa_v1.json"
+        },
+        {
+          "kind": "ledger",
+          "relativePath": "evidence/ledger/20261022T150931Z_ATO119_10_2_014_col_9437d62f.json"
+        }
+      ],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:ato119-10-2-015-jpg",
+      "source": {
+        "filename": "ATO119_10_2_015.jpg",
+        "sourceId": "78adb9d1-7c4e-4732-baf7-6c1f85ea5dbf",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "923"
+        ],
+        "relativePath": "/most-qa-web/media/ad854af731944e842cbca282f9448c5efc6db907.webp",
+        "sha256": "7FCF14F7990E1AD89F97AC99C944047CD8BCD3836B8A0AC7CA999883F3C02488",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj ATO119_10_2_015.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source ATO119_10_2_015.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:ato119-10-2-016-jpg",
+      "source": {
+        "filename": "ATO119_10_2_016.jpg",
+        "sourceId": "a7ff840a-6ed0-4c13-9af2-a6a6dd3d1419",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "923"
+        ],
+        "relativePath": "/most-qa-web/media/86196a49c12528a3c5592d4330f3962a29c18394.webp",
+        "sha256": "BCD35F7C0A4D13CFF18DC93756B2A403565CFA46E61D9E5110D1C2960392DB1B",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj ATO119_10_2_016.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source ATO119_10_2_016.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:ato119-10-2-017-jpg",
+      "source": {
+        "filename": "ATO119_10_2_017.jpg",
+        "sourceId": "67c4af7c-1b56-47e1-a02b-3547101e4ceb",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "922"
+        ],
+        "relativePath": "/most-qa-web/media/f54e971d998a7f030ca1d21abde902bde823edad.webp",
+        "sha256": "51DC6FD62EC07FBDCC16152ABBB5FE842897350E40ACE5DBB711B572133632D3",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj ATO119_10_2_017.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source ATO119_10_2_017.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:ato119-10-2-018-jpg",
+      "source": {
+        "filename": "ATO119_10_2_018.jpg",
+        "sourceId": "1190fab2-f0c7-45d3-aac1-11c38a404786",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "922"
+        ],
+        "relativePath": "/most-qa-web/media/4f42a02c32307cfc134f7def1855bd75190408ac.webp",
+        "sha256": "7DB0102FC2852E6FF34A96D22BA32456499EBA7F73998FC99EDAE644C62B98A7",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj ATO119_10_2_018.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source ATO119_10_2_018.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:ato119-10-2-019-jpg",
+      "source": {
+        "filename": "ATO119_10_2_019.jpg",
+        "sourceId": "5cf874a0-ebcc-4617-b65a-fdefa441943c",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "922"
+        ],
+        "relativePath": "/most-qa-web/media/4d07e8ca48f3ece49ffa3bbcabcb950fee99d031.webp",
+        "sha256": "B6EABB3A9A21E16E0FA135967CB2BDB33D5C584988EAE6765A1AF752A65829C9",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj ATO119_10_2_019.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source ATO119_10_2_019.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:ato119-10-2-020-jpg",
+      "source": {
+        "filename": "ATO119_10_2_020.jpg",
+        "sourceId": "97ba8cfa-fc45-444f-8b34-77e72d2103c6",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "1010"
+        ],
+        "relativePath": "/most-qa-web/media/b2428fadf5535e46b1c754a520f4910f6645ba83.webp",
+        "sha256": "DDC810236472375D04D2E8930092EA583B28CE21739CF47FCCCA0B1C6CF700A0",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj ATO119_10_2_020.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source ATO119_10_2_020.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:ato119-10-2-021-jpg",
+      "source": {
+        "filename": "ATO119_10_2_021.jpg",
+        "sourceId": "32d85bad-e545-4952-bc06-69e5a1e9e78d",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "1010"
+        ],
+        "relativePath": "/most-qa-web/media/a3bc4c5b4f0020371a0b0b454474b348c1153b9b.webp",
+        "sha256": "01352CE9C65FCE15434E2C445E238EF0FD7664B25F81AFCCEF4F8F563A8F4336",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj ATO119_10_2_021.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source ATO119_10_2_021.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:ato119-10-2-022-jpg",
+      "source": {
+        "filename": "ATO119_10_2_022.jpg",
+        "sourceId": "746b42a2-04ce-4219-a5fd-cb012c413ba2",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "1010"
+        ],
+        "relativePath": "/most-qa-web/media/fb526ff1493ecb033894cdf5dd21658fbacf3f3e.webp",
+        "sha256": "CF3EACE28D9002715C7C7D226E47A2578BCC725617B9C7BDCCCC042A7533B856",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj ATO119_10_2_022.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source ATO119_10_2_022.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:ato119-10-2-023-jpg",
+      "source": {
+        "filename": "ATO119_10_2_023.jpg",
+        "sourceId": "ae74a488-a4a4-4bdf-8653-a35b1256b629",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "1010"
+        ],
+        "relativePath": "/most-qa-web/media/629dcdac8d48f9a5f9e5095a19264a33d3e19a65.webp",
+        "sha256": "FE5FFAADA454DBF4609A87C141E345AD84E404D3C486D99BF29D822779520D86",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj ATO119_10_2_023.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source ATO119_10_2_023.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-1010-001-jpg",
+      "source": {
+        "filename": "cp_1010_001.jpg",
+        "sourceId": "784d980b-e0ea-48f2-9620-86715ec9d300",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "1010"
+        ],
+        "relativePath": "/most-qa-web/media/1af47b9bd058f017ed1b535a0c6380029a8abf8e.webp",
+        "sha256": "4E6D742AAFDDC6101F29A9BC1A3C03D5B370C11C82C651788A20511E4C0E6475",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj cp_1010_001.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source cp_1010_001.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-1010-002-jpg",
+      "source": {
+        "filename": "cp_1010_002.jpg",
+        "sourceId": "f32652fb-e612-4e86-8e2b-342617aa5e15",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "1010"
+        ],
+        "relativePath": "/most-qa-web/media/c9325d4325423e20340c58a71ef4a16d248a8a69.webp",
+        "sha256": "DEB0A6E3BA7F130A30FD49CF2138D9BB32D18B59C198122E078E90390EF36396",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj cp_1010_002.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source cp_1010_002.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-1010-003-jpg",
+      "source": {
+        "filename": "cp_1010_003.jpg",
+        "sourceId": "3dbc78f3-8b7c-41e4-ab82-a59f688dd8dc",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "1010"
+        ],
+        "relativePath": "/most-qa-web/media/8d14bd5f0efef2854a0dea5a9b673dcb4c8de82b.webp",
+        "sha256": "F31726E8128FFB816332DD5AB9D961CE0125E72AC3768C993523CDA1A09B33FD",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj cp_1010_003.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source cp_1010_003.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-1224-001-jpg",
+      "source": {
+        "filename": "cp_1224_001.jpg",
+        "sourceId": "85ae0044-d9af-44ae-abcc-a22e2998d6bd",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "1224"
+        ],
+        "relativePath": "/most-qa-web/media/8792c62ddb6d5488335ae74f1c700db0f8a229f9.webp",
+        "sha256": "134FE7D23EA3CDFE71EB2497C87617543246E15C53A212A5E1F29BE48817F907",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj cp_1224_001.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source cp_1224_001.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-1224-002-jpg",
+      "source": {
+        "filename": "cp_1224_002.jpg",
+        "sourceId": "e062000e-2ca7-4df1-aada-61bb404393ba",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "1224"
+        ],
+        "relativePath": "/most-qa-web/media/7aee7d4ca8415f1972c75a23e46ac8466b95a27f.webp",
+        "sha256": "091751B6FEA8ACA3DD87B786213415BBF6AD1C1E6D8BF7979F1D40593DEF19BE",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj cp_1224_002.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source cp_1224_002.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-1224-003-jpg",
+      "source": {
+        "filename": "cp_1224_003.jpg",
+        "sourceId": "14191fe1-7de1-4b05-bdf3-e19a1771d59a",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "1224"
+        ],
+        "relativePath": "/most-qa-web/media/cbbb91b8099368434ca253b922bf396770be01ab.webp",
+        "sha256": "B2093B192C27DDAF5608583914CBB00A54AD0E599EA7F2980DA7103655C80BF4",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj cp_1224_003.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source cp_1224_003.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-1224-004-jpg",
+      "source": {
+        "filename": "cp_1224_004.jpg",
+        "sourceId": "969ca7dc-d34c-4c38-967c-d5754045fea8",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "1224"
+        ],
+        "relativePath": "/most-qa-web/media/73c58734fc472e2f2cb05092359a541cdaa269db.webp",
+        "sha256": "BAC993B28AA312ED9B778118CFE96F05DE6C78D09ACB2D3C397758539307A2DD",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj cp_1224_004.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source cp_1224_004.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-1224-005-jpg",
+      "source": {
+        "filename": "cp_1224_005.jpg",
+        "sourceId": "9ab238fa-3a05-47a4-b721-8f1815692b51",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "1224"
+        ],
+        "relativePath": "/most-qa-web/media/019f38b0c6654be492e55b95ad5e338114f70226.webp",
+        "sha256": "935198622726CDAC383CB1E0B81F6CB5FEDF4FC3B032DC312D4B64F5AA953E20",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj cp_1224_005.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source cp_1224_005.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-1224-006-jpg",
+      "source": {
+        "filename": "cp_1224_006.jpg",
+        "sourceId": "3126348b-259b-4bca-8d7d-c46a8285132f",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "1224"
+        ],
+        "relativePath": "/most-qa-web/media/6a9cb4f3b0da4668342538ae88bca88aa62d2149.webp",
+        "sha256": "546E9D4AFB88AE64A34FFD1A08B5EF6BB7A466DDD2F1677EC1FEA28233C8E58A",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj cp_1224_006.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source cp_1224_006.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-1224-007-jpg",
+      "source": {
+        "filename": "cp_1224_007.jpg",
+        "sourceId": "36fe9f72-f478-449c-9f14-36e5278da40f",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "1224"
+        ],
+        "relativePath": "/most-qa-web/media/1533c49c2878a7f3de58c0e40286cacd36a09cb3.webp",
+        "sha256": "9A7BBB1AAB2AD3BEC7234A19EA5D8920F8B82A7A00EFC6F4C5D4E73B78AF47A8",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj cp_1224_007.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source cp_1224_007.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-1325-001-jpg",
+      "source": {
+        "filename": "cp_1325_001.jpg",
+        "sourceId": "09a8dc81-5670-4a6a-b4fd-ecad47ad66df",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "1325"
+        ],
+        "relativePath": "/most-qa-web/media/9f789551ca9600bdd8f15c5b4a50a2d5aa048d26.webp",
+        "sha256": "CD6DF38E98999EC0345937F0DB578899E231A67705E8980464BF1CF9F827DDE6",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj cp_1325_001.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source cp_1325_001.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-1325-002-jpg",
+      "source": {
+        "filename": "cp_1325_002.jpg",
+        "sourceId": "7df38cfd-f427-4c1f-ad20-4b2358345461",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "1325"
+        ],
+        "relativePath": "/most-qa-web/media/752f29748fa41a8992b02b10e2d7e426e81bde13.webp",
+        "sha256": "D19C986D7C34B8FB1F0185E634334A561F29C203872EA749EC1089007291CCED",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj cp_1325_002.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source cp_1325_002.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-1325-003-jpg",
+      "source": {
+        "filename": "cp_1325_003.jpg",
+        "sourceId": "0e5c75fe-15d9-40da-8a30-9f4d751e54c7",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "1325"
+        ],
+        "relativePath": "/most-qa-web/media/a614805fa4a4712154c319ed6542b8196d511b75.webp",
+        "sha256": "E351C7C5EA2016D07CF3B347DADC8BE453FBEF0BE8153E40C30A98BF4CE23A1C",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj cp_1325_003.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source cp_1325_003.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-363-364-365-393-394-395-401-402-491-001-jpg",
+      "source": {
+        "filename": "cp_363,364,365,393,394,395,401,402,491_001.jpg",
+        "sourceId": "937f3cf8-6320-4773-88e5-2a794985b46d",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "393"
+        ],
+        "relativePath": "/most-qa-web/media/aa608adfaa5f8aba91115e180eb6b96f42ed5660.webp",
+        "sha256": "2784D981E2FE3A05ABE5A42140B3D4F7C167C509868D45129FA9DFE03396BDF4",
+        "availability": "preserved_local_copy"
+      },
+      "state": "mapping_review_required",
+      "mappingHold": true,
+      "mappingReasons": [
+        "filename_attachment_mismatch",
+        "multiple_cps_require_visual_mapping"
+      ],
+      "documentedReasons": [
+        {
+          "code": "mapping_review",
+          "detail": "filename_attachment_mismatch, multiple_cps_require_visual_mapping",
+          "source": "local_inventory"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Potvrďte nebo ponechte blokované vizuální mapování čp. pro cp_363,364,365,393,394,395,401,402,491_001.jpg? Doložený důvod: filename_attachment_mismatch, multiple_cps_require_visual_mapping",
+        "en": "Confirm or keep blocked the visual building mapping for cp_363,364,365,393,394,395,401,402,491_001.jpg? Documented reason: filename_attachment_mismatch, multiple_cps_require_visual_mapping"
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-368-393-394-395-001-jpg",
+      "source": {
+        "filename": "cp_368,393,394,395_001.jpg",
+        "sourceId": "f728d113-e9f0-41af-884b-f51351b8c518",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "393"
+        ],
+        "relativePath": "/most-qa-web/media/8f8b1465d217b9383359f7d6172fd84dd91f6ec5.webp",
+        "sha256": "08482C32B016C517CE4C915B657209E655DF328D79540C8A434675A9F339EA0E",
+        "availability": "preserved_local_copy"
+      },
+      "state": "mapping_review_required",
+      "mappingHold": true,
+      "mappingReasons": [
+        "filename_attachment_mismatch",
+        "multiple_cps_require_visual_mapping"
+      ],
+      "documentedReasons": [
+        {
+          "code": "mapping_review",
+          "detail": "filename_attachment_mismatch, multiple_cps_require_visual_mapping",
+          "source": "local_inventory"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Potvrďte nebo ponechte blokované vizuální mapování čp. pro cp_368,393,394,395_001.jpg? Doložený důvod: filename_attachment_mismatch, multiple_cps_require_visual_mapping",
+        "en": "Confirm or keep blocked the visual building mapping for cp_368,393,394,395_001.jpg? Documented reason: filename_attachment_mismatch, multiple_cps_require_visual_mapping"
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-392-875-001-jpg",
+      "source": {
+        "filename": "cp_392,875_001.jpg",
+        "sourceId": "a4bbb2ad-a608-4b2c-ab7c-a8f81cfa7db7",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "392"
+        ],
+        "relativePath": "/most-qa-web/media/cd8ce820c44f7314fc204428735020e4da8701d6.webp",
+        "sha256": "78A6FD4D691336F4AB4367E2824EDDE812F1D5177F57B4DAC19D084EFB5162E6",
+        "availability": "preserved_local_copy"
+      },
+      "state": "mapping_review_required",
+      "mappingHold": true,
+      "mappingReasons": [
+        "filename_attachment_mismatch",
+        "multiple_cps_require_visual_mapping"
+      ],
+      "documentedReasons": [
+        {
+          "code": "mapping_review",
+          "detail": "filename_attachment_mismatch, multiple_cps_require_visual_mapping",
+          "source": "local_inventory"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Potvrďte nebo ponechte blokované vizuální mapování čp. pro cp_392,875_001.jpg? Doložený důvod: filename_attachment_mismatch, multiple_cps_require_visual_mapping",
+        "en": "Confirm or keep blocked the visual building mapping for cp_392,875_001.jpg? Documented reason: filename_attachment_mismatch, multiple_cps_require_visual_mapping"
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-392-001-jpg",
+      "source": {
+        "filename": "cp_392_001.jpg",
+        "sourceId": "b35f1789-d23d-41a4-ac7a-926ddd3afeee",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "392"
+        ],
+        "relativePath": "/most-qa-web/media/6f702b67249f29fd28da9f5a4cfe8221c4d2045c.webp",
+        "sha256": "2D712790CC6B64FFFFF52509287D362A68EA5AB6CCACBA169A84BAB1E13FE7EC",
+        "availability": "preserved_local_copy"
+      },
+      "state": "rejected_human_review",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "qa_rejection_reason",
+          "detail": "Both permitted COLOR_ONLY attempts altered legible source lettering or vehicle registration characters. Preservation fidelity was not met.",
+          "source": "qa_receipt"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Potvrďte zachování blokace po odmítnuté COLOR_ONLY QA pro cp_392_001.jpg? Doložený důvod: Both permitted COLOR_ONLY attempts altered legible source lettering or vehicle registration characters. Preservation fidelity was not met.",
+        "en": "Confirm preservation of the block after rejected COLOR_ONLY QA for cp_392_001.jpg? Documented reason: Both permitted COLOR_ONLY attempts altered legible source lettering or vehicle registration characters. Preservation fidelity was not met."
+      },
+      "variants": [
+        {
+          "variantId": "generated_variant:cp_392_001_col__attempt1.png",
+          "role": "generated_variant",
+          "filename": "cp_392_001_col__attempt1.png",
+          "relativePath": "/most-qa-web/media/7ca16b7f17d6b490626f59f0ac69dafc14c5c405.webp",
+          "sha256": "C6D2F9138A8A8EAC8A892BE9E9A741E288E2DBB65DEA2978DB15DEC92EB13741",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "rejected_human_review_required",
+            "rejectionReason": "Both permitted COLOR_ONLY attempts altered legible source lettering or vehicle registration characters. Preservation fidelity was not met.",
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        },
+        {
+          "variantId": "generated_variant:cp_392_001_col__attempt2.png",
+          "role": "generated_variant",
+          "filename": "cp_392_001_col__attempt2.png",
+          "relativePath": "/most-qa-web/media/501e6372722a26b7efc2019aa63514e8f3f26cb1.webp",
+          "sha256": "1DA712CFDDE060D079A64831ED3CE9AE72AF4711443178A1B19F2BE785BC250B",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "rejected_human_review_required",
+            "rejectionReason": "Both permitted COLOR_ONLY attempts altered legible source lettering or vehicle registration characters. Preservation fidelity was not met.",
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        }
+      ],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [
+        {
+          "kind": "qa",
+          "relativePath": "evidence/qa/cp_392_001_color_only_rejected_v1.json"
+        }
+      ],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-392-002-jpg",
+      "source": {
+        "filename": "cp_392_002.jpg",
+        "sourceId": "eecebf37-edea-4388-9960-d78e2576e80d",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "392"
+        ],
+        "relativePath": "/most-qa-web/media/9b64723a4b0828a754e4e2ef810e18cc94025e72.webp",
+        "sha256": "D5E979ABECB3486AB9DBBEFDE7324942E513C36350A88FEBE86D241F30B4B318",
+        "availability": "preserved_local_copy"
+      },
+      "state": "remote_verified",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "stored_remote_proof",
+          "detail": "Historical stored ledger result=not_recorded; sha256_match=not_recorded. This web revision performed no live verification.",
+          "source": "ledger_receipt"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Potvrďte, že historický uložený remote důkaz pro cp_392_002.jpg? Doložený důvod: Historical stored ledger result=not_recorded; sha256_match=not_recorded. This web revision performed no live verification.",
+        "en": "Confirm that the historical stored remote proof for cp_392_002.jpg? Documented reason: Historical stored ledger result=not_recorded; sha256_match=not_recorded. This web revision performed no live verification."
+      },
+      "variants": [
+        {
+          "variantId": "generated_variant:cp_392_002_col__attempt1.png",
+          "role": "generated_variant",
+          "filename": "cp_392_002_col__attempt1.png",
+          "relativePath": "/most-qa-web/media/0ea3218120e1fded6b15d109a1a9840e2878163d.webp",
+          "sha256": "02712AB96942F576BB102ABDA8CD2EEB98F8C0F0D2760142478F5E74EA6D7F7D",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "accepted_as_final_color_only",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        },
+        {
+          "variantId": "accepted_output:cp_392_002_col.png",
+          "role": "accepted_output",
+          "filename": "cp_392_002_col.png",
+          "relativePath": "/most-qa-web/media/0ea3218120e1fded6b15d109a1a9840e2878163d.webp",
+          "sha256": "02712AB96942F576BB102ABDA8CD2EEB98F8C0F0D2760142478F5E74EA6D7F7D",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "accepted_as_final_color_only",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        }
+      ],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [
+        {
+          "filename": "cp_392_002_col__photo_909d71fb-68b4-4a4b-8b49-7486e7aa032a.png",
+          "relativePath": "/most-qa-web/media/0ea3218120e1fded6b15d109a1a9840e2878163d.webp",
+          "sha256": "02712AB96942F576BB102ABDA8CD2EEB98F8C0F0D2760142478F5E74EA6D7F7D"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "qa",
+          "relativePath": "evidence/qa/cp_392_002_color_only_qa_v1.json"
+        },
+        {
+          "kind": "ledger",
+          "relativePath": "evidence/ledger/20261022T152956Z_cp_392_002_col_909d71fb.json"
+        }
+      ],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-392-003-jpg",
+      "source": {
+        "filename": "cp_392_003.jpg",
+        "sourceId": "cb6e70fc-6f53-4d9e-a82f-cb560963da35",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "392"
+        ],
+        "relativePath": "/most-qa-web/media/1c8ab3131e07b6468197c56038d813984f52a355.webp",
+        "sha256": "FF93F1E6B85AC3DA8247F71DDF7C555C0AA3585E36E93CC918B3D12A68BA5CC4",
+        "availability": "preserved_local_copy"
+      },
+      "state": "remote_verified",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "stored_remote_proof",
+          "detail": "Historical stored ledger result=not_recorded; sha256_match=not_recorded. This web revision performed no live verification.",
+          "source": "ledger_receipt"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Potvrďte, že historický uložený remote důkaz pro cp_392_003.jpg? Doložený důvod: Historical stored ledger result=not_recorded; sha256_match=not_recorded. This web revision performed no live verification.",
+        "en": "Confirm that the historical stored remote proof for cp_392_003.jpg? Documented reason: Historical stored ledger result=not_recorded; sha256_match=not_recorded. This web revision performed no live verification."
+      },
+      "variants": [
+        {
+          "variantId": "generated_variant:cp_392_003_col__attempt1.png",
+          "role": "generated_variant",
+          "filename": "cp_392_003_col__attempt1.png",
+          "relativePath": "/most-qa-web/media/37c78707d31a197f00917fd723ac5ec6b25738c6.webp",
+          "sha256": "593F97C1FBCFACA7C28AFB4A0B338FA00625F098012404B4E6597E350F1BA57B",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "passed_color_only",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        },
+        {
+          "variantId": "accepted_output:cp_392_003_col.png",
+          "role": "accepted_output",
+          "filename": "cp_392_003_col.png",
+          "relativePath": "/most-qa-web/media/37c78707d31a197f00917fd723ac5ec6b25738c6.webp",
+          "sha256": "593F97C1FBCFACA7C28AFB4A0B338FA00625F098012404B4E6597E350F1BA57B",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "passed_color_only",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        }
+      ],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [
+        {
+          "filename": "cp_392_003_col__photo_2272dcb0-f582-4b22-a642-ae6e2ffb7a74.png",
+          "relativePath": "/most-qa-web/media/37c78707d31a197f00917fd723ac5ec6b25738c6.webp",
+          "sha256": "593F97C1FBCFACA7C28AFB4A0B338FA00625F098012404B4E6597E350F1BA57B"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "qa",
+          "relativePath": "evidence/qa/cp_392_003_color_only_qa_v1.json"
+        },
+        {
+          "kind": "ledger",
+          "relativePath": "evidence/ledger/20261022T153821Z_cp_392_003_col_2272dcb0.json"
+        }
+      ],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-392-004-jpg",
+      "source": {
+        "filename": "cp_392_004.jpg",
+        "sourceId": "db8ac557-2869-4645-a7e2-ed8e2ba14ad8",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "392"
+        ],
+        "relativePath": "/most-qa-web/media/aa1171278651e57efb4b362f6ab47a6dabcdd7da.webp",
+        "sha256": "3A8848DEFA94E3891EE173AA67DA6D71437C1C487DEDCE92830B3A39F6421FE8",
+        "availability": "preserved_local_copy"
+      },
+      "state": "remote_verified",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "stored_remote_proof",
+          "detail": "Historical stored ledger result=not_recorded; sha256_match=not_recorded. This web revision performed no live verification.",
+          "source": "ledger_receipt"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Potvrďte, že historický uložený remote důkaz pro cp_392_004.jpg? Doložený důvod: Historical stored ledger result=not_recorded; sha256_match=not_recorded. This web revision performed no live verification.",
+        "en": "Confirm that the historical stored remote proof for cp_392_004.jpg? Documented reason: Historical stored ledger result=not_recorded; sha256_match=not_recorded. This web revision performed no live verification."
+      },
+      "variants": [
+        {
+          "variantId": "generated_variant:cp_392_004_col__attempt1.png",
+          "role": "generated_variant",
+          "filename": "cp_392_004_col__attempt1.png",
+          "relativePath": "/most-qa-web/media/0ca1543e35306354e624997b2f586b3a47212296.webp",
+          "sha256": "7967A7989030F93FCB409ECC46686A1800E02621A7BE4FEAFB302C93D2B59EF8",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "passed_color_only",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        },
+        {
+          "variantId": "accepted_output:cp_392_004_col.png",
+          "role": "accepted_output",
+          "filename": "cp_392_004_col.png",
+          "relativePath": "/most-qa-web/media/0ca1543e35306354e624997b2f586b3a47212296.webp",
+          "sha256": "7967A7989030F93FCB409ECC46686A1800E02621A7BE4FEAFB302C93D2B59EF8",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "passed_color_only",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        }
+      ],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [
+        {
+          "filename": "cp_392_004_col__photo_4fb86919-7e55-4f67-94ad-69cf7e284668.png",
+          "relativePath": "/most-qa-web/media/0ca1543e35306354e624997b2f586b3a47212296.webp",
+          "sha256": "7967A7989030F93FCB409ECC46686A1800E02621A7BE4FEAFB302C93D2B59EF8"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "qa",
+          "relativePath": "evidence/qa/cp_392_004_color_only_qa_v1.json"
+        },
+        {
+          "kind": "ledger",
+          "relativePath": "evidence/ledger/20261022T162953Z_cp_392_004_col_4fb86919.json"
+        }
+      ],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-392-005-jpg",
+      "source": {
+        "filename": "cp_392_005.jpg",
+        "sourceId": "8c00a2f5-ecf8-48df-8dd2-bc7007cfc7da",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "392"
+        ],
+        "relativePath": "/most-qa-web/media/2072d0b4ae0e516be3c53ad705a7de5608b947e4.webp",
+        "sha256": "26D25A101F479EE5C49AECF62EF90DCB3045004B25CD6E894D555DCDEF9640C6",
+        "availability": "preserved_local_copy"
+      },
+      "state": "human_review_required",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "screening_reason",
+          "detail": "The photograph contains a materially legible facade inscription (including SLAVIE). A generative COLOR_ONLY edit could alter the glyphs; text preservation must be visually confirmed by a human before an attempt.",
+          "source": "screening_receipt"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Posuďte, zda lze bezpečně pokračovat pouze po lidské kontrole pro cp_392_005.jpg? Doložený důvod: The photograph contains a materially legible facade inscription (including SLAVIE). A generative COLOR_ONLY edit could alter the glyphs; text preservation must be visually confirmed by a human before an attempt.",
+        "en": "Decide whether any progress can be considered only after human review for cp_392_005.jpg? Documented reason: The photograph contains a materially legible facade inscription (including SLAVIE). A generative COLOR_ONLY edit could alter the glyphs; text preservation must be visually confirmed by a human before an attempt."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [
+        {
+          "kind": "screening",
+          "relativePath": "evidence/screening/cp_392_005_human_review_gate_v1.json"
+        }
+      ],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-392-006-jpg",
+      "source": {
+        "filename": "cp_392_006.jpg",
+        "sourceId": "b083c04f-6f4e-4729-a60a-714fd0a1bbd6",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "392"
+        ],
+        "relativePath": "/most-qa-web/media/e583ea01cfea5ed08b43f7a2df95789488a10b43.webp",
+        "sha256": "B613A6C6C663CFA24B0F9DD4952E80A30CE90207F783D0476EA03E0294ADC199",
+        "availability": "preserved_local_copy"
+      },
+      "state": "remote_verified",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "stored_remote_proof",
+          "detail": "Historical stored ledger result=not_recorded; sha256_match=not_recorded. This web revision performed no live verification.",
+          "source": "ledger_receipt"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Potvrďte, že historický uložený remote důkaz pro cp_392_006.jpg? Doložený důvod: Historical stored ledger result=not_recorded; sha256_match=not_recorded. This web revision performed no live verification.",
+        "en": "Confirm that the historical stored remote proof for cp_392_006.jpg? Documented reason: Historical stored ledger result=not_recorded; sha256_match=not_recorded. This web revision performed no live verification."
+      },
+      "variants": [
+        {
+          "variantId": "generated_variant:cp_392_006_col__attempt1.png",
+          "role": "generated_variant",
+          "filename": "cp_392_006_col__attempt1.png",
+          "relativePath": "/most-qa-web/media/bce88904e4eb6f77b12efd7b026e9e242b45c90e.webp",
+          "sha256": "8BB65D6719C7FA54BBD384CD6788DE48BF47B34F84D565895F80FC9752398DCD",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "passed_color_only_local_pending_automatic_qa",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        },
+        {
+          "variantId": "accepted_output:cp_392_006_col.png",
+          "role": "accepted_output",
+          "filename": "cp_392_006_col.png",
+          "relativePath": "/most-qa-web/media/bce88904e4eb6f77b12efd7b026e9e242b45c90e.webp",
+          "sha256": "8BB65D6719C7FA54BBD384CD6788DE48BF47B34F84D565895F80FC9752398DCD",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "passed_color_only_local_pending_automatic_qa",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        }
+      ],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [
+        {
+          "filename": "cp_392_006_col__photo_1f45a52d-e76c-4ff6-b802-2fd03382a339.png",
+          "relativePath": "/most-qa-web/media/bce88904e4eb6f77b12efd7b026e9e242b45c90e.webp",
+          "sha256": "8BB65D6719C7FA54BBD384CD6788DE48BF47B34F84D565895F80FC9752398DCD"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "qa",
+          "relativePath": "evidence/qa/cp_392_006_color_only_qa_v1.json"
+        },
+        {
+          "kind": "ledger",
+          "relativePath": "evidence/ledger/20261022T163249Z_cp_392_006_col_1f45a52d.json"
+        }
+      ],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-392-007-jpg",
+      "source": {
+        "filename": "cp_392_007.jpg",
+        "sourceId": "969275b4-9649-4f5a-99bd-efd47001f8f3",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "392"
+        ],
+        "relativePath": "/most-qa-web/media/be8fcc3b35ba6ab4b3a31922aa96802c0737cc4a.webp",
+        "sha256": "B91DCF5564074F1DD90E4817A05EF8C35A26CDBD136826D618E6F43447338085",
+        "availability": "preserved_local_copy"
+      },
+      "state": "remote_verified",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "stored_remote_proof",
+          "detail": "Historical stored ledger result=not_recorded; sha256_match=not_recorded. This web revision performed no live verification.",
+          "source": "ledger_receipt"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Potvrďte, že historický uložený remote důkaz pro cp_392_007.jpg? Doložený důvod: Historical stored ledger result=not_recorded; sha256_match=not_recorded. This web revision performed no live verification.",
+        "en": "Confirm that the historical stored remote proof for cp_392_007.jpg? Documented reason: Historical stored ledger result=not_recorded; sha256_match=not_recorded. This web revision performed no live verification."
+      },
+      "variants": [
+        {
+          "variantId": "generated_variant:cp_392_007_col__attempt1.png",
+          "role": "generated_variant",
+          "filename": "cp_392_007_col__attempt1.png",
+          "relativePath": "/most-qa-web/media/74ea7db62d7d41f2a97d17d6db65b9ab29595646.webp",
+          "sha256": "EE05A640C4CF717EFBFB32CC084951CFBB1A4D50C473DB2C8CF8D73536DE9915",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "passed_color_only_local_pending_automatic_qa",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        },
+        {
+          "variantId": "accepted_output:cp_392_007_col.png",
+          "role": "accepted_output",
+          "filename": "cp_392_007_col.png",
+          "relativePath": "/most-qa-web/media/74ea7db62d7d41f2a97d17d6db65b9ab29595646.webp",
+          "sha256": "EE05A640C4CF717EFBFB32CC084951CFBB1A4D50C473DB2C8CF8D73536DE9915",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "passed_color_only_local_pending_automatic_qa",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        }
+      ],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [
+        {
+          "filename": "cp_392_007_col__photo_c638c2a9-422b-4c9b-8f59-5ef491e8d900.png",
+          "relativePath": "/most-qa-web/media/74ea7db62d7d41f2a97d17d6db65b9ab29595646.webp",
+          "sha256": "EE05A640C4CF717EFBFB32CC084951CFBB1A4D50C473DB2C8CF8D73536DE9915"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "qa",
+          "relativePath": "evidence/qa/cp_392_007_color_only_qa_v1.json"
+        },
+        {
+          "kind": "ledger",
+          "relativePath": "evidence/ledger/20261022T163657Z_cp_392_007_col_c638c2a9.json"
+        }
+      ],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-393-394-395-396-001-jpg",
+      "source": {
+        "filename": "cp_393,394,395,396_001.jpg",
+        "sourceId": "51c19679-88a6-4d9f-bfe7-60b8b9b11134",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "393"
+        ],
+        "relativePath": "/most-qa-web/media/68d3584dc7a20ed9fd4507a4c8ba35f860b0dc1c.webp",
+        "sha256": "9589AF94045C23D94A1A61722157DA7B8D6996ED9CB9D946B839085F374FDE04",
+        "availability": "preserved_local_copy"
+      },
+      "state": "mapping_review_required",
+      "mappingHold": true,
+      "mappingReasons": [
+        "filename_attachment_mismatch",
+        "multiple_cps_require_visual_mapping"
+      ],
+      "documentedReasons": [
+        {
+          "code": "mapping_review",
+          "detail": "filename_attachment_mismatch, multiple_cps_require_visual_mapping",
+          "source": "local_inventory"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Potvrďte nebo ponechte blokované vizuální mapování čp. pro cp_393,394,395,396_001.jpg? Doložený důvod: filename_attachment_mismatch, multiple_cps_require_visual_mapping",
+        "en": "Confirm or keep blocked the visual building mapping for cp_393,394,395,396_001.jpg? Documented reason: filename_attachment_mismatch, multiple_cps_require_visual_mapping"
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-393-001-jpg",
+      "source": {
+        "filename": "cp_393_001.jpg",
+        "sourceId": "0da49699-f801-4350-aaf3-8cd324079886",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "393"
+        ],
+        "relativePath": "/most-qa-web/media/97568fd7d58ff77a70bc3c238f049716c826e91a.webp",
+        "sha256": "1D7F5F9D021C15C2CB871CBEFB03A40B37B380595A4F3014ABFE6C281C439385",
+        "availability": "preserved_local_copy"
+      },
+      "state": "blocked_remote_filename_hash_conflict",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "remote_hash_conflict",
+          "detail": "blocked_existing_remote_hash_mismatch_human_review_required; local=63DCE2918325ACB937BE752C64A6D2ED16C8FBCC436970B659F3C93C84F49B43; stored_remote=9ED191B9A6050BAF83F2F7A47D086A6FBDAB59BF5B657E2278BB049E05202208",
+          "source": "upload_conflict_receipt"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Rozhodněte, zda má zůstat blokace rozdílného hashe pro cp_393_001.jpg? Doložený důvod: blocked_existing_remote_hash_mismatch_human_review_required; local=63DCE2918325ACB937BE752C64A6D2ED16C8FBCC436970B659F3C93C84F49B43; stored_remote=9ED191B9A6050BAF83F2F7A47D086A6FBDAB59BF5B657E2278BB049E05202208",
+        "en": "Decide whether the hash-conflict block should remain for cp_393_001.jpg? Documented reason: blocked_existing_remote_hash_mismatch_human_review_required; local=63DCE2918325ACB937BE752C64A6D2ED16C8FBCC436970B659F3C93C84F49B43; stored_remote=9ED191B9A6050BAF83F2F7A47D086A6FBDAB59BF5B657E2278BB049E05202208"
+      },
+      "variants": [
+        {
+          "variantId": "generated_variant:cp_393_001_col__attempt1.png",
+          "role": "generated_variant",
+          "filename": "cp_393_001_col__attempt1.png",
+          "relativePath": "/most-qa-web/media/2b597a9d9063c0cda8001f019bd99a4d881a96c9.webp",
+          "sha256": "63DCE2918325ACB937BE752C64A6D2ED16C8FBCC436970B659F3C93C84F49B43",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "passed_color_only_local_pending_automatic_qa",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        },
+        {
+          "variantId": "accepted_output:cp_393_001_col.png",
+          "role": "accepted_output",
+          "filename": "cp_393_001_col.png",
+          "relativePath": "/most-qa-web/media/2b597a9d9063c0cda8001f019bd99a4d881a96c9.webp",
+          "sha256": "63DCE2918325ACB937BE752C64A6D2ED16C8FBCC436970B659F3C93C84F49B43",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "passed_color_only_local_pending_automatic_qa",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        }
+      ],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [
+        {
+          "filename": "cp_393_001_col__existing_photo_ba44be70-1a2e-4c07-b9c5-9cf4dbabca2d.png",
+          "relativePath": "/most-qa-web/media/477d8dca8224e3fd70f0bbb8d7f2f0cfde8d7c9c.webp",
+          "sha256": "9ED191B9A6050BAF83F2F7A47D086A6FBDAB59BF5B657E2278BB049E05202208"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "qa",
+          "relativePath": "evidence/qa/cp_393_001_color_only_qa_v1.json"
+        },
+        {
+          "kind": "upload",
+          "relativePath": "evidence/upload/cp_393_001_existing_remote_conflict_v1.json"
+        }
+      ],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-393-002-jpg",
+      "source": {
+        "filename": "cp_393_002.jpg",
+        "sourceId": "14762f4c-311e-423b-bdad-942a87230026",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "393"
+        ],
+        "relativePath": "/most-qa-web/media/59d5b316d83bd31f52f19a6a90922e728db6b8ff.webp",
+        "sha256": "F6D2A80D7AF2E85AC76B362E07055207C676293B5C1A8C6DF875589BDFBD6997",
+        "availability": "preserved_local_copy"
+      },
+      "state": "blocked_remote_filename_hash_conflict",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "remote_hash_conflict",
+          "detail": "blocked_existing_remote_hash_mismatch_human_review_required; local=9C9F2155F3CA55CE509047456B65187B28846A137CD0516C30688D6F12837880; stored_remote=3ACC015469DB841135EF9CE1A852E8E406EEBCBCAEB02779E04FEE91154E8276",
+          "source": "upload_conflict_receipt"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Rozhodněte, zda má zůstat blokace rozdílného hashe pro cp_393_002.jpg? Doložený důvod: blocked_existing_remote_hash_mismatch_human_review_required; local=9C9F2155F3CA55CE509047456B65187B28846A137CD0516C30688D6F12837880; stored_remote=3ACC015469DB841135EF9CE1A852E8E406EEBCBCAEB02779E04FEE91154E8276",
+        "en": "Decide whether the hash-conflict block should remain for cp_393_002.jpg? Documented reason: blocked_existing_remote_hash_mismatch_human_review_required; local=9C9F2155F3CA55CE509047456B65187B28846A137CD0516C30688D6F12837880; stored_remote=3ACC015469DB841135EF9CE1A852E8E406EEBCBCAEB02779E04FEE91154E8276"
+      },
+      "variants": [
+        {
+          "variantId": "generated_variant:cp_393_002_col__attempt1.png",
+          "role": "generated_variant",
+          "filename": "cp_393_002_col__attempt1.png",
+          "relativePath": "/most-qa-web/media/40cb076df6d0310c30b800ad8dca2e775af51a83.webp",
+          "sha256": "9C9F2155F3CA55CE509047456B65187B28846A137CD0516C30688D6F12837880",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "passed_color_only_local_pending_automatic_qa",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        },
+        {
+          "variantId": "accepted_output:cp_393_002_col.png",
+          "role": "accepted_output",
+          "filename": "cp_393_002_col.png",
+          "relativePath": "/most-qa-web/media/40cb076df6d0310c30b800ad8dca2e775af51a83.webp",
+          "sha256": "9C9F2155F3CA55CE509047456B65187B28846A137CD0516C30688D6F12837880",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "passed_color_only_local_pending_automatic_qa",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        }
+      ],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [
+        {
+          "filename": "cp_393_002_col__existing_photo_2347fffb-5eda-4b97-bc6e-d9946abe404b.png",
+          "relativePath": "/most-qa-web/media/c1d49c4f93dd3ef8044b92bf473f1aa9926d3778.webp",
+          "sha256": "3ACC015469DB841135EF9CE1A852E8E406EEBCBCAEB02779E04FEE91154E8276"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "qa",
+          "relativePath": "evidence/qa/cp_393_002_color_only_qa_v1.json"
+        },
+        {
+          "kind": "upload",
+          "relativePath": "evidence/upload/cp_393_002_existing_remote_conflict_v1.json"
+        }
+      ],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-393-003-jpg",
+      "source": {
+        "filename": "cp_393_003.jpg",
+        "sourceId": "984b0e7c-2a43-418f-ad95-bea33b91266e",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "393"
+        ],
+        "relativePath": "/most-qa-web/media/ab75d5e485aa2a055c76e6d622d14c06a8e44950.webp",
+        "sha256": "D8B0336EAFDFDCC72BC18AABADB68764174AC28E59A17AEB44EFADC9E94EC3BB",
+        "availability": "preserved_local_copy"
+      },
+      "state": "human_review_required",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "screening_reason",
+          "detail": "The photograph contains a materially legible vehicle registration plate. A generative COLOR_ONLY edit could alter the glyphs; preservation must be visually confirmed by a human before an attempt.",
+          "source": "screening_receipt"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Posuďte, zda lze bezpečně pokračovat pouze po lidské kontrole pro cp_393_003.jpg? Doložený důvod: The photograph contains a materially legible vehicle registration plate. A generative COLOR_ONLY edit could alter the glyphs; preservation must be visually confirmed by a human before an attempt.",
+        "en": "Decide whether any progress can be considered only after human review for cp_393_003.jpg? Documented reason: The photograph contains a materially legible vehicle registration plate. A generative COLOR_ONLY edit could alter the glyphs; preservation must be visually confirmed by a human before an attempt."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [
+        {
+          "kind": "screening",
+          "relativePath": "evidence/screening/cp_393_003_human_review_gate_v1.json"
+        }
+      ],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-393-004-jpg",
+      "source": {
+        "filename": "cp_393_004.jpg",
+        "sourceId": "78816317-f879-47d0-9049-80a1f38000d8",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "393"
+        ],
+        "relativePath": "/most-qa-web/media/64df617b7af4e4ba49a234e8f1b657b27efe0640.webp",
+        "sha256": "318D341A3956269586843AF4CBC19003D5CD864DB9C25B920034E2AA3152D2A7",
+        "availability": "preserved_local_copy"
+      },
+      "state": "human_review_required",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "screening_reason",
+          "detail": "The photograph contains the clearly legible vehicle registration plate MOA-10-07. A generative COLOR_ONLY edit could alter the glyphs; preservation must be visually confirmed by a human before an attempt.",
+          "source": "screening_receipt"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Posuďte, zda lze bezpečně pokračovat pouze po lidské kontrole pro cp_393_004.jpg? Doložený důvod: The photograph contains the clearly legible vehicle registration plate MOA-10-07. A generative COLOR_ONLY edit could alter the glyphs; preservation must be visually confirmed by a human before an attempt.",
+        "en": "Decide whether any progress can be considered only after human review for cp_393_004.jpg? Documented reason: The photograph contains the clearly legible vehicle registration plate MOA-10-07. A generative COLOR_ONLY edit could alter the glyphs; preservation must be visually confirmed by a human before an attempt."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [
+        {
+          "kind": "screening",
+          "relativePath": "evidence/screening/cp_393_004_human_review_gate_v1.json"
+        }
+      ],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-393-005-jpg",
+      "source": {
+        "filename": "cp_393_005.jpg",
+        "sourceId": "f16c6d81-c87c-45f6-bfbe-99cb708e6bd4",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "393"
+        ],
+        "relativePath": "/most-qa-web/media/6750b1805b69e242288999076964fafa9b9c33b5.webp",
+        "sha256": "8E50F56E9D26740AD7C80731AA264B28F42D0D203CEEC7B80282ED8EA94508F6",
+        "availability": "preserved_local_copy"
+      },
+      "state": "blocked_remote_filename_hash_conflict",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "remote_hash_conflict",
+          "detail": "blocked_existing_remote_hash_mismatch_human_review_required; local=A63F7B24A670E49B4DFE2637EB65750DEF0520FCC006A56A221728BD5351FD59; stored_remote=9E092FA473CDFB3B06A7968AE0AFA29E2A6D519F5DF051198FA7B3E1FE2640EF",
+          "source": "upload_conflict_receipt"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Rozhodněte, zda má zůstat blokace rozdílného hashe pro cp_393_005.jpg? Doložený důvod: blocked_existing_remote_hash_mismatch_human_review_required; local=A63F7B24A670E49B4DFE2637EB65750DEF0520FCC006A56A221728BD5351FD59; stored_remote=9E092FA473CDFB3B06A7968AE0AFA29E2A6D519F5DF051198FA7B3E1FE2640EF",
+        "en": "Decide whether the hash-conflict block should remain for cp_393_005.jpg? Documented reason: blocked_existing_remote_hash_mismatch_human_review_required; local=A63F7B24A670E49B4DFE2637EB65750DEF0520FCC006A56A221728BD5351FD59; stored_remote=9E092FA473CDFB3B06A7968AE0AFA29E2A6D519F5DF051198FA7B3E1FE2640EF"
+      },
+      "variants": [
+        {
+          "variantId": "generated_variant:cp_393_005_col__attempt1.png",
+          "role": "generated_variant",
+          "filename": "cp_393_005_col__attempt1.png",
+          "relativePath": "/most-qa-web/media/58fc1d779f19548c92c90a7e69e0bb7252c70907.webp",
+          "sha256": "A63F7B24A670E49B4DFE2637EB65750DEF0520FCC006A56A221728BD5351FD59",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "passed_color_only_local_pending_automatic_qa",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        },
+        {
+          "variantId": "accepted_output:cp_393_005_col.png",
+          "role": "accepted_output",
+          "filename": "cp_393_005_col.png",
+          "relativePath": "/most-qa-web/media/58fc1d779f19548c92c90a7e69e0bb7252c70907.webp",
+          "sha256": "A63F7B24A670E49B4DFE2637EB65750DEF0520FCC006A56A221728BD5351FD59",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "passed_color_only_local_pending_automatic_qa",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        }
+      ],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [
+        {
+          "filename": "cp_393_005_col__existing_photo_90bc5eb1-6a43-4f03-b308-84db6ae8417a.png",
+          "relativePath": "/most-qa-web/media/88b4a5bd1ecbf115ff4548a010f543d1faa5c8a7.webp",
+          "sha256": "9E092FA473CDFB3B06A7968AE0AFA29E2A6D519F5DF051198FA7B3E1FE2640EF"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "qa",
+          "relativePath": "evidence/qa/cp_393_005_color_only_qa_v1.json"
+        },
+        {
+          "kind": "upload",
+          "relativePath": "evidence/upload/cp_393_005_existing_remote_conflict_v1.json"
+        }
+      ],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-907-933-1010-001-jpg",
+      "source": {
+        "filename": "cp_907,933,1010_001.jpg",
+        "sourceId": "e360c5c7-bf74-473f-a476-110b6d7266ad",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "1010"
+        ],
+        "relativePath": "/most-qa-web/media/0afe098956994babc89f75882b0f4519b8ad4c4e.webp",
+        "sha256": "E808BA46E89226B9686B78035F1052FB57530183DE911D1F067B89775B8EB4A4",
+        "availability": "preserved_local_copy"
+      },
+      "state": "mapping_review_required",
+      "mappingHold": true,
+      "mappingReasons": [
+        "filename_attachment_mismatch",
+        "multiple_cps_require_visual_mapping"
+      ],
+      "documentedReasons": [
+        {
+          "code": "mapping_review",
+          "detail": "filename_attachment_mismatch, multiple_cps_require_visual_mapping",
+          "source": "local_inventory"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Potvrďte nebo ponechte blokované vizuální mapování čp. pro cp_907,933,1010_001.jpg? Doložený důvod: filename_attachment_mismatch, multiple_cps_require_visual_mapping",
+        "en": "Confirm or keep blocked the visual building mapping for cp_907,933,1010_001.jpg? Documented reason: filename_attachment_mismatch, multiple_cps_require_visual_mapping"
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-918-922-923-001-jpg",
+      "source": {
+        "filename": "cp_918,922,923_001.jpg",
+        "sourceId": "dacd3c56-1199-447b-859a-e2b9acf47b9e",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "918",
+          "922",
+          "923"
+        ],
+        "relativePath": "/most-qa-web/media/c6d4b87658b0002d1f6e41ee4582740839f34ea3.webp",
+        "sha256": "5279457C21C00DAA4C0A35077A811CE2F084AD30F7A3BF4735D7522184B51F57",
+        "availability": "preserved_local_copy"
+      },
+      "state": "mapping_review_required",
+      "mappingHold": true,
+      "mappingReasons": [
+        "multiple_cps_require_visual_mapping"
+      ],
+      "documentedReasons": [
+        {
+          "code": "mapping_review",
+          "detail": "multiple_cps_require_visual_mapping",
+          "source": "local_inventory"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Potvrďte nebo ponechte blokované vizuální mapování čp. pro cp_918,922,923_001.jpg? Doložený důvod: multiple_cps_require_visual_mapping",
+        "en": "Confirm or keep blocked the visual building mapping for cp_918,922,923_001.jpg? Documented reason: multiple_cps_require_visual_mapping"
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-918-001-jpg",
+      "source": {
+        "filename": "cp_918_001.jpg",
+        "sourceId": "754ab6a0-94ee-4c87-9a13-968e5c114409",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "918"
+        ],
+        "relativePath": "/most-qa-web/media/17af52e78f0e7bf43b36ed9cf2cd94fa22f58e9a.webp",
+        "sha256": "3B2C7D5936A2A208E4DFD2CCF3A1B2953A39B1D869D541D8EA38FD181145A143",
+        "availability": "preserved_local_copy"
+      },
+      "state": "remote_verified",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "stored_remote_proof",
+          "detail": "Historical stored ledger result=remote_verified; sha256_match=true. This web revision performed no live verification.",
+          "source": "ledger_receipt"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Potvrďte, že historický uložený remote důkaz pro cp_918_001.jpg? Doložený důvod: Historical stored ledger result=remote_verified; sha256_match=true. This web revision performed no live verification.",
+        "en": "Confirm that the historical stored remote proof for cp_918_001.jpg? Documented reason: Historical stored ledger result=remote_verified; sha256_match=true. This web revision performed no live verification."
+      },
+      "variants": [
+        {
+          "variantId": "generated_variant:cp_918_001_col__attempt1.png",
+          "role": "generated_variant",
+          "filename": "cp_918_001_col__attempt1.png",
+          "relativePath": "/most-qa-web/media/2e6a5114d4ba20dafd64a8251b5685e7a97dfd6f.webp",
+          "sha256": "5FB31B9D3C1BBD9C50C68FED0D0F01752704EB417AA3B4F6E93B3ACCD51615D1",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "accepted_as_final_color_only",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        },
+        {
+          "variantId": "accepted_output:cp_918_001_col.png",
+          "role": "accepted_output",
+          "filename": "cp_918_001_col.png",
+          "relativePath": "/most-qa-web/media/2e6a5114d4ba20dafd64a8251b5685e7a97dfd6f.webp",
+          "sha256": "5FB31B9D3C1BBD9C50C68FED0D0F01752704EB417AA3B4F6E93B3ACCD51615D1",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "accepted_as_final_color_only",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        }
+      ],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [
+        {
+          "filename": "cp_918_001_col__photo_51e99f9d-17f8-4495-9d73-83f89846e35e.png",
+          "relativePath": "/most-qa-web/media/2e6a5114d4ba20dafd64a8251b5685e7a97dfd6f.webp",
+          "sha256": "5FB31B9D3C1BBD9C50C68FED0D0F01752704EB417AA3B4F6E93B3ACCD51615D1"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "qa",
+          "relativePath": "evidence/qa/cp_918_001_color_only_qa_v1.json"
+        },
+        {
+          "kind": "ledger",
+          "relativePath": "evidence/ledger/20261022T143500Z_cp_918_001_col_51e99f9d.json"
+        }
+      ],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-918-002-jpg",
+      "source": {
+        "filename": "cp_918_002.jpg",
+        "sourceId": "c810ea82-baa9-4b71-a305-e0c3afec586d",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "918"
+        ],
+        "relativePath": "/most-qa-web/media/b9a329f05b510ebdee64d1735a0d841a9b501460.webp",
+        "sha256": "68197B1C51D9053033100A85163FFEA034B89C147E57B41141369CE85F6865D0",
+        "availability": "preserved_local_copy"
+      },
+      "state": "remote_verified",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "stored_remote_proof",
+          "detail": "Historical stored ledger result=remote_verified; sha256_match=true. This web revision performed no live verification.",
+          "source": "ledger_receipt"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Potvrďte, že historický uložený remote důkaz pro cp_918_002.jpg? Doložený důvod: Historical stored ledger result=remote_verified; sha256_match=true. This web revision performed no live verification.",
+        "en": "Confirm that the historical stored remote proof for cp_918_002.jpg? Documented reason: Historical stored ledger result=remote_verified; sha256_match=true. This web revision performed no live verification."
+      },
+      "variants": [
+        {
+          "variantId": "generated_variant:cp_918_002_col__attempt1.png",
+          "role": "generated_variant",
+          "filename": "cp_918_002_col__attempt1.png",
+          "relativePath": "/most-qa-web/media/8f812c2d73937f31ae904ca700a472fc2a2d9d0d.webp",
+          "sha256": "8D1E55977B5DDEC0D076FDF62D22AEA8AADE360DA1950EDF275467D731BD09E7",
+          "qa": {
+            "phase": "not_recorded",
+            "status": "not_recorded",
+            "rejectionReason": null,
+            "evidenceStatus": "not_recorded_for_this_hash"
+          }
+        },
+        {
+          "variantId": "accepted_output:cp_918_002_col.png",
+          "role": "accepted_output",
+          "filename": "cp_918_002_col.png",
+          "relativePath": "/most-qa-web/media/8f812c2d73937f31ae904ca700a472fc2a2d9d0d.webp",
+          "sha256": "8D1E55977B5DDEC0D076FDF62D22AEA8AADE360DA1950EDF275467D731BD09E7",
+          "qa": {
+            "phase": "not_recorded",
+            "status": "not_recorded",
+            "rejectionReason": null,
+            "evidenceStatus": "not_recorded_for_this_hash"
+          }
+        }
+      ],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [
+        {
+          "filename": "cp_918_002_col__photo_ff390afd-da12-4bb4-b7a7-6a85ef21e7dc.png",
+          "relativePath": "/most-qa-web/media/8f812c2d73937f31ae904ca700a472fc2a2d9d0d.webp",
+          "sha256": "8D1E55977B5DDEC0D076FDF62D22AEA8AADE360DA1950EDF275467D731BD09E7"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "qa",
+          "relativePath": "evidence/qa/cp_918_002_color_only_qa_v1.json"
+        },
+        {
+          "kind": "ledger",
+          "relativePath": "evidence/ledger/20261022T142617Z_cp_918_002_col_ff390afd.json"
+        }
+      ],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-918-003-jpg",
+      "source": {
+        "filename": "cp_918_003.jpg",
+        "sourceId": "55ef4680-4d5e-4695-9b80-09220a6593eb",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "918"
+        ],
+        "relativePath": "/most-qa-web/media/2a89c6b54e62cb6d5cf3ba77baed0a3580736775.webp",
+        "sha256": "E4DEBFEF76D114139D85FFF109B1DDF180F74AAF7947BB40B868B142ABAC6D70",
+        "availability": "preserved_local_copy"
+      },
+      "state": "remote_verified",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "stored_remote_proof",
+          "detail": "Historical stored ledger result=remote_verified; sha256_match=true. This web revision performed no live verification.",
+          "source": "ledger_receipt"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Potvrďte, že historický uložený remote důkaz pro cp_918_003.jpg? Doložený důvod: Historical stored ledger result=remote_verified; sha256_match=true. This web revision performed no live verification.",
+        "en": "Confirm that the historical stored remote proof for cp_918_003.jpg? Documented reason: Historical stored ledger result=remote_verified; sha256_match=true. This web revision performed no live verification."
+      },
+      "variants": [
+        {
+          "variantId": "generated_variant:cp_918_003_col__attempt1.png",
+          "role": "generated_variant",
+          "filename": "cp_918_003_col__attempt1.png",
+          "relativePath": "/most-qa-web/media/138c689ea2fd893bc86bc822481822c73a99a79e.webp",
+          "sha256": "011F970D6DB8F48190A9B85AB5A96997B2462F71FE76F7DDD6141581CE44D258",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "accepted_as_final_color_only",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        },
+        {
+          "variantId": "accepted_output:cp_918_003_col.png",
+          "role": "accepted_output",
+          "filename": "cp_918_003_col.png",
+          "relativePath": "/most-qa-web/media/138c689ea2fd893bc86bc822481822c73a99a79e.webp",
+          "sha256": "011F970D6DB8F48190A9B85AB5A96997B2462F71FE76F7DDD6141581CE44D258",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "accepted_as_final_color_only",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        }
+      ],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [
+        {
+          "filename": "cp_918_003_col__photo_314dd475-67b1-4a80-8602-c527e2a79673.png",
+          "relativePath": "/most-qa-web/media/138c689ea2fd893bc86bc822481822c73a99a79e.webp",
+          "sha256": "011F970D6DB8F48190A9B85AB5A96997B2462F71FE76F7DDD6141581CE44D258"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "qa",
+          "relativePath": "evidence/qa/cp_918_003_color_only_qa_v1.json"
+        },
+        {
+          "kind": "ledger",
+          "relativePath": "evidence/ledger/20261022T145057Z_cp_918_003_col_314dd475.json"
+        }
+      ],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-918-004-jpg",
+      "source": {
+        "filename": "cp_918_004.jpg",
+        "sourceId": "6e135582-17cc-4cfe-bcfa-53088977fbd8",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "918"
+        ],
+        "relativePath": "/most-qa-web/media/3f1d12322bf1501a036d1106c53872e62fa5d36d.webp",
+        "sha256": "49A0B8CD0DEE818381F84AC66E7089DA8BBD14354851BB77560C92FF5EFD2501",
+        "availability": "preserved_local_copy"
+      },
+      "state": "remote_verified",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "stored_remote_proof",
+          "detail": "Historical stored ledger result=remote_verified; sha256_match=true. This web revision performed no live verification.",
+          "source": "ledger_receipt"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Potvrďte, že historický uložený remote důkaz pro cp_918_004.jpg? Doložený důvod: Historical stored ledger result=remote_verified; sha256_match=true. This web revision performed no live verification.",
+        "en": "Confirm that the historical stored remote proof for cp_918_004.jpg? Documented reason: Historical stored ledger result=remote_verified; sha256_match=true. This web revision performed no live verification."
+      },
+      "variants": [
+        {
+          "variantId": "generated_variant:cp_918_004_col__attempt1.png",
+          "role": "generated_variant",
+          "filename": "cp_918_004_col__attempt1.png",
+          "relativePath": "/most-qa-web/media/a6230b016e41d7528ae7f91c59b07518e2d8167f.webp",
+          "sha256": "D39D94417B66E32DBB6D72F25D6A55DACEA560B5980993299891619FFB29B92D",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "accepted_as_final_color_only",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        },
+        {
+          "variantId": "accepted_output:cp_918_004_col.png",
+          "role": "accepted_output",
+          "filename": "cp_918_004_col.png",
+          "relativePath": "/most-qa-web/media/a6230b016e41d7528ae7f91c59b07518e2d8167f.webp",
+          "sha256": "D39D94417B66E32DBB6D72F25D6A55DACEA560B5980993299891619FFB29B92D",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "accepted_as_final_color_only",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        }
+      ],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [
+        {
+          "filename": "cp_918_004_col__photo_a2f11885-c7c5-4f50-97ab-25be920fb6e5.png",
+          "relativePath": "/most-qa-web/media/a6230b016e41d7528ae7f91c59b07518e2d8167f.webp",
+          "sha256": "D39D94417B66E32DBB6D72F25D6A55DACEA560B5980993299891619FFB29B92D"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "qa",
+          "relativePath": "evidence/qa/cp_918_004_color_only_qa_v1.json"
+        },
+        {
+          "kind": "ledger",
+          "relativePath": "evidence/ledger/20261022T145939Z_cp_918_004_col_a2f11885.json"
+        }
+      ],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-922-001-jpg",
+      "source": {
+        "filename": "cp_922_001.jpg",
+        "sourceId": "bafc2a94-dfef-4b7e-9843-da25ee3c7083",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "922"
+        ],
+        "relativePath": "/most-qa-web/media/6180810b07c4bfa9310bf3e246f4b9d10cb7dd79.webp",
+        "sha256": "EC2C820AF2DDE9CFC30B23D1F4109F64A1ABA234B1B05D6BF7EB5A5A94F2D2A0",
+        "availability": "preserved_local_copy"
+      },
+      "state": "remote_verified",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "stored_remote_proof",
+          "detail": "Historical stored ledger result=not_recorded; sha256_match=not_recorded. This web revision performed no live verification.",
+          "source": "ledger_receipt"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Potvrďte, že historický uložený remote důkaz pro cp_922_001.jpg? Doložený důvod: Historical stored ledger result=not_recorded; sha256_match=not_recorded. This web revision performed no live verification.",
+        "en": "Confirm that the historical stored remote proof for cp_922_001.jpg? Documented reason: Historical stored ledger result=not_recorded; sha256_match=not_recorded. This web revision performed no live verification."
+      },
+      "variants": [
+        {
+          "variantId": "generated_variant:cp_922_001_col__attempt1.png",
+          "role": "generated_variant",
+          "filename": "cp_922_001_col__attempt1.png",
+          "relativePath": "/most-qa-web/media/fbd67bc942787a951e05de3780c2c581402bf79e.webp",
+          "sha256": "BBFD9A40F9726ED23918484ECD0D1AE95598A31E4C1D1DD742BD68DC2561CB72",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "passed_color_only_local_pending_automatic_qa",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        },
+        {
+          "variantId": "accepted_output:cp_922_001_col.png",
+          "role": "accepted_output",
+          "filename": "cp_922_001_col.png",
+          "relativePath": "/most-qa-web/media/fbd67bc942787a951e05de3780c2c581402bf79e.webp",
+          "sha256": "BBFD9A40F9726ED23918484ECD0D1AE95598A31E4C1D1DD742BD68DC2561CB72",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "passed_color_only_local_pending_automatic_qa",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        }
+      ],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [
+        {
+          "filename": "cp_922_001_col__photo_77dade28-c30c-45fb-9e25-5a9198f8c578.png",
+          "relativePath": "/most-qa-web/media/fbd67bc942787a951e05de3780c2c581402bf79e.webp",
+          "sha256": "BBFD9A40F9726ED23918484ECD0D1AE95598A31E4C1D1DD742BD68DC2561CB72"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "qa",
+          "relativePath": "evidence/qa/cp_922_001_color_only_qa_v1.json"
+        },
+        {
+          "kind": "ledger",
+          "relativePath": "evidence/ledger/20261022T162658Z_cp_922_001_col_77dade28.json"
+        }
+      ],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-922-002-jpg",
+      "source": {
+        "filename": "cp_922_002.jpg",
+        "sourceId": "156b77f0-5843-4c7a-85fe-4d2cf253f83c",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "922"
+        ],
+        "relativePath": "/most-qa-web/media/a653a7b6c9a36f8349216b8a1c69d652b83a5340.webp",
+        "sha256": "564C90C14F3DAE6BA90CE2D0931F4CBB7288E9C2C9A80A276A0E9BABD88AB46A",
+        "availability": "preserved_local_copy"
+      },
+      "state": "remote_verified",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "stored_remote_proof",
+          "detail": "Historical stored ledger result=not_recorded; sha256_match=not_recorded. This web revision performed no live verification.",
+          "source": "ledger_receipt"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Potvrďte, že historický uložený remote důkaz pro cp_922_002.jpg? Doložený důvod: Historical stored ledger result=not_recorded; sha256_match=not_recorded. This web revision performed no live verification.",
+        "en": "Confirm that the historical stored remote proof for cp_922_002.jpg? Documented reason: Historical stored ledger result=not_recorded; sha256_match=not_recorded. This web revision performed no live verification."
+      },
+      "variants": [
+        {
+          "variantId": "accepted_output:cp_922_002_col.png",
+          "role": "accepted_output",
+          "filename": "cp_922_002_col.png",
+          "relativePath": "/most-qa-web/media/e6f0b3d677be6284cb1b81919eb97c79a229b689.webp",
+          "sha256": "8B12DEE31D7956C9C9E719B72E2FD659F13E235F83CFE8F31D07A72CC4D0900E",
+          "qa": {
+            "phase": "COLOR_ONLY",
+            "status": "passed_color_only_local_pending_automatic_qa",
+            "rejectionReason": null,
+            "evidenceStatus": "recorded_for_this_hash"
+          }
+        }
+      ],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [
+        {
+          "filename": "cp_922_002_col__photo_8d83fc70-8af4-4279-a9f7-16672c8fd06c.png",
+          "relativePath": "/most-qa-web/media/e6f0b3d677be6284cb1b81919eb97c79a229b689.webp",
+          "sha256": "8B12DEE31D7956C9C9E719B72E2FD659F13E235F83CFE8F31D07A72CC4D0900E"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "qa",
+          "relativePath": "evidence/qa/cp_922_002_color_only_qa_v1.json"
+        },
+        {
+          "kind": "ledger",
+          "relativePath": "evidence/ledger/20261022T164826Z_cp_922_002_col_8d83fc70.json"
+        }
+      ],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-923-001-jpg",
+      "source": {
+        "filename": "cp_923_001.jpg",
+        "sourceId": "5024d5a2-05d0-46ac-94d4-85997aacef15",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "923"
+        ],
+        "relativePath": "/most-qa-web/media/6c230f122629106b894a0028ecc77e307e9a3673.webp",
+        "sha256": "C5BF328179A278A212F1AFFD948C937FDDF4B0189D22AF04B6791AE0D3A2D933",
+        "availability": "preserved_local_copy"
+      },
+      "state": "human_review_required",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "screening_reason",
+          "detail": "The photograph contains a materially legible vehicle registration plate MO-93-52 and fine facade detail. A generative COLOR_ONLY edit could alter protected glyphs or documented geometry; preservation must be visually confirmed by a human before an attempt.",
+          "source": "screening_receipt"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Posuďte, zda lze bezpečně pokračovat pouze po lidské kontrole pro cp_923_001.jpg? Doložený důvod: The photograph contains a materially legible vehicle registration plate MO-93-52 and fine facade detail. A generative COLOR_ONLY edit could alter protected glyphs or documented geometry; preservation must be visually confirmed by a human before an attempt.",
+        "en": "Decide whether any progress can be considered only after human review for cp_923_001.jpg? Documented reason: The photograph contains a materially legible vehicle registration plate MO-93-52 and fine facade detail. A generative COLOR_ONLY edit could alter protected glyphs or documented geometry; preservation must be visually confirmed by a human before an attempt."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [
+        {
+          "kind": "screening",
+          "relativePath": "evidence/screening/cp_923_001_human_review_gate_v1.json"
+        }
+      ],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-923-002-jpg",
+      "source": {
+        "filename": "cp_923_002.jpg",
+        "sourceId": "c1c494e1-f8e5-4019-9983-ff495ea5aca0",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "923"
+        ],
+        "relativePath": "/most-qa-web/media/6dd31b5eedc6cbfcf8fbb59328faefa5fa1bb97d.webp",
+        "sha256": "F6866F84CA4CD6DD501A5A6C3CF0494A2342C922B1A3B0323A18C1CB1D5FF349",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj cp_923_002.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source cp_923_002.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-965-001-jpg",
+      "source": {
+        "filename": "cp_965_001.jpg",
+        "sourceId": "a40ca005-6830-45ca-9e34-1b4f1ce8fe38",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "965"
+        ],
+        "relativePath": "/most-qa-web/media/9eb80f51a86003f767b0b0767749839a1b8a3549.webp",
+        "sha256": "A995E9A47D729FCF1CBBCC7286E7E5ADEAEE4A4F176EFDB6CD8D5FD4BE92E4B7",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj cp_965_001.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source cp_965_001.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-965-002-jpg",
+      "source": {
+        "filename": "cp_965_002.jpg",
+        "sourceId": "a1927cec-ef06-4e64-bae0-5c5d93b2fc9f",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "965"
+        ],
+        "relativePath": "/most-qa-web/media/6e99336fa4c64c25b73d90133cc77141bf00ace5.webp",
+        "sha256": "FE7DACAF9822B302C0E1606862EA80EBAF194F59200A554C654CEAA938575403",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj cp_965_002.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source cp_965_002.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-994-001-jpg",
+      "source": {
+        "filename": "cp_994_001.jpg",
+        "sourceId": "8fca4e31-9dc4-4bf0-a9ad-b3aadd765457",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "994"
+        ],
+        "relativePath": "/most-qa-web/media/2cc8c5d187c44c220d7367f69a5ec6e01763ba78.webp",
+        "sha256": "7FF1392D2841ADA8FCFA03C5F87CE4FEFBA372331680DFB73B85234D37B684C7",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj cp_994_001.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source cp_994_001.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-994-002-jpg",
+      "source": {
+        "filename": "cp_994_002.jpg",
+        "sourceId": "f42c5231-b8ac-49a8-8c0d-ebfb3d32fd11",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "994"
+        ],
+        "relativePath": "/most-qa-web/media/eef3e215491e114240f79dd8ef441e36f69b29c0.webp",
+        "sha256": "2873C839DDD35F5EFAB49B63CABD4D07A613D14487FFBDA3F54733EF544F3350",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj cp_994_002.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source cp_994_002.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-994-003-jpg",
+      "source": {
+        "filename": "cp_994_003.jpg",
+        "sourceId": "55c48f67-e991-4cbb-aab4-d7fd664f2de1",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "994"
+        ],
+        "relativePath": "/most-qa-web/media/d640b1df64ef8e44e5e748c813f61bf1695b6a76.webp",
+        "sha256": "F8AE904FD90FC1D77C255C97D7A0863F699BBC198A49A6B4B43043759D86FE48",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj cp_994_003.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source cp_994_003.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:foto-000101-jpg",
+      "source": {
+        "filename": "FOTO-000101.jpg",
+        "sourceId": "6712e967-f2c3-4f01-b224-231d8a5035fd",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "1325"
+        ],
+        "relativePath": "/most-qa-web/media/8dab91464cdaf2c93bc50302b042781cc4473dc8.webp",
+        "sha256": "F429C1795ECDCCF31893B591F7CE532FC9718C9E4D1C663C793E2D8DDB197F87",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj FOTO-000101.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source FOTO-000101.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:foto-000227-jpg",
+      "source": {
+        "filename": "FOTO-000227.jpg",
+        "sourceId": "1a6c4e1d-6100-44a8-8370-2a08148051dd",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "PHOTO,BW",
+        "coveredCps": [
+          "1325"
+        ],
+        "relativePath": "/most-qa-web/media/15636997d9535dea683f57e03d267b6a2772d84f.webp",
+        "sha256": "8087B9B4D5D135CE29FF3D9B0685F21C50888A3D83F4348C5C43BC4C096F64C3",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unprocessed_local",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "no_local_processing_record",
+          "detail": "No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+          "source": "derived_from_staged_evidence_absence"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte blokované nebo vyžádejte lidské posouzení pro dosud nezpracovaný zdroj FOTO-000227.jpg? Doložený důvod: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source.",
+        "en": "Keep blocked or request human review for the still-unprocessed source FOTO-000227.jpg? Documented reason: No staged QA, screening, upload-conflict, or remote-ledger record exists for this preserved source."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-393-001-mult-png",
+      "source": {
+        "filename": "cp_393_001_mult.png",
+        "sourceId": "49267f4d-f9d6-49c8-8742-6fdca97a463e",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "UNCLASSIFIED",
+        "coveredCps": [
+          "393"
+        ],
+        "relativePath": "/most-qa-web/media/0af094594387199a96a7096f3c592e603043ea5e.webp",
+        "sha256": "6C8E2C427908F220733394A3EEDD1F1B6EBB4D86B5DC1AA43AA3A844217D7D02",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unclassified_not_edited",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "non_photo_or_unclassified",
+          "detail": "Inventory type=UNCLASSIFIED; no COLOR_ONLY edit is recorded.",
+          "source": "local_inventory"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte nezpracované, nebo označte potřebu lidského třídění pro cp_393_001_mult.png? Doložený důvod: Inventory type=UNCLASSIFIED; no COLOR_ONLY edit is recorded.",
+        "en": "Keep unprocessed or flag a need for human classification for cp_393_001_mult.png? Documented reason: Inventory type=UNCLASSIFIED; no COLOR_ONLY edit is recorded."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    },
+    {
+      "caseVersion": "most-private-qa-case/1.1",
+      "caseId": "nerudova:cp-393-002-mult-png",
+      "source": {
+        "filename": "cp_393_002_mult.png",
+        "sourceId": "9bcfad6f-63c5-4638-90cf-04b5089ee4ef",
+        "sourceIdStatus": "known_from_local_inventory",
+        "type": "UNCLASSIFIED",
+        "coveredCps": [
+          "393"
+        ],
+        "relativePath": "/most-qa-web/media/ae08c96985c42623523192516eed9d191c5eb4d1.webp",
+        "sha256": "2F430368C79D9536A86B01CC0E44A183623ACC90DEC076E7402837194AC8432F",
+        "availability": "preserved_local_copy"
+      },
+      "state": "unclassified_not_edited",
+      "mappingHold": false,
+      "mappingReasons": [],
+      "documentedReasons": [
+        {
+          "code": "non_photo_or_unclassified",
+          "detail": "Inventory type=UNCLASSIFIED; no COLOR_ONLY edit is recorded.",
+          "source": "local_inventory"
+        }
+      ],
+      "humanQaQuestion": {
+        "cs": "Ponechte nezpracované, nebo označte potřebu lidského třídění pro cp_393_002_mult.png? Doložený důvod: Inventory type=UNCLASSIFIED; no COLOR_ONLY edit is recorded.",
+        "en": "Keep unprocessed or flag a need for human classification for cp_393_002_mult.png? Documented reason: Inventory type=UNCLASSIFIED; no COLOR_ONLY edit is recorded."
+      },
+      "variants": [],
+      "selectedVariantId": null,
+      "selectedVariantSha256": null,
+      "remoteProofs": [],
+      "evidence": [],
+      "comment": "not_recorded",
+      "applicationStatus": "not_applied"
+    }
+  ]
+}

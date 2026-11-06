@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-22T16:22:00Z",
+  "role": "AZ",
+  "thread_id": "01a163ea-cd21-7a52-9eb1-163c6f2a0a41",
+  "street": "Nerudova",
+  "phase": "COLOR_ONLY",
+  "source": {
+    "filename": "cp_922_001.jpg",
+    "source_type": "PHOTO,BW",
+    "source_id": "bafc2a94-dfef-4b7e-9843-da25ee3c7083",
+    "covered_cps": [
+      "922"
+    ],
+    "sha256": "EC2C820AF2DDE9CFC30B23D1F4109F64A1ABA234B1B05D6BF7EB5A5A94F2D2A0"
+  },
+  "candidate": {
+    "filename": "cp_922_001_col__attempt1.png",
+    "sha256": "BBFD9A40F9726ED23918484ECD0D1AE95598A31E4C1D1DD742BD68DC2561CB72",
+    "attempt": 1,
+    "max_attempts": 2
+  },
+  "decision": "passed_color_only_local_pending_automatic_qa",
+  "checks": {
+    "source_is_direct_photo": true,
+    "one_source_to_one_output": true,
+    "architecture_and_composition_preserved": true,
+    "ornament_broken_glazing_damage_and_road_preserved": true,
+    "archival_white_border_preserved": true,
+    "no_cleanup_or_object_removal": true,
+    "no_front_or_mult_derivative": true,
+    "no_external_black_padding": true,
+    "model_hypothesis_metadata_required": true
+  },
+  "materials": [
+    {
+      "id": "PLASTER_WARM_OCHRE_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "PLASTER_DEEP_RED_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "ROOF_TERRACOTTA_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "ROAD_MUD_GREY_BROWN_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    }
+  ],
+  "limitations": [
+    "No direct period colour reference was found; every assigned colour is a provisional model hypothesis.",
+    "Automatic pipeline QA and, only after passing it, upload remain outstanding."
+  ]
+}

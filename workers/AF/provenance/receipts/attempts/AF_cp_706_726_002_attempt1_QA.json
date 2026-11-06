@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "receipt_type": "color_only_attempt_qa",
+  "attempt_id": "AF-706-46fb8d4f-attempt-1",
+  "source_photo_id": "46fb8d4f-21c3-4ab2-996e-bc7492f4cbc5",
+  "source_filename": "cp_706,726_002.jpg",
+  "source_path": "[interní cesta nezveřejněna]",
+  "source_sha256": "218299A9980DE92B3BEB48AF7623136D6752F0A326BC083E49DDF082B2C4F606",
+  "variant_id": "AF-706-46fb8d4f-attempt-1",
+  "variant_path": "[interní cesta nezveřejněna]",
+  "variant_sha256": "D50F3E763EA050067A30C915B5DAE14D8DC39957E4901343340A35731611D4A5",
+  "variant_dimensions": "1548x1016",
+  "source_dimensions": "3294x2160",
+  "phase": "color_only",
+  "visual_review_method": "side_by_side_original_and_verified_D_copy",
+  "status": "rejected",
+  "rejection_reason": "The output moves and darkens the printed “Brüx. Vogelstange” caption relative to the source and adds a cobblestone-like road pattern where the source road is an unpatterned/gravel surface; the color pass also redraws fine facade and vegetation detail. These differences alter documented source content.",
+  "reason_status": "recorded_current_visual_review",
+  "findings": {
+    "color": "clear natural family separation, but not sufficient to offset source changes",
+    "text": "caption wording remains recognizable but placement/weight changed",
+    "road": "new regular paving texture introduced",
+    "architecture": "fine facade detail redrawn; not pixel-faithful",
+    "crop": "overall framing retained; no exterior black padding observed",
+    "foreground_objects": "people, fence, wires/poles and vegetation remain visible, but fine shapes changed"
+  },
+  "next_action": "one repair attempt allowed; after it, accept only if all protected content is faithful, otherwise human_review_required",
+  "upload_status": "not_uploaded"
+}

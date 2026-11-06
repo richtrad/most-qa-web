@@ -1,0 +1,13 @@
+{
+  "event": "storage_policy_acknowledgement",
+  "role": "BE",
+  "street": "Pražská",
+  "acknowledged_at_utc": "20261023T101346Z",
+  "policy": "STORAGE_POLICY_LIBUSE_F_E_20261022.md current direct exception",
+  "f_status": "write_read_sha256_verified",
+  "f_checkpoint_path": "[interní cesta nezveřejněna]",
+  "f_checkpoint_sha256": "03ec1b361fcde86996e16bc2016a7d8ac1c922f63a0b10363108d030efa59361",
+  "e_status": "unavailable_or_not_provisioned_for_BE",
+  "backup_status": "backup_pending_E",
+  "statement": "F and E are not treated as two folders on one disk; no production output exists at this checkpoint."
+}

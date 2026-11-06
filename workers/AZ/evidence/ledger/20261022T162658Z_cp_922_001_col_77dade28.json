@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "recorded_at_utc": "2026-10-22T16:26:58Z",
+  "role": "AZ",
+  "thread_id": "01a163ea-cd21-7a52-9eb1-163c6f2a0a41",
+  "street": "Nerudova",
+  "phase": "COLOR_ONLY",
+  "operation": "uploaded_remote_verified",
+  "source": {
+    "filename": "cp_922_001.jpg",
+    "source_id": "bafc2a94-dfef-4b7e-9843-da25ee3c7083",
+    "covered_cps": [
+      "922"
+    ],
+    "sha256": "EC2C820AF2DDE9CFC30B23D1F4109F64A1ABA234B1B05D6BF7EB5A5A94F2D2A0"
+  },
+  "output": {
+    "filename": "cp_922_001_col.png",
+    "sha256": "BBFD9A40F9726ED23918484ECD0D1AE95598A31E4C1D1DD742BD68DC2561CB72",
+    "bytes": 2622646,
+    "status": "passed_color_only"
+  },
+  "target": {
+    "cp": "922",
+    "structure_id": "1433e638-df4b-4be8-96c0-82aee2f40441",
+    "photo_id": "77dade28-c30c-45fb-9e25-5a9198f8c578",
+    "tags": []
+  },
+  "evidence": {
+    "qa_receipt": "[interní cesta nezveřejněna]",
+    "qa_receipt_sha256": "F98D373E272AAE3B5DCBB832720FBD3820CA74326BB31ADDDE45FB5B1433FE50",
+    "upload_lock_helper": "[interní cesta nezveřejněna]",
+    "pipeline_config": "[interní cesta nezveřejněna]",
+    "pipeline_config_sha256": "98C709324BC954457A4E4C53D2C7439A14C1215856B1ECA29CCF6D073BEF7ABB",
+    "remote_download": "[interní cesta nezveřejněna]",
+    "remote_download_sha256": "BBFD9A40F9726ED23918484ECD0D1AE95598A31E4C1D1DD742BD68DC2561CB72",
+    "remote_download_bytes": 2622646,
+    "remote_hash_matches_output": true
+  },
+  "backup_status": "attempt, accepted output, QA receipt, remote download and ledger retained on E and F; local ledger retained on D",
+  "limitations": [
+    "This is COLOR_ONLY; no cleanup, object removal, crop, FRONT or MULT derivative was produced.",
+    "All material colours remain model_hypothesis, provisional and unlocked."
+  ]
+}

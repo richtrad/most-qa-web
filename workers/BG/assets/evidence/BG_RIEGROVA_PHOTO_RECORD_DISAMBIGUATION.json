@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "receipt_type": "photo_record_tag_disambiguation",
+  "street": "Riegrova",
+  "owner": "BG",
+  "reviewed_at_utc": "2026-10-23T12:06:29Z",
+  "phase": "color_only",
+  "live_area_snapshot": "[interní cesta nezveřejněna]",
+  "live_area_sha256": "5261E5801D4B744B16DA5FEE3419BBD1EA6E6C91DDE064F66CAEB770149E7640",
+  "assignment": "[interní cesta nezveřejněna]",
+  "assignment_sha256": "2FD489218E9A2FEFC4C5EE70DA90CB5F2B9442CC99F58A8F3A9EB8E062F148BE",
+  "policy": "[interní cesta nezveřejněna]",
+  "policy_rule": "Exclude database records tagged PLANE,BW; classify each individual record, not the union of tags across same-filename duplicates.",
+  "records": [
+    {
+      "source_record_eligibility": "PHOTO record eligible for color-only source review; never use separate PLANE record",
+      "separate_plan_record_tags": [
+        "PLANE",
+        "BW"
+      ],
+      "candidate_source_id": "184de19a-2ba4-48f9-8708-f2bdf1f23839",
+      "identity_status": "pending",
+      "identity_evidence": "Courtyard view facade does not match verified street view closely enough.",
+      "filename": "cp_387_003.jpg",
+      "candidate_record_tags": [
+        "PHOTO",
+        "BW"
+      ],
+      "separate_plan_original": "/Most-PRAC/SOkA_Most/Fotky/Riegrova/Karty/planky/cp_387_003.tif",
+      "candidate_sha256": "A1C5005AD1E6F072C814383AA9C9596CE351F7DF428F4B4B8692B4A5B52269BD",
+      "candidate_original": "/Most-PRAC/SOkA_Most/Fotky/Riegrova/Karty/foto/cp_387_003.tif",
+      "source_sha256": "5054A0C389E8464F47B0378A1A037E549CCEBF3AA47B682F7CD8DC41AF10DAF9",
+      "separate_plan_record_id": "a2703a13-c98b-4e28-bbaf-139ddf9d3698"
+    },
+    {
+      "source_record_eligibility": "PHOTO record eligible for color-only source review; never use separate PLANE record",
+      "separate_plan_record_tags": [
+        "PLANE",
+        "BW"
+      ],
+      "candidate_source_id": "03c30d96-f2d2-40b2-983b-740b716418c0",
+      "identity_status": "pending",
+      "identity_evidence": "Street view contains multiple facades without unique target boundary.",
+      "filename": "cp_1289_001.jpg",
+      "candidate_record_tags": [
+        "PHOTO",
+        "BW"
+      ],
+      "separate_plan_original": "/Most-PRAC/SOkA_Most/Fotky/Riegrova/Karty/planky/cp_1289_001.tif",
+      "candidate_sha256": "A9DF276D8183F087CF18D16AA6D9139101DF0260A01BF87BA2B35356A050E6DC",
+      "candidate_original": "/Most-PRAC/SOkA_Most/Fotky/Riegrova/Karty/foto/cp_1289_001.tif",
+      "source_sha256": "4E6846BDCA5ECEEE2E86367F5CAEF21E35F9314D61A767CF60AA40B9045FC9CA",
+      "separate_plan_record_id": "d2b3ee87-f5cf-48bd-b236-4f29fccadd15"
+    }
+  ],
+  "status": "The prior unioned tag list contained both PHOTO and PLANE records for duplicate filenames. The exact source IDs used for both candidates are individually tagged PHOTO,BW and have /Karty/foto/ originals; separate IDs carry PLANE,BW and /Karty/planky/ originals.",
+  "qa_status": "candidate_pending_independent_qa",
+  "upload_authorized": 0,
+  "upload_performed": 0,
+  "supersedes": "BG_RIEGROVA_SOURCE_TYPE_HASH_REVIEW_20261023T140247Z.json only for per-record tag interpretation"
+}

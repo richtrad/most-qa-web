@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "pilot_id": "SPECIALIZED_20261022_MANESOVA",
+  "job_id": "AJ_MAN_01_587bf13bf9",
+  "role": "AN",
+  "phase": "color_only",
+  "started_at": "2026-10-22T05:50:37.954120+00:00",
+  "actual_model": "gpt-6-astra",
+  "source_id": "0d813aa1-859f-4a41-878d-dd1fe5a5c2d6",
+  "source_sha256": "587bf13bf940f38cb2b57b4028522f1e60ad6edeffa25930398c68c1e32faae5",
+  "target_cps": [
+    "1032"
+  ],
+  "structure_ids": [
+    "184b210b-8ef2-4ae3-8ca4-d768bdace45e"
+  ],
+  "qa_receipt": "[local evidence path omitted]",
+  "accepted_output_sha256": "94cb58b1d716316f1af6433350f7138994c7c76d406ace948d105ecd017f2905",
+  "run_id": "d5bdde050caf46e3aa366d6ebab3fbbf",
+  "remote_mutations": 1,
+  "qa_sha256": "708bc2b50934271b8455630421b8b45e122f6d6f639940528809824f6b1c5312",
+  "colour_evidence": {
+    "confidence": "model_hypothesis",
+    "status": "provisional",
+    "locked": false
+  },
+  "qa_limitations": [
+    "Historical hue remains model_hypothesis, provisional, unlocked.",
+    "Fine texture is not evidence for previously unresolved architectural detail.",
+    "Only exact accepted output SHA may be uploaded by AN after its own checks; cleanup not performed or required."
+  ],
+  "qa_crop": {
+    "applied": false,
+    "reason": "No newly added exterior black padding visible"
+  },
+  "cleanup_pass": null,
+  "local_output": "[local evidence path omitted]",
+  "tags": [
+    "PHOTO",
+    "BW",
+    "COLOR"
+  ],
+  "result": "verified",
+  "links": [
+    {
+      "cp": "1032",
+      "structure_id": "184b210b-8ef2-4ae3-8ca4-d768bdace45e",
+      "photo_id": "501527f7-9b8e-4cdf-8c42-a9d4579b3c79",
+      "filename": "cp_1032_001_col.png",
+      "tags": [
+        "PHOTO",
+        "BW",
+        "COLOR"
+      ],
+      "remote_copy": "[local evidence path omitted]",
+      "remote_sha256": "94cb58b1d716316f1af6433350f7138994c7c76d406ace948d105ecd017f2905",
+      "http_status": 200
+    }
+  ],
+  "photo_ids": [
+    "501527f7-9b8e-4cdf-8c42-a9d4579b3c79"
+  ],
+  "remote_sha256": "94cb58b1d716316f1af6433350f7138994c7c76d406ace948d105ecd017f2905",
+  "remote_copy": "[local evidence path omitted]",
+  "verified_links": 1,
+  "filename": "cp_1032_001_col.png",
+  "ended_at": "2026-10-22T05:50:40.466961+00:00",
+  "active_processing_seconds": 2.512841,
+  "ledger_receipt": "[local evidence path omitted]"
+}

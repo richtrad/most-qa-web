@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "role": "AZ",
+  "thread_id": "01a163ea-cd21-7a52-9eb1-163c6f2a0a41",
+  "street": "Nerudova",
+  "phase": "COLOR_ONLY",
+  "source": {
+    "filename": "cp_392_002.jpg",
+    "source_id": "eecebf37-edea-4388-9960-d78e2576e80d",
+    "covered_cps": [
+      "392"
+    ],
+    "type": "PHOTO,BW",
+    "sha256": "D5E979ABECB3486AB9DBBEFDE7324942E513C36350A88FEBE86D241F30B4B318"
+  },
+  "variant": {
+    "id": "attempt1",
+    "output_sha256": "02712AB96942F576BB102ABDA8CD2EEB98F8C0F0D2760142478F5E74EA6D7F7D",
+    "status": "accepted_as_final_color_only",
+    "paths": {
+      "d": "[interní cesta nezveřejněna]",
+      "e": "[interní cesta nezveřejněna]",
+      "f": "[interní cesta nezveřejněna]"
+    }
+  },
+  "materials": [
+    {
+      "id": "METAL_DARK_GREY_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "WOOD_WEATHERED_DARK_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "ROOF_SLATE_GREY_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    }
+  ],
+  "visual_qa": {
+    "result": "passed_color_only",
+    "checked": [
+      "archival border, canopy, striped posts, vehicles, puddles and background geometry retained",
+      "no cleanup, crop, reconstruction or external black padding"
+    ],
+    "limitations": [
+      "No direct period colour source; colors are model hypotheses.",
+      "Output is a provisional color reference."
+    ]
+  },
+  "production_status": "passed_color_only_local",
+  "upload_status": "pending_pipeline_live_dedup_lock_and_remote_byte_hash_verify",
+  "backup_status": "attempt D/E/F SHA256 verified",
+  "created_at_utc": "2026-10-22T15:17:01Z"
+}

@@ -1,0 +1,624 @@
+{
+  "reviewer_role": "BS",
+  "model": "gpt-6.1-sol",
+  "requested_reasoning_effort": "high",
+  "actual_model_evidence": null,
+  "model_field_basis": "Explicit assigned model; actual backend model/effort not independently exposed or switched by reviewer.",
+  "protocol_sha256": "8b4b87143156cd62946aa657511c4e19ca5bc36df1c2b853a00e44c7311bcd7f",
+  "manifest_sha256": "a35166f2b12bc59201648fc0561a277de9c9036ad57d38d52f6c94ded6ce3e70",
+  "case_id": "CASE-02",
+  "source_sha256": "37946d3c58dff64de44560d82ea28e3c711c60de7d4e9707c2dcd2ff53a34137",
+  "variant_sha256": "03ac60f1a293b35d50a93560aa52c9ee07786e5b17241dd49ab985c090aeff3b",
+  "visual_review_performed": true,
+  "review_method": "Both supplied full images actually opened with view_image. Own full paired view and all paired crops opened. Native source and result detail viewed without interpolation: windows for CASE-01, central for CASE-02, plaster/window/entry for CASE-03. Deterministic grayscale checks opened for CASE-01/03. Source overviews/full pairs were downsampled by viewer; native crop files and scale notes preserve exact original pixels. This is analytical image QA, not browser/screenshot QA.",
+  "image_fidelity": {
+    "verdict": "positive",
+    "minor_deviations": true,
+    "reason": "Zachována perspektiva ulice, hlavní okna a střešní siluety, plot, sloup s vodiči, rozsáhlé holé větvoví, sníh, přední postava i vzdálené postavy. Zachovány okraje, rukopisné 539, 315 a šipky. Zjemnění zrna, ostřejší interpretace drobné ornamentiky a větviček a slabě přidaná oblačná kresba jsou přiznané menší odchylky; nenacházím doloženou významnou záměnu architektury či odstranění objektu."
+  },
+  "color_hypothesis": {
+    "verdict": "positive",
+    "reason": "Studenější světlý sníh a modrá obloha odpovídají zimní scéně; okrové a krémové fasády, cihlové střechy, tmavý kov plotu a hnědé kmeny jsou přirozeně rozlišitelné a vnitřně souvislé. Sníh není přebarven do plošně výrazného odstínu. Jde o věrohodnou hypotézu bez historického potvrzení jednotlivých odstínů.",
+    "historical_truth": null,
+    "status": "provisional",
+    "locked": false
+  },
+  "identity_gate": {
+    "verdict": "positive",
+    "reason": "Originál obsahuje čitelné rukopisné 539 vlevo nahoře a šipku k částečně viditelnému domu na levém okraji. To podporuje přesně tento rozsah dodaného claimu. Číslo 315 ani sousední domy z tohoto hlasu nepřisuzuji cíli a nejde o nové živé katalogové ověření."
+  },
+  "verdict": "positive",
+  "verdict_rule": "negative if either image_fidelity or color_hypothesis is negative; positive if both positive; otherwise review. Identity gate independent.",
+  "findings": [
+    {
+      "id": "02-I1",
+      "dimension": "identity_gate",
+      "assessment": "positive",
+      "normalized_box": [
+        0.015,
+        0,
+        0.2,
+        0.22
+      ],
+      "description": "Čitelné rukopisné 539 se šipkou a levý okraj příslušné budovy zůstaly zachovány; otevřené okno a poloha římsy navazují na originál.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "Podporuje jen manifestem vymezenou levostrannou identitu, nikoli čísla ostatních domů.",
+      "confidence": 0.97,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "7099412219e8eae077d90a238ee6b5008c4398d25993f02ab46127af3839df95",
+          "scale_note": "Left: source native crop (561, 475) reduced to (275, 233) with Lanczos. Right: native result crop 1:1. Same normalized box, no fitted registration. Label band 26 px.",
+          "dimensions": [
+            550,
+            259
+          ],
+          "normalized_box": [
+            0.015,
+            0,
+            0.2,
+            0.22
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "eba021d77b5ea27eab564cfa1991c666b02a04ca26e18ab065f581745f98448a",
+          "scale_note": "Source crop native 1:1 pixels; no interpolation, sharpening or deformation.",
+          "dimensions": [
+            561,
+            475
+          ],
+          "normalized_box": [
+            0.015,
+            0,
+            0.2,
+            0.22
+          ],
+          "pixel_box": [
+            46,
+            0,
+            607,
+            475
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "dd244638087e7f9d85e6c652cffa9d9f5dac167bf0bc324d9d0c3e3583ec8c36",
+          "scale_note": "Result crop native 1:1 pixels; no interpolation, sharpening or deformation.",
+          "dimensions": [
+            275,
+            233
+          ],
+          "normalized_box": [
+            0.015,
+            0,
+            0.2,
+            0.22
+          ],
+          "pixel_box": [
+            22,
+            0,
+            297,
+            233
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02-F1",
+      "dimension": "image_fidelity",
+      "assessment": "positive",
+      "normalized_box": [
+        0.26,
+        0.16,
+        0.41,
+        0.58
+      ],
+      "description": "Počet a poloha hlavních oken, oblý střešní nástavec a věžička, obrys střechy a zasahující větve zůstaly zachovány. Základní reliéf průčelí lze sledovat proti zdroji.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "Jde o kladný kontrolní důkaz architektury, nikoli pouhý seznam objektů.",
+      "confidence": 0.94,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "d23f137578432b4bc0b6e82bd3e0b2048fe8b4a1c2350dcbff319e6beb1fd263",
+          "scale_note": "Left: source native crop (456, 907) reduced to (223, 445) with Lanczos. Right: native result crop 1:1. Same normalized box, no fitted registration. Label band 26 px.",
+          "dimensions": [
+            446,
+            471
+          ],
+          "normalized_box": [
+            0.26,
+            0.16,
+            0.41,
+            0.58
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "c0946bd88c7d8ed551440ad8b11baccc2c2f7fec257c9e6fc2d5c2b4dcdb60d0",
+          "scale_note": "Source crop native 1:1 pixels; no interpolation, sharpening or deformation.",
+          "dimensions": [
+            456,
+            907
+          ],
+          "normalized_box": [
+            0.26,
+            0.16,
+            0.41,
+            0.58
+          ],
+          "pixel_box": [
+            789,
+            346,
+            1245,
+            1253
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "8b75b604fb4b1807f21f78d127d70752f8a2a3c34fd864d652ff1a582cd871f1",
+          "scale_note": "Result crop native 1:1 pixels; no interpolation, sharpening or deformation.",
+          "dimensions": [
+            223,
+            445
+          ],
+          "normalized_box": [
+            0.26,
+            0.16,
+            0.41,
+            0.58
+          ],
+          "pixel_box": [
+            386,
+            169,
+            609,
+            614
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02-F2",
+      "dimension": "image_fidelity",
+      "assessment": "positive",
+      "normalized_box": [
+        0.1,
+        0.5,
+        0.23,
+        0.72
+      ],
+      "description": "Postava u levé zdi má zachovánu polohu, tmavý kabát, pokrývku hlavy a postoj; kamenná zeď, plot a sněhový okraj zůstávají v témže uspořádání.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "Překážky před architekturou byly v režimu COLOR_ONLY správně ponechány.",
+      "confidence": 0.96,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "a4941433099fa570c18879ec2accb27c6c2d665093a983136a206f3978700135",
+          "scale_note": "Left: source native crop (394, 475) reduced to (193, 232) with Lanczos. Right: native result crop 1:1. Same normalized box, no fitted registration. Label band 26 px.",
+          "dimensions": [
+            386,
+            258
+          ],
+          "normalized_box": [
+            0.1,
+            0.5,
+            0.23,
+            0.72
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02-F3",
+      "dimension": "image_fidelity",
+      "assessment": "minor_deviation",
+      "normalized_box": [
+        0.58,
+        0.08,
+        0.95,
+        0.66
+      ],
+      "description": "Hlavní kmeny a větve jsou zachovány, zatímco nejjemnější větvení a drobná kresba fasád za ním jsou vyhlazené a ostřeji interpretované oproti zrnitějšímu originálu. Bez přesnějšího pramene nepotvrzuji každý tenký výhonek ani detail ornamentu.",
+      "historical_impact": "minor",
+      "visibility": "100pct_only",
+      "significance_reason": "Drobná reinterpretace jemné kresby neprokazuje zásadní ztrátu scény a sama nezpůsobuje fail.",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "603b61a670f1bd204535e6f2471a54ecd9477608e56c849f88a67e22b520e667",
+          "scale_note": "Left: source native crop (1123, 1253) reduced to (550, 614) with Lanczos. Right: native result crop 1:1. Same normalized box, no fitted registration. Label band 26 px.",
+          "dimensions": [
+            1100,
+            640
+          ],
+          "normalized_box": [
+            0.58,
+            0.08,
+            0.95,
+            0.66
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02-F4",
+      "dimension": "image_fidelity",
+      "assessment": "minor_deviation",
+      "normalized_box": [
+        0.27,
+        0.04,
+        0.58,
+        0.24
+      ],
+      "description": "Na modrém nebi jsou místy slabé světlé obláčky, které nejsou v tomto výřezu původní oblohy jasně doloženy.",
+      "historical_impact": "minor",
+      "visibility": "100pct_only",
+      "significance_reason": "Přiznaná malá atmosférická odchylka bez významné změny historické architektury.",
+      "confidence": 0.86,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "310f8b412b0ffa1959a14c7e63d966927e525ea46863f5a2808b14f54c663e71",
+          "scale_note": "Left: source native crop (941, 432) reduced to (461, 212) with Lanczos. Right: native result crop 1:1. Same normalized box, no fitted registration. Label band 26 px.",
+          "dimensions": [
+            922,
+            238
+          ],
+          "normalized_box": [
+            0.27,
+            0.04,
+            0.58,
+            0.24
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02-C1",
+      "dimension": "color_hypothesis",
+      "assessment": "positive",
+      "normalized_box": [
+        0.58,
+        0.08,
+        0.95,
+        0.66
+      ],
+      "description": "Hnědé dřevo stromů, bílý sníh, světlá zelenošedá omítka a cihlová sousední plocha se čitelně odlišují a nepřelévají plošně přes hlavní hranice materiálů.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "Vnitřně věrohodné rozlišení materiálů; konkrétní historické odstíny tím nejsou doloženy.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "603b61a670f1bd204535e6f2471a54ecd9477608e56c849f88a67e22b520e667",
+          "scale_note": "Left: source native crop (1123, 1253) reduced to (550, 614) with Lanczos. Right: native result crop 1:1. Same normalized box, no fitted registration. Label band 26 px.",
+          "dimensions": [
+            1100,
+            640
+          ],
+          "normalized_box": [
+            0.58,
+            0.08,
+            0.95,
+            0.66
+          ]
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "0ec0f91d120cf58fe18052de30a7cdb4b45c7447217a130a1cf798c402fa5ea7",
+      "scale_note": "Left: source resized (3036, 2160) to (1486, 1059) with Lanczos. Right: result native 1:1. No registration/deformation; full image including frame. Label band 26 px.",
+      "dimensions": [
+        2972,
+        1085
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "eba021d77b5ea27eab564cfa1991c666b02a04ca26e18ab065f581745f98448a",
+      "scale_note": "Source crop native 1:1 pixels; no interpolation, sharpening or deformation.",
+      "dimensions": [
+        561,
+        475
+      ],
+      "normalized_box": [
+        0.015,
+        0,
+        0.2,
+        0.22
+      ],
+      "pixel_box": [
+        46,
+        0,
+        607,
+        475
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "dd244638087e7f9d85e6c652cffa9d9f5dac167bf0bc324d9d0c3e3583ec8c36",
+      "scale_note": "Result crop native 1:1 pixels; no interpolation, sharpening or deformation.",
+      "dimensions": [
+        275,
+        233
+      ],
+      "normalized_box": [
+        0.015,
+        0,
+        0.2,
+        0.22
+      ],
+      "pixel_box": [
+        22,
+        0,
+        297,
+        233
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "7099412219e8eae077d90a238ee6b5008c4398d25993f02ab46127af3839df95",
+      "scale_note": "Left: source native crop (561, 475) reduced to (275, 233) with Lanczos. Right: native result crop 1:1. Same normalized box, no fitted registration. Label band 26 px.",
+      "dimensions": [
+        550,
+        259
+      ],
+      "normalized_box": [
+        0.015,
+        0,
+        0.2,
+        0.22
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "40ad93123490a9557407a916597ddbe6771d8910119d52f858ad1d83f8d6efcb",
+      "scale_note": "Source crop native 1:1 pixels; no interpolation, sharpening or deformation.",
+      "dimensions": [
+        394,
+        475
+      ],
+      "normalized_box": [
+        0.1,
+        0.5,
+        0.23,
+        0.72
+      ],
+      "pixel_box": [
+        304,
+        1080,
+        698,
+        1555
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "9037badff6000d79afd4de14f8aaa06799ae1d2428ee4f63cd5d134478ccea16",
+      "scale_note": "Result crop native 1:1 pixels; no interpolation, sharpening or deformation.",
+      "dimensions": [
+        193,
+        232
+      ],
+      "normalized_box": [
+        0.1,
+        0.5,
+        0.23,
+        0.72
+      ],
+      "pixel_box": [
+        149,
+        530,
+        342,
+        762
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "a4941433099fa570c18879ec2accb27c6c2d665093a983136a206f3978700135",
+      "scale_note": "Left: source native crop (394, 475) reduced to (193, 232) with Lanczos. Right: native result crop 1:1. Same normalized box, no fitted registration. Label band 26 px.",
+      "dimensions": [
+        386,
+        258
+      ],
+      "normalized_box": [
+        0.1,
+        0.5,
+        0.23,
+        0.72
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "c0946bd88c7d8ed551440ad8b11baccc2c2f7fec257c9e6fc2d5c2b4dcdb60d0",
+      "scale_note": "Source crop native 1:1 pixels; no interpolation, sharpening or deformation.",
+      "dimensions": [
+        456,
+        907
+      ],
+      "normalized_box": [
+        0.26,
+        0.16,
+        0.41,
+        0.58
+      ],
+      "pixel_box": [
+        789,
+        346,
+        1245,
+        1253
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "8b75b604fb4b1807f21f78d127d70752f8a2a3c34fd864d652ff1a582cd871f1",
+      "scale_note": "Result crop native 1:1 pixels; no interpolation, sharpening or deformation.",
+      "dimensions": [
+        223,
+        445
+      ],
+      "normalized_box": [
+        0.26,
+        0.16,
+        0.41,
+        0.58
+      ],
+      "pixel_box": [
+        386,
+        169,
+        609,
+        614
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "d23f137578432b4bc0b6e82bd3e0b2048fe8b4a1c2350dcbff319e6beb1fd263",
+      "scale_note": "Left: source native crop (456, 907) reduced to (223, 445) with Lanczos. Right: native result crop 1:1. Same normalized box, no fitted registration. Label band 26 px.",
+      "dimensions": [
+        446,
+        471
+      ],
+      "normalized_box": [
+        0.26,
+        0.16,
+        0.41,
+        0.58
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "58533a5b914d1342f3d3396e2d5a1aa53a723d7f8c72d3dea39d80d2ce8ce2e7",
+      "scale_note": "Source crop native 1:1 pixels; no interpolation, sharpening or deformation.",
+      "dimensions": [
+        1123,
+        1253
+      ],
+      "normalized_box": [
+        0.58,
+        0.08,
+        0.95,
+        0.66
+      ],
+      "pixel_box": [
+        1761,
+        173,
+        2884,
+        1426
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "a7db2189c80fe3aa627fca562090735213b7a2a3bb6cf31672644e54e58c96b8",
+      "scale_note": "Result crop native 1:1 pixels; no interpolation, sharpening or deformation.",
+      "dimensions": [
+        550,
+        614
+      ],
+      "normalized_box": [
+        0.58,
+        0.08,
+        0.95,
+        0.66
+      ],
+      "pixel_box": [
+        862,
+        85,
+        1412,
+        699
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "603b61a670f1bd204535e6f2471a54ecd9477608e56c849f88a67e22b520e667",
+      "scale_note": "Left: source native crop (1123, 1253) reduced to (550, 614) with Lanczos. Right: native result crop 1:1. Same normalized box, no fitted registration. Label band 26 px.",
+      "dimensions": [
+        1100,
+        640
+      ],
+      "normalized_box": [
+        0.58,
+        0.08,
+        0.95,
+        0.66
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "da050370892e36aeae6e9f80a6768b353123b191ffe97bdd918519e045a86eab",
+      "scale_note": "Source crop native 1:1 pixels; no interpolation, sharpening or deformation.",
+      "dimensions": [
+        941,
+        432
+      ],
+      "normalized_box": [
+        0.27,
+        0.04,
+        0.58,
+        0.24
+      ],
+      "pixel_box": [
+        820,
+        86,
+        1761,
+        518
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "25768eb6b2bb23173ea8a19e4ce6a2207e84f164a7a72152584cd54e8e94c314",
+      "scale_note": "Result crop native 1:1 pixels; no interpolation, sharpening or deformation.",
+      "dimensions": [
+        461,
+        212
+      ],
+      "normalized_box": [
+        0.27,
+        0.04,
+        0.58,
+        0.24
+      ],
+      "pixel_box": [
+        401,
+        42,
+        862,
+        254
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "310f8b412b0ffa1959a14c7e63d966927e525ea46863f5a2808b14f54c663e71",
+      "scale_note": "Left: source native crop (941, 432) reduced to (461, 212) with Lanczos. Right: native result crop 1:1. Same normalized box, no fitted registration. Label band 26 px.",
+      "dimensions": [
+        922,
+        238
+      ],
+      "normalized_box": [
+        0.27,
+        0.04,
+        0.58,
+        0.24
+      ]
+    }
+  ],
+  "coverage": {
+    "full_scene": true,
+    "surfaces": true,
+    "openings": true,
+    "text": true,
+    "edges_and_archival_frame": true,
+    "people_and_objects": true,
+    "damage": true,
+    "native_detail_source_and_result_opened": true
+  },
+  "backup_status": "backup_pending_E",
+  "checked_at": "2026-10-23T14:14:26.383781+00:00"
+}

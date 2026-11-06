@@ -1,0 +1,552 @@
+{
+  "schema_version": 1,
+  "worker": "X",
+  "street": "Hvězdná",
+  "batch_id": "X_HVEZDNA_COLOR_ONLY_20261021",
+  "source_groups": 7,
+  "source_records": 10,
+  "accepted": [
+    {
+      "source_id": "14e5b83c-80d8-4b95-b7a2-8fd24e12a9df",
+      "source_alias_ids": [],
+      "source_filename": "cp_230,239_001.jpg",
+      "source_sha256": "e9f5f373014e187c5cd4cdcaed6d99993625ed694c5677c53e20bf891f2da5c3",
+      "source_asset": "/most-qa-web/media/6ca903d32c5eb78e003044004b89beb3781a64c8.webp",
+      "output_filename": "cp_230,239_001_col.png",
+      "output_sha256": "1b3369033e4d61752d11f77e6616b7319419f413f1633868ef2e0530b277dec8",
+      "output_asset": "/most-qa-web/media/e1cd7cf6e22b4e839f81dbd91d5b3a31c71ee764.webp",
+      "covered_cps": [
+        "239"
+      ],
+      "qa_status": "accepted_with_limitations",
+      "dimensions": {
+        "source": [
+          3186,
+          2160
+        ],
+        "output": [
+          1522,
+          1033
+        ]
+      },
+      "upload_status": "not_uploaded_by_X",
+      "materials": [
+        {
+          "id": "FACADE_GREEN_PALE_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "existing Hvezdna assignment for CP239; exact facade mapping in shared views remains provisional"
+        },
+        {
+          "id": "FACADE_CREAM_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "model hypothesis for other visible plaster facades"
+        },
+        {
+          "id": "FACADE_GREY_WARM_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "model hypothesis for other visible plaster facades"
+        },
+        {
+          "id": "ROOF_CLAY_RED_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "model hypothesis, used consistently for period tile roofs"
+        },
+        {
+          "id": "WOOD_DARK_BROWN_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "model hypothesis for visible timber"
+        }
+      ]
+    },
+    {
+      "source_id": "e8d980a6-2aa9-410c-ab51-ad9429c62170",
+      "source_alias_ids": [],
+      "source_filename": "cp_230,239,267_001.jpg",
+      "source_sha256": "abe82d600454791b01457be3ddaeb3dc298d64188ae76c3d5e028fa1ada7f18a",
+      "source_asset": "/most-qa-web/media/71abdabe7bc5703c8207208125aa54e1dd20066d.webp",
+      "output_filename": "cp_230,239,267_001_col.png",
+      "output_sha256": "f68b9e0773212d7e79bcc9a4124d365dcda925e621fe95d6ef005b14f4e3eedd",
+      "output_asset": "/most-qa-web/media/86c5110174bf761358b54567315000edb3a0d685.webp",
+      "covered_cps": [
+        "239"
+      ],
+      "qa_status": "accepted_with_limitations",
+      "dimensions": {
+        "source": [
+          3138,
+          2160
+        ],
+        "output": [
+          1512,
+          1040
+        ]
+      },
+      "upload_status": "not_uploaded_by_X",
+      "materials": [
+        {
+          "id": "FACADE_GREEN_PALE_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "existing Hvezdna assignment for CP239; exact facade mapping in shared views remains provisional"
+        },
+        {
+          "id": "FACADE_CREAM_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "model hypothesis for other visible plaster facades"
+        },
+        {
+          "id": "FACADE_GREY_WARM_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "model hypothesis for other visible plaster facades"
+        },
+        {
+          "id": "ROOF_CLAY_RED_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "model hypothesis, used consistently for period tile roofs"
+        },
+        {
+          "id": "WOOD_DARK_BROWN_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "model hypothesis for visible timber"
+        }
+      ]
+    },
+    {
+      "source_id": "865c1e4e-0a84-4656-9bc0-9ff4008e2de9",
+      "source_alias_ids": [],
+      "source_filename": "cp_230,239,267_002.jpg",
+      "source_sha256": "d34d36e02a4fe4978e357aeaecbb94ea56bf6e0e1eaa2112badd04280a88c766",
+      "source_asset": "/most-qa-web/media/2ac8073c26b4318760992baef46c0d19a25862fa.webp",
+      "output_filename": "cp_230,239,267_002_col.png",
+      "output_sha256": "70d121772c8b98889935280c914333d9ca7466cb6194aeee6f63a71e453b6b28",
+      "output_asset": "/most-qa-web/media/fd0305929b396833a02fd4fff086b976f0c97cfb.webp",
+      "covered_cps": [
+        "239"
+      ],
+      "qa_status": "accepted_with_limitations",
+      "dimensions": {
+        "source": [
+          3197,
+          2160
+        ],
+        "output": [
+          1525,
+          1031
+        ]
+      },
+      "upload_status": "not_uploaded_by_X",
+      "materials": [
+        {
+          "id": "FACADE_GREEN_PALE_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "existing Hvezdna assignment for CP239; exact facade mapping in shared views remains provisional"
+        },
+        {
+          "id": "FACADE_CREAM_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "model hypothesis for other visible plaster facades"
+        },
+        {
+          "id": "FACADE_GREY_WARM_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "model hypothesis for other visible plaster facades"
+        },
+        {
+          "id": "ROOF_CLAY_RED_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "model hypothesis, used consistently for period tile roofs"
+        },
+        {
+          "id": "WOOD_DARK_BROWN_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "model hypothesis for visible timber"
+        }
+      ]
+    },
+    {
+      "source_id": "4f14e0e3-dce2-4067-9c4a-400c03531d85",
+      "source_alias_ids": [
+        "d2387e66-adc2-4625-864d-7241f9bb55fa"
+      ],
+      "source_filename": "cp_239,240,241,242_001.jpg",
+      "source_sha256": "32077da34200d8c261a6a4897e19c253fa0ff7fefc73f44c7d8eee9815f87882",
+      "source_asset": "/most-qa-web/media/e2aa992eb1fb0e125a09557531305b05f38f1365.webp",
+      "output_filename": "cp_239,240,241,242_001_col.png",
+      "output_sha256": "b8be4f14f9ec547ceb6f58db67585192e02a097d6cb8d306f735cf40da5ceb04",
+      "output_asset": "/most-qa-web/media/cc59f4bfe0cb276ebbe74751b8fa12c050b9764c.webp",
+      "covered_cps": [
+        "239",
+        "240"
+      ],
+      "qa_status": "accepted_with_limitations",
+      "dimensions": {
+        "source": [
+          2940,
+          2160
+        ],
+        "output": [
+          1463,
+          1075
+        ]
+      },
+      "upload_status": "not_uploaded_by_X",
+      "materials": [
+        {
+          "id": "FACADE_GREEN_PALE_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "existing Hvezdna assignment for CP239; exact facade mapping in shared views remains provisional"
+        },
+        {
+          "id": "FACADE_CREAM_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "model hypothesis for other visible plaster facades"
+        },
+        {
+          "id": "FACADE_GREY_WARM_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "model hypothesis for other visible plaster facades"
+        },
+        {
+          "id": "ROOF_CLAY_RED_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "model hypothesis, used consistently for period tile roofs"
+        },
+        {
+          "id": "WOOD_DARK_BROWN_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "model hypothesis for visible timber"
+        }
+      ]
+    },
+    {
+      "source_id": "4914c26e-b1e2-4cb3-842c-77bc97c5e404",
+      "source_alias_ids": [
+        "f90c0b75-d7d3-4341-bf02-fc899717b215"
+      ],
+      "source_filename": "cp_230,239,240,241,242,267_001.jpg",
+      "source_sha256": "40e2d47068b44b65d60cf6b040298ff0d5c09267e3195a76c860843b98e6bbe8",
+      "source_asset": "/most-qa-web/media/d01bcb72851c10e1d187d639054d5c46ad95a5a7.webp",
+      "output_filename": "cp_230,239,240,241,242,267_001_col.png",
+      "output_sha256": "e01a8f27c514fd582f042f722a53fe73845060c6b3130058100bfa6393f50f41",
+      "output_asset": "/most-qa-web/media/d8852ee61ca974d7c9e67daadcd853c75732bffa.webp",
+      "covered_cps": [
+        "239",
+        "240"
+      ],
+      "qa_status": "accepted_with_limitations",
+      "dimensions": {
+        "source": [
+          3371,
+          2160
+        ],
+        "output": [
+          1566,
+          1004
+        ]
+      },
+      "upload_status": "not_uploaded_by_X",
+      "materials": [
+        {
+          "id": "FACADE_GREEN_PALE_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "existing Hvezdna assignment for CP239; exact facade mapping in shared views remains provisional"
+        },
+        {
+          "id": "FACADE_CREAM_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "model hypothesis for other visible plaster facades"
+        },
+        {
+          "id": "FACADE_GREY_WARM_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "model hypothesis for other visible plaster facades"
+        },
+        {
+          "id": "ROOF_CLAY_RED_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "model hypothesis, used consistently for period tile roofs"
+        },
+        {
+          "id": "WOOD_DARK_BROWN_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "model hypothesis for visible timber"
+        }
+      ]
+    },
+    {
+      "source_id": "e812e72c-bd12-4e7b-b3a0-414032749588",
+      "source_alias_ids": [],
+      "source_filename": "cp_230,239,267_003.jpg",
+      "source_sha256": "8439a410551d3e411705d1609dc17f4a7a184f8a0815aa118accecd05aedef0f",
+      "source_asset": "/most-qa-web/media/af751a7b04a20742b8e4e206776cc26ef4e6f58b.webp",
+      "output_filename": "cp_230,239,267_003_col.png",
+      "output_sha256": "a9a95573c4e2b32bf12b7dbcef77ff0156931838ebc5191464fd0b2f4d412d72",
+      "output_asset": "/most-qa-web/media/ddf58b52d581cddc433b6d61f9476ca26604fbea.webp",
+      "covered_cps": [
+        "239"
+      ],
+      "qa_status": "accepted_with_limitations",
+      "dimensions": {
+        "source": [
+          3216,
+          2160
+        ],
+        "output": [
+          1530,
+          1028
+        ]
+      },
+      "upload_status": "not_uploaded_by_X",
+      "materials": [
+        {
+          "id": "FACADE_GREEN_PALE_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "existing Hvezdna assignment for CP239; exact facade mapping in shared views remains provisional"
+        },
+        {
+          "id": "FACADE_CREAM_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "model hypothesis for other visible plaster facades"
+        },
+        {
+          "id": "FACADE_GREY_WARM_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "model hypothesis for other visible plaster facades"
+        },
+        {
+          "id": "ROOF_CLAY_RED_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "model hypothesis, used consistently for period tile roofs"
+        },
+        {
+          "id": "WOOD_DARK_BROWN_01",
+          "status": "provisional",
+          "locked": false,
+          "evidence": "model hypothesis for visible timber"
+        }
+      ]
+    }
+  ],
+  "excluded": [
+    {
+      "case_id": "X-HVEZDNA-2ea54042-b310-40d3-93a1-98dc03388053",
+      "case_version": 1,
+      "source_id": "2ea54042-b310-40d3-93a1-98dc03388053",
+      "source_alias_ids": [
+        "652dc30a-d8de-4dd8-af68-ba2c2b944a1f"
+      ],
+      "source_filename": "cp_230,239,240,267_001.jpg",
+      "source_sha256": "241dc70b3cb85d0456b4a9c73e1e98d7a0524de3a90b29f35bca00ab51aa6770",
+      "source_asset": "/most-qa-web/media/75ebd1c17871398a24ed1ae7e3151480a63f4c85.webp",
+      "covered_cps": [
+        "239",
+        "240"
+      ],
+      "status": "rejected_after_two_attempts",
+      "reason": "both generation attempts introduced extensive tree canopies and changed distant city detail, violating COLOR_ONLY object preservation",
+      "variants": [
+        {
+          "variant_id": "X-HVEZDNA-2ea54042-b310-40d3-93a1-98dc03388053-attempt01",
+          "filename": "cp_230,239,240,267_001_col__attempt01.png",
+          "sha256": "175104fbbaeeb38e5c35bdc3c200ece821e5ba2d9420cdef8ca15bf99877c973",
+          "asset": "/most-qa-web/media/64d459421262e8fee83c589b2c0151f0f08a632d.webp",
+          "status": "rejected",
+          "rejection_reason": "Rejected after source comparison: extensive invented tree canopies and substantial altered urban detail in the distant city violate COLOR_ONLY object preservation.",
+          "reason_status": "recorded"
+        },
+        {
+          "variant_id": "X-HVEZDNA-2ea54042-b310-40d3-93a1-98dc03388053-attempt02",
+          "filename": "cp_230,239,240,267_001_col__attempt02.png",
+          "sha256": "73b8e3327817516e3552f598e68d60933f7a1bc756cd2b4aed1294803377c8a2",
+          "asset": "/most-qa-web/media/12daf0bae473ca6e1b2665395a27e074a495a42c.webp",
+          "status": "rejected",
+          "rejection_reason": "Second and final attempt. Still introduces extensive tree canopies and alters distant city details; excluded from accepted COLOR_ONLY outputs.",
+          "reason_status": "recorded"
+        }
+      ]
+    }
+  ],
+  "scope_cps": [
+    "208",
+    "209",
+    "210",
+    "221",
+    "230",
+    "231",
+    "232",
+    "233",
+    "234",
+    "235",
+    "236",
+    "237",
+    "238",
+    "239",
+    "240",
+    "547"
+  ],
+  "scope_note": "Assignment inventory only; no verified street order, facade placement, or neighbor sequence.",
+  "colors": [
+    {
+      "id": "FACADE_GREEN_PALE_01",
+      "note": "Existing Hvězdná assignment for CP239; exact facade mapping remains provisional.",
+      "note_cs": "Existující přiřazení Hvězdné pro CP239; přesné přiřazení fasád na sdílených snímcích zůstává předběžné."
+    },
+    {
+      "id": "FACADE_CREAM_01",
+      "note": "Model hypothesis for other visible plaster facades.",
+      "note_cs": "Modelová hypotéza pro jiné viditelné omítané fasády."
+    },
+    {
+      "id": "FACADE_GREY_WARM_01",
+      "note": "Model hypothesis for other visible plaster facades.",
+      "note_cs": "Modelová hypotéza pro jiné viditelné omítané fasády."
+    },
+    {
+      "id": "ROOF_CLAY_RED_01",
+      "note": "Model hypothesis used consistently for period tile roofs.",
+      "note_cs": "Modelová hypotéza, použitá jednotně pro taškové střechy daného období."
+    },
+    {
+      "id": "WOOD_DARK_BROWN_01",
+      "note": "Model hypothesis for visible timber.",
+      "note_cs": "Modelová hypotéza pro viditelné dřevěné prvky."
+    }
+  ],
+  "limitations": [
+    "All accepted PNGs are roughly half the source linear resolution.",
+    "Colors are model hypotheses, provisional and unlocked; historical color facts are not asserted.",
+    "Shared-photo facade boundaries for CP239/240 are not fully resolved; exact facade-to-CP attribution remains provisional.",
+    "Small lettering and fine surface details are not pixel-faithful; do not use as exact text transcription or high-resolution texture."
+  ],
+  "model_availability": "No verified model or viewer is included.",
+  "publication_status": "publish_pending",
+  "inventory": [
+    {
+      "source_id": "4914c26e-b1e2-4cb3-842c-77bc97c5e404",
+      "alias_ids": [
+        "f90c0b75-d7d3-4341-bf02-fc899717b215"
+      ],
+      "filename": "cp_230,239,240,241,242,267_001.jpg",
+      "sha256": "40e2d47068b44b65d60cf6b040298ff0d5c09267e3195a76c860843b98e6bbe8",
+      "asset": "/most-qa-web/media/d01bcb72851c10e1d187d639054d5c46ad95a5a7.webp"
+    },
+    {
+      "source_id": "14e5b83c-80d8-4b95-b7a2-8fd24e12a9df",
+      "alias_ids": [],
+      "filename": "cp_230,239_001.jpg",
+      "sha256": "e9f5f373014e187c5cd4cdcaed6d99993625ed694c5677c53e20bf891f2da5c3",
+      "asset": "/most-qa-web/media/6ca903d32c5eb78e003044004b89beb3781a64c8.webp"
+    },
+    {
+      "source_id": "e8d980a6-2aa9-410c-ab51-ad9429c62170",
+      "alias_ids": [],
+      "filename": "cp_230,239,267_001.jpg",
+      "sha256": "abe82d600454791b01457be3ddaeb3dc298d64188ae76c3d5e028fa1ada7f18a",
+      "asset": "/most-qa-web/media/71abdabe7bc5703c8207208125aa54e1dd20066d.webp"
+    },
+    {
+      "source_id": "865c1e4e-0a84-4656-9bc0-9ff4008e2de9",
+      "alias_ids": [],
+      "filename": "cp_230,239,267_002.jpg",
+      "sha256": "d34d36e02a4fe4978e357aeaecbb94ea56bf6e0e1eaa2112badd04280a88c766",
+      "asset": "/most-qa-web/media/2ac8073c26b4318760992baef46c0d19a25862fa.webp"
+    },
+    {
+      "source_id": "4f14e0e3-dce2-4067-9c4a-400c03531d85",
+      "alias_ids": [
+        "d2387e66-adc2-4625-864d-7241f9bb55fa"
+      ],
+      "filename": "cp_239,240,241,242_001.jpg",
+      "sha256": "32077da34200d8c261a6a4897e19c253fa0ff7fefc73f44c7d8eee9815f87882",
+      "asset": "/most-qa-web/media/e2aa992eb1fb0e125a09557531305b05f38f1365.webp"
+    },
+    {
+      "source_id": "2ea54042-b310-40d3-93a1-98dc03388053",
+      "alias_ids": [
+        "652dc30a-d8de-4dd8-af68-ba2c2b944a1f"
+      ],
+      "filename": "cp_230,239,240,267_001.jpg",
+      "sha256": "241dc70b3cb85d0456b4a9c73e1e98d7a0524de3a90b29f35bca00ab51aa6770",
+      "asset": "/most-qa-web/media/75ebd1c17871398a24ed1ae7e3151480a63f4c85.webp"
+    },
+    {
+      "source_id": "e812e72c-bd12-4e7b-b3a0-414032749588",
+      "alias_ids": [],
+      "filename": "cp_230,239,267_003.jpg",
+      "sha256": "8439a410551d3e411705d1609dc17f4a7a184f8a0815aa118accecd05aedef0f",
+      "asset": "/most-qa-web/media/af751a7b04a20742b8e4e206776cc26ef4e6f58b.webp"
+    }
+  ],
+  "handoff": {
+    "status_cs": "Částečně hotovo · lokální předávací web je připraven k posouzení, publikace čeká.",
+    "status_en": "Partially complete · the local handoff site is ready for review; publication is pending.",
+    "items": [
+      {
+        "label_cs": "COLOR_ONLY QA: 6/6",
+        "label_en": "COLOR_ONLY QA: 6/6",
+        "detail_cs": "Všech šest přijatých výstupů prošlo automatickou kontrolou zdroje, názvu, PNG formátu a cropu. Černé okrajové pásy nebyly zjištěny. Vizuální hodnocení zůstává „přijato s omezeními“ v jednotlivých phase1 receipts.",
+        "detail_en": "All six accepted outputs passed automatic source, filename, PNG format, and crop checks. No black edge padding was found. Visual assessments remain “accepted with limitations” in the individual phase1 receipts."
+      },
+      {
+        "label_cs": "Upload: blokován",
+        "label_en": "Upload: blocked",
+        "detail_cs": "Mapování sdílených snímků na čp. 239/240 není dostatečně jisté. X nenahrál žádný výstup a upload lock nebyl získán.",
+        "detail_en": "Shared-view mapping to house numbers 239/240 is not sufficiently certain. X has uploaded no outputs and has not acquired the upload lock."
+      },
+      {
+        "label_cs": "Publikace: čeká",
+        "label_en": "Publication: pending",
+        "detail_cs": "Chybí schválená vizuální kontrola v prohlížeči, mobilní rozložení, localStorage po obnovení, stažený JSON a živé odkazy/obrázky. Web zůstává lokální.",
+        "detail_en": "Approved browser inspection, mobile layout, localStorage after reload, downloaded JSON, and live links/images remain unchecked. The site remains local."
+      },
+      {
+        "label_cs": "Rozhodnutí uživatele",
+        "label_en": "User decision",
+        "detail_cs": "U jediného vyřazeného zdroje zvolit „ponechat vyřazený“ nebo „předat k lidskému posouzení“. Volba sama nepovoluje další pokus ani upload.",
+        "detail_en": "For the single excluded source, choose “keep excluded” or “send for human review”. The choice does not authorize another attempt or upload."
+      },
+      {
+        "label_cs": "Nástroj X",
+        "label_en": "X tooling",
+        "detail_cs": "Původní blokace wrapperu je odstraněna: vlastní wrapper X funguje a oddělená dávková konfigurace je připravena.",
+        "detail_en": "The original wrapper block is resolved: X’s own wrapper works and a separate batch configuration is ready."
+      }
+    ],
+    "evidence": {
+      "qa_report": "[interní cesta nezveřejněna]",
+      "qa_manifest": "[interní cesta nezveřejněna]",
+      "qa_passed": 6,
+      "qa_total": 6,
+      "upload_count": 0,
+      "publication_status": "publish_pending"
+    }
+  }
+}

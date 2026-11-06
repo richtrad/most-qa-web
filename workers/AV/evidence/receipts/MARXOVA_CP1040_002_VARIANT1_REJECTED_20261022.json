@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "source_image_sha256": "FAC90FC9386CDAC0030978C85234BE7B0E4E51C9932BAA310F2756204161A4DF",
+  "reason": "Output appears to introduce a second person not visible in the source; all source people must be preserved exactly.",
+  "codex_generated_path": "[interní cesta nezveřejněna]",
+  "bytes": 2717095,
+  "f_path": "[interní cesta nezveřejněna]",
+  "e_path": "[interní cesta nezveřejněna]",
+  "output_sha256": "289A95B5BD728E0D4A7FF54604721DCFEAAA12A85E4C39E554DAEED9E58D13EB",
+  "status": "rejected_content_drift",
+  "receipt_type": "generated_variant",
+  "variant": 1,
+  "source": "cp_1040_002.jpg"
+}

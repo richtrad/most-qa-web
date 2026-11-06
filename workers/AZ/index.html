@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <title>Nerudova / AZ — private QA ledger</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body><aside style="position:relative;z-index:10;padding:14px;background:#fff0c8;color:#243337;font:15px/1.5 system-ui;border-bottom:2px solid #a37727"><a href="/most-qa-web/index.html">← Centrální hodnocení a nové případy</a> · Veřejná webová kopie archivu 23.–24. 10. 2026. Obrazy jsou <b>webové náhledy</b>; originály a původní hashe jsou v privátním archivu. Jemné detaily bez originálu neoznačujte za ověřené. Poznámky zůstávají jen v tomto prohlížeči; použijte zdejší export JSON. Rozhodnutí se sama neaplikují.</aside>
+  <header class="masthead">
+    <div><p class="eyebrow">MOST · private working draft · role AZ</p><h1>Nerudova <span>/ QA ledger</span></h1></div>
+    <div class="header-actions"><button id="language" type="button">EN</button><button id="export" type="button">Export JSON</button></div>
+  </header>
+  <main>
+    <section class="notice" id="notice"></section>
+    <section class="overview"><div id="summary"></div><div class="legend" id="legend"></div></section>
+    <section class="workspace">
+      <aside class="case-nav">
+        <label for="filter" id="filter-label">Filtrovat cases</label>
+        <input id="filter" type="search" autocomplete="off" placeholder="čp., soubor, stav…">
+        <div id="case-list" aria-live="polite"></div>
+      </aside>
+      <article class="case-detail" id="case-detail" aria-live="polite"></article>
+    </section>
+  </main>
+  <footer><span id="footer-note"></span><span>AZ · local staging · no remote action</span></footer>
+  <script src="qa-core.js"></script>
+  <script src="app.js"></script>
+<script defer src="/most-qa-web/public-tools.js"></script></body>
+</html>

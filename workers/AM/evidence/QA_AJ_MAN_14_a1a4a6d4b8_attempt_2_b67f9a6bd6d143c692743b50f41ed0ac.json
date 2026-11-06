@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "pilot_id": "SPECIALIZED_20261022_MANESOVA",
+  "role": "AM",
+  "qa_phase": "color_only",
+  "qa_status": "passed_color_only",
+  "passed_color_only": true,
+  "cleanup_pass": null,
+  "attempts_used": 2,
+  "remaining_edit_attempts": 0,
+  "source_path": "[local evidence path omitted]",
+  "source_sha256": "a1a4a6d4b8390ef6dc6f89c04d57f58dff180744d6dcb07dbebb989b4de79421",
+  "output_path": "[local evidence path omitted]",
+  "output_sha256": "c77e17ddfabfbb8cac0203dd404a1334aa446e20b273af925528f1fc6e2b1665",
+  "reference_records": [
+    {
+      "source_id": "f81fbe03-3fb6-444d-9a28-3c6d4b005ea1",
+      "path": "[local evidence path omitted]",
+      "sha256": "5cff6098528aaf0ecbb5acb39ab1c4eb448a5cd1f4c4f979a6162508bc1fc689"
+    },
+    {
+      "source_id": "440819c1-e90f-498d-8fdb-832dcfbb1cb7",
+      "path": "[local evidence path omitted]",
+      "sha256": "e35a15c5380bd157955297acfd9bdd071533167ef989e15455857bee1beb211d"
+    },
+    {
+      "source_id": "e6b5303d-38df-48bb-8075-c71604ab26e2",
+      "path": "[local evidence path omitted]",
+      "sha256": "0d2e479e3ae73b637d43d5b548760e821e6b56a5c20ee1831e01740547e986d8"
+    }
+  ],
+  "material_brief_path": "[local evidence path omitted]",
+  "material_brief_sha256": "8e344fda1cffed314a6f6b16441d7d0fcab7488f3792d356c10196e40c566879",
+  "qa_receipt": "[local evidence path omitted]",
+  "actual_model": "gpt-6-astra",
+  "colour_evidence": {
+    "confidence": "model_hypothesis",
+    "status": "provisional",
+    "locked": false
+  },
+  "completed_at_utc": "2026-10-22T07:57:07.303203+00:00",
+  "job_id": "AJ_MAN_14_a1a4a6d4b8",
+  "result": "accepted",
+  "visual_inspection": {
+    "source_opened": true,
+    "output_opened": true,
+    "references_opened": true,
+    "reference_note": "L3C1 card and parcel plans inspected previously; exact hashes verified again.",
+    "identity": "Workshop roof1269 confirmed;649 background wing is not an additional upload target.",
+    "repair_check": "Broad diffuse pale roof weathering around skylight restored; background wall now warm-grey rather than cream.",
+    "roof_and_damage": "Skylight, roof opening, scattered pale fragments, principal seams and worn roof area preserve source arrangement. No hidden roof area reconstructed.",
+    "objects_and_frame": "Vegetation masses, foreground wall occlusion, rubble path, bottom-left dark archive spot and cream border retained. Dark left image strip belongs to source.",
+    "materials": "Workshop slate-grey, contextual warm-grey plaster and provisional vegetation/wood colors consistent with brief."
+  },
+  "findings": [
+    {
+      "severity": "limitation",
+      "issue": "Fine roofing, foliage and foreground masonry texture remains synthesized/sharper than original. Accepted as provisional color/material reference only; original remains authority for precise surface geometry and damage."
+    }
+  ],
+  "upload_crop": {
+    "applied": false,
+    "reason": "No new contiguous black outer padding; preserved source-internal dark left edge and archive border."
+  },
+  "limitations": [
+    "Not pixel-identical to original grain; do not derive fine geometry or exact brick joints from generated image.",
+    "All colors model_hypothesis/provisional/locked:false.",
+    "COLOR_ONLY retains plants and debris; cleanup_pass is null.",
+    "Local QA only. Upload must remain pending_service until AN confirms restored service and rechecks exact accepted hash."
+  ]
+}

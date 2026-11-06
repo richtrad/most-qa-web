@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "role": "BJ",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "thread_id": "01a16844-ec6d-7981-8ebb-2951397e6d75",
+  "case_id": "RIEGROVA_CP1250_001",
+  "source_id": "6a70ac94-57cd-45a5-ae1c-aae74eca29c9",
+  "source_sha256": "016B193EED66416E294836D38C9F6B370C0FCB9141D91C23137E883DB07416D0",
+  "variant_id": "BG_RIEGROVA_CP1250_001_ATTEMPT02",
+  "variant_sha256": "148E4199C474160C434D996641B88A04F443B39B2DCCF0904459F0A889888869",
+  "attempt_number": 2,
+  "phase": "color_only",
+  "visual_review_performed": true,
+  "verdict": "review",
+  "findings": [
+    {
+      "code": "residual_chromatic_coating_pattern_uncertain",
+      "result": "uncertain",
+      "finding": "Pediment, moldings, openings, graffiti and photographic grain retain the source structure. However, the upper wall between windows shows pale colour islands and vertical curled colour bands on ochre. These are much less evident in the native source and disappear substantially in the grayscale comparison. They may overstate peeling coatings/material layering; supplied references do not resolve that interpretation. I do not call this a displaced geometry or rewritten-grain failure, but cannot give an unconditional positive visual material-reference vote.",
+      "normalized_box": [
+        0.25,
+        0.22,
+        0.35,
+        0.35
+      ],
+      "source_and_variant_pixel_box": [
+        540,
+        631,
+        756,
+        1003
+      ],
+      "evidence_path": "[interní cesta nezveřejněna]"
+    },
+    {
+      "code": "protected_content",
+      "result": "observed_preserved",
+      "finding": "Central pediment and ornament, four upper windows, two lower windows, doorway, basement apertures, downpipes, insulators/wires, broken glazing, large chalk marks, steps, stamp and street remain in position.",
+      "evidence_path": "[interní cesta nezveřejněna]"
+    },
+    {
+      "code": "inscriptions",
+      "result": "source_legibility_retained_with_limits",
+      "finding": "The large chalk strokes beside the door and marks on the door are retained at source-level legibility; no new exact transcription is claimed."
+    },
+    {
+      "code": "material_interpretation",
+      "finding": "Materials remain distinguishable and provisional; ordinary unknown hue does not by itself cause review. The unresolved question is whether the local colour islands encode new damage/material edges."
+    },
+    {
+      "code": "diagnostic_support",
+      "finding": "Matched dimensions and very close grayscale structure support the visual preservation findings but are not a visual pass or proof of historical colours. Chroma-only material patterns must be judged in colour.",
+      "data": {
+        "method": "Pillow grayscale BT601 coefficients on stored nonlinear RGB; no geometric registration or source/output changes. Comparison is diagnostic, not a visual verdict.",
+        "grayscale_mae_8bit": 1.2292356491088867,
+        "grayscale_p99_abs_error": 6,
+        "grayscale_pearson": 0.9998254070461307,
+        "fraction_abs_error_gt10": 4.846088237574629e-07
+      }
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "source_photo_opened",
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "016B193EED66416E294836D38C9F6B370C0FCB9141D91C23137E883DB07416D0",
+      "visual_inspection_performed": true
+    },
+    {
+      "kind": "V3_variant_opened",
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "148E4199C474160C434D996641B88A04F443B39B2DCCF0904459F0A889888869",
+      "visual_inspection_performed": true
+    },
+    {
+      "kind": "detail_comparison_opened",
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "AE97E9A4B1BCFDFB1D2609F1693E8ACCFF699C2CC79CABDFB3B718972CE3D75D",
+      "visual_inspection_performed": true
+    },
+    {
+      "kind": "native_focus_comparison_opened",
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "FC3D1C1196140314D1F184A43CBB1FC2A4330842C8D4D752D5E030DA6C4E277D",
+      "visual_inspection_performed": true
+    },
+    {
+      "kind": "live_area_metadata",
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "5261E5801D4B744B16DA5FEE3419BBD1EA6E6C91DDE064F66CAEB770149E7640",
+      "scope": "Frozen input reference only; no opinions or other votes."
+    },
+    {
+      "kind": "workflow",
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "E30433C316FA49DB234AD2C2754DA8AB08A058A7B6BAF98D1A131358C354E2AC",
+      "scope": "Frozen input reference only; no opinions or other votes."
+    }
+  ],
+  "checked_at": "2026-10-23T11:37:49.003905+00:00",
+  "token_metrics_receipt": "[interní cesta nezveřejněna]",
+  "analysis_receipt": "[interní cesta nezveřejněna]",
+  "input_manifest": {
+    "path": "[interní cesta nezveřejněna]",
+    "sha256": "6B0AB974043AB92D81FAC711F219140EBED0B28C796BA2A127C61E1210583E2C",
+    "blind_version": 3
+  },
+  "identity_status": "pending",
+  "ownership_status": "verified",
+  "input_gate": {
+    "identity_status": "pending",
+    "ownership_status": "verified",
+    "upload_input_hold": true,
+    "identity_resolved_by_vote": false
+  },
+  "materials_supplied": {
+    "surfaces": [
+      "facade_plaster",
+      "exposed_masonry",
+      "window_and_door_joinery",
+      "roof_covering",
+      "metalwork",
+      "ground_surface"
+    ],
+    "status": "model_hypothesis",
+    "confidence": "provisional",
+    "locked": false
+  },
+  "material_status": {
+    "classification": "model_hypothesis",
+    "status": "provisional",
+    "locked": false,
+    "historically_verified_colours": false
+  },
+  "checks": {
+    "full_original_and_exact_variant_opened": true,
+    "detail_and_native_focus_opened": true,
+    "architecture_windows_doors_roof": "source structure visually retained; individual visible openings scanned in overview and detail panels",
+    "foreground_objects": "retained; no cleanup or occluder removal expected in COLOR_ONLY",
+    "damage": "large source damage and tonal pattern retained; local chromatic caveats in findings",
+    "archival_frame": "original white frame and archive marks retained; no visible generated external black padding",
+    "dimensions": {
+      "source": [
+        2160,
+        2866
+      ],
+      "variant": [
+        2160,
+        2866
+      ],
+      "same_dimensions": true
+    },
+    "grain_tonality": "closely source-like in grayscale/native crops; no whole-image sharpening/restoration credited",
+    "cross_view_material_consistency": "CP1248 front/courtyard compared only where the supplied views provide matching surfaces; no canonical IDs or dates supplied. No fabricated historical lock.",
+    "hidden_surface_reconstruction": "none authorized or credited"
+  },
+  "independence": {
+    "other_qa_votes_read": false,
+    "majority_decisions_read": false,
+    "producer_notes_or_assessments_read": false,
+    "V3_assessed_against_original_not_previous_verdict": true
+  },
+  "decision_scope": "Exact V3 source/variant SHA, independent visual COLOR_ONLY vote only. Does not resolve identity, authorize upload, or aggregate any votes.",
+  "backup_status": "backup_pending_E"
+}

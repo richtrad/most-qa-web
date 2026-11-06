@@ -1,0 +1,1738 @@
+{
+  "reviewer_role": "BQ",
+  "model": "gpt-6.1-sol",
+  "actual_model_evidence": null,
+  "requested_reasoning_effort": "high",
+  "model_note": "Model and effort requested by assignment; no independent runtime model attestation exposed.",
+  "protocol_sha256": "8b4b87143156cd62946aa657511c4e19ca5bc36df1c2b853a00e44c7311bcd7f",
+  "manifest_sha256": "a35166f2b12bc59201648fc0561a277de9c9036ad57d38d52f6c94ded6ce3e70",
+  "case_id": "CASE-02",
+  "source_sha256": "37946d3c58dff64de44560d82ea28e3c711c60de7d4e9707c2dcd2ff53a34137",
+  "variant_sha256": "03ac60f1a293b35d50a93560aa52c9ee07786e5b17241dd49ab985c090aeff3b",
+  "visual_review_performed": true,
+  "visual_review_method": "Direct view_image opening of every original and result, own paired whole-scene panels, detailed paired crops, native-pixel detail inspection. Deterministic analytical evidence; no screenshot/browser QA claim.",
+  "image_fidelity": {
+    "verdict": "positive",
+    "reason": "Kompozice zimní ulice, okenní rastr a otevřené křídlo na levém okraji, věžička, sloupy, dráty, větvení stromů, plot, všechny rozlišitelné postavy, sněhové hrany i původní rám s rukopisnými popisky jsou uchovány. Drobnější přerenderování textury sněhu a slabá světlá oblačná čára jsou přiznané minor_deviations; nemění rozpoznatelnou geometrii ani významové objekty.",
+    "minor_deviations": true
+  },
+  "color_hypothesis": {
+    "verdict": "positive",
+    "reason": "Krémové a okrové omítky, cihlové a kovové střechy, hnědé bezlisté dřeviny a téměř bílý sníh s mírným studeným stínem odpovídají věrohodné zimní materiálové hypotéze. Na stejných površích není zásadní barevný rozpor. Historická barevná správnost z černobílé fotografie odvodit nejde.",
+    "historical_truth": null,
+    "status": "provisional",
+    "locked": false
+  },
+  "identity_gate": {
+    "verdict": "positive",
+    "reason": "Rukopisné podtržené 539 nad částečně viditelnou levou budovou spolu s dodaným omezeným claimem podporuje právě tento levý okraj. Číslo 315 nad další budovou nepřisuzuji domu 539; další sousedy neurčuji. Potvrzení se týká pouze označení v dodaném zdroji a jeho souladu s claimem."
+  },
+  "verdict": "positive",
+  "verdict_rule": "negative if either image_fidelity or color_hypothesis is negative; positive if both positive; otherwise review. identity_gate separate.",
+  "findings": [
+    {
+      "id": "F01",
+      "dimension": "image_fidelity",
+      "assessment": "positive",
+      "normalized_box": [
+        0,
+        0,
+        0.52,
+        0.55
+      ],
+      "description": "Zachovány jsou původní rukopisné číslice a šipky, hrana snímku, okenní členění levé fasády s otevřeným křídlem, střešní věžička a sloup s příčkami; kresba nesplývá do nové architektury.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "Pozitivní důkaz uchování architektury, vedení i archivní anotace.",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "6c3e9eb84f0c776ed70f7984e31dcab1c9ab72b7c12b75fa3a359f8a423efda1",
+          "scale_note": "Native pixels, 1:1, no resampling",
+          "region": "upper_left",
+          "kind": "source",
+          "normalized_box": [
+            0,
+            0,
+            0.52,
+            0.55
+          ],
+          "pixel_box": [
+            0,
+            0,
+            1579,
+            1188
+          ],
+          "dimensions": [
+            1579,
+            1188
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "e07b909647457e4e389781f54600bf3ef02dc5071c956e7418bdd70bb746d886",
+          "scale_note": "Native pixels, 1:1, no resampling",
+          "region": "upper_left",
+          "kind": "result",
+          "normalized_box": [
+            0,
+            0,
+            0.52,
+            0.55
+          ],
+          "pixel_box": [
+            0,
+            0,
+            773,
+            582
+          ],
+          "dimensions": [
+            773,
+            582
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "caf71cadceb1532749b24e5e24f36085f3b9320269a3c45fb8d69eae05b69b54",
+          "scale_note": "Source LANCZOS resized to result crop dimensions; result 1:1; 32-pixel label bar; no local warp",
+          "region": "upper_left",
+          "kind": "pair",
+          "normalized_box": [
+            0,
+            0,
+            0.52,
+            0.55
+          ],
+          "source_pixel_box": [
+            0,
+            0,
+            1579,
+            1188
+          ],
+          "result_pixel_box": [
+            0,
+            0,
+            773,
+            582
+          ],
+          "source_scale_xy": [
+            0.4895503483217226,
+            0.4898989898989899
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "a00f3f310ebf8c02f6538481a6252619ac70494fdd4626e970199db772e55a2f",
+          "scale_note": "Native pixels 1:1 no resampling",
+          "region": "identity",
+          "kind": "source",
+          "normalized_box": [
+            0,
+            0,
+            0.23,
+            0.2
+          ],
+          "pixel_box": [
+            0,
+            0,
+            698,
+            432
+          ],
+          "dimensions": [
+            698,
+            432
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "3a1d8770ca2a1f064aa3c96fdb9a42f3a7eee34d654ea95e536e7856955bbd4a",
+          "scale_note": "Native pixels 1:1 no resampling",
+          "region": "identity",
+          "kind": "result",
+          "normalized_box": [
+            0,
+            0,
+            0.23,
+            0.2
+          ],
+          "pixel_box": [
+            0,
+            0,
+            342,
+            212
+          ],
+          "dimensions": [
+            342,
+            212
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "5ba6d276f47e79aa5c8b6164dbcf32df38fa7c87911e00419045f9288fe0b334",
+          "scale_note": "Source LANCZOS resized to result crop dimensions; result native 1:1; 32-pixel label bar",
+          "region": "identity",
+          "kind": "pair",
+          "normalized_box": [
+            0,
+            0,
+            0.23,
+            0.2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F02",
+      "dimension": "image_fidelity",
+      "assessment": "positive",
+      "normalized_box": [
+        0.13,
+        0.5,
+        0.51,
+        0.7
+      ],
+      "description": "Přední dítě i malá tmavá postava u vzdáleného levého rohu a dvě postavy vpravo v dálce mají oporu ve zdroji. Kontrola nativního výřezu potvrzuje, že vzdálená tmavá postava nebyla nově přidána.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "Podstatné zachování osob a jejich rozmístění v režimu COLOR_ONLY.",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "626d154d631daa2d9ee3250c4bc8dc1b54786d72a5cbb99dc88bd443ddc934f6",
+          "scale_note": "Native pixels, 1:1, no resampling",
+          "region": "lower_left",
+          "kind": "source",
+          "normalized_box": [
+            0,
+            0.48,
+            0.52,
+            1
+          ],
+          "pixel_box": [
+            0,
+            1037,
+            1579,
+            2160
+          ],
+          "dimensions": [
+            1579,
+            1123
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "ffebea3db5ef51249f2ccf4b7c828243204508ce8bb122ee26f1c5bf9638d813",
+          "scale_note": "Native pixels, 1:1, no resampling",
+          "region": "lower_left",
+          "kind": "result",
+          "normalized_box": [
+            0,
+            0.48,
+            0.52,
+            1
+          ],
+          "pixel_box": [
+            0,
+            508,
+            773,
+            1059
+          ],
+          "dimensions": [
+            773,
+            551
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "4bca527508e9d907730be7a45cffe0037a3e7b8dde7e61c8fc904231ecb07caf",
+          "scale_note": "Source LANCZOS resized to result crop dimensions; result 1:1; 32-pixel label bar; no local warp",
+          "region": "lower_left",
+          "kind": "pair",
+          "normalized_box": [
+            0,
+            0.48,
+            0.52,
+            1
+          ],
+          "source_pixel_box": [
+            0,
+            1037,
+            1579,
+            2160
+          ],
+          "result_pixel_box": [
+            0,
+            508,
+            773,
+            1059
+          ],
+          "source_scale_xy": [
+            0.4895503483217226,
+            0.4906500445235975
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "6c15484ef287f1b3c8c062ffd534f14780f13e1b88b5572d5f7be88ee42fb60a",
+          "scale_note": "Native pixels 1:1 no resampling",
+          "region": "distant_people",
+          "kind": "source",
+          "normalized_box": [
+            0.35,
+            0.5,
+            0.51,
+            0.61
+          ],
+          "pixel_box": [
+            1063,
+            1080,
+            1548,
+            1318
+          ],
+          "dimensions": [
+            485,
+            238
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "1ef52186109d99f22e4916dfe2e10b9c0d59b9f56f0e6470c48511801d80c748",
+          "scale_note": "Native pixels 1:1 no resampling",
+          "region": "distant_people",
+          "kind": "result",
+          "normalized_box": [
+            0.35,
+            0.5,
+            0.51,
+            0.61
+          ],
+          "pixel_box": [
+            520,
+            530,
+            758,
+            646
+          ],
+          "dimensions": [
+            238,
+            116
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "d602b51164a95863dc15f29b4f2af49d37ac25be793bb4fe3b6ba32f3e5fa88e",
+          "scale_note": "Source LANCZOS resized to result crop dimensions; result native 1:1; 32-pixel label bar",
+          "region": "distant_people",
+          "kind": "pair",
+          "normalized_box": [
+            0.35,
+            0.5,
+            0.51,
+            0.61
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "0141c006489a31832d74272d5f3bebe6c8dceb44b046097ea8311ee91f252c68",
+          "scale_note": "Native pixels 1:1 no resampling",
+          "region": "child",
+          "kind": "source",
+          "normalized_box": [
+            0.13,
+            0.51,
+            0.2,
+            0.7
+          ],
+          "pixel_box": [
+            395,
+            1102,
+            607,
+            1512
+          ],
+          "dimensions": [
+            212,
+            410
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "5a1ec0d4934ae8a11ff391e60bc6c2087b051a26b5603bbb755509251bd89071",
+          "scale_note": "Native pixels 1:1 no resampling",
+          "region": "child",
+          "kind": "result",
+          "normalized_box": [
+            0.13,
+            0.51,
+            0.2,
+            0.7
+          ],
+          "pixel_box": [
+            193,
+            540,
+            297,
+            741
+          ],
+          "dimensions": [
+            104,
+            201
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "6747a8b906d4215eecbeebd940ea37552ef0312bd14e5c74d72b29a3c9f22d53",
+          "scale_note": "Source LANCZOS resized to result crop dimensions; result native 1:1; 32-pixel label bar",
+          "region": "child",
+          "kind": "pair",
+          "normalized_box": [
+            0.13,
+            0.51,
+            0.2,
+            0.7
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F03",
+      "dimension": "image_fidelity",
+      "assessment": "positive",
+      "normalized_box": [
+        0.48,
+        0,
+        1,
+        1
+      ],
+      "description": "Velké kmeny a větvení na pravé straně, domy za nimi a sněhové hrany zůstávají ve stejném uspořádání; bílý okraj a spodní trhlina fotografie jsou zachovány.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "Pozitivní kontrola překážek, pozadí a fyzických stop předlohy.",
+      "confidence": 0.94,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "0fa694f414990d344d6ec10742244f328a1b7a090735bf21f2884f58e80c105a",
+          "scale_note": "Native pixels, 1:1, no resampling",
+          "region": "upper_right",
+          "kind": "source",
+          "normalized_box": [
+            0.48,
+            0,
+            1,
+            0.55
+          ],
+          "pixel_box": [
+            1457,
+            0,
+            3036,
+            1188
+          ],
+          "dimensions": [
+            1579,
+            1188
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "41ab492a3a61af438bc91b2888ad24984464d638860782644cf68bc74891d4a0",
+          "scale_note": "Native pixels, 1:1, no resampling",
+          "region": "upper_right",
+          "kind": "result",
+          "normalized_box": [
+            0.48,
+            0,
+            1,
+            0.55
+          ],
+          "pixel_box": [
+            713,
+            0,
+            1486,
+            582
+          ],
+          "dimensions": [
+            773,
+            582
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "ebb868e1c19f6afa0e06c35d5b2dd880abb86c4d950ca7ab8858ef52e330020c",
+          "scale_note": "Source LANCZOS resized to result crop dimensions; result 1:1; 32-pixel label bar; no local warp",
+          "region": "upper_right",
+          "kind": "pair",
+          "normalized_box": [
+            0.48,
+            0,
+            1,
+            0.55
+          ],
+          "source_pixel_box": [
+            1457,
+            0,
+            3036,
+            1188
+          ],
+          "result_pixel_box": [
+            713,
+            0,
+            1486,
+            582
+          ],
+          "source_scale_xy": [
+            0.4895503483217226,
+            0.4898989898989899
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "e19ca390f4385eac680a5f179802d14682c5dc1720a4467a4c4e16649932585c",
+          "scale_note": "Native pixels, 1:1, no resampling",
+          "region": "lower_right",
+          "kind": "source",
+          "normalized_box": [
+            0.48,
+            0.48,
+            1,
+            1
+          ],
+          "pixel_box": [
+            1457,
+            1037,
+            3036,
+            2160
+          ],
+          "dimensions": [
+            1579,
+            1123
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "c8f68453d4c07572b43104a3ff0210c8955780552e5dfcf9382b9915ff58c542",
+          "scale_note": "Native pixels, 1:1, no resampling",
+          "region": "lower_right",
+          "kind": "result",
+          "normalized_box": [
+            0.48,
+            0.48,
+            1,
+            1
+          ],
+          "pixel_box": [
+            713,
+            508,
+            1486,
+            1059
+          ],
+          "dimensions": [
+            773,
+            551
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "a6e8d6ee4b0863c745e57ead1037c07eae338e41d9f6ac6a3155fd01a095e900",
+          "scale_note": "Source LANCZOS resized to result crop dimensions; result 1:1; 32-pixel label bar; no local warp",
+          "region": "lower_right",
+          "kind": "pair",
+          "normalized_box": [
+            0.48,
+            0.48,
+            1,
+            1
+          ],
+          "source_pixel_box": [
+            1457,
+            1037,
+            3036,
+            2160
+          ],
+          "result_pixel_box": [
+            713,
+            508,
+            1486,
+            1059
+          ],
+          "source_scale_xy": [
+            0.4895503483217226,
+            0.4906500445235975
+          ]
+        }
+      ]
+    },
+    {
+      "id": "F04",
+      "dimension": "image_fidelity",
+      "assessment": "negative",
+      "normalized_box": [
+        0.48,
+        0.1,
+        0.68,
+        0.36
+      ],
+      "description": "Ve světle modré obloze je slabý malý světlý oblačný pás, jehož odpovídající kresbu ve zdroji bezpečně nerozlišuji. Jemná textura sněhu a kamenů je také lokálně zvýrazněna.",
+      "historical_impact": "minor",
+      "visibility": "100pct_only",
+      "significance_reason": "Přiznaná lokální odchylka kresby; má malý rozsah a nízkou vizuální dominanci. Nepovažuji ji za materiální přestavbu scény ani automatický fail.",
+      "confidence": 0.82,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "0935203ca41bc69e9473d272529e9c8072bda326d229152a41d7ebe981c3eedc",
+          "scale_note": "Native pixels, 1:1, no resampling",
+          "region": "full",
+          "kind": "source",
+          "normalized_box": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "pixel_box": [
+            0,
+            0,
+            3036,
+            2160
+          ],
+          "dimensions": [
+            3036,
+            2160
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "28796dd533ad9529b42f86fc140c56041fce8a11f46a23d4d6c22f2ce8a2f0e5",
+          "scale_note": "Native pixels, 1:1, no resampling",
+          "region": "full",
+          "kind": "result",
+          "normalized_box": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "pixel_box": [
+            0,
+            0,
+            1486,
+            1059
+          ],
+          "dimensions": [
+            1486,
+            1059
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "680a55821d1b9f192bfed877aef6a9ae0f517dd81a88ef942d51db358f83c675",
+          "scale_note": "Source LANCZOS resized to result crop dimensions; result 1:1; 32-pixel label bar; no local warp",
+          "region": "full",
+          "kind": "pair",
+          "normalized_box": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "source_pixel_box": [
+            0,
+            0,
+            3036,
+            2160
+          ],
+          "result_pixel_box": [
+            0,
+            0,
+            1486,
+            1059
+          ],
+          "source_scale_xy": [
+            0.4894598155467721,
+            0.49027777777777776
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "6d2cf219743c672103a2af16027f6573ade6de1d2d5d508cd083434804e30aa3",
+          "scale_note": "Pillow luminance conversion; source LANCZOS resized, result 1:1",
+          "region": "full",
+          "kind": "gray_pair",
+          "normalized_box": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "0fa694f414990d344d6ec10742244f328a1b7a090735bf21f2884f58e80c105a",
+          "scale_note": "Native pixels, 1:1, no resampling",
+          "region": "upper_right",
+          "kind": "source",
+          "normalized_box": [
+            0.48,
+            0,
+            1,
+            0.55
+          ],
+          "pixel_box": [
+            1457,
+            0,
+            3036,
+            1188
+          ],
+          "dimensions": [
+            1579,
+            1188
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "41ab492a3a61af438bc91b2888ad24984464d638860782644cf68bc74891d4a0",
+          "scale_note": "Native pixels, 1:1, no resampling",
+          "region": "upper_right",
+          "kind": "result",
+          "normalized_box": [
+            0.48,
+            0,
+            1,
+            0.55
+          ],
+          "pixel_box": [
+            713,
+            0,
+            1486,
+            582
+          ],
+          "dimensions": [
+            773,
+            582
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "ebb868e1c19f6afa0e06c35d5b2dd880abb86c4d950ca7ab8858ef52e330020c",
+          "scale_note": "Source LANCZOS resized to result crop dimensions; result 1:1; 32-pixel label bar; no local warp",
+          "region": "upper_right",
+          "kind": "pair",
+          "normalized_box": [
+            0.48,
+            0,
+            1,
+            0.55
+          ],
+          "source_pixel_box": [
+            1457,
+            0,
+            3036,
+            1188
+          ],
+          "result_pixel_box": [
+            713,
+            0,
+            1486,
+            582
+          ],
+          "source_scale_xy": [
+            0.4895503483217226,
+            0.4898989898989899
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "e19ca390f4385eac680a5f179802d14682c5dc1720a4467a4c4e16649932585c",
+          "scale_note": "Native pixels, 1:1, no resampling",
+          "region": "lower_right",
+          "kind": "source",
+          "normalized_box": [
+            0.48,
+            0.48,
+            1,
+            1
+          ],
+          "pixel_box": [
+            1457,
+            1037,
+            3036,
+            2160
+          ],
+          "dimensions": [
+            1579,
+            1123
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "c8f68453d4c07572b43104a3ff0210c8955780552e5dfcf9382b9915ff58c542",
+          "scale_note": "Native pixels, 1:1, no resampling",
+          "region": "lower_right",
+          "kind": "result",
+          "normalized_box": [
+            0.48,
+            0.48,
+            1,
+            1
+          ],
+          "pixel_box": [
+            713,
+            508,
+            1486,
+            1059
+          ],
+          "dimensions": [
+            773,
+            551
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "a6e8d6ee4b0863c745e57ead1037c07eae338e41d9f6ac6a3155fd01a095e900",
+          "scale_note": "Source LANCZOS resized to result crop dimensions; result 1:1; 32-pixel label bar; no local warp",
+          "region": "lower_right",
+          "kind": "pair",
+          "normalized_box": [
+            0.48,
+            0.48,
+            1,
+            1
+          ],
+          "source_pixel_box": [
+            1457,
+            1037,
+            3036,
+            2160
+          ],
+          "result_pixel_box": [
+            713,
+            508,
+            1486,
+            1059
+          ],
+          "source_scale_xy": [
+            0.4895503483217226,
+            0.4906500445235975
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C01",
+      "dimension": "color_hypothesis",
+      "assessment": "positive",
+      "normalized_box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "description": "Sníh zůstává téměř neutrální s modravým stínem a šedohnědým uježděným pruhem; hnědé dřeviny a krémové omítky se materiálově nerozpadají do barevných skvrn.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "Uvěřitelná a vnitřně soudržná barevná hypotéza zimní scény.",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "0935203ca41bc69e9473d272529e9c8072bda326d229152a41d7ebe981c3eedc",
+          "scale_note": "Native pixels, 1:1, no resampling",
+          "region": "full",
+          "kind": "source",
+          "normalized_box": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "pixel_box": [
+            0,
+            0,
+            3036,
+            2160
+          ],
+          "dimensions": [
+            3036,
+            2160
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "28796dd533ad9529b42f86fc140c56041fce8a11f46a23d4d6c22f2ce8a2f0e5",
+          "scale_note": "Native pixels, 1:1, no resampling",
+          "region": "full",
+          "kind": "result",
+          "normalized_box": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "pixel_box": [
+            0,
+            0,
+            1486,
+            1059
+          ],
+          "dimensions": [
+            1486,
+            1059
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "680a55821d1b9f192bfed877aef6a9ae0f517dd81a88ef942d51db358f83c675",
+          "scale_note": "Source LANCZOS resized to result crop dimensions; result 1:1; 32-pixel label bar; no local warp",
+          "region": "full",
+          "kind": "pair",
+          "normalized_box": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "source_pixel_box": [
+            0,
+            0,
+            3036,
+            2160
+          ],
+          "result_pixel_box": [
+            0,
+            0,
+            1486,
+            1059
+          ],
+          "source_scale_xy": [
+            0.4894598155467721,
+            0.49027777777777776
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "6d2cf219743c672103a2af16027f6573ade6de1d2d5d508cd083434804e30aa3",
+          "scale_note": "Pillow luminance conversion; source LANCZOS resized, result 1:1",
+          "region": "full",
+          "kind": "gray_pair",
+          "normalized_box": [
+            0,
+            0,
+            1,
+            1
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "6c3e9eb84f0c776ed70f7984e31dcab1c9ab72b7c12b75fa3a359f8a423efda1",
+          "scale_note": "Native pixels, 1:1, no resampling",
+          "region": "upper_left",
+          "kind": "source",
+          "normalized_box": [
+            0,
+            0,
+            0.52,
+            0.55
+          ],
+          "pixel_box": [
+            0,
+            0,
+            1579,
+            1188
+          ],
+          "dimensions": [
+            1579,
+            1188
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "e07b909647457e4e389781f54600bf3ef02dc5071c956e7418bdd70bb746d886",
+          "scale_note": "Native pixels, 1:1, no resampling",
+          "region": "upper_left",
+          "kind": "result",
+          "normalized_box": [
+            0,
+            0,
+            0.52,
+            0.55
+          ],
+          "pixel_box": [
+            0,
+            0,
+            773,
+            582
+          ],
+          "dimensions": [
+            773,
+            582
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "caf71cadceb1532749b24e5e24f36085f3b9320269a3c45fb8d69eae05b69b54",
+          "scale_note": "Source LANCZOS resized to result crop dimensions; result 1:1; 32-pixel label bar; no local warp",
+          "region": "upper_left",
+          "kind": "pair",
+          "normalized_box": [
+            0,
+            0,
+            0.52,
+            0.55
+          ],
+          "source_pixel_box": [
+            0,
+            0,
+            1579,
+            1188
+          ],
+          "result_pixel_box": [
+            0,
+            0,
+            773,
+            582
+          ],
+          "source_scale_xy": [
+            0.4895503483217226,
+            0.4898989898989899
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "e19ca390f4385eac680a5f179802d14682c5dc1720a4467a4c4e16649932585c",
+          "scale_note": "Native pixels, 1:1, no resampling",
+          "region": "lower_right",
+          "kind": "source",
+          "normalized_box": [
+            0.48,
+            0.48,
+            1,
+            1
+          ],
+          "pixel_box": [
+            1457,
+            1037,
+            3036,
+            2160
+          ],
+          "dimensions": [
+            1579,
+            1123
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "c8f68453d4c07572b43104a3ff0210c8955780552e5dfcf9382b9915ff58c542",
+          "scale_note": "Native pixels, 1:1, no resampling",
+          "region": "lower_right",
+          "kind": "result",
+          "normalized_box": [
+            0.48,
+            0.48,
+            1,
+            1
+          ],
+          "pixel_box": [
+            713,
+            508,
+            1486,
+            1059
+          ],
+          "dimensions": [
+            773,
+            551
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "a6e8d6ee4b0863c745e57ead1037c07eae338e41d9f6ac6a3155fd01a095e900",
+          "scale_note": "Source LANCZOS resized to result crop dimensions; result 1:1; 32-pixel label bar; no local warp",
+          "region": "lower_right",
+          "kind": "pair",
+          "normalized_box": [
+            0.48,
+            0.48,
+            1,
+            1
+          ],
+          "source_pixel_box": [
+            1457,
+            1037,
+            3036,
+            2160
+          ],
+          "result_pixel_box": [
+            713,
+            508,
+            1486,
+            1059
+          ],
+          "source_scale_xy": [
+            0.4895503483217226,
+            0.4906500445235975
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I01",
+      "dimension": "identity_gate",
+      "assessment": "positive",
+      "normalized_box": [
+        0,
+        0,
+        0.23,
+        0.2
+      ],
+      "description": "Na zdroji i výsledku je čitelné podtržené 539 u horního levého okraje; souhlasí s claimem omezeným na částečně viditelnou levou budovu.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "Posudek nepřenáší číslo na centrální dům ani neurčuje další sousedy.",
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "a00f3f310ebf8c02f6538481a6252619ac70494fdd4626e970199db772e55a2f",
+          "scale_note": "Native pixels 1:1 no resampling",
+          "region": "identity",
+          "kind": "source",
+          "normalized_box": [
+            0,
+            0,
+            0.23,
+            0.2
+          ],
+          "pixel_box": [
+            0,
+            0,
+            698,
+            432
+          ],
+          "dimensions": [
+            698,
+            432
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "3a1d8770ca2a1f064aa3c96fdb9a42f3a7eee34d654ea95e536e7856955bbd4a",
+          "scale_note": "Native pixels 1:1 no resampling",
+          "region": "identity",
+          "kind": "result",
+          "normalized_box": [
+            0,
+            0,
+            0.23,
+            0.2
+          ],
+          "pixel_box": [
+            0,
+            0,
+            342,
+            212
+          ],
+          "dimensions": [
+            342,
+            212
+          ]
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "5ba6d276f47e79aa5c8b6164dbcf32df38fa7c87911e00419045f9288fe0b334",
+          "scale_note": "Source LANCZOS resized to result crop dimensions; result native 1:1; 32-pixel label bar",
+          "region": "identity",
+          "kind": "pair",
+          "normalized_box": [
+            0,
+            0,
+            0.23,
+            0.2
+          ]
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "0935203ca41bc69e9473d272529e9c8072bda326d229152a41d7ebe981c3eedc",
+      "scale_note": "Native pixels, 1:1, no resampling",
+      "region": "full",
+      "kind": "source",
+      "normalized_box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "pixel_box": [
+        0,
+        0,
+        3036,
+        2160
+      ],
+      "dimensions": [
+        3036,
+        2160
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "28796dd533ad9529b42f86fc140c56041fce8a11f46a23d4d6c22f2ce8a2f0e5",
+      "scale_note": "Native pixels, 1:1, no resampling",
+      "region": "full",
+      "kind": "result",
+      "normalized_box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "pixel_box": [
+        0,
+        0,
+        1486,
+        1059
+      ],
+      "dimensions": [
+        1486,
+        1059
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "680a55821d1b9f192bfed877aef6a9ae0f517dd81a88ef942d51db358f83c675",
+      "scale_note": "Source LANCZOS resized to result crop dimensions; result 1:1; 32-pixel label bar; no local warp",
+      "region": "full",
+      "kind": "pair",
+      "normalized_box": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "source_pixel_box": [
+        0,
+        0,
+        3036,
+        2160
+      ],
+      "result_pixel_box": [
+        0,
+        0,
+        1486,
+        1059
+      ],
+      "source_scale_xy": [
+        0.4894598155467721,
+        0.49027777777777776
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "6d2cf219743c672103a2af16027f6573ade6de1d2d5d508cd083434804e30aa3",
+      "scale_note": "Pillow luminance conversion; source LANCZOS resized, result 1:1",
+      "region": "full",
+      "kind": "gray_pair",
+      "normalized_box": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "6c3e9eb84f0c776ed70f7984e31dcab1c9ab72b7c12b75fa3a359f8a423efda1",
+      "scale_note": "Native pixels, 1:1, no resampling",
+      "region": "upper_left",
+      "kind": "source",
+      "normalized_box": [
+        0,
+        0,
+        0.52,
+        0.55
+      ],
+      "pixel_box": [
+        0,
+        0,
+        1579,
+        1188
+      ],
+      "dimensions": [
+        1579,
+        1188
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "e07b909647457e4e389781f54600bf3ef02dc5071c956e7418bdd70bb746d886",
+      "scale_note": "Native pixels, 1:1, no resampling",
+      "region": "upper_left",
+      "kind": "result",
+      "normalized_box": [
+        0,
+        0,
+        0.52,
+        0.55
+      ],
+      "pixel_box": [
+        0,
+        0,
+        773,
+        582
+      ],
+      "dimensions": [
+        773,
+        582
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "caf71cadceb1532749b24e5e24f36085f3b9320269a3c45fb8d69eae05b69b54",
+      "scale_note": "Source LANCZOS resized to result crop dimensions; result 1:1; 32-pixel label bar; no local warp",
+      "region": "upper_left",
+      "kind": "pair",
+      "normalized_box": [
+        0,
+        0,
+        0.52,
+        0.55
+      ],
+      "source_pixel_box": [
+        0,
+        0,
+        1579,
+        1188
+      ],
+      "result_pixel_box": [
+        0,
+        0,
+        773,
+        582
+      ],
+      "source_scale_xy": [
+        0.4895503483217226,
+        0.4898989898989899
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "0fa694f414990d344d6ec10742244f328a1b7a090735bf21f2884f58e80c105a",
+      "scale_note": "Native pixels, 1:1, no resampling",
+      "region": "upper_right",
+      "kind": "source",
+      "normalized_box": [
+        0.48,
+        0,
+        1,
+        0.55
+      ],
+      "pixel_box": [
+        1457,
+        0,
+        3036,
+        1188
+      ],
+      "dimensions": [
+        1579,
+        1188
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "41ab492a3a61af438bc91b2888ad24984464d638860782644cf68bc74891d4a0",
+      "scale_note": "Native pixels, 1:1, no resampling",
+      "region": "upper_right",
+      "kind": "result",
+      "normalized_box": [
+        0.48,
+        0,
+        1,
+        0.55
+      ],
+      "pixel_box": [
+        713,
+        0,
+        1486,
+        582
+      ],
+      "dimensions": [
+        773,
+        582
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "ebb868e1c19f6afa0e06c35d5b2dd880abb86c4d950ca7ab8858ef52e330020c",
+      "scale_note": "Source LANCZOS resized to result crop dimensions; result 1:1; 32-pixel label bar; no local warp",
+      "region": "upper_right",
+      "kind": "pair",
+      "normalized_box": [
+        0.48,
+        0,
+        1,
+        0.55
+      ],
+      "source_pixel_box": [
+        1457,
+        0,
+        3036,
+        1188
+      ],
+      "result_pixel_box": [
+        713,
+        0,
+        1486,
+        582
+      ],
+      "source_scale_xy": [
+        0.4895503483217226,
+        0.4898989898989899
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "626d154d631daa2d9ee3250c4bc8dc1b54786d72a5cbb99dc88bd443ddc934f6",
+      "scale_note": "Native pixels, 1:1, no resampling",
+      "region": "lower_left",
+      "kind": "source",
+      "normalized_box": [
+        0,
+        0.48,
+        0.52,
+        1
+      ],
+      "pixel_box": [
+        0,
+        1037,
+        1579,
+        2160
+      ],
+      "dimensions": [
+        1579,
+        1123
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "ffebea3db5ef51249f2ccf4b7c828243204508ce8bb122ee26f1c5bf9638d813",
+      "scale_note": "Native pixels, 1:1, no resampling",
+      "region": "lower_left",
+      "kind": "result",
+      "normalized_box": [
+        0,
+        0.48,
+        0.52,
+        1
+      ],
+      "pixel_box": [
+        0,
+        508,
+        773,
+        1059
+      ],
+      "dimensions": [
+        773,
+        551
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "4bca527508e9d907730be7a45cffe0037a3e7b8dde7e61c8fc904231ecb07caf",
+      "scale_note": "Source LANCZOS resized to result crop dimensions; result 1:1; 32-pixel label bar; no local warp",
+      "region": "lower_left",
+      "kind": "pair",
+      "normalized_box": [
+        0,
+        0.48,
+        0.52,
+        1
+      ],
+      "source_pixel_box": [
+        0,
+        1037,
+        1579,
+        2160
+      ],
+      "result_pixel_box": [
+        0,
+        508,
+        773,
+        1059
+      ],
+      "source_scale_xy": [
+        0.4895503483217226,
+        0.4906500445235975
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "e19ca390f4385eac680a5f179802d14682c5dc1720a4467a4c4e16649932585c",
+      "scale_note": "Native pixels, 1:1, no resampling",
+      "region": "lower_right",
+      "kind": "source",
+      "normalized_box": [
+        0.48,
+        0.48,
+        1,
+        1
+      ],
+      "pixel_box": [
+        1457,
+        1037,
+        3036,
+        2160
+      ],
+      "dimensions": [
+        1579,
+        1123
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "c8f68453d4c07572b43104a3ff0210c8955780552e5dfcf9382b9915ff58c542",
+      "scale_note": "Native pixels, 1:1, no resampling",
+      "region": "lower_right",
+      "kind": "result",
+      "normalized_box": [
+        0.48,
+        0.48,
+        1,
+        1
+      ],
+      "pixel_box": [
+        713,
+        508,
+        1486,
+        1059
+      ],
+      "dimensions": [
+        773,
+        551
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "a6e8d6ee4b0863c745e57ead1037c07eae338e41d9f6ac6a3155fd01a095e900",
+      "scale_note": "Source LANCZOS resized to result crop dimensions; result 1:1; 32-pixel label bar; no local warp",
+      "region": "lower_right",
+      "kind": "pair",
+      "normalized_box": [
+        0.48,
+        0.48,
+        1,
+        1
+      ],
+      "source_pixel_box": [
+        1457,
+        1037,
+        3036,
+        2160
+      ],
+      "result_pixel_box": [
+        713,
+        508,
+        1486,
+        1059
+      ],
+      "source_scale_xy": [
+        0.4895503483217226,
+        0.4906500445235975
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "6c15484ef287f1b3c8c062ffd534f14780f13e1b88b5572d5f7be88ee42fb60a",
+      "scale_note": "Native pixels 1:1 no resampling",
+      "region": "distant_people",
+      "kind": "source",
+      "normalized_box": [
+        0.35,
+        0.5,
+        0.51,
+        0.61
+      ],
+      "pixel_box": [
+        1063,
+        1080,
+        1548,
+        1318
+      ],
+      "dimensions": [
+        485,
+        238
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "1ef52186109d99f22e4916dfe2e10b9c0d59b9f56f0e6470c48511801d80c748",
+      "scale_note": "Native pixels 1:1 no resampling",
+      "region": "distant_people",
+      "kind": "result",
+      "normalized_box": [
+        0.35,
+        0.5,
+        0.51,
+        0.61
+      ],
+      "pixel_box": [
+        520,
+        530,
+        758,
+        646
+      ],
+      "dimensions": [
+        238,
+        116
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "d602b51164a95863dc15f29b4f2af49d37ac25be793bb4fe3b6ba32f3e5fa88e",
+      "scale_note": "Source LANCZOS resized to result crop dimensions; result native 1:1; 32-pixel label bar",
+      "region": "distant_people",
+      "kind": "pair",
+      "normalized_box": [
+        0.35,
+        0.5,
+        0.51,
+        0.61
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "a00f3f310ebf8c02f6538481a6252619ac70494fdd4626e970199db772e55a2f",
+      "scale_note": "Native pixels 1:1 no resampling",
+      "region": "identity",
+      "kind": "source",
+      "normalized_box": [
+        0,
+        0,
+        0.23,
+        0.2
+      ],
+      "pixel_box": [
+        0,
+        0,
+        698,
+        432
+      ],
+      "dimensions": [
+        698,
+        432
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "3a1d8770ca2a1f064aa3c96fdb9a42f3a7eee34d654ea95e536e7856955bbd4a",
+      "scale_note": "Native pixels 1:1 no resampling",
+      "region": "identity",
+      "kind": "result",
+      "normalized_box": [
+        0,
+        0,
+        0.23,
+        0.2
+      ],
+      "pixel_box": [
+        0,
+        0,
+        342,
+        212
+      ],
+      "dimensions": [
+        342,
+        212
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "5ba6d276f47e79aa5c8b6164dbcf32df38fa7c87911e00419045f9288fe0b334",
+      "scale_note": "Source LANCZOS resized to result crop dimensions; result native 1:1; 32-pixel label bar",
+      "region": "identity",
+      "kind": "pair",
+      "normalized_box": [
+        0,
+        0,
+        0.23,
+        0.2
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "0141c006489a31832d74272d5f3bebe6c8dceb44b046097ea8311ee91f252c68",
+      "scale_note": "Native pixels 1:1 no resampling",
+      "region": "child",
+      "kind": "source",
+      "normalized_box": [
+        0.13,
+        0.51,
+        0.2,
+        0.7
+      ],
+      "pixel_box": [
+        395,
+        1102,
+        607,
+        1512
+      ],
+      "dimensions": [
+        212,
+        410
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "5a1ec0d4934ae8a11ff391e60bc6c2087b051a26b5603bbb755509251bd89071",
+      "scale_note": "Native pixels 1:1 no resampling",
+      "region": "child",
+      "kind": "result",
+      "normalized_box": [
+        0.13,
+        0.51,
+        0.2,
+        0.7
+      ],
+      "pixel_box": [
+        193,
+        540,
+        297,
+        741
+      ],
+      "dimensions": [
+        104,
+        201
+      ]
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "6747a8b906d4215eecbeebd940ea37552ef0312bd14e5c74d72b29a3c9f22d53",
+      "scale_note": "Source LANCZOS resized to result crop dimensions; result native 1:1; 32-pixel label bar",
+      "region": "child",
+      "kind": "pair",
+      "normalized_box": [
+        0.13,
+        0.51,
+        0.2,
+        0.7
+      ]
+    }
+  ],
+  "source_dimensions": [
+    3036,
+    2160
+  ],
+  "variant_dimensions": [
+    1486,
+    1059
+  ],
+  "normalized_box_convention": "x0,y0,x1,y1 relative to whole uncropped photograph file including border; per-image crop pixels rounded separately.",
+  "blindness": {
+    "old_assessments_read": false,
+    "external_sources_read": false,
+    "memory_read": false,
+    "contamination": false
+  },
+  "storage_status": "backup_pending_E",
+  "checked_at": "2026-10-23T14:16:11.934401+00:00"
+}

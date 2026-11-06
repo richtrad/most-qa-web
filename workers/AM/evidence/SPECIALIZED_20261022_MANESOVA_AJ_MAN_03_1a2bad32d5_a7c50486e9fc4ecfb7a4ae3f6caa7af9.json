@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "pilot_id": "SPECIALIZED_20261022_MANESOVA",
+  "job_id": "AJ_MAN_03_1a2bad32d5",
+  "role": "AN",
+  "phase": "color_only",
+  "started_at": "2026-10-22T05:51:06.408546+00:00",
+  "actual_model": "gpt-6-astra",
+  "source_id": "e6163d21-3e83-4adb-8ee3-43143aaf78cf",
+  "source_sha256": "1a2bad32d5418cbe7a1d80bedadecae592e1d3c34ebe3ceb11f2387ca9b2d356",
+  "target_cps": [
+    "1088"
+  ],
+  "structure_ids": [
+    "3193ca4f-98de-4960-acc8-29104fc076d2"
+  ],
+  "qa_receipt": "[local evidence path omitted]",
+  "accepted_output_sha256": "f32614563b5a8a534d7cbc20e9a530d218e8e871fc69f5409f38ad7c4fc9f7e1",
+  "run_id": "a7c50486e9fc4ecfb7a4ae3f6caa7af9",
+  "remote_mutations": 1,
+  "qa_sha256": "27d288b0b41402572e103b68484c41de8985f8426c6b66d42643713be71deeed",
+  "colour_evidence": {
+    "confidence": "model_hypothesis",
+    "status": "provisional",
+    "locked": false
+  },
+  "qa_limitations": [
+    "Colour assignment is model_hypothesis/provisional/unlocked.",
+    "Hidden surfaces unverified and not reconstructed.",
+    "AN may upload only this exact accepted output hash after its own checks; cleanup_pass is null."
+  ],
+  "qa_crop": {
+    "applied": false,
+    "reason": "No newly generated outer black padding"
+  },
+  "cleanup_pass": null,
+  "local_output": "[local evidence path omitted]",
+  "tags": [
+    "PHOTO",
+    "BW",
+    "COLOR"
+  ],
+  "result": "verified",
+  "links": [
+    {
+      "cp": "1088",
+      "structure_id": "3193ca4f-98de-4960-acc8-29104fc076d2",
+      "photo_id": "954a5dcb-3bd7-4596-9642-eb9efe4ba046",
+      "filename": "cp_1088_001_col.png",
+      "tags": [
+        "PHOTO",
+        "BW",
+        "COLOR"
+      ],
+      "remote_copy": "[local evidence path omitted]",
+      "remote_sha256": "f32614563b5a8a534d7cbc20e9a530d218e8e871fc69f5409f38ad7c4fc9f7e1",
+      "http_status": 200
+    }
+  ],
+  "photo_ids": [
+    "954a5dcb-3bd7-4596-9642-eb9efe4ba046"
+  ],
+  "remote_sha256": "f32614563b5a8a534d7cbc20e9a530d218e8e871fc69f5409f38ad7c4fc9f7e1",
+  "remote_copy": "[local evidence path omitted]",
+  "verified_links": 1,
+  "filename": "cp_1088_001_col.png",
+  "ended_at": "2026-10-22T05:51:08.705516+00:00",
+  "active_processing_seconds": 2.29697,
+  "ledger_receipt": "[local evidence path omitted]"
+}

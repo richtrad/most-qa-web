@@ -1,0 +1,5 @@
+"use strict";
+(function(root,factory){const api=factory();if(typeof module!=="undefined")module.exports=api;root.PrivateQaCore=api;})(typeof window!=="undefined"?window:globalThis,function(){
+  function buildExport(model,stateFor){return{schemaVersion:"most-private-qa-decisions/1.1",dataVersion:model.dataVersion||"not_recorded",exportedAtUtc:new Date().toISOString(),application_status:"not_applied",cases:model.cases.map((item)=>{const local=stateFor(item.caseId)||{},variant=item.variants.find((candidate)=>candidate.variantId===local.selectedVariantId)||null;return{schemaVersion:item.caseVersion||"not_recorded",dataVersion:model.dataVersion||"not_recorded",caseVersion:item.caseVersion||"not_recorded",caseId:item.caseId,source:{filename:item.source.filename,sourceId:item.source.sourceId,sourceIdStatus:item.source.sourceIdStatus,sha256:item.source.sha256},state:item.state,selectedVariantId:variant?variant.variantId:null,selectedVariantSha256:variant?variant.sha256:null,choice:local.choice||"unknown",comment:local.comment||"",application_status:"not_applied",appVersion:model.appVersion};})};}
+  return{buildExport};
+});

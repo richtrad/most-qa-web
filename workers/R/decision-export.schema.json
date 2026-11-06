@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "most-worker-r-dobrovolcu-decisions-1.0.0",
+  "title": "MOST Worker R Dobrovolcu user decisions",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "worker",
+    "street",
+    "batch_id",
+    "created_at",
+    "application_status",
+    "decisions"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "worker": {
+      "const": "R"
+    },
+    "street": {
+      "const": "Dobrovolců"
+    },
+    "batch_id": {
+      "const": "DOBROVOLCU_R_COLOR_ONLY_20261021"
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "application_status": {
+      "enum": [
+        "not_applied",
+        "applied",
+        "conflict"
+      ]
+    },
+    "note": {
+      "type": "string"
+    },
+    "decisions": {
+      "type": "array",
+      "minItems": 5,
+      "maxItems": 5,
+      "items": {
+        "type": "object",
+        "required": [
+          "case_id",
+          "source_id",
+          "source_filename",
+          "source_sha256",
+          "case_version",
+          "decision",
+          "comment",
+          "recorded_at",
+          "application_status"
+        ],
+        "properties": {
+          "case_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "source_filename": {
+            "type": "string"
+          },
+          "source_sha256": {
+            "type": "string",
+            "pattern": "^[A-Fa-f0-9]{64}$"
+          },
+          "case_version": {
+            "type": "string"
+          },
+          "decision": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "comment": {
+            "type": "string"
+          },
+          "recorded_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "application_status": {
+            "enum": [
+              "not_applied",
+              "applied",
+              "conflict"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

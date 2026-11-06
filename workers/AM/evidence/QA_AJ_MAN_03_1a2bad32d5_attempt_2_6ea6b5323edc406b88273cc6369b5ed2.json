@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "pilot_id": "SPECIALIZED_20261022_MANESOVA",
+  "role": "AM",
+  "qa_phase": "color_only",
+  "qa_status": "passed_color_only",
+  "passed_color_only": true,
+  "cleanup_pass": null,
+  "attempts_used": 2,
+  "remaining_edit_attempts": 0,
+  "source_path": "[local evidence path omitted]",
+  "source_sha256": "1a2bad32d5418cbe7a1d80bedadecae592e1d3c34ebe3ceb11f2387ca9b2d356",
+  "output_path": "[local evidence path omitted]",
+  "output_sha256": "f32614563b5a8a534d7cbc20e9a530d218e8e871fc69f5409f38ad7c4fc9f7e1",
+  "reference_records": [
+    {
+      "source_id": "8dfeb87b-4a4d-4b24-9f66-250ec9119917",
+      "path": "[local evidence path omitted]",
+      "sha256": "553316ac0996dbd5d74934d63d95b21d185c1a68bc2e20278934bf899beec481"
+    }
+  ],
+  "material_brief_path": "[local evidence path omitted]",
+  "material_brief_sha256": "c46faa35944212b3bb78b1569f7d31c5eb4fa4d3738e225d8dec4cf704eb59df",
+  "qa_receipt": "[local evidence path omitted]",
+  "actual_model": "gpt-6-astra",
+  "colour_evidence": {
+    "confidence": "model_hypothesis",
+    "status": "provisional",
+    "locked": false
+  },
+  "completed_at_utc": "2026-10-22T05:47:31.083438+00:00",
+  "job_id": "AJ_MAN_03_1a2bad32d5",
+  "result": "accepted",
+  "visual_inspection": {
+    "source_opened": true,
+    "output_opened": true,
+    "references_opened": true,
+    "method": "Exact source/card inspected in same segment; v02 separately viewed; SHA chain revalidated",
+    "architecture_openings": "Four upper axes, curved/triangular pediments, roof hatch, chimney positions, central rod and lower openings preserved",
+    "damage": "Jagged broken glazing, damaged gutter, missing lower plaster and dark doorway retained",
+    "lettering": "Small plate remains ambiguous, no new readable words asserted",
+    "people_vehicles": "None clearly visible; none added",
+    "vegetation_wires": "Both trees, weeds, facade cables and poles retained",
+    "composition_border": "Original extent, photographic softness, top stippled line and pale border retained",
+    "materials": "Ochre/cream/red roof matches assigned provisional families; no accepted group-view comparison available",
+    "padding": "No outer black padding; no crop"
+  },
+  "findings": [
+    {
+      "severity": "resolved",
+      "normalized_output_roi": [
+        0.1,
+        0.27,
+        0.98,
+        0.44
+      ],
+      "finding": "Roof tile microrelief reduced to soft mottled photographic texture; no new hatch/chimney/edge geometry observed."
+    },
+    {
+      "severity": "resolved",
+      "normalized_output_roi": [
+        0.34,
+        0.71,
+        0.68,
+        0.81
+      ],
+      "finding": "Lower door and masonry now softer; principal damage boundaries and dark opening retained."
+    },
+    {
+      "severity": "limitation",
+      "normalized_output_roi": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "finding": "Some fine surface interpretation remains; not evidence for detail below original resolution."
+    }
+  ],
+  "upload_crop": {
+    "applied": false,
+    "reason": "No newly generated outer black padding"
+  },
+  "limitations": [
+    "Colour assignment is model_hypothesis/provisional/unlocked.",
+    "Hidden surfaces unverified and not reconstructed.",
+    "AN may upload only this exact accepted output hash after its own checks; cleanup_pass is null."
+  ]
+}

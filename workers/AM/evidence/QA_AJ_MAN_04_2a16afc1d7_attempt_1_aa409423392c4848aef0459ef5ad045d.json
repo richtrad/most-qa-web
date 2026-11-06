@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "pilot_id": "SPECIALIZED_20261022_MANESOVA",
+  "role": "AM",
+  "qa_phase": "color_only",
+  "qa_status": "failed_color_only",
+  "passed_color_only": false,
+  "cleanup_pass": null,
+  "attempts_used": 1,
+  "remaining_edit_attempts": 1,
+  "source_path": "[local evidence path omitted]",
+  "source_sha256": "2a16afc1d720c89447719d0a9f7e6e170ce923a92ef2860db657250df9ea74cc",
+  "output_path": "[local evidence path omitted]",
+  "output_sha256": "b78230e9aaa89f20b4450375de4e3cf82c750f450cb770095fbac4159c828564",
+  "reference_records": [
+    {
+      "source_id": "68a2d90d-47c2-4bbf-9a5a-febf6091229f",
+      "path": "[local evidence path omitted]",
+      "sha256": "633061220ebe53768617c40ee96c06e4082001894d3ca6c1c756da018e6de68a"
+    }
+  ],
+  "material_brief_path": "[local evidence path omitted]",
+  "material_brief_sha256": "e85ed772efa83eaa4681cd7548cba796c59e24d7ed671c2a38771f6ca85e26e5",
+  "qa_receipt": "[local evidence path omitted]",
+  "actual_model": "gpt-6-astra",
+  "colour_evidence": {
+    "confidence": "model_hypothesis",
+    "status": "provisional",
+    "locked": false
+  },
+  "completed_at_utc": "2026-10-22T05:48:09.954403+00:00",
+  "job_id": "AJ_MAN_04_2a16afc1d7",
+  "result": "repair",
+  "visual_inspection": {
+    "source_opened": true,
+    "output_opened": true,
+    "references_opened": true,
+    "architecture_openings": "Target bay/central gable mostly retained, but left neighboring gable silhouette enlarged upward",
+    "damage": "Grime/plaster retained broadly; damaged lower-window transoms appear more complete",
+    "lettering": "Tiny lower right plate not made legible; card identity1241 matches",
+    "people_vehicles": "None clearly visible; none added",
+    "vegetation_wires": "Tree and top foreground leaves retained; facade wires/bracket retained",
+    "composition_border": "Full extent and white margin retained; local roof silhouette changes",
+    "materials": "Cream/slate/dark timber meets provisional1241 palette; neighboring1242 yellow coherent",
+    "padding": "No added black padding; no crop"
+  },
+  "findings": [
+    {
+      "severity": "major",
+      "normalized_output_roi": [
+        0.02,
+        0.23,
+        0.16,
+        0.39
+      ],
+      "finding": "Neighboring gable at far left is newly tall and elaborately reconstructed above source silhouette; exact original shows a much lower, faint partial roof/gable."
+    },
+    {
+      "severity": "major",
+      "normalized_output_roi": [
+        0.45,
+        0.56,
+        0.62,
+        0.63
+      ],
+      "finding": "Lower row transom damage becomes smoother reflective glazing; preserve irregular missing/open panes rather than completing glass."
+    }
+  ],
+  "repair_instruction": "Final attempt2: lock source silhouettes and openings exactly. Restore far-left neighbor to original low partial gable/roof without adding tall finial or reconstructed decorative peak. Retain precise missing/broken transom panes in lower two windows, original bay damage, grain and soft tonal detail. Keep foliage, wires/bracket, pale border and material palette; no cleanup.",
+  "limitations": [
+    "V01 not accepted due documented geometry/glazing changes.",
+    "All hues provisional; no upload allowed before AM exact-hash acceptance."
+  ]
+}

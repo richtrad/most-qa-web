@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "role": "AM",
+  "recorded_at_utc": "2026-10-22T06:01:22.430671+00:00",
+  "job_id": "AJ_MAN_07_08f4218db9",
+  "receipt_path": "[local evidence path omitted]",
+  "receipt_sha256": "9c5f2b6fb8354b6e4e88d811e5f3a8ee10644d13f78ed532453b5051ad8746b9",
+  "corrected_field": "visual_inspection.lettering",
+  "correction": "Small plaque/scrawls remain indistinct; no invented legible lettering detected. Reference card P3 explicitly identifies cp1242, with1241 right and1088 left. The accidental1262/1267 wording in the original field is a drafting error, not identity evidence.",
+  "acceptance_changed": false,
+  "source_or_output_modified": false
+}

@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "cp": "1241",
+  "canonical_house_id": "MOST_CP_1241",
+  "confidence": "model_hypothesis",
+  "status": "provisional",
+  "locked": false,
+  "historical_colour_evidence": "not_found_in_searched_scope",
+  "surface_assignments": {
+    "facade": "FACADE_CREAM_01",
+    "trim": "FACADE_LIME_WHITE_01",
+    "bay_timber": "WOOD_DARK_BROWN_01",
+    "roof": "ROOF_SLATE_GREY_01",
+    "wood": "WOOD_DARK_BROWN_01"
+  },
+  "materials": {
+    "FACADE_CREAM_01": {
+      "id": "FACADE_CREAM_01",
+      "category": "facade",
+      "name_cs": "Omítka – krémová",
+      "base_color_srgb_hex": "#D8C59D",
+      "variation_srgb_hex": [
+        "#AF9973",
+        "#D8C59D",
+        "#E8DABB"
+      ],
+      "roughness_range": [
+        0.78,
+        0.94
+      ],
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false,
+      "evidence_ids": [
+        "AUDIT-LIBUSE-COLOUR-2026-08-01",
+        "PHOTO-P000332-MIROVE",
+        "NPU-BAREVNOST-FASAD"
+      ]
+    },
+    "FACADE_LIME_WHITE_01": {
+      "id": "FACADE_LIME_WHITE_01",
+      "category": "facade",
+      "name_cs": "Omítka – vápenná bílá až lomená bílá",
+      "base_color_srgb_hex": "#E4DDC9",
+      "variation_srgb_hex": [
+        "#D1C8B4",
+        "#E4DDC9",
+        "#F1EBDD"
+      ],
+      "roughness_range": [
+        0.8,
+        0.96
+      ],
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false,
+      "evidence_ids": [
+        "AUDIT-LIBUSE-COLOUR-2026-08-01",
+        "PHOTO-P000329-MIROVE",
+        "NPU-BAREVNOST-FASAD"
+      ],
+      "notes_cs": "Pracovní rekonstrukční interval pro světlé minerální omítky; teplota bílé ve skenu není historický údaj."
+    },
+    "WOOD_DARK_BROWN_01": {
+      "id": "WOOD_DARK_BROWN_01",
+      "category": "wood",
+      "name_cs": "Dřevo – tmavě hnědé",
+      "base_color_srgb_hex": "#563522",
+      "variation_srgb_hex": [
+        "#342116",
+        "#563522",
+        "#795038"
+      ],
+      "roughness_range": [
+        0.55,
+        0.82
+      ],
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false,
+      "evidence_ids": [
+        "AUDIT-LIBUSE-COLOUR-2026-08-01"
+      ],
+      "notes_cs": "Tmavé dřevo se na pohlednicích často slévá s černou, zelenou a hlubokým stínem; přesná rodina vyžaduje další doklad."
+    },
+    "BRICK_RED_01": {
+      "id": "BRICK_RED_01",
+      "category": "brick",
+      "name_cs": "Režné zdivo – červené",
+      "base_color_srgb_hex": "#A94F35",
+      "variation_srgb_hex": [
+        "#7A3527",
+        "#A94F35",
+        "#CA7151"
+      ],
+      "roughness_range": [
+        0.78,
+        0.94
+      ],
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false,
+      "evidence_ids": [
+        "AUDIT-LIBUSE-COLOUR-2026-08-01",
+        "SURREY-BRICK-CLAY-COLOUR"
+      ],
+      "notes_cs": "Železitá červená rodina je materiálově plausibilní; před přiřazením je nutné rozlišit režné zdivo od červeně natřené omítky podle textury a spár."
+    },
+    "ROOF_ZINC_WEATHERED_01": {
+      "id": "ROOF_ZINC_WEATHERED_01",
+      "category": "roof",
+      "name_cs": "Zvětralý pozinkovaný plech",
+      "base_color_srgb_hex": "#88979A",
+      "variation_srgb_hex": [
+        "#657477",
+        "#88979A",
+        "#AEB9B9"
+      ],
+      "roughness_range": [
+        0.48,
+        0.72
+      ],
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false,
+      "evidence_ids": [
+        "AUDIT-LIBUSE-COLOUR-2026-08-01",
+        "PHOTO-P000332-MIROVE",
+        "PHOTO-P000329-MIROVE",
+        "IZA-ZINC-SHEET"
+      ],
+      "notes_cs": "Fotografie podporuje světlou šedou rodinu střech; identifikace konkrétní krytiny jako zinku zůstává modelovou hypotézou."
+    },
+    "ROOF_SLATE_GREY_01": {
+      "id": "ROOF_SLATE_GREY_01",
+      "category": "roof",
+      "name_cs": "Břidlice / tmavá šedá krytina",
+      "base_color_srgb_hex": "#596369",
+      "variation_srgb_hex": [
+        "#3F474C",
+        "#596369",
+        "#788187"
+      ],
+      "roughness_range": [
+        0.65,
+        0.85
+      ],
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false,
+      "evidence_ids": [
+        "AUDIT-LIBUSE-COLOUR-2026-08-01",
+        "BGS-ROOFING-SLATE"
+      ],
+      "notes_cs": "Tmavá šedá barevná rodina je doložitelná, ale pouze z barvy nelze bezpečně rozlišit břidlici, tmavý plech či jinou krytinu."
+    }
+  },
+  "application_cs": "Přiřazení odstínu je pracovní hypotéza, nikoli důkaz materiálu. Barvu nanést jen na skutečně viditelný povrch; zachovat zrno, luminanci, stín, skvrny i oprýskání. Cihlovou červenou jen na zřetelné odkryté cihly, bez dobarvování všech tmavých ploch. Obecné ID ROOF_SLATE označuje rodinu šedé krytiny, nikoli bezpečné určení břidlice. Stejné ID platí ve všech připravených pohledech jako jednotná pracovní hypotéza; u jiného data není historicky potvrzena stálost nátěru.",
+  "identity_reference_paths": [
+    "[local evidence path omitted]",
+    "[local evidence path omitted]",
+    "[local evidence path omitted]",
+    "[local evidence path omitted]",
+    "[local evidence path omitted]",
+    "[local evidence path omitted]"
+  ],
+  "canonical_search_path": "[local evidence path omitted]",
+  "protected_features": [
+    "perspektiva, ořez a všechny hrany původní fotografie",
+    "všechny stromy, listy, větve, lidé, auta, dráty, sloupy i drobné předměty zůstávají",
+    "původní praskliny, chybějící omítka, rozbitá či zazděná okna a dveře",
+    "přesné nápisy a čísla bez domýšlení nečitelných znaků",
+    "původní bílý či krémový archivní okraj, rukopis i skvrny",
+    "žádné odkrytí nebo rekonstrukce skrytých ploch, žádný cleanup"
+  ]
+}

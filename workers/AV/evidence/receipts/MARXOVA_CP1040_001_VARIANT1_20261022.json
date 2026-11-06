@@ -1,0 +1,14 @@
+{
+  "source": "cp_1040_001.jpg",
+  "bytes": 2734195,
+  "codex_generated_path": "[interní cesta nezveřejněna]",
+  "f_path": "[interní cesta nezveřejněna]",
+  "source_image_sha256": "E564DB6AEE7DE9675688FBCD4C37CE9CB7A8BB7BDCE0114E705579E9268FBC8B",
+  "reason": "Strong brown/sepia cast reduces material separation; exact visible content retained.",
+  "status": "rejected_color_cast",
+  "receipt_type": "generated_variant",
+  "schema_version": 1,
+  "output_sha256": "63D909F1CFFB02A8429199D7E2B3743AAD4B241F3BCFFE4D70C3D535D2F1EA5C",
+  "variant": 1,
+  "e_path": "[interní cesta nezveřejněna]"
+}

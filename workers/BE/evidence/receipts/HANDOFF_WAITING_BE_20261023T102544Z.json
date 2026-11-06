@@ -1,0 +1,35 @@
+{
+  "event": "private_handoff_pending_serial_takeover",
+  "role": "BE",
+  "street": "Pražská",
+  "created_at_utc": "20261023T102544Z",
+  "queue_evidence": "HANDOFF_WEB_QUEUE.json active role D, Žatecká, blocked_incomplete_functional_qa",
+  "status": "HANDOFF_WAITING",
+  "do_not_start": [
+    "web bundle",
+    "street page",
+    "publication",
+    "new image generation",
+    "upload"
+  ],
+  "completed": [
+    "F availability checkpoint",
+    "live area snapshot",
+    "inventory",
+    "downloaded source preservation",
+    "per-source SHA audit",
+    "visual type review"
+  ],
+  "waiting_for": "documented serial web slot plus human building/facade identity decisions",
+  "source_audit_path": "[interní cesta nezveřejněna]",
+  "source_audit_sha256": "37f0f91c6ad11ea3ad33cd990c128c72add52be55447f14b2828ebf35be53d4c",
+  "states": {
+    "production_status": "blocked_no_safe_generation",
+    "review_status": "human_review_required_building_identity",
+    "upload_status": "not_started_no_QA_accepted_output",
+    "handoff_web_status": "waiting_for_serial_slot",
+    "backup_status": "F_verified_E_backup_pending"
+  },
+  "rejected_variants": [],
+  "note": "No rejected image variants exist; no original rejection reason is being inferred."
+}

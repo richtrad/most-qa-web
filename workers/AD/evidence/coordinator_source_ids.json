@@ -1,0 +1,229 @@
+{
+  "scope": "Historical immutable local ledger, no remote refresh or new QA",
+  "sources": [
+    {
+      "source_filename": "ATO119_10_2_036.jpg",
+      "source_sha256": "1f1521b0725c9b650f9388b5edce5dc487288ac7cf005ecb74563e06031b40be",
+      "source_ids": [
+        "e130bd9e-a8d5-4cf0-be85-9a7494567946"
+      ],
+      "source_id": "e130bd9e-a8d5-4cf0-be85-9a7494567946",
+      "receipt_filename": "ATO119_10_2_036__20261022T050355206Z.json",
+      "receipt_sha256": "af196aac7d8364df9ff031923f21e2e171a0964e34abd5fc946ed4c36a40ddea",
+      "historical_output_sha256": "fca46151fbf20150c401a94eaf2ac4f8250a8598946bbabceff94666bfb744bc",
+      "remote_photo_id": "b8f53d54-66ce-470f-81a7-ac2384d045b3"
+    },
+    {
+      "source_filename": "ATO119_10_2_037.jpg",
+      "source_sha256": "cded2d2a426dfd48193adb997a97cb90452c4f49b9f04c630c69086524e7dbbf",
+      "source_ids": [
+        "cc97c47a-536a-4ab0-8578-639df8c53e71"
+      ],
+      "source_id": "cc97c47a-536a-4ab0-8578-639df8c53e71",
+      "receipt_filename": "ATO119_10_2_037__20261022T050421561Z.json",
+      "receipt_sha256": "404ce7c2de2f879c77e6182b43c72f9a14fdbfa3d9822ab08f5bfcfafc2e518d",
+      "historical_output_sha256": "9314f15bee952ad859463a909c1bb258a783b9c64fc7214b331b3f8e91427475",
+      "remote_photo_id": "3c7ec2b3-d8fa-447a-99f5-5128313e6f11"
+    },
+    {
+      "source_filename": "ATO119_10_2_038.jpg",
+      "source_sha256": "373bf0b869db643883016936bac83670d35d7e1be55ac421541826c78456d535",
+      "source_ids": [
+        "296a9011-2e35-4577-a0a9-578b692d20d4"
+      ],
+      "source_id": "296a9011-2e35-4577-a0a9-578b692d20d4",
+      "receipt_filename": "ATO119_10_2_038__20261022T050426163Z.json",
+      "receipt_sha256": "3f0c3cc570959a0073b896716390110a920dc216bbd2df298caf81c3205ebe8e",
+      "historical_output_sha256": "872ef26bca7d825675d139b0a1ae418d738e4431bd4fceb6e500439eca92c7ed",
+      "remote_photo_id": "35c3a5b0-00df-4448-b552-4f8f6b6d9df2"
+    },
+    {
+      "source_filename": "ATO119_10_2_039.jpg",
+      "source_sha256": "0e1c64ee45bdab1a7605cc9c62b3bf110b7d2b934e39a70b96552f6188cbb58c",
+      "source_ids": [
+        "b1a33178-3e92-4107-91e6-539babc97a0a"
+      ],
+      "source_id": "b1a33178-3e92-4107-91e6-539babc97a0a",
+      "receipt_filename": "ATO119_10_2_039__20261022T050430816Z.json",
+      "receipt_sha256": "f674a1b24a414e6e7a47614e8e1b4560bac729243cc48a85752fa021685379df",
+      "historical_output_sha256": "6672accad618455c7b0a0a3cd39ccea784ce5a6000eac7f5ca1e262f33b0a75e",
+      "remote_photo_id": "c4591e4b-dd64-41aa-80b2-9f60765c6b6e"
+    },
+    {
+      "source_filename": "ATO119_10_2_040.jpg",
+      "source_sha256": "b26bfb06fb301268ab225a447a9712b89b4a4120fe0cd2146812963387f999e0",
+      "source_ids": [
+        "a3e67384-5f8b-4325-9823-dc0eebfb1765"
+      ],
+      "source_id": "a3e67384-5f8b-4325-9823-dc0eebfb1765",
+      "receipt_filename": "ATO119_10_2_040__20261022T050435164Z.json",
+      "receipt_sha256": "c1336054b6b7fa0370ef1164d6abc27ff13e64cf83414167959463b9696b100c",
+      "historical_output_sha256": "0b2764183ec575472ae7590b76d07a9167d5a021d0aafa9978b9dbd8fef2b5c1",
+      "remote_photo_id": "a0f9e23c-8a4f-4e8b-9115-6fa85d49cb6e"
+    },
+    {
+      "source_filename": "ATO119_10_2_041.jpg",
+      "source_sha256": "8ce50040ac144a7ac52fbec1fdd33cde4a42a341c74708e944dd6050344b4f39",
+      "source_ids": [
+        "94b85577-eadc-4122-aee0-c92ef783e1bf"
+      ],
+      "source_id": "94b85577-eadc-4122-aee0-c92ef783e1bf",
+      "receipt_filename": "ATO119_10_2_041__20261022T050441285Z.json",
+      "receipt_sha256": "a5b1a6f8ed4967264b86b1a6eddc12dc667015df8c160d65960d01af124eebb6",
+      "historical_output_sha256": "75798725fc13159a9423d0edfbf7d8d7341d20b5b5e3119279d95574dfa6d9a2",
+      "remote_photo_id": "4931608c-c0f5-4e9e-976a-85e2926cc93c"
+    },
+    {
+      "source_filename": "ATO119_10_2_042.jpg",
+      "source_sha256": "5f212b7c24979ec972d30b3b56abc91f4829fac7c5dbd42f85d80ef139d2acb1",
+      "source_ids": [
+        "70b6a6ec-b901-4a7e-890c-10d3d3388780"
+      ],
+      "source_id": "70b6a6ec-b901-4a7e-890c-10d3d3388780",
+      "receipt_filename": "ATO119_10_2_042__20261022T050459317Z.json",
+      "receipt_sha256": "7a5691b94704ca946db052739277ab1dfa45d56941efcba96228cc16777cade0",
+      "historical_output_sha256": "ac97481fa55dccf32253c990b15f302c06a7575b7ffefdc2f86d593137c62924",
+      "remote_photo_id": "7aabfc6e-0458-493f-80b6-ef6a38c69050"
+    },
+    {
+      "source_filename": "ATO119_10_2_043.jpg",
+      "source_sha256": "4cff7d163be85752de3b9f4878c3f33f51f8bf40445d38d7f77b6d49a0625b1e",
+      "source_ids": [
+        "82132d02-0f19-4fcf-9b45-055266c6111d"
+      ],
+      "source_id": "82132d02-0f19-4fcf-9b45-055266c6111d",
+      "receipt_filename": "ATO119_10_2_043__20261022T050532247Z.json",
+      "receipt_sha256": "b5408bd6816005ed1d15ae1896f4feccc4bd01e495fd7f1c39c4a14ecba92ede",
+      "historical_output_sha256": "6507bff97505ddcc006560d2139795506332037f0f4a16f3d696175c4d5b0d14",
+      "remote_photo_id": "963c3b13-82ea-4af5-a6f8-356f8939b0b9"
+    },
+    {
+      "source_filename": "ATO119_10_20_112.jpg",
+      "source_sha256": "55a84a068c57f91f29855185df07393a9748d45599c8d343499775ac76e6085f",
+      "source_ids": [
+        "0d564757-d4dc-4521-b458-a4e71e230e20"
+      ],
+      "source_id": "0d564757-d4dc-4521-b458-a4e71e230e20",
+      "receipt_filename": "ATO119_10_20_112__20261022T050539175Z.json",
+      "receipt_sha256": "4561552e4c1e56fcd1cdd5f06f1804225758452c490af13a47dce0f0956eab72",
+      "historical_output_sha256": "e3ef3ba26a15233db01210db6c9aff9f76d3ad348bf71a3341b3142fe97c623b",
+      "remote_photo_id": "5aec1111-0428-43c2-8e0a-579425c6a59e"
+    },
+    {
+      "source_filename": "ATO119_10_20_113.jpg",
+      "source_sha256": "841931dbf61bcffc38815e53a0d02fe76417cb30263015fd46e988312a88affb",
+      "source_ids": [
+        "e692b44b-f5c1-4fec-bbcd-7994e9236788"
+      ],
+      "source_id": "e692b44b-f5c1-4fec-bbcd-7994e9236788",
+      "receipt_filename": "ATO119_10_20_113__20261022T050545185Z.json",
+      "receipt_sha256": "14bf209eff57368163e56883e61a617d9ee2df7c4950f4f64f21bdd83fbc1f06",
+      "historical_output_sha256": "02cbded2bbfc9666d5f72f650d4981be8fe39cc970e329a305cd3f13cda5e59f",
+      "remote_photo_id": "cd35fde1-b0c8-4d24-ab48-8e99f1d60037"
+    },
+    {
+      "source_filename": "cp_759_002.jpg",
+      "source_sha256": "a83268c0fab184aa23a72a5b6728ad7a80a5319dc963530dd8084b915eae6cab",
+      "source_ids": [
+        "a8f32484-4dbe-42d6-9e7d-ff0cf2cfd8de",
+        "4b6e1189-0daa-4c8f-953e-acea60d863f3"
+      ],
+      "source_id": null,
+      "receipt_filename": "cp_759_002__20261022T050549853Z.json",
+      "receipt_sha256": "97a4d707181e4a09693960a9db6f1807fe4dae1718e55b65019df83b4088f42c",
+      "historical_output_sha256": "543c1e2bb5dcdc1ea518c516355b67b935f41bacaa1ae4d0f812260d686e3ed8",
+      "remote_photo_id": "e02d134f-cd50-4ce3-b163-0aca32b6b300"
+    },
+    {
+      "source_filename": "cp_759_003.jpg",
+      "source_sha256": "2e244471d76ddced6ea3202ac87b3324139b7b1d17704b16ad75cb78eb9c9e68",
+      "source_ids": [
+        "38f72d03-ae98-4376-bd35-ef030765a956",
+        "e54370a2-30c0-41c0-8848-167bf866806d"
+      ],
+      "source_id": null,
+      "receipt_filename": "cp_759_003__20261022T050554453Z.json",
+      "receipt_sha256": "31b8e227d94d913f92fafe61e69264faebf1f7a7b2ddd5acac6446352823bbd6",
+      "historical_output_sha256": "e2e025a6532927b83e56dd9cc99646ef8003aa2a1837a4d53cf54f6fbd1b4a12",
+      "remote_photo_id": "73f0d3d1-2ccf-4ca2-bc28-2e1a61a0e32e"
+    },
+    {
+      "source_filename": "cp_759_004.jpg",
+      "source_sha256": "d13925c529c7f72ebc377c5f726264b6f115f8e6988c09ea69b7581726fe5d93",
+      "source_ids": [
+        "fdc6efa2-1098-4942-bde4-ace483530b2f",
+        "640d928c-8054-4351-b3a3-0ef21545196a"
+      ],
+      "source_id": null,
+      "receipt_filename": "cp_759_004__20261022T050559576Z.json",
+      "receipt_sha256": "18f70d7619772860f8413be43cbb3ad98b64154fdbfd8c4eded6fa401ac53518",
+      "historical_output_sha256": "8abebcd8d70cfa70dc489ef4f86583e054ad9764a7caeac5e3af98afe717d34c",
+      "remote_photo_id": "cfe3d096-ef2d-4bb5-90f7-3fcc2abf9a7e"
+    },
+    {
+      "source_filename": "cp_875_002.jpg",
+      "source_sha256": "a71a20510d6f77c96798d095ddd052f5b5ed03cba67dcbedc5be62b71724a366",
+      "source_ids": [
+        "952646ca-755f-4b03-a3fd-dbef72a79c48",
+        "aa9c780f-18be-4335-abdf-1c29f1ceb6e8"
+      ],
+      "source_id": null,
+      "receipt_filename": "cp_875_002__20261022T050628127Z.json",
+      "receipt_sha256": "e5662476b76e6e98da021614407c4c735670eadf599728394d28124a8682ceb7",
+      "historical_output_sha256": "85f8e5f5417d490e86c39f8274c7107e9d9fdced6e428ba9184c4c61053d50fe",
+      "remote_photo_id": "ecf91b38-a48d-4cc3-a0b5-77b201964933"
+    },
+    {
+      "source_filename": "cp_902_002.jpg",
+      "source_sha256": "40c7325ae558d4b70a38c60d14c695dc939be19bc2e8038f19e302b353f2f16a",
+      "source_ids": [
+        "2a201a45-ea31-4bd8-a9b1-6ebb94b6922c",
+        "c56fca81-94d9-401f-8211-5ac00db3cc00"
+      ],
+      "source_id": null,
+      "receipt_filename": "cp_902_002__20261022T050634413Z.json",
+      "receipt_sha256": "48f4b2bb7fe270675bc48b80dadc8e2cfac1ba71b0134a5e07ad09ccbe0ffe22",
+      "historical_output_sha256": "a0e65722fd6fe55c30e749a8a3a9a6dbf989e0fcf8ed23ef6e67ea0b01acafc0",
+      "remote_photo_id": "5b49735d-f740-4301-a36b-747e493044e6"
+    },
+    {
+      "source_filename": "cp_917_002.jpg",
+      "source_sha256": "c7c48dea8a51cf5e4335c11fa151120e39b0047b731222f3587f48f273a7bf27",
+      "source_ids": [
+        "8fc87a8d-7e2d-484f-a228-303d13809c9b",
+        "366c89bf-cb2e-4954-92a8-4e757ea75cc1"
+      ],
+      "source_id": null,
+      "receipt_filename": "cp_917_002__20261022T050639623Z.json",
+      "receipt_sha256": "03e79e13c3842bf3666cbe78b35952dc35eabd45e3736624379cc357303aeae4",
+      "historical_output_sha256": "0eaa5632534f7afe6686749924f585e67f90b9245262f44ee04a179c0b6612b9",
+      "remote_photo_id": "7807c145-b264-40af-b340-578ccbd9b417"
+    },
+    {
+      "source_filename": "cp_932_002.jpg",
+      "source_sha256": "7c0cec104e9f880c9309a3f41b3185dd9c3268577864c126f124e0008a6f43e3",
+      "source_ids": [
+        "3143fad5-9e90-47e7-9eda-76587ff19b9a",
+        "eb2687ce-0e04-49df-a072-e89de968b676"
+      ],
+      "source_id": null,
+      "receipt_filename": "cp_932_002__20261022T050645009Z.json",
+      "receipt_sha256": "73f5bf3620d894662aa6dcc422b991a32ee3c750ef8587f9c5f6fc4a0b5aa33b",
+      "historical_output_sha256": "f375940be5d19058dbccadc320d10b013f5c11a7ba5e74e08568055a2919a76e",
+      "remote_photo_id": "a7e36f10-4381-41d8-9270-9ee4ee43559d"
+    },
+    {
+      "source_filename": "cp_957_002.jpg",
+      "source_sha256": "2a1c2fce6a9c50a8ba42b5c53135b01305c3f1af238e7f36c7f53716567fd1fe",
+      "source_ids": [
+        "fe02406e-1048-4970-8ce4-2e3a20a78f24",
+        "1295e9d7-0c2b-4fe5-8b3d-dbff42ccbb5b"
+      ],
+      "source_id": null,
+      "receipt_filename": "cp_957_002__20261022T050649640Z.json",
+      "receipt_sha256": "ad7159a347ffca1a8a1787aa9aa45ae513e9b5af4fe5a2ee965b7e1b76c577cd",
+      "historical_output_sha256": "83233ef46915e9adfe895defd58e32bfb2e0191af5fd898f9d58cba6eb33baa4",
+      "remote_photo_id": "6fb01c5e-a7c3-4d5f-b78d-83eca8c583bc"
+    }
+  ]
+}

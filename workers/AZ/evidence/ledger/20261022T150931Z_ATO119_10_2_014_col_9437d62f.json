@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "role": "AZ",
+  "thread_id": "01a163ea-cd21-7a52-9eb1-163c6f2a0a41",
+  "street": "Nerudova",
+  "phase": "COLOR_ONLY",
+  "operation": "uploaded",
+  "source": {
+    "filename": "ATO119_10_2_014.jpg",
+    "source_id": "ba2c6708-48bd-4cda-afcd-1325cec89215",
+    "sha256": "60584207141F8F2FE68DF091CD6DDA29D3EEBF4004706B3BBE6385E819C194A6"
+  },
+  "output": {
+    "filename": "ATO119_10_2_014_col.png",
+    "sha256": "20313536B8CA95801582B22551E8EDD17E24BF821920274A63CB312CCB83EFF6"
+  },
+  "target": {
+    "cp": "918",
+    "structure_id": "8f91de89-8896-4ec7-a955-b24ab17414c5",
+    "photo_id": "9437d62f-9063-4c21-8076-a0a90cc27c4b",
+    "tags": []
+  },
+  "qa_receipt": "[interní cesta nezveřejněna]",
+  "lock_helper": "support/Invoke-LibuseUploadLocked.ps1",
+  "remote_verification": {
+    "remote_copy_path": "[interní cesta nezveřejněna]",
+    "remote_copy_sha256": "20313536B8CA95801582B22551E8EDD17E24BF821920274A63CB312CCB83EFF6",
+    "remote_bytes": 2971245,
+    "sha256_match": true
+  },
+  "result": "remote_verified",
+  "limitations": [
+    "Colours remain model_hypothesis/provisional/locked:false.",
+    "This covers one source, not Nerudova completion."
+  ]
+}

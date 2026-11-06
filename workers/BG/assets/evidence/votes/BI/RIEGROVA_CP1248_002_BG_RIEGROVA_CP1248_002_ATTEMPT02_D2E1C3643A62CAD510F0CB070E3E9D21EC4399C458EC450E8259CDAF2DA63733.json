@@ -1,0 +1,28 @@
+{
+  "role": "BI QA2 independent blind reviewer",
+  "model": null,
+  "case_id": "RIEGROVA_CP1248_002",
+  "source_id": "7b35e23d-fad9-4d72-bb46-4b6bdb87e953",
+  "source_sha256": "1D8910F1A58B91756139E5B6162449F307E9080FC073905520CBF177F3D0D482",
+  "variant_id": "BG_RIEGROVA_CP1248_002_ATTEMPT02",
+  "variant_sha256": "D2E1C3643A62CAD510F0CB070E3E9D21EC4399C458EC450E8259CDAF2DA63733",
+  "phase": "COLOR_ONLY",
+  "visual_review_performed": true,
+  "verdict": "review",
+  "findings": [
+    "Source and assigned V3 variant were opened and visually compared at their full native dimensions.",
+    "Roofline, chimneys, window openings, exposed masonry, courtyard vegetation, damaged outbuilding and archival border remain visually readable; no externally added solid-black edge fill was observed.",
+    "The manifest declares identity_status pending. This independent image QA does not resolve that input hold or authorize upload."
+  ],
+  "evidence": [
+    "Frozen V3 manifest SHA-256: 6B0AB974043AB92D81FAC711F219140EBED0B28C796BA2A127C61E1210583E2C.",
+    "Local SHA-256 and dimensions matched the frozen manifest: source 2160x3050; variant 2160x3050.",
+    "Direct visual comparison of assigned source and assigned variant only; no identity materials or other QA votes were read."
+  ],
+  "identity_status": "pending",
+  "ownership_status": "verified",
+  "upload_authorization": "none; identity input hold remains",
+  "limitations": "Material colors remain provisional/model-hypothesis; no historical identity finding is made.",
+  "checked_at": "2026-10-23T13:33:52+02:00",
+  "token_metrics_receipt": "[interní cesta nezveřejněna]"
+}

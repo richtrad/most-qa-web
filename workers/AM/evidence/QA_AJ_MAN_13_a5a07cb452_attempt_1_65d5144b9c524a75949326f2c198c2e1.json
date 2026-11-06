@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "pilot_id": "SPECIALIZED_20261022_MANESOVA",
+  "role": "AM",
+  "qa_phase": "color_only",
+  "qa_status": "failed_color_only",
+  "passed_color_only": false,
+  "cleanup_pass": null,
+  "attempts_used": 1,
+  "remaining_edit_attempts": 1,
+  "source_path": "[local evidence path omitted]",
+  "source_sha256": "a5a07cb452fc84a3435de454cf3ea511c6b26e2745125c0b11020caef13c09e9",
+  "output_path": "[local evidence path omitted]",
+  "output_sha256": "d8a5fcfaea0d5c52c931a39c5361fe3f6f00a2a7bf02017713c7f93707826ac4",
+  "reference_records": [
+    {
+      "source_id": "40312736-2eb7-422c-b8bb-2b83acd90808",
+      "path": "[local evidence path omitted]",
+      "sha256": "87aed49951bb69e3d05d03e007e361c5d819161477b9d9b8a7cdb534126f4ac2"
+    },
+    {
+      "source_id": "440819c1-e90f-498d-8fdb-832dcfbb1cb7",
+      "path": "[local evidence path omitted]",
+      "sha256": "e35a15c5380bd157955297acfd9bdd071533167ef989e15455857bee1beb211d"
+    },
+    {
+      "source_id": "e6b5303d-38df-48bb-8075-c71604ab26e2",
+      "path": "[local evidence path omitted]",
+      "sha256": "0d2e479e3ae73b637d43d5b548760e821e6b56a5c20ee1831e01740547e986d8"
+    }
+  ],
+  "material_brief_path": "[local evidence path omitted]",
+  "material_brief_sha256": "e9026fe2813332d90132cf7501fdb840f8516f637d0bdea2a3cde9635abae164",
+  "qa_receipt": "[local evidence path omitted]",
+  "actual_model": "gpt-6-astra",
+  "colour_evidence": {
+    "confidence": "model_hypothesis",
+    "status": "provisional",
+    "locked": false
+  },
+  "completed_at_utc": "2026-10-22T06:00:22.815237+00:00",
+  "job_id": "AJ_MAN_13_a5a07cb452",
+  "result": "repair",
+  "visual_inspection": {
+    "source_opened": true,
+    "output_opened": true,
+    "references_opened": true,
+    "identity": "L3CB card explicitly cp1269, courtyard wood sheds and workshop wall right; no new house links.",
+    "objects": "Detached basin/curved debris, white foreground material, diagonal props, mesh, plants and rear gate retained.",
+    "architecture": "Major panels, roof droop and workshop wall edge preserved.",
+    "materials": "Brown wood and grey plaster appropriate; documented right-wall brick retained."
+  },
+  "findings": [
+    {
+      "severity": "blocking",
+      "region_normalized": [
+        0.02,
+        0.04,
+        0.49,
+        0.97
+      ],
+      "issue": "Deeply shadowed original wood panels have become bright strongly textured wood, with invented swirling grain and sharpened frame detail. Original tonal relation and photographic grain not preserved.",
+      "required_action": "Restore original shadow depth and subdued surface grain while keeping readable brown color. Remove synthesized prominent wood-grain detail and preserve exact panel/mesh divisions."
+    },
+    {
+      "severity": "major",
+      "region_normalized": [
+        0.79,
+        0.02,
+        0.97,
+        0.95
+      ],
+      "issue": "Right plaster surface rendered with exaggerated new texture.",
+      "required_action": "Preserve source roughness and existing brick exposure contours without adding texture. Keep every foreground object and plant."
+    }
+  ],
+  "upload_crop": {
+    "applied": false,
+    "reason": "Cream archive edge retained; no black padding."
+  },
+  "limitations": [
+    "Colors are hypotheses, not archive color evidence.",
+    "No cleanup allowed; debris and occluders are required source content."
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "reviewer_role": "BR",
+  "model": "gpt-5.6-terra",
+  "actual_model_evidence": "User-provided delegation instruction states gpt-5.6-terra/high; not independently machine-verifiable.",
+  "protocol_sha256": "8b4b87143156cd62946aa657511c4e19ca5bc36df1c2b853a00e44c7311bcd7f",
+  "manifest_sha256": "a35166f2b12bc59201648fc0561a277de9c9036ad57d38d52f6c94ded6ce3e70",
+  "case_id": "CASE-02",
+  "source_sha256": "37946d3c58dff64de44560d82ea28e3c711c60de7d4e9707c2dcd2ff53a34137",
+  "variant_sha256": "03ac60f1a293b35d50a93560aa52c9ee07786e5b17241dd49ab985c090aeff3b",
+  "visual_review_performed": true,
+  "image_fidelity": {
+    "verdict": "positive",
+    "reason": "Zachovány jsou popisky v okraji, levý částečný dům, sloup a vodiče, sníh, cesta, zábradlí, stromy, vzdálené domy i drobné postavy; nebyla nalezena změna kresby či obsahu."
+  },
+  "color_hypothesis": {
+    "verdict": "positive",
+    "reason": "Chladné sněhové plochy, modrá obloha, holé stromy a utlumené fasády tvoří konzistentní zimní hypotézu; odstíny nejsou vydávány za historicky ověřené.",
+    "historical_truth": null,
+    "status": "provisional",
+    "locked": false
+  },
+  "identity_gate": {
+    "verdict": "positive",
+    "reason": "Ruční popisek 539 a šipka na zdroji jsou zachovány; odpovídají dodanému claimu o částečně viditelném levém objektu. Nejde o nové ověření sousedů."
+  },
+  "verdict": "positive",
+  "findings": [
+    {
+      "id": "F-01",
+      "dimension": "identity_gate",
+      "assessment": "positive",
+      "normalized_box": [
+        0.0,
+        0.0,
+        0.25,
+        0.38
+      ],
+      "description": "Podtržené 539 se šipkou a označený levý okrajový dům jsou zachovány.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "Je to přímá viditelná opora dodaného anonymního claimu.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "c8d6b975d15974abfc3b53ae4a4385461d9e190ae3cc980edbabb917f0c9e9d4",
+          "scale_note": "Matched normalized crop, resampled only for pair."
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "07e8147d966779020df501444ddd218957a9368757b3e860265f2568cd18c281",
+          "scale_note": "Native-pixel source crop."
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "7598d18dbcf53cb772581f3623e28e3690d398cdcdad8e598ff1edb0fe67aecd",
+          "scale_note": "Native-pixel result crop."
+        }
+      ]
+    },
+    {
+      "id": "F-02",
+      "dimension": "image_fidelity",
+      "assessment": "positive",
+      "normalized_box": [
+        0.18,
+        0.08,
+        0.82,
+        0.7
+      ],
+      "description": "Sloup, vodiče, stromy, střechy, sníh a silnice zůstávají prostorově shodné.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "Pokrývá hlavní scénu a křehké lineární prvky.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "77893793ee87c94b4d15806d45b7c3642f3927e6238823a750ab23b09f3551d8",
+          "scale_note": "Matched normalized crop, resampled only for pair."
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "b201c15699250084161c183d21b03750d99d8183d76c49df0c3e84a10bfb00e9",
+          "scale_note": "Native-pixel source crop."
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "5aaac6d2ebdb937465e121f304e756b363f7bdeece8e43c2612287986e24538e",
+          "scale_note": "Native-pixel result crop."
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "6a948904cbd5c6eb94a0d349144db9cfe16480d3299cd86572d245999ae47bbe",
+      "scale_note": "Source and result are resampled only for a single paired overview; no local deformation or retouching."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "c8d6b975d15974abfc3b53ae4a4385461d9e190ae3cc980edbabb917f0c9e9d4",
+      "scale_note": "Matched normalized crop, resampled only for side-by-side display."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "77893793ee87c94b4d15806d45b7c3642f3927e6238823a750ab23b09f3551d8",
+      "scale_note": "Matched normalized crop, resampled only for side-by-side display."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "07e8147d966779020df501444ddd218957a9368757b3e860265f2568cd18c281",
+      "scale_note": "Native-pixel source crop; deterministic crop only."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "7598d18dbcf53cb772581f3623e28e3690d398cdcdad8e598ff1edb0fe67aecd",
+      "scale_note": "Native-pixel result crop; deterministic crop only."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "b201c15699250084161c183d21b03750d99d8183d76c49df0c3e84a10bfb00e9",
+      "scale_note": "Native-pixel source crop; deterministic crop only."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "5aaac6d2ebdb937465e121f304e756b363f7bdeece8e43c2612287986e24538e",
+      "scale_note": "Native-pixel result crop; deterministic crop only."
+    }
+  ],
+  "checked_at": "2026-10-23T14:10:34.3487132Z"
+}

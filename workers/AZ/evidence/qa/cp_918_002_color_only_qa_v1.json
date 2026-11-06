@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "role": "AZ",
+  "thread_id": "01a163ea-cd21-7a52-9eb1-163c6f2a0a41",
+  "street": "Nerudova",
+  "phase": "COLOR_ONLY",
+  "source": {
+    "filename": "cp_918_002.jpg",
+    "path": "[interní cesta nezveřejněna]",
+    "source_id": "c810ea82-baa9-4b71-a305-e0c3afec586d",
+    "structure_id": "8f91de89-8896-4ec7-a955-b24ab17414c5",
+    "covered_cps": [
+      "918"
+    ],
+    "type": "PHOTO,BW",
+    "sha256": "68197B1C51D9053033100A85163FFEA034B89C147E57B41141369CE85F6865D0",
+    "dimensions": [
+      2898,
+      2160
+    ]
+  },
+  "variants": [
+    {
+      "variant_id": "attempt1",
+      "path_d": "[interní cesta nezveřejněna]",
+      "path_e": "[interní cesta nezveřejněna]",
+      "path_f": "[interní cesta nezveřejněna]",
+      "sha256": "8D1E55977B5DDEC0D076FDF62D22AEA8AADE360DA1950EDF275467D731BD09E7",
+      "dimensions": [
+        1452,
+        1083
+      ],
+      "status": "accepted_as_final_color_only"
+    }
+  ],
+  "final_output": {
+    "filename": "cp_918_002_col.png",
+    "path_d": "[interní cesta nezveřejněna]",
+    "path_e": "[interní cesta nezveřejněna]",
+    "path_f": "[interní cesta nezveřejněna]",
+    "sha256": "8D1E55977B5DDEC0D076FDF62D22AEA8AADE360DA1950EDF275467D731BD09E7"
+  },
+  "materials": [
+    {
+      "id": "FACADE_CREAM_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "ROOF_SLATE_GREY_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "BRICK_RED_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "WOOD_DARK_BROWN_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    }
+  ],
+  "evidence": {
+    "historic_colour_source": null,
+    "color_database": "support/project/color_reference/most_color_database.json",
+    "identity_basis": "live authenticated area snapshot; exact single CP attachment; visual inspection of downloaded original"
+  },
+  "visual_qa": {
+    "result": "passed_color_only",
+    "checked": [
+      "archival border retained",
+      "building arrangement, roofs, openings, damage and rubble retained",
+      "tree and all other visible non-architectural content retained",
+      "no cleanup, inpainting, FRONT or MULT output",
+      "no added external black padding"
+    ],
+    "limitations": [
+      "No direct period colour reference for this source was found in the current live inventory; all material choices remain provisional model hypotheses.",
+      "The editor output is 1452x1083 versus 2898x2160 source pixels; it is accepted only as a provisional colour reference, not as replacement source imagery."
+    ]
+  },
+  "production_status": "passed_color_only_local",
+  "review_status": "no_human_review_required_at_current_visual_check",
+  "upload_status": "not_started_requires_pipeline_live_dedup_lock_and_remote_byte_hash_verify",
+  "handoff_web_status": "not_started_serial_queue",
+  "backup_status": "D_E_F_sha256_verified_for_output; source_E_F_sha256_verified",
+  "created_at_utc": "2026-10-22T14:16:00Z"
+}

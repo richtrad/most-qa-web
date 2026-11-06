@@ -1,0 +1,14 @@
+{
+  "status": "human_review_required",
+  "source_image_sha256": "E564DB6AEE7DE9675688FBCD4C37CE9CB7A8BB7BDCE0114E705579E9268FBC8B",
+  "bytes": 2805108,
+  "e_path": "[interní cesta nezveřejněna]",
+  "receipt_type": "generated_variant",
+  "variant": 2,
+  "codex_generated_path": "[interní cesta nezveřejněna]",
+  "reason": "Visible address plaque reads 1157, conflicting with live attachment CP1040. After two generation attempts, mark human_review_required; do not color/upload as accepted until source identity is resolved.",
+  "schema_version": 1,
+  "output_sha256": "6EE955F22E07B19A66F30FB815E1C0BBEC8F46714236F5576EEF86B013E9F227",
+  "f_path": "[interní cesta nezveřejněna]",
+  "source": "cp_1040_001.jpg"
+}

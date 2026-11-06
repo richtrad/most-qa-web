@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-22T15:42:00Z",
+  "role": "AZ",
+  "thread_id": "01a163ea-cd21-7a52-9eb1-163c6f2a0a41",
+  "street": "Nerudova",
+  "phase": "COLOR_ONLY",
+  "source": {
+    "filename": "cp_392_004.jpg",
+    "source_type": "PHOTO,BW",
+    "source_id": "db8ac557-2869-4645-a7e2-ed8e2ba14ad8",
+    "covered_cps": [
+      "392"
+    ],
+    "sha256": "3A8848DEFA94E3891EE173AA67DA6D71437C1C487DEDCE92830B3A39F6421FE8"
+  },
+  "candidate": {
+    "filename": "cp_392_004_col__attempt1.png",
+    "sha256": "7967A7989030F93FCB409ECC46686A1800E02621A7BE4FEAFB302C93D2B59EF8",
+    "attempt": 1,
+    "max_attempts": 2
+  },
+  "decision": "passed_color_only",
+  "checks": {
+    "source_is_direct_photo": true,
+    "one_source_to_one_output": true,
+    "architecture_and_composition_preserved": true,
+    "covered_parking_posts_vehicle_lamp_and_foreground_walls_preserved": true,
+    "archival_white_border_preserved": true,
+    "no_cleanup_or_object_removal": true,
+    "no_front_or_mult_derivative": true,
+    "no_external_black_padding": true,
+    "model_hypothesis_metadata_required": true
+  },
+  "materials": [
+    {
+      "id": "BRICK_RED_BROWN_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "PLASTER_WARM_GREY_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "ROOF_CORRUGATED_GREY_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "PAVEMENT_WET_GREY_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    }
+  ],
+  "limitations": [
+    "No direct period colour reference was found; every assigned colour is a provisional model hypothesis.",
+    "A passed COLOR_ONLY decision is not a broader historical-fact or web-publication approval."
+  ]
+}

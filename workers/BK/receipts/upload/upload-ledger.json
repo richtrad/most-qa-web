@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "role": "BK",
+  "run_id": "20261023T120308Z_4f78319c",
+  "started_at_utc": "2026-10-23T12:03:08.059381+00:00",
+  "operation": "one exact coordinator-majority-approved COLOR_ONLY variant",
+  "remote_mutations": 1,
+  "quota_remaining_percent": 75.0,
+  "quota_observed_at_utc": "2026-10-23T12:03:04Z",
+  "source_id": "cab231a5-392f-42d1-9ab5-f2cce57fb488",
+  "variant_sha256": "03AC60F1A293B35D50A93560AA52C9EE07786E5B17241DD49AB985C090AEFF3B",
+  "decision_sha256": "A2E0DB74474AA2A4E1040EE9EABC39599BC857DB3C152A1C91BCFAA4DDB103C1",
+  "upload_crop": {
+    "status": "not_needed",
+    "original_size": [
+      1486,
+      1059
+    ],
+    "crop_box": [
+      0,
+      0,
+      1486,
+      1059
+    ],
+    "output_size": [
+      1486,
+      1059
+    ],
+    "removed_pixels": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "max_black_channel": 12,
+    "minimum_black_fraction": 0.995
+  },
+  "result": "verified",
+  "ended_at_utc": "2026-10-23T12:03:14.432652+00:00",
+  "area_id": "1d2c865c-b68e-4929-8fc1-e951cae9a538",
+  "target_cp": "539",
+  "structure_id": "dc959078-f1db-42ca-b616-21eb20f48bca",
+  "source_live_photo_id": "cab231a5-392f-42d1-9ab5-f2cce57fb488",
+  "same_filename_live_records": [
+    {
+      "photo_id": "cab231a5-392f-42d1-9ab5-f2cce57fb488",
+      "tags": [
+        "PHOTO",
+        "BW"
+      ]
+    },
+    {
+      "photo_id": "3747b998-d8e1-4d89-a6b5-a68aabae849c",
+      "tags": [
+        "CARD",
+        "BW"
+      ]
+    }
+  ],
+  "upload_photo_id": "751ac53a-f7df-4455-ac07-1e20b5681553",
+  "filename": "cp_539_001_col.png",
+  "tags": [
+    "PHOTO",
+    "COLOR"
+  ],
+  "remote_http_status": 200,
+  "remote_sha256": "03AC60F1A293B35D50A93560AA52C9EE07786E5B17241DD49AB985C090AEFF3B",
+  "remote_copy": "[interní cesta nezveřejněna]",
+  "source_remote_copy": "[interní cesta nezveřejněna]",
+  "local_output_sha256": "03AC60F1A293B35D50A93560AA52C9EE07786E5B17241DD49AB985C090AEFF3B",
+  "disclosures": [
+    "reduced raster 3036x2160 to1486x1059",
+    "synthetic fine snow texture at100pct",
+    "fine branches/grain/local contrast changes"
+  ],
+  "minority_review_preserved": "BL review only for lack of independent historical color truth; image fidelity and identity positive. Original review vote preserved, not converted to positive.",
+  "model_colors": {
+    "confidence": "model_hypothesis",
+    "status": "provisional",
+    "locked": false
+  },
+  "run_directory": "[interní cesta nezveřejněna]",
+  "live_metadata_sha256": "953131a0ec2c9e6b0591fe53d5478b9650b65e25a754d2e3d292a9c8a3a90008",
+  "ledger_receipt": "[interní cesta nezveřejněna]"
+}

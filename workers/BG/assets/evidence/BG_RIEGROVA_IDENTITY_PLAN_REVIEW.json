@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "receipt_type": "identity_plan_evidence_review",
+  "street": "Riegrova",
+  "owner": "BG",
+  "reviewed_at_utc": "2026-10-23T12:18:14Z",
+  "scope": [
+    "CP387_003",
+    "CP1289_001"
+  ],
+  "plans": [
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "3C7447685B4BC2DE0CCDA02F4EA1FA99F23EEA220789C610A863437FEF2435DD",
+      "bytes": 659727
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "B67DAEFF4DFE5B47E73D89BF1D3A826DD62F472A3F4EDE693CD7AAE09AE8F51E",
+      "bytes": 856146
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "ACB86EE5041F64F5FFE6E2A993BA1C04EB9A1F0CBC411675C38D778D6C4942F9",
+      "bytes": 771408
+    }
+  ],
+  "observations": [
+    {
+      "cp": "387",
+      "relation": "Compatible with a courtyard building view, but does not uniquely map the photographed facade or camera direction to structure 387.",
+      "visible": "Site sketch labels Riegrova and building 387/1; red footprint and courtyard/yard context are shown.",
+      "plan": "cp_387_002.jpg",
+      "identity_status": "pending"
+    },
+    {
+      "review_crop": "[interní cesta nezveřejněna]",
+      "related_plan": "cp_1289,1290_02.jpg",
+      "review_crop_sha256": "7B559C340512B61C166471C2BEA451857A4C9C49260BCCE38A97A48CA0D01970",
+      "visible": "Architectural section/elevation drawing; title block reads MGL Weinberge, November 1907. Filename names CP1289/1290, but no uniquely legible facade address appears in reviewed title area.",
+      "plan": "cp_1289.1290_01.jpg",
+      "cp": "1289",
+      "identity_status": "pending",
+      "relation": "The drawing does not identify which of the several facades in cp_1289_001.jpg is CP1289."
+    }
+  ],
+  "search_scope": "Existing local identity_plan_review_20261023 snapshot only; no new live API request",
+  "conclusion": "Plans reviewed as identity evidence; neither pending photo-to-facade mapping is resolved.",
+  "candidate_QA": "pending independent review",
+  "upload_eligible": 0,
+  "upload_performed": 0,
+  "supersedes": null
+}

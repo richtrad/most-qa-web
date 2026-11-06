@@ -1,0 +1,35 @@
+{
+  "event": "private_handoff_waiting_revision",
+  "role": "BE",
+  "street": "Pražská",
+  "created_at_utc": "20261023T103419Z",
+  "replaces_receipt": "[interní cesta nezveřejněna]",
+  "replaces_sha256": "6a3cb3b68cd9bf14ef421e7af95609487e46062879e173b05be53c04e955486e",
+  "source_audit": "[interní cesta nezveřejněna]",
+  "source_audit_sha256": "37f0f91c6ad11ea3ad33cd990c128c72add52be55447f14b2828ebf35be53d4c",
+  "handoff_web_status": "pending_identity_review_not_universal_private_queue_block",
+  "waiting_reason": "identity_review",
+  "web_slot_status": "not_claimed",
+  "queue_observation": {
+    "private_qa_active_goal_status": "complete",
+    "private_qa_pending_roles": [],
+    "active_preparations_count": 4,
+    "active_role": "D",
+    "active_state": "blocked_incomplete_functional_qa"
+  },
+  "states": {
+    "production_status": "blocked_no_safe_generation",
+    "review_status": "human_review_required_building_identity",
+    "upload_status": "not_started_no_QA_accepted_output",
+    "backup_status": "F_verified_E_backup_pending"
+  },
+  "allowed_next_step": "Only after documented building/facade identity decision, prepare a local draft if separately authorized; no generation, QA relaxation, upload, Git, publication, or new chat.",
+  "prohibited_actions": [
+    "image generation",
+    "upload",
+    "publication",
+    "Git operations",
+    "new chat",
+    "queue polling"
+  ]
+}

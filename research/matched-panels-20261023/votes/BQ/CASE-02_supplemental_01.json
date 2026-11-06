@@ -1,0 +1,284 @@
+{
+  "reviewer_role": "BQ",
+  "case_id": "CASE-02",
+  "supplemental_id": "CASE-02_supplemental_01",
+  "applies_to_path": "[interní cesta nezveřejněna]",
+  "applies_to_sha256": "d7b73796e1614b37fcfa091fdcd2315a3a308308ce301e16ebd619b7c6749a3c",
+  "reason": "Přesnější přiznání viditelnosti: slabý oblačný pás je rozeznatelný i v celku, nikoli výhradně při 100 %. Box rozšířen na celý snímek, protože stejný nález popisuje i sníh. Drobný rozsah a nízká dominance ponechávají historical_impact=minor a celkový positive. Původní hlas zůstává beze změny.",
+  "correction": {
+    "finding_id": "F04",
+    "old_visibility": "100pct_only",
+    "new_visibility": "normal_view",
+    "old_normalized_box": [
+      0.48,
+      0.1,
+      0.68,
+      0.36
+    ],
+    "new_normalized_box": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  "corrected_finding": {
+    "id": "F04",
+    "dimension": "image_fidelity",
+    "assessment": "negative",
+    "normalized_box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "description": "Ve světle modré obloze je slabý malý světlý oblačný pás, jehož odpovídající kresbu ve zdroji bezpečně nerozlišuji. Jemná textura sněhu a kamenů je také lokálně zvýrazněna.",
+    "historical_impact": "minor",
+    "visibility": "normal_view",
+    "significance_reason": "Přiznaná lokální odchylka kresby; má malý rozsah a nízkou vizuální dominanci. Nepovažuji ji za materiální přestavbu scény ani automatický fail.",
+    "confidence": 0.82,
+    "evidence": [
+      {
+        "path": "[interní cesta nezveřejněna]",
+        "sha256": "0935203ca41bc69e9473d272529e9c8072bda326d229152a41d7ebe981c3eedc",
+        "scale_note": "Native pixels, 1:1, no resampling",
+        "region": "full",
+        "kind": "source",
+        "normalized_box": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "pixel_box": [
+          0,
+          0,
+          3036,
+          2160
+        ],
+        "dimensions": [
+          3036,
+          2160
+        ]
+      },
+      {
+        "path": "[interní cesta nezveřejněna]",
+        "sha256": "28796dd533ad9529b42f86fc140c56041fce8a11f46a23d4d6c22f2ce8a2f0e5",
+        "scale_note": "Native pixels, 1:1, no resampling",
+        "region": "full",
+        "kind": "result",
+        "normalized_box": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "pixel_box": [
+          0,
+          0,
+          1486,
+          1059
+        ],
+        "dimensions": [
+          1486,
+          1059
+        ]
+      },
+      {
+        "path": "[interní cesta nezveřejněna]",
+        "sha256": "680a55821d1b9f192bfed877aef6a9ae0f517dd81a88ef942d51db358f83c675",
+        "scale_note": "Source LANCZOS resized to result crop dimensions; result 1:1; 32-pixel label bar; no local warp",
+        "region": "full",
+        "kind": "pair",
+        "normalized_box": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "source_pixel_box": [
+          0,
+          0,
+          3036,
+          2160
+        ],
+        "result_pixel_box": [
+          0,
+          0,
+          1486,
+          1059
+        ],
+        "source_scale_xy": [
+          0.4894598155467721,
+          0.49027777777777776
+        ]
+      },
+      {
+        "path": "[interní cesta nezveřejněna]",
+        "sha256": "6d2cf219743c672103a2af16027f6573ade6de1d2d5d508cd083434804e30aa3",
+        "scale_note": "Pillow luminance conversion; source LANCZOS resized, result 1:1",
+        "region": "full",
+        "kind": "gray_pair",
+        "normalized_box": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "path": "[interní cesta nezveřejněna]",
+        "sha256": "0fa694f414990d344d6ec10742244f328a1b7a090735bf21f2884f58e80c105a",
+        "scale_note": "Native pixels, 1:1, no resampling",
+        "region": "upper_right",
+        "kind": "source",
+        "normalized_box": [
+          0.48,
+          0,
+          1,
+          0.55
+        ],
+        "pixel_box": [
+          1457,
+          0,
+          3036,
+          1188
+        ],
+        "dimensions": [
+          1579,
+          1188
+        ]
+      },
+      {
+        "path": "[interní cesta nezveřejněna]",
+        "sha256": "41ab492a3a61af438bc91b2888ad24984464d638860782644cf68bc74891d4a0",
+        "scale_note": "Native pixels, 1:1, no resampling",
+        "region": "upper_right",
+        "kind": "result",
+        "normalized_box": [
+          0.48,
+          0,
+          1,
+          0.55
+        ],
+        "pixel_box": [
+          713,
+          0,
+          1486,
+          582
+        ],
+        "dimensions": [
+          773,
+          582
+        ]
+      },
+      {
+        "path": "[interní cesta nezveřejněna]",
+        "sha256": "ebb868e1c19f6afa0e06c35d5b2dd880abb86c4d950ca7ab8858ef52e330020c",
+        "scale_note": "Source LANCZOS resized to result crop dimensions; result 1:1; 32-pixel label bar; no local warp",
+        "region": "upper_right",
+        "kind": "pair",
+        "normalized_box": [
+          0.48,
+          0,
+          1,
+          0.55
+        ],
+        "source_pixel_box": [
+          1457,
+          0,
+          3036,
+          1188
+        ],
+        "result_pixel_box": [
+          713,
+          0,
+          1486,
+          582
+        ],
+        "source_scale_xy": [
+          0.4895503483217226,
+          0.4898989898989899
+        ]
+      },
+      {
+        "path": "[interní cesta nezveřejněna]",
+        "sha256": "e19ca390f4385eac680a5f179802d14682c5dc1720a4467a4c4e16649932585c",
+        "scale_note": "Native pixels, 1:1, no resampling",
+        "region": "lower_right",
+        "kind": "source",
+        "normalized_box": [
+          0.48,
+          0.48,
+          1,
+          1
+        ],
+        "pixel_box": [
+          1457,
+          1037,
+          3036,
+          2160
+        ],
+        "dimensions": [
+          1579,
+          1123
+        ]
+      },
+      {
+        "path": "[interní cesta nezveřejněna]",
+        "sha256": "c8f68453d4c07572b43104a3ff0210c8955780552e5dfcf9382b9915ff58c542",
+        "scale_note": "Native pixels, 1:1, no resampling",
+        "region": "lower_right",
+        "kind": "result",
+        "normalized_box": [
+          0.48,
+          0.48,
+          1,
+          1
+        ],
+        "pixel_box": [
+          713,
+          508,
+          1486,
+          1059
+        ],
+        "dimensions": [
+          773,
+          551
+        ]
+      },
+      {
+        "path": "[interní cesta nezveřejněna]",
+        "sha256": "a6e8d6ee4b0863c745e57ead1037c07eae338e41d9f6ac6a3155fd01a095e900",
+        "scale_note": "Source LANCZOS resized to result crop dimensions; result 1:1; 32-pixel label bar; no local warp",
+        "region": "lower_right",
+        "kind": "pair",
+        "normalized_box": [
+          0.48,
+          0.48,
+          1,
+          1
+        ],
+        "source_pixel_box": [
+          1457,
+          1037,
+          3036,
+          2160
+        ],
+        "result_pixel_box": [
+          713,
+          508,
+          1486,
+          1059
+        ],
+        "source_scale_xy": [
+          0.4895503483217226,
+          0.4906500445235975
+        ]
+      }
+    ]
+  },
+  "verdict_unchanged": true,
+  "verdict": "positive",
+  "checked_at": "2026-10-23T14:17:24.727230+00:00"
+}

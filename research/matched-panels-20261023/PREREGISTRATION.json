@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-10-23T14:04:50.197316+00:00",
+  "rule": "2_of_3_unchanged",
+  "experimental_only": true,
+  "production_decisions_unchanged": true,
+  "panels": {
+    "A": [
+      "BO",
+      "BP",
+      "BQ"
+    ],
+    "B": [
+      "BR",
+      "BS",
+      "BT"
+    ]
+  },
+  "manifest_sha256": "a35166f2b12bc59201648fc0561a277de9c9036ad57d38d52f6c94ded6ce3e70",
+  "protocol_sha256": "8b4b87143156cd62946aa657511c4e19ca5bc36df1c2b853a00e44c7311bcd7f",
+  "expected_votes": 18,
+  "case_count": 3,
+  "fresh_threads_required": true,
+  "primary_outcomes": [
+    "per-case votes and panel majority",
+    "localized findings detected/missed across reviewers",
+    "historical impact versus human visibility disagreements"
+  ],
+  "limitations": [
+    "3 selected pairs, 2 from the same house; not independent representative sample",
+    "One run per reviewer; no significance or causal/general model superiority claim",
+    "Model diversity still does not ensure statistical independence",
+    "No blinded human gold standard; retrospective coordinator impressions are not truth labels"
+  ]
+}

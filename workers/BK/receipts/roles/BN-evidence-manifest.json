@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "role": "BN",
+  "case_id": "ROOSEVELTOVA-CP539-001",
+  "source_sha256": "37946D3C58DFF64DE44560D82EA28E3C711C60DE7D4E9707C2DCD2FF53A34137",
+  "variant_sha256": "03AC60F1A293B35D50A93560AA52C9EE07786E5B17241DD49AB985C090AEFF3B",
+  "source_dimensions": [
+    3036,
+    2160
+  ],
+  "variant_dimensions": [
+    1486,
+    1059
+  ],
+  "comparison_policy": "Normalized-coordinate crops. Variant detail remains at native output pixels. Source detail is downsampled with Lanczos to the corresponding variant crop size. The normal-view pair resamples both panels to 700 px width. No color, geometry, denoise, sharpening, or generative edits were applied to evidence.",
+  "evidence": [
+    {
+      "id": "E_NORMAL_FULL",
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "30D55A9D2E7B68C79B0B1A99AB3684D6FA81B9754673DE02AF19DEA31E5392EB",
+      "normalized_box": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "view": "normal_view",
+      "resampling": "Both source and variant resampled to equal 700 px panel width for matched full-frame comparison."
+    },
+    {
+      "id": "E_IDENTITY_100",
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "1BB9BA86E9B801F2572E0B7CF6AFA91047216E7EF60E919FD16931C663EE672E",
+      "normalized_box": [
+        0.0,
+        0.0,
+        0.205,
+        0.365
+      ],
+      "view": "100pct_detail",
+      "resampling": "Variant crop native 305x387 px; source crop 622x788 px resampled to 305x387 px with Lanczos."
+    },
+    {
+      "id": "E_CENTRAL_ARCH_100",
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "FA0A76E289DB2F06F2E16D21B763F785B0243BACA2D30633715562A36E3836F3",
+      "normalized_box": [
+        0.175,
+        0.14,
+        0.445,
+        0.585
+      ],
+      "view": "100pct_detail",
+      "resampling": "Variant crop native 401x472 px; source crop 820x962 px resampled to 401x472 px with Lanczos."
+    },
+    {
+      "id": "E_PERSON_FENCE_100",
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "6EEF0AA0A14DBDF28EED56F200E8800604BED90CDC269BCA593D657D4CEE4D98",
+      "normalized_box": [
+        0.0,
+        0.37,
+        0.315,
+        0.72
+      ],
+      "view": "100pct_detail",
+      "resampling": "Variant crop native 468x370 px; source crop 956x756 px resampled to 468x370 px with Lanczos."
+    },
+    {
+      "id": "E_DISTANT_PEOPLE_100",
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "052474BC69758A580265FBFC52F70864A8DF43412C55DCFB63BD9F0AD06073B3",
+      "normalized_box": [
+        0.37,
+        0.39,
+        0.545,
+        0.66
+      ],
+      "view": "100pct_detail",
+      "resampling": "Variant crop native 260x286 px; source crop 532x584 px resampled to 260x286 px with Lanczos."
+    },
+    {
+      "id": "E_RIGHT_SIDE_100",
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "4924E579E5A8538D5737E96923CB038F5BA5BD89552B2E44C4C65725B1FF0596",
+      "normalized_box": [
+        0.62,
+        0.1,
+        1.0,
+        0.7
+      ],
+      "view": "100pct_detail",
+      "resampling": "Variant crop native 565x635 px; source crop 1154x1296 px resampled to 565x635 px with Lanczos."
+    },
+    {
+      "id": "E_SNOW_TEXTURE_100",
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "02D6D161A41BF648D2A77EBF7FC565F1AC951FF495047769DEAABBED6426EF73",
+      "normalized_box": [
+        0.3,
+        0.66,
+        0.74,
+        0.985
+      ],
+      "view": "100pct_detail",
+      "resampling": "Variant crop native 654x344 px; source crop 1336x702 px resampled to 654x344 px with Lanczos."
+    }
+  ]
+}

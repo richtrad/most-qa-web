@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-22T15:58:00Z",
+  "role": "AZ",
+  "thread_id": "01a163ea-cd21-7a52-9eb1-163c6f2a0a41",
+  "street": "Nerudova",
+  "phase": "COLOR_ONLY",
+  "source": {
+    "filename": "cp_393_001.jpg",
+    "source_type": "PHOTO,BW",
+    "source_id": "0da49699-f801-4350-aaf3-8cd324079886",
+    "covered_cps": [
+      "393"
+    ],
+    "sha256": "1D7F5F9D021C15C2CB871CBEFB03A40B37B380595A4F3014ABFE6C281C439385"
+  },
+  "candidate": {
+    "filename": "cp_393_001_col__attempt1.png",
+    "sha256": "63DCE2918325ACB937BE752C64A6D2ED16C8FBCC436970B659F3C93C84F49B43",
+    "attempt": 1,
+    "max_attempts": 2
+  },
+  "decision": "passed_color_only_local_pending_automatic_qa",
+  "checks": {
+    "source_is_direct_photo": true,
+    "one_source_to_one_output": true,
+    "architecture_and_composition_preserved": true,
+    "van_people_tree_gate_and_cobbled_street_preserved": true,
+    "archival_white_border_preserved": true,
+    "no_cleanup_or_object_removal": true,
+    "no_front_or_mult_derivative": true,
+    "no_external_black_padding": true,
+    "model_hypothesis_metadata_required": true
+  },
+  "materials": [
+    {
+      "id": "PLASTER_WARM_OCHRE_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "ROOF_TERRACOTTA_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "WOOD_WEATHERED_DARK_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "VEHICLE_BLUE_GREY_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    }
+  ],
+  "limitations": [
+    "No direct period colour reference was found; every assigned colour is a provisional model hypothesis.",
+    "Automatic pipeline QA and, only after passing it, upload remain outstanding."
+  ]
+}

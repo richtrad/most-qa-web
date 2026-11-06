@@ -1,0 +1,136 @@
+{
+  "schema_version": "most-private-handoff-1",
+  "worker": "AA",
+  "street": "Komenského",
+  "run": "identification_repeat2_20261021",
+  "cases": [
+    {
+      "case_id": "REPEAT2-01",
+      "street": "Kabátnická",
+      "area_id": "154871bc-2bd9-40d8-9c66-ee164cca1cb5",
+      "owner": "Z",
+      "source_id": "8eb125ef-2904-406c-9764-21e08dc8500e",
+      "aliases": [
+        "9353f1b6-08b3-4f4b-87eb-8e0c97524cab",
+        "c217a678-43d9-46c4-9f23-98a918bef2fc",
+        "d2c1c3e8-0fff-418a-a5c8-fd5591069d52",
+        "f3c3f4b8-9c4c-48f3-a2fc-17d2dd293368"
+      ],
+      "filename": "8eb125ef-2904-406c-9764-21e08dc8500e__cp_121,125,124,129,132_001.jpg",
+      "sha256": "f7a475163fe3895ea37487e1b04f2e20700be1cb998cff0db0a0586269a74ae6",
+      "bytes": 611811,
+      "cp_metadata": [
+        121,
+        125,
+        124,
+        129,
+        132
+      ],
+      "structure_id": null,
+      "classification": "review",
+      "note": "Více domů v záběru; bezpečné přiřazení jednotlivých fasád k čp. není doloženo. Srovnávací případ role Z, mimo vlastnictví AA."
+    },
+    {
+      "case_id": "REPEAT2-02",
+      "street": "Kabátnická",
+      "area_id": "154871bc-2bd9-40d8-9c66-ee164cca1cb5",
+      "owner": "Z",
+      "source_id": "88a8652a-f142-4f41-8a15-f7eee5d772df",
+      "aliases": [
+        "dadab1ec-8ecf-479a-a513-8578e448b048"
+      ],
+      "filename": "88a8652a-f142-4f41-8a15-f7eee5d772df__cp_125,129_001.jpg",
+      "sha256": "18c90e7469a0c9d010a14023d7f5f7f21b0cdc45d82160326e6c37528f12342a",
+      "bytes": 576603,
+      "cp_metadata": [
+        125,
+        129
+      ],
+      "structure_id": null,
+      "classification": "review",
+      "note": "Uvedená metadata zahrnují čp. 125 a 129; vazba na konkrétní fasádu není doložena. Srovnávací případ role Z, mimo vlastnictví AA."
+    },
+    {
+      "case_id": "REPEAT2-03",
+      "street": "Kabátnická",
+      "area_id": "154871bc-2bd9-40d8-9c66-ee164cca1cb5",
+      "owner": "Z",
+      "source_id": "055f90aa-ffa2-411f-87a3-a7a1b03667f2",
+      "aliases": [
+        "b46f6522-2103-410f-937f-11b9a701fbc0"
+      ],
+      "filename": "055f90aa-ffa2-411f-87a3-a7a1b03667f2__cp_129,132_003.jpg",
+      "sha256": "f973ab6120fa442c60c7a4f0de6b8e0e030dd939f9929211274643dbc675c641",
+      "bytes": 1352828,
+      "cp_metadata": [
+        129,
+        132
+      ],
+      "structure_id": null,
+      "classification": "skip",
+      "note": "Reprodukce pohlednice s popisem Brüx, Mantlergasse; podobná kompozice jako případ 01 bez nové užitečné geometrie. Jiný obsahový snímek a hash, nejde o duplicitní soubor. Srovnávací případ role Z."
+    },
+    {
+      "case_id": "REPEAT2-04",
+      "street": "Komenského",
+      "area_id": "be1f6026-436b-4b8e-b42c-ec789bf5131d",
+      "owner": "AA",
+      "source_id": "5153654e-d99f-481b-80e9-6841d27608c5",
+      "aliases": [],
+      "filename": "5153654e-d99f-481b-80e9-6841d27608c5__ATO119_10_20_106.jpg",
+      "sha256": "b31a895ae9890f8fe61054a68f615540268957bd14724ecdd8e98cca7c8e0665",
+      "bytes": 921365,
+      "cp_metadata": [
+        1053
+      ],
+      "structure_id": "0602c5ac-0939-4093-b2ad-f0703439c215",
+      "classification": "ready",
+      "note": "V benchmarku je viditelné čp. 1053; předchozí identifikační běh označil vazbu za připravenou pro další fázi. Je to návrh zadání, nikoli vytvořený barevný výstup ani QA."
+    },
+    {
+      "case_id": "REPEAT2-05",
+      "street": "Komenského",
+      "area_id": "be1f6026-436b-4b8e-b42c-ec789bf5131d",
+      "owner": "AA",
+      "source_id": "fe4072a8-db51-4d92-9077-c8026f74c3fe",
+      "aliases": [],
+      "filename": "fe4072a8-db51-4d92-9077-c8026f74c3fe__ATO119_10_20_114.jpg",
+      "sha256": "d481b243769eab8e9e20404565b0e2394dfb90420d23e64837352c3627d91b03",
+      "bytes": 1006415,
+      "cp_metadata": [
+        1085
+      ],
+      "structure_id": "44d1ca45-6b7b-49e5-8653-eed1a555021a",
+      "classification": "review",
+      "note": "Na snímku je nápis MLÉKÁRNA; samostatný doklad, který by potvrdil čp. 1085, v benchmarku chybí."
+    },
+    {
+      "case_id": "REPEAT2-06",
+      "street": "Komenského",
+      "area_id": "be1f6026-436b-4b8e-b42c-ec789bf5131d",
+      "owner": "AA",
+      "source_id": "21372bad-e54b-49b9-9885-ac48e39f0dda",
+      "aliases": [],
+      "filename": "21372bad-e54b-49b9-9885-ac48e39f0dda__ATO119_10_20_115.jpg",
+      "sha256": "8908164b2832f09df51ddf35d705e25acf4062f6ded550a06a928ad16fa65cc7",
+      "bytes": 980965,
+      "cp_metadata": [
+        1085
+      ],
+      "structure_id": "44d1ca45-6b7b-49e5-8653-eed1a555021a",
+      "classification": "review",
+      "note": "Štítová stěna bez viditelného čp.; propojení s čp. 1085 ani s případem 05 není v benchmarku prokázáno."
+    }
+  ],
+  "limits": {
+    "unique_images": 6,
+    "alias_records": 12,
+    "color_outputs": 0,
+    "qa_outputs": 0,
+    "upload_outputs": 0,
+    "models_3d": 0,
+    "web_publication": false,
+    "browser_validation": "not_performed",
+    "screenshot": "pending"
+  }
+}

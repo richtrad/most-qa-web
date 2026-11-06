@@ -1,0 +1,54 @@
+{
+  "role": "BH",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "model_source": "delegated_role_assignment",
+  "case_id": "RIEGROVA_CP677_001",
+  "source_id": "ad55866f-580c-4e34-bcf2-588a1a2d2c7c",
+  "source_sha256": "8551CE550E1BA0E67B17B3529D6094C7FCDB68C238675F13EBB5F33DDC9B668F",
+  "variant_id": "BG_RIEGROVA_CP677_001_ATTEMPT02",
+  "variant_sha256": "0A273C22F3AB0760CF28C2F99B64586ECA916BE04B66CE98FBA5B4953C3DDA88",
+  "phase": "color_only",
+  "visual_review_performed": true,
+  "verdict": "review",
+  "findings": [
+    "Architecture, archival border, visible damage, and foreground vegetation are retained in the COLOR_ONLY variant.",
+    "A crisply legible white numeric plaque or lettering near the upper door position is not equivalently resolved in the source, so this detail needs review rather than a positive visual verdict."
+  ],
+  "evidence": [
+    {
+      "source_path": "[interní cesta nezveřejněna]",
+      "source_sha256": "8551CE550E1BA0E67B17B3529D6094C7FCDB68C238675F13EBB5F33DDC9B668F",
+      "variant_path": "[interní cesta nezveřejněna]",
+      "variant_sha256": "0A273C22F3AB0760CF28C2F99B64586ECA916BE04B66CE98FBA5B4953C3DDA88",
+      "comparison": "source and exact V3 variant actually opened and visually compared by BH"
+    }
+  ],
+  "input_gates": {
+    "identity_status": "pending",
+    "ownership_status": "verified",
+    "identity_resolution_performed": false,
+    "upload_authorized_by_this_vote": false
+  },
+  "blind_protocol": {
+    "manifest_path": "[interní cesta nezveřejněna]",
+    "manifest_sha256": "6B0AB974043AB92D81FAC711F219140EBED0B28C796BA2A127C61E1210583E2C",
+    "independent_review": "BH did not read producer verdicts, other QA votes, or a shared decision before this immutable vote."
+  },
+  "material_status": {
+    "status": "model_hypothesis",
+    "confidence": "provisional",
+    "locked": false
+  },
+  "token_metrics_receipt": {
+    "path": "[interní cesta nezveřejněna]",
+    "sha256": "7041035362816D4B01F1E31FE367CD6B734460ED74020067E1225810F20551DF",
+    "copy_status": "D_and_F_sha256_verified; backup_pending_E"
+  },
+  "checked_at": "2026-10-23T11:19:16.1400397Z",
+  "storage": {
+    "d_copy": "written",
+    "f_copy": "written_and_sha256_verified",
+    "e_copy": "backup_pending_E"
+  }
+}

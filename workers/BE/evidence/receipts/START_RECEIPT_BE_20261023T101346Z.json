@@ -1,0 +1,26 @@
+{
+  "event": "start_receipt",
+  "role": "BE",
+  "street": "Pražská",
+  "thread_id": "01a1683f-1a8e-7790-8cee-775247f35558",
+  "goal_id": "01a1683f-1a8e-7790-8cee-775247f35558",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "started_at_utc": "20261023T101346Z",
+  "token_counter_source": "native_get_goal",
+  "tokens_start": 58250,
+  "remaining_percent_start": 81,
+  "quota_source": "get_usage_limits codex primary usedPercent=19",
+  "unique_sources_attempted": 0,
+  "image_edits": 0,
+  "accepted_unique_photos": 0,
+  "accepted_cleanup_derivatives": 0,
+  "rejected_variants": 0,
+  "remote_hash_verified": 0,
+  "limitations": [
+    "E unavailable/not provisioned for BE; backup_pending_E",
+    "No source type/identity/SHA review has yet occurred"
+  ],
+  "f_checkpoint_path": "[interní cesta nezveřejněna]",
+  "f_checkpoint_sha256": "03ec1b361fcde86996e16bc2016a7d8ac1c922f63a0b10363108d030efa59361"
+}

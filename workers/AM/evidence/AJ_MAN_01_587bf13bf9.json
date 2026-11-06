@@ -1,0 +1,38 @@
+{
+  "job_id": "AJ_MAN_01_587bf13bf9",
+  "phase": "color_only",
+  "target_cps": [
+    "1032"
+  ],
+  "identity_evidence_cs": "Rohový dům ČSAD, rustikované přízemí, zkosené nároží a dvě uliční fasády. Karta P1 výslovně čp.1032, Mánesova vlevo a Okružní vpravo.",
+  "facade_role": "corner_two_facades",
+  "protected_features": [
+    "perspektiva, ořez a všechny hrany původní fotografie",
+    "všechny stromy, listy, větve, lidé, auta, dráty, sloupy i drobné předměty zůstávají",
+    "původní praskliny, chybějící omítka, rozbitá či zazděná okna a dveře",
+    "přesné nápisy a čísla bez domýšlení nečitelných znaků",
+    "původní bílý či krémový archivní okraj, rukopis i skvrny",
+    "žádné odkrytí nebo rekonstrukce skrytých ploch, žádný cleanup",
+    "Zachovat členění rustiky, nárožní obloukové okno, trojúhelné nadokenní frontony, strom vlevo, větve zprava, vedení před fasádou."
+  ],
+  "house_material_brief_paths": [
+    "[local evidence path omitted]",
+    "[local evidence path omitted]",
+    "[local evidence path omitted]"
+  ],
+  "scene_palette_path": "[local evidence path omitted]",
+  "color_reference_search": "[local evidence path omitted]",
+  "reference_records": [
+    {
+      "source_id": "4c412953-5678-43d8-8592-d4ba077efe62",
+      "path": "[local evidence path omitted]",
+      "sha256": "2606e6e270cc6ae78aca57c8b26d90a73095367f9e09e3035bb34203a28cd810",
+      "purpose": "identity_and_viewpoint_only_not_historical_hue"
+    }
+  ],
+  "imagegen_prompt_path": "[local evidence path omitted]",
+  "imagegen_prompt": "precise-object-edit. COLOR_ONLY. Edit ONLY the exact supplied original historical photograph into a realistic full-colour architectural material reference. One source image, one output. Do not create a collage or copy the archival reference card layout. Preserve the exact image composition, perspective, building geometry, visible damage, original grain and luminance structure. Keep EVERY person, vehicle, tree, leaf, bush, animal, wire, pole, flag, fence and loose foreground object in its original position. Do not remove objects, inpaint hidden surfaces, rebuild damage, add detail, beautify or sharpen into invented geometry. Preserve the original white/cream archival border, partial marginal letters, handwriting and dark photographic blemishes. Add no new border or black padding. Use natural daylight and full but realistic material colour separation, no sepia, global brown or grey wash, pastel desaturation, HDR or cinematic grading.\nAll colours below are MODEL_HYPOTHESIS / PROVISIONAL / UNLOCKED, not a claim of historically verified paint. Apply the same material IDs to the same visible buildings across the assigned views; preserve photographic lighting, weathering and period-specific state. A roof material ID specifies its working colour family, not permission to invent a tile texture.\n\nSOURCE: cp_1032_001.jpg\nMAPPING: Rohový dům ČSAD, rustikované přízemí, zkosené nároží a dvě uliční fasády. Karta P1 výslovně čp.1032, Mánesova vlevo a Okružní vpravo.\nPROTECTED FEATURES: Zachovat členění rustiky, nárožní obloukové okno, trojúhelné nadokenní frontony, strom vlevo, větve zprava, vedení před fasádou.\nMATERIAL PALETTE:\nHouse 1032: facade=FACADE_CREAM_01 #D8C59D, rusticated_base=FACADE_GREY_WARM_01 #9E978B, trim=FACADE_LIME_WHITE_01 #E4DDC9, roof=ROOF_SLATE_GREY_01 #596369, wood=WOOD_DARK_BROWN_01 #563522\nHouse 1267: facade=FACADE_CREAM_01 #D8C59D, rear_facade=FACADE_GREY_WARM_01 #9E978B, trim=FACADE_LIME_WHITE_01 #E4DDC9, roof=ROOF_CLAY_RED_01 #B85B3E, wood=WOOD_DARK_BROWN_01 #563522\nHouse 1269: facade=FACADE_GREY_WARM_01 #9E978B, rear_facade=FACADE_GREY_WARM_01 #9E978B, trim=FACADE_CREAM_01 #D8C59D, gable_timber=WOOD_DARK_BROWN_01 #563522, main_roof=ROOF_CLAY_RED_01 #B85B3E, workshop_plaster=FACADE_GREY_WARM_01 #9E978B, workshop_roof=ROOF_SLATE_GREY_01 #596369, workshop_doors=WOOD_DARK_BROWN_01 #563522, wood=WOOD_DARK_BROWN_01 #563522\nExposed brick only: BRICK_RED_01 #A94F35. Visible flashing/downpipes: ROOF_ZINC_WEATHERED_01 #88979A. Preserve grey stone paving and natural varied vegetation. Unknown incidental buildings: restrained warm-grey plaster.\nOUTPUT filename: cp_1032_001_col.png. Preserve full original photographic extent; references are identity evidence, never replacement source canvases.",
+  "confidence": "model_hypothesis",
+  "status": "provisional",
+  "locked": false
+}

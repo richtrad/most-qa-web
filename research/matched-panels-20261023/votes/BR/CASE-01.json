@@ -1,0 +1,133 @@
+{
+  "reviewer_role": "BR",
+  "model": "gpt-5.6-terra",
+  "actual_model_evidence": "User-provided delegation instruction states gpt-5.6-terra/high; not independently machine-verifiable.",
+  "protocol_sha256": "8b4b87143156cd62946aa657511c4e19ca5bc36df1c2b853a00e44c7311bcd7f",
+  "manifest_sha256": "a35166f2b12bc59201648fc0561a277de9c9036ad57d38d52f6c94ded6ce3e70",
+  "case_id": "CASE-01",
+  "source_sha256": "9d99c6d349b443df10d74fb9076a19dd1605e5e982a4589d56f070389818821e",
+  "variant_sha256": "893e23a9d4d5b3a9c75ea59eef50de4b89ee6175d5ad9072b97961b234d6e177",
+  "visual_review_performed": true,
+  "image_fidelity": {
+    "verdict": "positive",
+    "reason": "Po celé scéně zůstávají stejné hranice budovy, poškozený štít a krovy, střešní krytina, otevřená okna, vodiče, strom, osoby, kočárek, suť i archivní rám. Jemné zrno je po zmenšení výstupu méně rozlišitelné, bez zjištěné změny kresby."
+  },
+  "color_hypothesis": {
+    "verdict": "positive",
+    "reason": "Okrová omítka, červenohnědé rámy a terakotová krytina jsou vnitřně konzistentní s osvětlením a zachovaným poškozením; bez nezávislého barevného pramene nejde o historické tvrzení.",
+    "historical_truth": null,
+    "status": "provisional",
+    "locked": false
+  },
+  "identity_gate": {
+    "verdict": "review",
+    "reason": "Dodaný anonymní claim cílí na čp. 387, ale v tomto záběru není čitelné číslo ani jednoznačný popisek; nelze jej potvrdit ani vyvrátit pouze z dodaného páru."
+  },
+  "verdict": "positive",
+  "findings": [
+    {
+      "id": "F-01",
+      "dimension": "image_fidelity",
+      "assessment": "positive",
+      "normalized_box": [
+        0.58,
+        0.04,
+        0.99,
+        0.54
+      ],
+      "description": "Poškozený roh, obnažené krovy, komíny a vedení zůstávají ve stejném umístění a tvaru.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "Zachovává rozhodující dokumentované poškození a geometrii.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "0a16fd38d4e62cd3e890746da427462151f02e72739a6f35495e97f718b1b4c7",
+          "scale_note": "Matched normalized crop, resampled only for pair."
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "2f5d988addab0528adb696190eeb5acc83b13fb19403ef4cb757d1fa22aaa584",
+          "scale_note": "Native-pixel source crop."
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "6197c6ec22a9b4076de05a0ea65c60dc24868317fb8bbe229b7f4358f5d03c5c",
+          "scale_note": "Native-pixel result crop."
+        }
+      ]
+    },
+    {
+      "id": "F-02",
+      "dimension": "image_fidelity",
+      "assessment": "positive",
+      "normalized_box": [
+        0.27,
+        0.38,
+        0.74,
+        0.93
+      ],
+      "description": "Okna včetně otevřených křídel, dveřní otvory, římsa, kabeláž, otlučení a suť jsou zachovány.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "Kontroluje architektonické otvory i povrchové poškození.",
+      "confidence": "high",
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "02cc3b12023199be5021e4a3dadeeff9282592b1b833aab0784f52897a432994",
+          "scale_note": "Matched normalized crop, resampled only for pair."
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "e7bdedea9d585e87e4024f8b5cc53f1e3abf373c2fde686a619d5d847df5ff85",
+          "scale_note": "Native-pixel source crop."
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "ac386db2f22657a7adff25b7a0c731306c6c2a88c7d76c122058d40736293cd7",
+          "scale_note": "Native-pixel result crop."
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "390a6c1a2835900002eed6e1a67faae06d6c2f9c046cb26598ee8ff191afd9de",
+      "scale_note": "Source and result are resampled only for a single paired overview; no local deformation or retouching."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "0a16fd38d4e62cd3e890746da427462151f02e72739a6f35495e97f718b1b4c7",
+      "scale_note": "Matched normalized crop, resampled only for side-by-side display."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "02cc3b12023199be5021e4a3dadeeff9282592b1b833aab0784f52897a432994",
+      "scale_note": "Matched normalized crop, resampled only for side-by-side display."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "2f5d988addab0528adb696190eeb5acc83b13fb19403ef4cb757d1fa22aaa584",
+      "scale_note": "Native-pixel source crop; deterministic crop only."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "6197c6ec22a9b4076de05a0ea65c60dc24868317fb8bbe229b7f4358f5d03c5c",
+      "scale_note": "Native-pixel result crop; deterministic crop only."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "e7bdedea9d585e87e4024f8b5cc53f1e3abf373c2fde686a619d5d847df5ff85",
+      "scale_note": "Native-pixel source crop; deterministic crop only."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "ac386db2f22657a7adff25b7a0c731306c6c2a88c7d76c122058d40736293cd7",
+      "scale_note": "Native-pixel result crop; deterministic crop only."
+    }
+  ],
+  "checked_at": "2026-10-23T14:10:34.3487132Z"
+}

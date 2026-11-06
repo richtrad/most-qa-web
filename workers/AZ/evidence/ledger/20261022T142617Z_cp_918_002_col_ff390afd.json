@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "role": "AZ",
+  "thread_id": "01a163ea-cd21-7a52-9eb1-163c6f2a0a41",
+  "street": "Nerudova",
+  "phase": "COLOR_ONLY",
+  "operation": "uploaded",
+  "uploaded_at_utc": "2026-10-22T14:26:16Z",
+  "source": {
+    "filename": "cp_918_002.jpg",
+    "source_id": "c810ea82-baa9-4b71-a305-e0c3afec586d",
+    "sha256": "68197B1C51D9053033100A85163FFEA034B89C147E57B41141369CE85F6865D0"
+  },
+  "output": {
+    "filename": "cp_918_002_col.png",
+    "local_upload_path": "[interní cesta nezveřejněna]",
+    "sha256": "8D1E55977B5DDEC0D076FDF62D22AEA8AADE360DA1950EDF275467D731BD09E7"
+  },
+  "target": {
+    "cp": "918",
+    "structure_id": "8f91de89-8896-4ec7-a955-b24ab17414c5",
+    "photo_id": "ff390afd-da12-4bb4-b7a7-6a85ef21e7dc",
+    "tags": []
+  },
+  "qa_receipt": {
+    "path": "[interní cesta nezveřejněna]",
+    "sha256": "D6890A73F0641B099C9466898EFBA09C8D40B8ED08937E6B94EF1A8B6ADDFCEE"
+  },
+  "live_dedup": {
+    "dry_run_log": "[interní cesta nezveřejněna]",
+    "result": "would_upload=1; errors=0"
+  },
+  "lock": {
+    "helper": "support/Invoke-LibuseUploadLocked.ps1",
+    "source": "cp_918_002.jpg",
+    "result": "acquired_and_released_after_upload_and_verify"
+  },
+  "remote_verification": {
+    "pipeline_verify_log": "[interní cesta nezveřejněna]",
+    "remote_copy_path": "[interní cesta nezveřejněna]",
+    "remote_copy_backup_path": "[interní cesta nezveřejněna]",
+    "remote_sha256": "8D1E55977B5DDEC0D076FDF62D22AEA8AADE360DA1950EDF275467D731BD09E7",
+    "sha256_match": true,
+    "remote_bytes": 2899629
+  },
+  "result": "remote_verified",
+  "limitations": [
+    "Material colours remain model_hypothesis/provisional/locked:false.",
+    "This receipt covers exactly one source photo and does not assert completion of Nerudova."
+  ]
+}

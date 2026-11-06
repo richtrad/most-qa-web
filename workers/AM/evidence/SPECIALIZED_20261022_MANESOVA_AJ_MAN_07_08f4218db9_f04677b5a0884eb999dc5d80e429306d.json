@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "pilot_id": "SPECIALIZED_20261022_MANESOVA",
+  "job_id": "AJ_MAN_07_08f4218db9",
+  "role": "AN",
+  "phase": "color_only",
+  "started_at": "2026-10-22T05:58:44.429368+00:00",
+  "actual_model": "gpt-6-astra",
+  "source_id": "97eb6024-488a-43ed-911f-76bfcb3a768b",
+  "source_sha256": "08f4218db9e6d92248a5dc2ba82d80a5120818acf4a55f42949190eab7d3f35a",
+  "target_cps": [
+    "1242"
+  ],
+  "structure_ids": [
+    "7501a476-b2a7-4a8d-b48c-c5b16e576695"
+  ],
+  "qa_receipt": "[local evidence path omitted]",
+  "accepted_output_sha256": "507556388fd258afd72224d2d70e52c4a25e63ff705500aedfe871b0fd26a3e9",
+  "run_id": "f04677b5a0884eb999dc5d80e429306d",
+  "remote_mutations": 1,
+  "qa_sha256": "9c5f2b6fb8354b6e4e88d811e5f3a8ee10644d13f78ed532453b5051ad8746b9",
+  "colour_evidence": {
+    "confidence": "model_hypothesis",
+    "status": "provisional",
+    "locked": false
+  },
+  "qa_limitations": [
+    "All hues provisional/model_hypothesis/unlocked.",
+    "Original remains authority for detailed damage geometry; hidden surfaces not reconstructed.",
+    "AN may upload only exact accepted hash after its checks."
+  ],
+  "qa_crop": {
+    "applied": false,
+    "reason": "No added outer black padding"
+  },
+  "cleanup_pass": null,
+  "local_output": "[local evidence path omitted]",
+  "tags": [
+    "PHOTO",
+    "BW",
+    "COLOR"
+  ],
+  "result": "verified",
+  "links": [
+    {
+      "cp": "1242",
+      "structure_id": "7501a476-b2a7-4a8d-b48c-c5b16e576695",
+      "photo_id": "fd516895-84f1-416c-befd-cf4f745af036",
+      "filename": "cp_1242_002_col.png",
+      "tags": [
+        "PHOTO",
+        "BW",
+        "COLOR"
+      ],
+      "remote_copy": "[local evidence path omitted]",
+      "remote_sha256": "507556388fd258afd72224d2d70e52c4a25e63ff705500aedfe871b0fd26a3e9",
+      "http_status": 200
+    }
+  ],
+  "photo_ids": [
+    "fd516895-84f1-416c-befd-cf4f745af036"
+  ],
+  "remote_sha256": "507556388fd258afd72224d2d70e52c4a25e63ff705500aedfe871b0fd26a3e9",
+  "remote_copy": "[local evidence path omitted]",
+  "verified_links": 1,
+  "filename": "cp_1242_002_col.png",
+  "ended_at": "2026-10-22T05:58:47.694152+00:00",
+  "active_processing_seconds": 3.264784,
+  "ledger_receipt": "[local evidence path omitted]"
+}

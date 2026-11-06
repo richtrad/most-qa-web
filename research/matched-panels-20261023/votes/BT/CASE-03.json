@@ -1,0 +1,177 @@
+{
+  "reviewer_role": "BT",
+  "model": "gpt-5.6-sol/high",
+  "actual_model_evidence": null,
+  "protocol_sha256": "8b4b87143156cd62946aa657511c4e19ca5bc36df1c2b853a00e44c7311bcd7f",
+  "manifest_sha256": "a35166f2b12bc59201648fc0561a277de9c9036ad57d38d52f6c94ded6ce3e70",
+  "case_id": "CASE-03",
+  "source_sha256": "fe7132f347fd086075017e5011cdfe19d29723a9448b469aec57afb38c30f2ba",
+  "variant_sha256": "ff06e1b793eec56d17eb3b43f43699433b832c6c1076ebb8cf7e12a522a81661",
+  "visual_review_performed": true,
+  "image_fidelity": {
+    "verdict": "positive",
+    "reason": "The facade and roof geometry, window states, door, utility hardware, 387 plate, MASO UZENINY sign, tree, fence, all people, pram, small animal, damage, border and street composition are retained. Minor deviations are stronger/repeated fine surface texture and tonal enhancement, especially on the broad plaster areas; no material object or architectural substitution was found."
+  },
+  "color_hypothesis": {
+    "verdict": "positive",
+    "reason": "Ochre plaster, red-brown joinery and tiles, wood, masonry, vegetation, garments and skin tones form a plausible, readable and internally consistent material palette. The exact hues remain provisional and historically unverified.",
+    "historical_truth": null,
+    "status": "provisional",
+    "locked": false
+  },
+  "identity_gate": {
+    "verdict": "positive",
+    "reason": "The house-number plate 387 is clearly visible in the supplied source above and right of the entrance, directly supporting the supplied target-facade claim."
+  },
+  "verdict": "positive",
+  "findings": [
+    {
+      "id": "C03-ID-387",
+      "dimension": "identity_gate",
+      "assessment": "positive",
+      "normalized_box": [
+        0.51,
+        0.39,
+        0.84,
+        0.78
+      ],
+      "description": "The 387 plate, entrance surround, upper window and utility insulators are retained and remain legible/identifiable.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "The visible plate is direct source-local identity evidence.",
+      "confidence": 0.99,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "43b57069270f7d52bc2acab77de756d9efe7f4f9a586b5580cee1fed4a89f46d",
+          "scale_note": "Both SOURCE and RESULT crops preserved at native pixels; unequal pixel dimensions retained"
+        }
+      ]
+    },
+    {
+      "id": "C03-FID-SHOP-TREE",
+      "dimension": "image_fidelity",
+      "assessment": "positive",
+      "normalized_box": [
+        0.0,
+        0.35,
+        0.34,
+        0.92
+      ],
+      "description": "The tree canopy and trunk, overhead wires, MASO UZENINY sign, two pedestrians, fence and gate are preserved.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "This verifies preservation of a historically meaningful text sign and several nonarchitectural objects.",
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "d4dd1a3827069f66d6f92fd9be7e576022332bef0fb2584b2154af43058b137a",
+          "scale_note": "SOURCE crop downsampled with Lanczos to RESULT crop dimensions; RESULT native pixels"
+        }
+      ]
+    },
+    {
+      "id": "C03-FID-GROUP",
+      "dimension": "image_fidelity",
+      "assessment": "positive",
+      "normalized_box": [
+        0.38,
+        0.62,
+        0.76,
+        0.96
+      ],
+      "description": "The full group of people, pram, basin, railing, entrance door, window and small animal are retained in their source positions.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "The crowded foreground is a strong COLOR_ONLY preservation test.",
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "6811da8e63b6c21777e32a529339459fb7306cc5a5f7233dd1c8187f6ea71a4d",
+          "scale_note": "SOURCE crop downsampled with Lanczos to RESULT crop dimensions; RESULT native pixels"
+        }
+      ]
+    },
+    {
+      "id": "C03-FID-TEXTURE",
+      "dimension": "image_fidelity",
+      "assessment": "minor_deviation",
+      "normalized_box": [
+        0.43,
+        0.15,
+        0.98,
+        0.78
+      ],
+      "description": "The result strengthens and partly regularizes fine swirling/speckled texture across broad plaster regions and high-contrast edges relative to the source.",
+      "historical_impact": "minor",
+      "visibility": "normal_view",
+      "significance_reason": "This changes the micro-appearance of weathered surfaces but does not replace openings, damage, text, objects or facade geometry.",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "43b57069270f7d52bc2acab77de756d9efe7f4f9a586b5580cee1fed4a89f46d",
+          "scale_note": "Both SOURCE and RESULT crops preserved at native pixels; unequal pixel dimensions retained"
+        },
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "2130eb1aee5dd8dd11d0345bdee809ae030b366b54728a450af59ee6de2ab9c2",
+          "scale_note": "SOURCE downsampled with Lanczos; RESULT converted to grayscale at native result pixels; analytical evidence only"
+        }
+      ]
+    },
+    {
+      "id": "C03-COLOR-MATERIALS",
+      "dimension": "color_hypothesis",
+      "assessment": "positive",
+      "normalized_box": [
+        0.51,
+        0.39,
+        0.84,
+        0.78
+      ],
+      "description": "Plaster, painted joinery, masonry, metal hardware and shaded opening interiors are chromatically separated and locally consistent.",
+      "historical_impact": "unknown",
+      "visibility": "normal_view",
+      "significance_reason": "The material reading is plausible, but exact hues lack independent color evidence.",
+      "confidence": 0.9,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "43b57069270f7d52bc2acab77de756d9efe7f4f9a586b5580cee1fed4a89f46d",
+          "scale_note": "Both SOURCE and RESULT crops preserved at native pixels; unequal pixel dimensions retained"
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "964742bf8e0d245aea2c38bdc7076d3d45906c6a369d60206ed42657b6aee438",
+      "scale_note": "SOURCE downsampled with Lanczos to RESULT dimensions; RESULT native pixels"
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "43b57069270f7d52bc2acab77de756d9efe7f4f9a586b5580cee1fed4a89f46d",
+      "scale_note": "Both SOURCE and RESULT crops preserved at native pixels; unequal pixel dimensions retained"
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "d4dd1a3827069f66d6f92fd9be7e576022332bef0fb2584b2154af43058b137a",
+      "scale_note": "SOURCE crop downsampled with Lanczos to RESULT crop dimensions; RESULT native pixels"
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "6811da8e63b6c21777e32a529339459fb7306cc5a5f7233dd1c8187f6ea71a4d",
+      "scale_note": "SOURCE crop downsampled with Lanczos to RESULT crop dimensions; RESULT native pixels"
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "2130eb1aee5dd8dd11d0345bdee809ae030b366b54728a450af59ee6de2ab9c2",
+      "scale_note": "SOURCE downsampled with Lanczos; RESULT converted to grayscale at native result pixels; analytical evidence only"
+    }
+  ],
+  "checked_at": "2026-10-23T16:16:26+02:00"
+}

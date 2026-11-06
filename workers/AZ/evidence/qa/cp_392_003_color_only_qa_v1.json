@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-22T15:34:00Z",
+  "role": "AZ",
+  "thread_id": "01a163ea-cd21-7a52-9eb1-163c6f2a0a41",
+  "street": "Nerudova",
+  "phase": "COLOR_ONLY",
+  "source": {
+    "filename": "cp_392_003.jpg",
+    "source_type": "PHOTO,BW",
+    "source_id": "cb6e70fc-6f53-4d9e-a82f-cb560963da35",
+    "covered_cps": [
+      "392"
+    ]
+  },
+  "candidate": {
+    "filename": "cp_392_003_col__attempt1.png",
+    "sha256": "593F97C1FBCFACA7C28AFB4A0B338FA00625F098012404B4E6597E350F1BA57B",
+    "attempt": 1,
+    "max_attempts": 2
+  },
+  "decision": "passed_color_only",
+  "checks": {
+    "source_is_direct_photo": true,
+    "one_source_to_one_output": true,
+    "architecture_and_composition_preserved": true,
+    "vehicles_machinery_cables_rubble_and_wet_ground_preserved": true,
+    "archival_white_border_preserved": true,
+    "no_cleanup_or_object_removal": true,
+    "no_front_or_mult_derivative": true,
+    "no_external_black_padding": true,
+    "model_hypothesis_metadata_required": true
+  },
+  "materials": [
+    {
+      "id": "BRICK_RED_BROWN_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "PLASTER_WARM_GREY_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "ROOF_CORRUGATED_GREY_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "VEHICLE_WORK_GREEN_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    }
+  ],
+  "limitations": [
+    "No direct period colour reference was found; every assigned colour is a provisional model hypothesis.",
+    "A passed COLOR_ONLY decision is not a broader historical-fact or web-publication approval."
+  ]
+}

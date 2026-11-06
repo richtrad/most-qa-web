@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "pilot_id": "SPECIALIZED_20261022_MANESOVA",
+  "role": "AM",
+  "qa_phase": "color_only",
+  "qa_status": "failed_color_only",
+  "passed_color_only": false,
+  "cleanup_pass": null,
+  "attempts_used": 2,
+  "remaining_edit_attempts": 0,
+  "source_path": "[local evidence path omitted]",
+  "source_sha256": "83aeef21e06b85701f577c8ff6f6e50a4125bd89fd5fb57f17c9b1f44525679f",
+  "output_path": "[local evidence path omitted]",
+  "output_sha256": "ddb3917db93cec0b7e5e9942a42a5623ae6bb2b09599d6e7f11ecb0055f66f85",
+  "reference_records": [
+    {
+      "source_id": "11f8d187-a3c2-4366-a1b4-e1d376542a31",
+      "path": "[local evidence path omitted]",
+      "sha256": "6342498504a26d724e8bbcbb81c05084638dd88d32e9065c435f4d07300a60b0"
+    }
+  ],
+  "material_brief_path": "[local evidence path omitted]",
+  "material_brief_sha256": "464bcc26aabe31b2b157e0562057d7b85b4767c0759c257bb75b11d636823468",
+  "qa_receipt": "[local evidence path omitted]",
+  "actual_model": "gpt-6-astra",
+  "colour_evidence": {
+    "confidence": "model_hypothesis",
+    "status": "provisional",
+    "locked": false
+  },
+  "completed_at_utc": "2026-10-22T05:58:34.931171+00:00",
+  "job_id": "AJ_MAN_06_83aeef21e0",
+  "result": "review",
+  "visual_inspection": {
+    "source_opened": true,
+    "output_opened": true,
+    "references_opened": true,
+    "reference_note": "P2D card inspected previously in this QA segment; source and v02 reopened together.",
+    "architecture": "Gable silhouette, volutes, descending window rows, bay and foreground truck remain recognizable.",
+    "materials": "Roof is now slate grey as brief requires.",
+    "damage_and_objects": "Large source snow covering left roof has been replaced by exposed slate; only a narrow snowy eaves strip remains. This changes documented surface occlusion."
+  },
+  "findings": [
+    {
+      "severity": "blocking",
+      "region_normalized": [
+        0.16,
+        0.38,
+        0.45,
+        0.5
+      ],
+      "issue": "Source left roof is predominantly covered with smooth white snow. v02 exposes rows of slate across most of this area. COLOR_ONLY requires preservation of snow, not inferred roof reconstruction.",
+      "required_action": "Human review; two attempts exhausted. Do not upload or generate a third attempt."
+    }
+  ],
+  "upload_crop": {
+    "applied": false,
+    "reason": "Original white archive border retained; no added contiguous outer black padding."
+  },
+  "limitations": [
+    "Material hues remain provisional hypotheses.",
+    "Source grain and fine masonry texture are not pixel-exact in generated output.",
+    "Truck lettering remains too small for reliable transcription."
+  ]
+}

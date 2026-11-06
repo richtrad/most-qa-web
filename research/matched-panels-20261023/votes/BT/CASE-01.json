@@ -1,0 +1,172 @@
+{
+  "reviewer_role": "BT",
+  "model": "gpt-5.6-sol/high",
+  "actual_model_evidence": null,
+  "protocol_sha256": "8b4b87143156cd62946aa657511c4e19ca5bc36df1c2b853a00e44c7311bcd7f",
+  "manifest_sha256": "a35166f2b12bc59201648fc0561a277de9c9036ad57d38d52f6c94ded6ce3e70",
+  "case_id": "CASE-01",
+  "source_sha256": "9d99c6d349b443df10d74fb9076a19dd1605e5e982a4589d56f070389818821e",
+  "variant_sha256": "893e23a9d4d5b3a9c75ea59eef50de4b89ee6175d5ad9072b97961b234d6e177",
+  "visual_review_performed": true,
+  "image_fidelity": {
+    "verdict": "positive",
+    "reason": "The complete scene, facade geometry, openings, roof destruction, exposed beams, rubble, wiring, tree, people, prams, background building, damage and archival border are retained. Minor deviations are limited to resampling/fine surface texture and newly visible low-contrast cloud forms in the otherwise blank sky; no material architectural or object loss was found."
+  },
+  "color_hypothesis": {
+    "verdict": "positive",
+    "reason": "The ochre plaster, red-brown joinery and tiles, brick/masonry, weathered wood, vegetation, clothing and sky form a plausible and internally coherent material interpretation. The hues are hypotheses only and are not asserted as historical truth.",
+    "historical_truth": null,
+    "status": "provisional",
+    "locked": false
+  },
+  "identity_gate": {
+    "verdict": "review",
+    "reason": "The supplied claim says building 387, but this source view does not visibly show a 387 plate, handwritten label or other source-local designation. The facade claim therefore remains unsupported within this anonymous case."
+  },
+  "verdict": "positive",
+  "findings": [
+    {
+      "id": "C01-FID-ROOF",
+      "dimension": "image_fidelity",
+      "assessment": "positive",
+      "normalized_box": [
+        0.62,
+        0.03,
+        0.985,
+        0.63
+      ],
+      "description": "The demolished gable, exposed rafters and beams, chimneys, broken masonry edge, rubble and wires retain their source positions and shapes.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "This is the most structurally complex area and shows preservation rather than invented repair or cleanup.",
+      "confidence": 0.98,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "01c559fc8e765e74d4106304cc5182b52f9ecc9fc237bfb0f15853aa04607f55",
+          "scale_note": "Both SOURCE and RESULT crops preserved at native pixels; unequal pixel dimensions retained"
+        }
+      ]
+    },
+    {
+      "id": "C01-FID-PEOPLE",
+      "dimension": "image_fidelity",
+      "assessment": "positive",
+      "normalized_box": [
+        0.04,
+        0.48,
+        0.5,
+        0.96
+      ],
+      "description": "The tree, distant pedestrian, foreground group, prams/carts, railing, windows and street edge are all retained.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "COLOR_ONLY requires preservation of people and street objects; the positive evidence covers several such elements.",
+      "confidence": 0.97,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "40f23a6e1007d2c7dd4619c40edd5b8476222950b6629c8fccbba053d0bd7710",
+          "scale_note": "SOURCE crop downsampled with Lanczos to RESULT crop dimensions; RESULT native pixels"
+        }
+      ]
+    },
+    {
+      "id": "C01-FID-SKY",
+      "dimension": "image_fidelity",
+      "assessment": "minor_deviation",
+      "normalized_box": [
+        0.0,
+        0.0,
+        0.62,
+        0.37
+      ],
+      "description": "The result introduces faint cloud structure and stronger sky tonal variation where the source is mostly blank and low contrast.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "This is a content-level sky embellishment, but it does not alter architecture, objects, labels or documented damage.",
+      "confidence": 0.92,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "80cf8a43d7ce2cc167d5cac6f440f5fece810b9204dd3b63df5ac8706ef396c7",
+          "scale_note": "SOURCE downsampled with Lanczos; RESULT converted to grayscale at native result pixels; analytical evidence only"
+        }
+      ]
+    },
+    {
+      "id": "C01-COLOR-MATERIALS",
+      "dimension": "color_hypothesis",
+      "assessment": "positive",
+      "normalized_box": [
+        0.3,
+        0.3,
+        0.74,
+        0.78
+      ],
+      "description": "Plaster, joinery, roof tiles, metal wiring and damaged masonry are chromatically separated while remaining materially coherent.",
+      "historical_impact": "unknown",
+      "visibility": "normal_view",
+      "significance_reason": "The palette is useful and plausible as a provisional material hypothesis, but no independent color ground truth is supplied.",
+      "confidence": 0.88,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "f86f377649ba52db598f8b4bbe88c5852d4c91734b2a3f71f3593de31bd10595",
+          "scale_note": "SOURCE crop downsampled with Lanczos to RESULT crop dimensions; RESULT native pixels"
+        }
+      ]
+    },
+    {
+      "id": "C01-ID-387",
+      "dimension": "identity_gate",
+      "assessment": "review",
+      "normalized_box": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "description": "No visible 387 designation was found in the supplied source image.",
+      "historical_impact": "unknown",
+      "visibility": "normal_view",
+      "significance_reason": "An anonymous archival claim without source-local visible support cannot be voted positive under the identity gate.",
+      "confidence": 0.97,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "7d0785b6e2c69cd19b004c928fa6d404a2a778a434be2d543c86484c9468dcea",
+          "scale_note": "SOURCE downsampled with Lanczos to RESULT dimensions; RESULT native pixels"
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "7d0785b6e2c69cd19b004c928fa6d404a2a778a434be2d543c86484c9468dcea",
+      "scale_note": "SOURCE downsampled with Lanczos to RESULT dimensions; RESULT native pixels"
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "01c559fc8e765e74d4106304cc5182b52f9ecc9fc237bfb0f15853aa04607f55",
+      "scale_note": "Both SOURCE and RESULT crops preserved at native pixels; unequal pixel dimensions retained"
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "40f23a6e1007d2c7dd4619c40edd5b8476222950b6629c8fccbba053d0bd7710",
+      "scale_note": "SOURCE crop downsampled with Lanczos to RESULT crop dimensions; RESULT native pixels"
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "f86f377649ba52db598f8b4bbe88c5852d4c91734b2a3f71f3593de31bd10595",
+      "scale_note": "SOURCE crop downsampled with Lanczos to RESULT crop dimensions; RESULT native pixels"
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "80cf8a43d7ce2cc167d5cac6f440f5fece810b9204dd3b63df5ac8706ef396c7",
+      "scale_note": "SOURCE downsampled with Lanczos; RESULT converted to grayscale at native result pixels; analytical evidence only"
+    }
+  ],
+  "checked_at": "2026-10-23T16:16:26+02:00"
+}

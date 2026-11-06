@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "role": "AZ",
+  "thread_id": "01a163ea-cd21-7a52-9eb1-163c6f2a0a41",
+  "street": "Nerudova",
+  "source": {
+    "filename": "ATO119_10_2_013.jpg",
+    "source_id": "f3778014-7771-498a-a7bf-08f98c313b1d",
+    "covered_cps": [
+      "918"
+    ],
+    "type": "PHOTO,BW",
+    "sha256": "511C01046C7A18E06A0059695C57D7B4A2A00787644C3BFCE4B5917A4ABBD671"
+  },
+  "decision": "skipped_near_duplicate",
+  "comparison": {
+    "accepted_source": "cp_918_004.jpg",
+    "accepted_source_sha256": "49A0B8CD0DEE818381F84AC66E7089DA8BBD14354851BB77560C92FF5EFD2501",
+    "accepted_output": "cp_918_004_col.png",
+    "reason": "Visual review found the same rear facade, opening arrangement, roofline, rubble and viewpoint, with no independently useful geometric information."
+  },
+  "action": "No image edit or upload performed; original remains preserved in the inventory.",
+  "created_at_utc": "2026-10-22T15:02:04Z"
+}

@@ -1,0 +1,17 @@
+{
+  "confidence": "model_hypothesis",
+  "status": "provisional",
+  "locked": false,
+  "vegetation": "natural variable leaf green; leafless branches dark brown; preserve exact seasonal leaf cover",
+  "paving": "neutral varied grey stones, keep geometry and wear",
+  "truck_1241_003": {
+    "material_id": "VEHICLE_UTILITY_GREEN_01",
+    "body": "#4F6F55",
+    "note": "hypothesis; preserve all vehicle structure, tyres, glass and cargo"
+  },
+  "procession_1241_002": "White/light blouses remain neutral white, skirts subdued navy/brown/grey; natural skin tones without identity changes. Flags retain exact visible shapes and any markings; hue is provisional muted red only where a dark flag is visible. No invented emblems.",
+  "metal": "neutral weathered zinc-grey only on visible pipes/flashing; retain darkness and rust",
+  "context_649": "provisional warm grey plaster; not a separately mapped/owned target",
+  "brick": "BRICK_RED_01 only where actual brickwork/spalling is visible",
+  "signage": "No canonical sign palette found. Preserve exact visible luminance and lettering; neutral sign background unless readable evidence supports hue. Never invent text."
+}

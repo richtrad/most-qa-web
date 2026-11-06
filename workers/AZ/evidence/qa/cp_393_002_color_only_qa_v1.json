@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-22T16:04:00Z",
+  "role": "AZ",
+  "thread_id": "01a163ea-cd21-7a52-9eb1-163c6f2a0a41",
+  "street": "Nerudova",
+  "phase": "COLOR_ONLY",
+  "source": {
+    "filename": "cp_393_002.jpg",
+    "source_type": "PHOTO,BW",
+    "source_id": "14762f4c-311e-423b-bdad-942a87230026",
+    "covered_cps": [
+      "393"
+    ],
+    "sha256": "F6D2A80D7AF2E85AC76B362E07055207C676293B5C1A8C6DF875589BDFBD6997"
+  },
+  "candidate": {
+    "filename": "cp_393_002_col__attempt1.png",
+    "sha256": "9C9F2155F3CA55CE509047456B65187B28846A137CD0516C30688D6F12837880",
+    "attempt": 1,
+    "max_attempts": 2
+  },
+  "decision": "passed_color_only_local_pending_automatic_qa",
+  "checks": {
+    "source_is_direct_photo": true,
+    "one_source_to_one_output": true,
+    "architecture_and_composition_preserved": true,
+    "broken_glazing_car_cables_damage_and_ground_preserved": true,
+    "archival_white_border_preserved": true,
+    "no_cleanup_or_object_removal": true,
+    "no_front_or_mult_derivative": true,
+    "no_external_black_padding": true,
+    "model_hypothesis_metadata_required": true
+  },
+  "materials": [
+    {
+      "id": "PLASTER_WARM_OCHRE_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "BRICK_RED_BROWN_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "WOOD_WEATHERED_DARK_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "VEHICLE_CREAM_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    }
+  ],
+  "limitations": [
+    "No direct period colour reference was found; every assigned colour is a provisional model hypothesis.",
+    "Automatic pipeline QA and, only after passing it, upload remain outstanding."
+  ]
+}

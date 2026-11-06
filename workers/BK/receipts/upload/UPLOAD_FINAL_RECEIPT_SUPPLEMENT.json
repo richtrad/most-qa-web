@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-23T12:14:58.5609292Z",
+  "supplement_type": "metadata_correction_only",
+  "supersedes": "[interní cesta nezveřejněna]",
+  "original_receipt_sha256": "D6AD3E4AFBFBA9AC1EE4984056199CCC15D0F8E9A455677DAF70D5317D1AD0C5",
+  "field": "decision_sha256",
+  "original_receipt_value": "A2E0DB74474AA2A4A1040EE9EABC39599BC857DB3C152A1C91BCFAA4DDB103C1",
+  "correct_value": "A2E0DB74474AA2A4E1040EE9EABC39599BC857DB3C152A1C91BCFAA4DDB103C1",
+  "verified_against": [
+    {
+      "artifact": "[interní cesta nezveřejněna]",
+      "sha256": "A2E0DB74474AA2A4E1040EE9EABC39599BC857DB3C152A1C91BCFAA4DDB103C1"
+    },
+    {
+      "sha256": "9E3179B8920AB52336D6634FF5F9541129D52FADB79AC0D9F30DCC66F0B14720",
+      "artifact": "[interní cesta nezveřejněna]",
+      "recorded_decision_sha256": "A2E0DB74474AA2A4E1040EE9EABC39599BC857DB3C152A1C91BCFAA4DDB103C1"
+    }
+  ],
+  "upload_state": "verified_unchanged",
+  "remote_photo_id": "751ac53a-f7df-4455-ac07-1e20b5681553",
+  "remote_mutations": 1,
+  "remote_sha256": "03AC60F1A293B35D50A93560AA52C9EE07786E5B17241DD49AB985C090AEFF3B",
+  "no_live_api_or_upload_performed": true,
+  "no_new_qa_performed": true,
+  "f_checkpoint": "[interní cesta nezveřejněna]",
+  "f_checkpoint_manifest_sha256": "5BEEE9307821EB23CA22D731F31FD540B7D646333338CF6B9EFD657E95D2EF13",
+  "f_backup_status": "verified",
+  "e_backup_status": "backup_pending_E"
+}

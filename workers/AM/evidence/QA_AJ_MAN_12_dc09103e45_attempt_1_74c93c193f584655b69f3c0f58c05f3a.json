@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "pilot_id": "SPECIALIZED_20261022_MANESOVA",
+  "role": "AM",
+  "qa_phase": "color_only",
+  "qa_status": "failed_color_only",
+  "passed_color_only": false,
+  "cleanup_pass": null,
+  "attempts_used": 1,
+  "remaining_edit_attempts": 1,
+  "source_path": "[local evidence path omitted]",
+  "source_sha256": "dc09103e45e674f81b61c9256ee4091bf6cf6d99ee2be22ff1101fb4cb27cc39",
+  "output_path": "[local evidence path omitted]",
+  "output_sha256": "0d41abba3c7e4cbcefce8944b5d2038522454a6ec7170253560a56ad7e2b4d80",
+  "reference_records": [
+    {
+      "source_id": "2d461aa0-d5ff-4b8e-bafd-eb254bd2ceac",
+      "path": "[local evidence path omitted]",
+      "sha256": "5f9a9d34fe1ee37845a8019d3302579543e5469f6bec809190ca34bb0835a9d8"
+    },
+    {
+      "source_id": "440819c1-e90f-498d-8fdb-832dcfbb1cb7",
+      "path": "[local evidence path omitted]",
+      "sha256": "e35a15c5380bd157955297acfd9bdd071533167ef989e15455857bee1beb211d"
+    },
+    {
+      "source_id": "e6b5303d-38df-48bb-8075-c71604ab26e2",
+      "path": "[local evidence path omitted]",
+      "sha256": "0d2e479e3ae73b637d43d5b548760e821e6b56a5c20ee1831e01740547e986d8"
+    }
+  ],
+  "material_brief_path": "[local evidence path omitted]",
+  "material_brief_sha256": "9fda733b67522e13d79a991f26605556af23f7661dcdc63675a12fce03a96e3c",
+  "qa_receipt": "[local evidence path omitted]",
+  "actual_model": "gpt-6-astra",
+  "colour_evidence": {
+    "confidence": "model_hypothesis",
+    "status": "provisional",
+    "locked": false
+  },
+  "completed_at_utc": "2026-10-22T05:59:44.440443+00:00",
+  "job_id": "AJ_MAN_12_dc09103e45",
+  "result": "repair",
+  "visual_inspection": {
+    "source_opened": true,
+    "output_opened": true,
+    "references_opened": true,
+    "identity": "L3AC card confirms courtyard1269 from1758; background649 and1032 context only, no new links.",
+    "objects": "Five dark archive spots, white foreground strip, bushes and right foreground branches preserved.",
+    "architecture": "Window/opening layout, chimney count and two roof dormers retained; workshop slate and main clay roof consistent.",
+    "damage": "Large source flaking-plaster pattern is replaced by pronounced regular red brick texture in several patches; facade tonality sharpened substantially."
+  },
+  "findings": [
+    {
+      "severity": "blocking",
+      "region_normalized": [
+        0.2,
+        0.28,
+        0.47,
+        0.61
+      ],
+      "issue": "Rear facade plaster flakes converted into sharply legible orange masonry courses not demonstrable in the source at this detail. This changes material/damage evidence.",
+      "required_action": "Preserve original grey rough substrate and flaking-plaster boundary/tonality; remove invented regular brick courses wherever source does not resolve bricks. Retain only clearly documented masonry."
+    },
+    {
+      "severity": "major",
+      "region_normalized": [
+        0.55,
+        0.25,
+        0.96,
+        0.51
+      ],
+      "issue": "Uniform high-frequency swirling plaster texture added over right background wall.",
+      "required_action": "Retain source grain and soft wall surface instead of synthetic sharpened texture. No cleanup of spots or vegetation."
+    }
+  ],
+  "upload_crop": {
+    "applied": false,
+    "reason": "Original cream border intact; no new outer black padding."
+  },
+  "limitations": [
+    "All hues provisional hypotheses.",
+    "Source does not resolve all individual masonry units or plant leaves.",
+    "No background649 identity upload authorization inferred."
+  ]
+}

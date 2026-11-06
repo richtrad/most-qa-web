@@ -1,0 +1,74 @@
+{
+  "reviewer_role": "BP",
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "high",
+  "actual_model_evidence": null,
+  "protocol_sha256": "8b4b87143156cd62946aa657511c4e19ca5bc36df1c2b853a00e44c7311bcd7f",
+  "manifest_sha256": "a35166f2b12bc59201648fc0561a277de9c9036ad57d38d52f6c94ded6ce3e70",
+  "case_id": "CASE-02",
+  "source_sha256": "37946d3c58dff64de44560d82ea28e3c711c60de7d4e9707c2dcd2ff53a34137",
+  "variant_sha256": "03ac60f1a293b35d50a93560aa52c9ee07786e5b17241dd49ab985c090aeff3b",
+  "visual_review_performed": true,
+  "image_fidelity": {
+    "verdict": "positive",
+    "reason": "The handwritten label/arrow, partial left building, tree branches, pole/wires, snow, pedestrians and target building silhouettes remain matched. Lower variant raster resolution is a non-material 100%-only deviation."
+  },
+  "color_hypothesis": {
+    "verdict": "positive",
+    "reason": "Snow, winter sky, bare trees, plaster, roof and masonry receive mutually consistent and restrained colors. This does not establish historical hues.",
+    "historical_truth": null,
+    "status": "provisional",
+    "locked": false
+  },
+  "identity_gate": {
+    "verdict": "positive",
+    "reason": "The source visibly carries handwritten 539 with an arrow to the partially visible left-edge building, matching the supplied limited-scope claim."
+  },
+  "verdict": "positive",
+  "findings": [
+    {
+      "id": "CASE-02-FID-ID",
+      "dimension": "image_fidelity",
+      "assessment": "preserved",
+      "normalized_box": [
+        0,
+        0,
+        0.22,
+        0.65
+      ],
+      "description": "The 539 annotation, arrow, left-edge building, branches, iron fence and pedestrian remain matched.",
+      "historical_impact": "none",
+      "visibility": "normal_view",
+      "significance_reason": "Positive fidelity evidence includes the archival label and partial target.",
+      "confidence": 0.93,
+      "evidence": [
+        {
+          "path": "[interní cesta nezveřejněna]",
+          "sha256": "5fe3100cf6bd6802f767661c788d273d6dccaa0208137179ff742fbe717ae956",
+          "scale_note": "Paired raster: left source region resampled to the corresponding native result-region dimensions without crop/content alteration; right native result region."
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "f2264d51b5e93bf5cf6581d353753c70644ecc33b4ac89c9d92773cd22171957",
+      "scale_note": "Paired full view: left source raster resampled to native result dimensions; right native result raster."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "5fe3100cf6bd6802f767661c788d273d6dccaa0208137179ff742fbe717ae956",
+      "scale_note": "Paired raster: left source region resampled to the corresponding native result-region dimensions without crop/content alteration; right native result region."
+    },
+    {
+      "path": "[interní cesta nezveřejněna]",
+      "sha256": "41f1dd253d18a8c7fd64302253b16456f2d0235081322e18763e6daf2704a6b3",
+      "scale_note": "Paired raster: left source region resampled to the corresponding native result-region dimensions without crop/content alteration; right native result region."
+    }
+  ],
+  "checked_at": "2026-10-23T14:08:47.1519784Z",
+  "original_vote_path": "[interní cesta nezveřejněna]",
+  "original_vote_sha256": "31eaa9da24d8f58e784017607051201efef37d0d49d8f0335937b43c34ff7c4b",
+  "schema_correction": "Structure-only correction: flat evidence arrays and explicit model/reasoning fields; verdicts, reasons and retained original finding content are unchanged."
+}

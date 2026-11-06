@@ -1,0 +1,24 @@
+{
+  "event": "activation_acknowledged",
+  "role": "BE",
+  "street": "Pražská",
+  "thread_id": "01a1683f-1a8e-7790-8cee-775247f35558",
+  "acknowledged_at_utc": "20261023T102353Z",
+  "actual_steps": [
+    "native Goal created",
+    "F write-read-SHA checkpoint verified",
+    "live read-only snapshot fetched",
+    "145 photo/unclassified sources downloaded and SHA audited",
+    "13 contact sheets visually reviewed"
+  ],
+  "source_audit_path": "[interní cesta nezveřejněna]",
+  "source_audit_sha256": "2527dc3be783b97e7bcb2ecfa74ba2a596ad792e0276548e7b254c2e42583507",
+  "production_status": "blocked_no_safe_generation",
+  "review_status": "human_review_required_building_identity",
+  "upload_status": "not_started",
+  "backup_status": "F_verified_E_backup_pending",
+  "limitations": [
+    "No source gained safe building/facade identity merely from metadata or filename",
+    "No image edit, QA acceptance, remote mutation, web preparation, or publication was performed."
+  ]
+}

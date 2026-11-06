@@ -1,0 +1,23 @@
+{
+  "record_type": "sanitized_receipt_extract",
+  "receipt_filename": "UPLOAD_RECEIPT_BB_cp_1265_003_20261022T164952Z.json",
+  "source": {
+    "source_id": "d243c979-9a08-4eed-b95e-91c61d886935",
+    "sha256": "D41AD027CEDDA7B2466609FDE345FDD27322ACD1EEA3BB66F5081CBC0FC3AD5C",
+    "filename": "cp_1265_003.jpg"
+  },
+  "output": {
+    "sha256": "1D93C3D07D15A581A36E5FF19151480A5E5072EDE8D2D36F95C4CDB4392F68D9",
+    "filename": "cp_1265_003_col.png"
+  },
+  "phase_qa": "recorded separately; do not infer from preserved variants",
+  "upload": {
+    "remote_byte_hash_verified": true,
+    "remote_photo_id": "aad0f2ba-07a4-4c40-9eb6-c7361863146a",
+    "status": "complete_verified"
+  },
+  "limitations": [
+    "Sanitized local extract: no paths, credentials, cookies, or session logs.",
+    "Receipt evidence is not a new historical or QA assessment."
+  ]
+}

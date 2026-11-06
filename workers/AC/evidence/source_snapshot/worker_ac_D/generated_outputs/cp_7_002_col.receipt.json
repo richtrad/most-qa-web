@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "role": "AC",
+  "street": "Kostelní",
+  "phase": "color_only",
+  "variant_id": "cp7-002-v1",
+  "source_id": "1f0fb55a-098e-4a20-8fb6-07e9a94fa8fd",
+  "source_filename": "cp_7_002.jpg",
+  "source_sha256": "615a2e667c753f3b3c1a7a3201352e731967f079736218fb0ee296e8b01233e4",
+  "generated_at_utc": "2026-10-21T19:01:12.9390716Z",
+  "generated_cache_path": "[interní cesta nezveřejněna]",
+  "generated_cache_sha256": "1a15bfc03d6c32f2e04fe78a706148f3b472941717245417409b0966870b21ae",
+  "d_verified_path": "[interní cesta nezveřejněna]",
+  "d_sha256": "1a15bfc03d6c32f2e04fe78a706148f3b472941717245417409b0966870b21ae",
+  "sha256_match": true,
+  "qa_status": "pending_visual",
+  "status": "generated",
+  "upload_status": "not_uploaded",
+  "prompt": "COLOR_ONLY; preserve all visible architecture, damage, foreground foliage and rubble; no removal, repair, inpainting, reconstruction, crop or redesign; use provisional material families."
+}

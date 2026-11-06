@@ -1,0 +1,426 @@
+{
+  "schema_version": "most-private-qa-web-v1",
+  "batch": {
+    "worker": "BF",
+    "street": "Průběžná",
+    "area_id": "c2eddc9c-3391-44c6-b171-8e03a2b793a6",
+    "assignment_sha256": "76649279A796E6DFB5CFA7918D8BD9103ADC92D36C4824D70C9E17064878C2C1",
+    "version": "20261024-v1",
+    "state": "draft_functional_qa_pending",
+    "accepted": 0,
+    "qa_passed": 0,
+    "uploads": 0
+  },
+  "case_count": 7,
+  "variant_count": 12,
+  "source_count": 10,
+  "duplicate_skip_count": 3,
+  "three_d": {
+    "present": false,
+    "area_snapshot": "2026-10-23T11:14:14Z",
+    "note": "V metadata snapshotu nejsou u osmi struktur uvedeny defaultObject ani allVariants."
+  },
+  "references": [
+    {
+      "label": "Karta CP1439 / courtyard",
+      "path": "/most-qa-web/media/d00ea5e5fb9bf93f73302e2c8ab8ba96e9595b5b.webp",
+      "evidence": "archival context"
+    },
+    {
+      "label": "cp_1439_001__CARD.jpg",
+      "path": "/most-qa-web/media/190dec16974e8d812e2eaaf3fcc4d0eba577d17b.webp",
+      "evidence": "archival context"
+    },
+    {
+      "label": "cp_1439_002__CARD.jpg",
+      "path": "/most-qa-web/media/dadf903f89789acd473581f137d92684cef286e5.webp",
+      "evidence": "archival context"
+    },
+    {
+      "label": "cp_1439_003__CARD.jpg",
+      "path": "/most-qa-web/media/10707c7d4ece54b38677af72d3e8b590e119eff2.webp",
+      "evidence": "archival context"
+    },
+    {
+      "label": "cp_1439_004__CARD.jpg",
+      "path": "/most-qa-web/media/d00ea5e5fb9bf93f73302e2c8ab8ba96e9595b5b.webp",
+      "evidence": "archival context"
+    },
+    {
+      "label": "cp_1026_001__CARD.jpg",
+      "path": "/most-qa-web/media/43fd39226340843c0279889a72debd5e79b75d10.webp",
+      "evidence": "archival context"
+    },
+    {
+      "label": "cp_1026_001__PLAN.jpg",
+      "path": "/most-qa-web/media/646ceba4c57cd9dd3343de394fd730de3b726d8f.webp",
+      "evidence": "plan reference"
+    },
+    {
+      "label": "cp_1439_005__CARD.jpg",
+      "path": "/most-qa-web/media/32ce0df7baced96247814b9cfbe181d7dde64941.webp",
+      "evidence": "archival context"
+    },
+    {
+      "label": "cp_1439_005__PLAN.jpg",
+      "path": "/most-qa-web/media/79e81adb8dea0896f2be4d656d1adf4189a2900e.webp",
+      "evidence": "plan reference"
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "BF-PRUBEZNA-01",
+      "kind": "color_only_review",
+      "source": {
+        "file": "cp_1439_004.jpg",
+        "source_id": "6ffe2a3c-128b-4f4f-9434-27519eb21dd3",
+        "source_sha256": "EE9428E35427F7C12806E23DC20D1F7AC65B627A7220C7E5A967C72861A6BE58",
+        "original": "/most-qa-web/media/0e801c26338fb2bb4913e8ec09db64066d59d246.webp",
+        "identity_evidence": "identity-card confirmed courtyard CP1439"
+      },
+      "qa": {
+        "status": "review_required",
+        "qa_status": "failed",
+        "generation_status": "human_review_required",
+        "carried_over": true,
+        "reason_scope": "source_level_applies_to_pair",
+        "reason": "Na fasádě se objevil nevyžádaný vířivý vzor omítky; navíc vznikla textura odhalených cihel, kterou předloha nedokládá.",
+        "receipt_evidence": "Production update BF v9 / END_RECEIPT 20261023 v12; exact repair1 sidecars are present for cp_1439_001, cp_1439_002, cp_1439_003. No new visual QA performed in this package."
+      },
+      "variants": [
+        {
+          "variant_id": "6ffe2a3c-128b-4f4f-9434-27519eb21dd3:attempt1",
+          "file": "cp_1439_004_col__attempt1.png",
+          "sha256": "1636BADDA69CD088FF8AD7EE5F47E93A10D87CA89CD3779BA093592318332A7E",
+          "path": "/most-qa-web/media/c9143ca98622de0c38da95b601fa1b0763190bc2.webp",
+          "qa_status": "failed",
+          "status": "review_required",
+          "reason_scope": "source_level_applies_to_pair",
+          "reason": "Na fasádě se objevil nevyžádaný vířivý vzor omítky; navíc vznikla textura odhalených cihel, kterou předloha nedokládá."
+        },
+        {
+          "variant_id": "6ffe2a3c-128b-4f4f-9434-27519eb21dd3:repair1",
+          "file": "cp_1439_004_col__repair1.png",
+          "sha256": "BD232CD070E6BEFDD3FCC856DBB85E1050AFCF6FF48357EF1FCD80E768F9AA59",
+          "path": "/most-qa-web/media/52ddf8bb0e490d7343d5373dba0ca5f3dc8885c6.webp",
+          "qa_status": "failed",
+          "status": "review_required",
+          "reason_scope": "source_level_applies_to_pair",
+          "reason": "Na fasádě se objevil nevyžádaný vířivý vzor omítky; navíc vznikla textura odhalených cihel, kterou předloha nedokládá."
+        }
+      ],
+      "choices": [
+        "keep_blocked",
+        "request_independent_review",
+        "unknown_keep_blocked"
+      ],
+      "default_decision": "keep_blocked"
+    },
+    {
+      "case_id": "BF-PRUBEZNA-02",
+      "kind": "color_only_review",
+      "source": {
+        "file": "cp_1026_001.jpg",
+        "source_id": "e7028c06-6f60-4aeb-8988-8af5eced7799",
+        "source_sha256": "6E16ECD4DC90415C991730ADB42A4901D6064306B77F4306BA3354EDD53A84F5",
+        "original": "/most-qa-web/media/a08e44f84ce9ec925a95cc1abb2980acfa618d5e.webp",
+        "identity_evidence": "ornate right facade CP1026; left plain facade CP1439 per adjoining card"
+      },
+      "qa": {
+        "status": "review_required",
+        "qa_status": "failed",
+        "generation_status": "human_review_required",
+        "carried_over": true,
+        "reason_scope": "source_level_applies_to_pair",
+        "reason": "Výstup nezachoval detail ve zdrojovém rozlišení (přibližně poloviční rozměry); textura byla vymyšlena na vozovce i fasádě.",
+        "receipt_evidence": "Production update BF v9 / END_RECEIPT 20261023 v12; exact repair1 sidecars are present for cp_1439_001, cp_1439_002, cp_1439_003. No new visual QA performed in this package."
+      },
+      "variants": [
+        {
+          "variant_id": "e7028c06-6f60-4aeb-8988-8af5eced7799:attempt1",
+          "file": "cp_1026_001_col__attempt1.png",
+          "sha256": "2718B20371091E42A9ABB18246B58D42D9A1DA374991CB0EDEA08EFFC74D84B3",
+          "path": "/most-qa-web/media/6c8ab0769cfd4fdf6aaa7d8009942723bacc9c65.webp",
+          "qa_status": "failed",
+          "status": "review_required",
+          "reason_scope": "source_level_applies_to_pair",
+          "reason": "Výstup nezachoval detail ve zdrojovém rozlišení (přibližně poloviční rozměry); textura byla vymyšlena na vozovce i fasádě."
+        },
+        {
+          "variant_id": "e7028c06-6f60-4aeb-8988-8af5eced7799:repair1",
+          "file": "cp_1026_001_col__repair1.png",
+          "sha256": "17366C53CF5D69EF6D7C56ADB0048FC5909C5D708797F681DEE412FB49B5A97D",
+          "path": "/most-qa-web/media/5846ec2d28697b37307fa86eb2cddff721b461b2.webp",
+          "qa_status": "failed",
+          "status": "review_required",
+          "reason_scope": "source_level_applies_to_pair",
+          "reason": "Výstup nezachoval detail ve zdrojovém rozlišení (přibližně poloviční rozměry); textura byla vymyšlena na vozovce i fasádě."
+        }
+      ],
+      "choices": [
+        "keep_blocked",
+        "request_independent_review",
+        "unknown_keep_blocked"
+      ],
+      "default_decision": "keep_blocked"
+    },
+    {
+      "case_id": "BF-PRUBEZNA-03",
+      "kind": "color_only_review",
+      "source": {
+        "file": "cp_1439_005.jpg",
+        "source_id": "d9c05f0b-cdc5-40c0-9841-7623f07ab11d",
+        "source_sha256": "7B50346F68F41DFC0098080A6EC658B5BFE70B286C6608E88FACA9035D3E7A41",
+        "original": "/most-qa-web/media/88c573a810357e526b34ef1f426714f14a7596de.webp",
+        "identity_evidence": "archival card identifies CP1439 street view; left-facade assignment inferred from footprint/order and adjoining CP1026 card"
+      },
+      "qa": {
+        "status": "review_required",
+        "qa_status": "failed",
+        "generation_status": "human_review_required",
+        "carried_over": true,
+        "reason_scope": "source_level_applies_to_pair",
+        "reason": "Na fasádě a vozovce přibylo skvrnění/vířivý vzor; oprava zachovala syntetické povrchové vzory a měla podstatně nižší rozlišení než zdroj.",
+        "receipt_evidence": "Production update BF v9 / END_RECEIPT 20261023 v12; exact repair1 sidecars are present for cp_1439_001, cp_1439_002, cp_1439_003. No new visual QA performed in this package."
+      },
+      "variants": [
+        {
+          "variant_id": "d9c05f0b-cdc5-40c0-9841-7623f07ab11d:attempt1",
+          "file": "cp_1439_005_col__attempt1.png",
+          "sha256": "E983921D87F1928CE1D000D7385E68F0F5F806E02361717440656DE7C6347D93",
+          "path": "/most-qa-web/media/07419f65a22aeb20d6b9cb2b40df0b2e481f458b.webp",
+          "qa_status": "failed",
+          "status": "review_required",
+          "reason_scope": "source_level_applies_to_pair",
+          "reason": "Na fasádě a vozovce přibylo skvrnění/vířivý vzor; oprava zachovala syntetické povrchové vzory a měla podstatně nižší rozlišení než zdroj."
+        },
+        {
+          "variant_id": "d9c05f0b-cdc5-40c0-9841-7623f07ab11d:repair1",
+          "file": "cp_1439_005_col__repair1.png",
+          "sha256": "85AEEE05E513A2576BB6FF1D1FBFBD4025D8375035F16933D1E14AE3879DB447",
+          "path": "/most-qa-web/media/1968994317b1ba55bf76ac057085fe9ed7910b58.webp",
+          "qa_status": "failed",
+          "status": "review_required",
+          "reason_scope": "source_level_applies_to_pair",
+          "reason": "Na fasádě a vozovce přibylo skvrnění/vířivý vzor; oprava zachovala syntetické povrchové vzory a měla podstatně nižší rozlišení než zdroj."
+        }
+      ],
+      "choices": [
+        "keep_blocked",
+        "request_independent_review",
+        "unknown_keep_blocked"
+      ],
+      "default_decision": "keep_blocked"
+    },
+    {
+      "case_id": "BF-PRUBEZNA-04",
+      "kind": "color_only_review",
+      "source": {
+        "file": "cp_1439_001.jpg",
+        "source_id": "63d32709-e6df-4ad7-bffa-d00d899a566b",
+        "source_sha256": "D00E813C831DEF38FA2472A9DCE8F4F2F835DB3AC15FB40F3D06D4367030090B",
+        "original": "/most-qa-web/media/9ed3ff68fc21ac5be20ec4aebfda43782acecb02.webp",
+        "identity_evidence": "garage group mapped by card/plan; handwritten 861 is neighboring CP861"
+      },
+      "qa": {
+        "status": "review_required",
+        "qa_status": "failed",
+        "generation_status": "human_review_required",
+        "carried_over": true,
+        "reason_scope": "source_level_applies_to_pair",
+        "reason": "Na omítce a zemi se objevuje opakující se vlnitý vzor; výstup má přibližně poloviční rozměry zdroje.",
+        "receipt_evidence": "Production update BF v9 / END_RECEIPT 20261023 v12; exact repair1 sidecars are present for cp_1439_001, cp_1439_002, cp_1439_003. No new visual QA performed in this package."
+      },
+      "variants": [
+        {
+          "variant_id": "63d32709-e6df-4ad7-bffa-d00d899a566b:attempt1",
+          "file": "cp_1439_001_col__attempt1.png",
+          "sha256": "2A6E2879EFDE04A8CE91846C0942295AD5428013E64352DD70DACA0A005BF4E6",
+          "path": "/most-qa-web/media/b92e7100763e5fe2a4045d9f8a234d51d3f1cf07.webp",
+          "qa_status": "failed",
+          "status": "review_required",
+          "reason_scope": "source_level_applies_to_pair",
+          "reason": "Na omítce a zemi se objevuje opakující se vlnitý vzor; výstup má přibližně poloviční rozměry zdroje."
+        },
+        {
+          "variant_id": "63d32709-e6df-4ad7-bffa-d00d899a566b:repair1",
+          "file": "cp_1439_001_col__repair1.png",
+          "sha256": "8E3FA3384B421B7C100318B2F9E99770A26E941844FA44912E19C529784F3CBE",
+          "path": "/most-qa-web/media/efba63d7982569b48fb91817d56102fe477727db.webp",
+          "qa_status": "failed",
+          "status": "review_required",
+          "reason_scope": "variant_specific_receipt_plus_source_review",
+          "reason": "Na omítce a zemi se objevuje opakující se vlnitý vzor; výstup má přibližně poloviční rozměry zdroje."
+        }
+      ],
+      "choices": [
+        "keep_blocked",
+        "request_independent_review",
+        "unknown_keep_blocked"
+      ],
+      "default_decision": "keep_blocked"
+    },
+    {
+      "case_id": "BF-PRUBEZNA-05",
+      "kind": "color_only_review",
+      "source": {
+        "file": "cp_1439_003.jpg",
+        "source_id": "72263f50-a2d0-45a5-b00d-e658367583dd",
+        "source_sha256": "C7C9DA90E8F8319639C89BC6FB8352AD2F027BDC6FDC66D05601B252531310A6",
+        "original": "/most-qa-web/media/e5379e7fdb97b305a1cdb9025496ac757b9e2be5.webp",
+        "identity_evidence": "garage group mapped through card/annotations 765/861/864/862 and plan"
+      },
+      "qa": {
+        "status": "review_required",
+        "qa_status": "failed",
+        "generation_status": "human_review_required",
+        "carried_over": true,
+        "reason_scope": "source_level_applies_to_pair",
+        "reason": "Střecha garáže v popředí dostala nedoloženou červenou taškovou texturu; oprava ponechala opakované vzory na střeše/zemi a přibližně poloviční rozměry.",
+        "receipt_evidence": "Production update BF v9 / END_RECEIPT 20261023 v12; exact repair1 sidecars are present for cp_1439_001, cp_1439_002, cp_1439_003. No new visual QA performed in this package."
+      },
+      "variants": [
+        {
+          "variant_id": "72263f50-a2d0-45a5-b00d-e658367583dd:attempt1",
+          "file": "cp_1439_003_col__attempt1.png",
+          "sha256": "8A50C3CC388B901C0DA2A9B5E263CECA28D021209F33D9F0F3C27788480284DA",
+          "path": "/most-qa-web/media/87f672346b8b49b42cfa442a541eb5125c02a054.webp",
+          "qa_status": "failed",
+          "status": "review_required",
+          "reason_scope": "source_level_applies_to_pair",
+          "reason": "Střecha garáže v popředí dostala nedoloženou červenou taškovou texturu; oprava ponechala opakované vzory na střeše/zemi a přibližně poloviční rozměry."
+        },
+        {
+          "variant_id": "72263f50-a2d0-45a5-b00d-e658367583dd:repair1",
+          "file": "cp_1439_003_col__repair1.png",
+          "sha256": "928AC269901CF1B06BF427132F730DFD7A8BE239729829FCB969B6BD19FA4013",
+          "path": "/most-qa-web/media/a39076b5592af1df0c9e74896262b5ebc3126256.webp",
+          "qa_status": "failed",
+          "status": "review_required",
+          "reason_scope": "variant_specific_receipt_plus_source_review",
+          "reason": "Střecha garáže v popředí dostala nedoloženou červenou taškovou texturu; oprava ponechala opakované vzory na střeše/zemi a přibližně poloviční rozměry."
+        }
+      ],
+      "choices": [
+        "keep_blocked",
+        "request_independent_review",
+        "unknown_keep_blocked"
+      ],
+      "default_decision": "keep_blocked"
+    },
+    {
+      "case_id": "BF-PRUBEZNA-06",
+      "kind": "color_only_review",
+      "source": {
+        "file": "cp_1439_002.jpg",
+        "source_id": "190676e4-3fae-457a-945a-12363b6a83fa",
+        "source_sha256": "781BE0BFF690E99361EB3C7A31DE392ACEE5C70811C806DBD3E73D8EA6CFE8DB",
+        "original": "/most-qa-web/media/cdbd24eb0ddcd210f1500ce6ef1b51f2f0365d4f.webp",
+        "identity_evidence": "garage row labeled Garáže k čp. 1439; 861/936 are neighboring context"
+      },
+      "qa": {
+        "status": "review_required",
+        "qa_status": "failed",
+        "generation_status": "human_review_required",
+        "carried_over": true,
+        "reason_scope": "source_level_applies_to_pair",
+        "reason": "Vznikly nedoložené opakované vzory na střechách a površích; oprava přidává generovanou texturu omítky, cihel a dlažby a výstup je přibližně poloviční.",
+        "receipt_evidence": "Production update BF v9 / END_RECEIPT 20261023 v12; exact repair1 sidecars are present for cp_1439_001, cp_1439_002, cp_1439_003. No new visual QA performed in this package."
+      },
+      "variants": [
+        {
+          "variant_id": "190676e4-3fae-457a-945a-12363b6a83fa:attempt1",
+          "file": "cp_1439_002_col__attempt1.png",
+          "sha256": "E0C1141908D565FDCE51475A594243D7F7B0CC6418192026735B00A3F7125CA6",
+          "path": "/most-qa-web/media/931ba551ef0ba065210594fc65f0eb987047d012.webp",
+          "qa_status": "failed",
+          "status": "review_required",
+          "reason_scope": "source_level_applies_to_pair",
+          "reason": "Vznikly nedoložené opakované vzory na střechách a površích; oprava přidává generovanou texturu omítky, cihel a dlažby a výstup je přibližně poloviční."
+        },
+        {
+          "variant_id": "190676e4-3fae-457a-945a-12363b6a83fa:repair1",
+          "file": "cp_1439_002_col__repair1.png",
+          "sha256": "EDD6CA021B323528C1C7CA1DE2CC34C7F9EB58A34A5E027D3B2819DB5B46345B",
+          "path": "/most-qa-web/media/b3475623d3b2e91ea9c5fe85379e818c68942fa0.webp",
+          "qa_status": "failed",
+          "status": "review_required",
+          "reason_scope": "variant_specific_receipt_plus_source_review",
+          "reason": "Vznikly nedoložené opakované vzory na střechách a površích; oprava přidává generovanou texturu omítky, cihel a dlažby a výstup je přibližně poloviční."
+        }
+      ],
+      "choices": [
+        "keep_blocked",
+        "request_independent_review",
+        "unknown_keep_blocked"
+      ],
+      "default_decision": "keep_blocked"
+    },
+    {
+      "case_id": "BF-PRUBEZNA-07",
+      "kind": "identity_hold",
+      "source": {
+        "file": "ATO119_10_2_076.jpg",
+        "source_id": null,
+        "source_record_id": "1b760bed-ef83-4724-996a-91d430f6b108",
+        "source_sha256": "94619E9E980A4882BC821817EE669627136C94FE1AFD6847F6DC55BAA18D6960",
+        "original": "/most-qa-web/media/311979599431143afb280d422ab000ab2ccdaa1f.webp",
+        "identity_evidence": "ATO076 broad panorama; target boundary is not established. Keep source_id:null because identity is not evidenced."
+      },
+      "qa": {
+        "status": "review_required",
+        "qa_status": "not_run",
+        "carried_over": true,
+        "reason_scope": "identity_hold",
+        "reason": "No secure boundary to Průběžná target; do not infer source identity or assign a facade from the panorama."
+      },
+      "variants": [],
+      "choices": [
+        "keep_blocked",
+        "request_independent_review",
+        "unknown_keep_blocked",
+        "candidate_cp1439",
+        "candidate_cp1026"
+      ],
+      "default_decision": "keep_blocked"
+    }
+  ],
+  "duplicate_skips": [
+    {
+      "file": "ATO119_10_2_077.jpg",
+      "source_id": "80a080f5-aee3-4cbc-afd1-83e59e79bb08",
+      "source_sha256": "73BBA4741378418268476E8DD7C711C99DB7E4D0AFBC3E5511EBE45344C29E67",
+      "original": "/most-qa-web/media/6b4bb10cc1abd068d823287e71e85efbf7ccca4b.webp",
+      "status": "skipped_near_duplicate",
+      "reason": "near duplicate of cp_1439_004.jpg; no new geometry"
+    },
+    {
+      "file": "ATO119_10_2_078.jpg",
+      "source_id": "82d0deec-c515-4320-97d2-21fc65853c10",
+      "source_sha256": "3F6ABD10F897D675A97CBFB71CD12EFCAF453FE2CBE538B10A86A26316640467",
+      "original": "/most-qa-web/media/ba1cd5d029f6c020e6476c492284c9bdc1f8a791.webp",
+      "status": "skipped_near_duplicate",
+      "reason": "near duplicate of cp_1439_005.jpg; no new geometry"
+    },
+    {
+      "file": "ATO119_10_2_079.jpg",
+      "source_id": "0aa048e2-2c29-491c-9112-5daa83368bc0",
+      "source_sha256": "4B7C907859731CAA64C3EDAF98B06690F0E3162DD449B46E9F920EB6776A841A",
+      "original": "/most-qa-web/media/d0add730b2a9e9f5e95baea938391e8f6e6a873f.webp",
+      "status": "skipped_near_duplicate",
+      "reason": "near duplicate of cp_1026_001.jpg; no new geometry"
+    }
+  ],
+  "materials": {
+    "status": "provisional",
+    "locked": false,
+    "categories": [
+      "facade",
+      "brick",
+      "roof",
+      "wood",
+      "vehicle"
+    ],
+    "evidence": "Existing production receipts; all are model_hypothesis, provisional, locked:false."
+  }
+}

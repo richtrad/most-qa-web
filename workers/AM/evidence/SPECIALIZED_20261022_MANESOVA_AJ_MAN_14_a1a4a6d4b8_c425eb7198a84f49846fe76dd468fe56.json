@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "pilot_id": "SPECIALIZED_20261022_MANESOVA",
+  "job_id": "AJ_MAN_14_a1a4a6d4b8",
+  "role": "AN",
+  "phase": "color_only",
+  "started_at": "2026-10-22T08:59:00.451406+00:00",
+  "actual_model": "gpt-6-astra",
+  "source_id": "1e9c8e3c-2bca-4efa-9c15-078d5a52925f",
+  "source_sha256": "a1a4a6d4b8390ef6dc6f89c04d57f58dff180744d6dcb07dbebb989b4de79421",
+  "target_cps": [
+    "1269"
+  ],
+  "structure_ids": [
+    "442ecbde-8f91-4605-b59a-c64ed17488dd"
+  ],
+  "qa_receipt": "[local evidence path omitted]",
+  "accepted_output_sha256": "c77e17ddfabfbb8cac0203dd404a1334aa446e20b273af925528f1fc6e2b1665",
+  "run_id": "c425eb7198a84f49846fe76dd468fe56",
+  "remote_mutations": 1,
+  "qa_sha256": "93033ef05528c49278b6bd244344cba67418259dfe849ced4a127ea34d3f8b1c",
+  "colour_evidence": {
+    "confidence": "model_hypothesis",
+    "status": "provisional",
+    "locked": false
+  },
+  "qa_limitations": [
+    "Not pixel-identical to original grain; do not derive fine geometry or exact brick joints from generated image.",
+    "All colors model_hypothesis/provisional/locked:false.",
+    "COLOR_ONLY retains plants and debris; cleanup_pass is null.",
+    "Local QA only. Upload must remain pending_service until AN confirms restored service and rechecks exact accepted hash."
+  ],
+  "qa_crop": {
+    "applied": false,
+    "reason": "No new contiguous black outer padding; preserved source-internal dark left edge and archive border."
+  },
+  "cleanup_pass": null,
+  "local_output": "[local evidence path omitted]",
+  "tags": [
+    "PHOTO",
+    "COLOR"
+  ],
+  "source_tags": [
+    "PHOTO",
+    "BW"
+  ],
+  "metadata_issues": [],
+  "metadata_status": "verified",
+  "operation": "uploaded",
+  "result": "verified",
+  "links": [
+    {
+      "cp": "1269",
+      "structure_id": "442ecbde-8f91-4605-b59a-c64ed17488dd",
+      "photo_id": "b34f710a-7f42-4800-8dbe-cf97d604dee5",
+      "filename": "cp_1269_005_col.png",
+      "tags": [
+        "PHOTO",
+        "COLOR"
+      ],
+      "remote_copy": "[local evidence path omitted]",
+      "remote_sha256": "c77e17ddfabfbb8cac0203dd404a1334aa446e20b273af925528f1fc6e2b1665",
+      "http_status": 200
+    }
+  ],
+  "photo_ids": [
+    "b34f710a-7f42-4800-8dbe-cf97d604dee5"
+  ],
+  "remote_sha256": "c77e17ddfabfbb8cac0203dd404a1334aa446e20b273af925528f1fc6e2b1665",
+  "remote_copy": "[local evidence path omitted]",
+  "verified_links": 1,
+  "filename": "cp_1269_005_col.png",
+  "ended_at": "2026-10-22T08:59:03.437055+00:00",
+  "active_processing_seconds": 2.985649,
+  "ledger_receipt": "[local evidence path omitted]"
+}

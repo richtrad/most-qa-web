@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "observed_at_utc": "2026-10-22T16:06:00Z",
+  "role": "AZ",
+  "thread_id": "01a163ea-cd21-7a52-9eb1-163c6f2a0a41",
+  "street": "Nerudova",
+  "source": {
+    "filename": "cp_393_002.jpg",
+    "source_id": "14762f4c-311e-423b-bdad-942a87230026",
+    "target_cp": "393",
+    "structure_id": "48545f59-fc70-447d-a990-9cc66e6164ef"
+  },
+  "local_candidate": {
+    "filename": "cp_393_002_col.png",
+    "sha256": "9C9F2155F3CA55CE509047456B65187B28846A137CD0516C30688D6F12837880",
+    "qa_status": "passed_color_only"
+  },
+  "existing_remote": {
+    "photo_id": "2347fffb-5eda-4b97-bc6e-d9946abe404b",
+    "filename": "cp_393_002_col.png",
+    "sha256": "3ACC015469DB841135EF9CE1A852E8E406EEBCBCAEB02779E04FEE91154E8276",
+    "bytes": 2850155,
+    "download_e": "[interní cesta nezveřejněna]",
+    "download_f": "[interní cesta nezveřejněna]"
+  },
+  "decision": "blocked_existing_remote_hash_mismatch_human_review_required",
+  "actions_not_taken": [
+    "No replacement upload",
+    "No remote deletion or metadata change",
+    "No claim that local and remote files are equivalent"
+  ]
+}

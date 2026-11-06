@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "role": "AZ",
+  "thread_id": "01a163ea-cd21-7a52-9eb1-163c6f2a0a41",
+  "street": "Nerudova",
+  "phase": "COLOR_ONLY",
+  "source": {
+    "filename": "cp_918_001.jpg",
+    "source_id": "754ab6a0-94ee-4c87-9a13-968e5c114409",
+    "structure_id": "8f91de89-8896-4ec7-a955-b24ab17414c5",
+    "covered_cps": [
+      "918"
+    ],
+    "type": "PHOTO,BW",
+    "sha256": "3B2C7D5936A2A208E4DFD2CCF3A1B2953A39B1D869D541D8EA38FD181145A143"
+  },
+  "variant": {
+    "id": "attempt1",
+    "output_sha256": "5FB31B9D3C1BBD9C50C68FED0D0F01752704EB417AA3B4F6E93B3ACCD51615D1",
+    "status": "accepted_as_final_color_only",
+    "paths": {
+      "d": "[interní cesta nezveřejněna]",
+      "e": "[interní cesta nezveřejněna]",
+      "f": "[interní cesta nezveřejněna]"
+    }
+  },
+  "materials": [
+    {
+      "id": "FACADE_GREY_WARM_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "ROOF_SLATE_GREY_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    },
+    {
+      "id": "WOOD_DARK_BROWN_01",
+      "confidence": "model_hypothesis",
+      "status": "provisional",
+      "locked": false
+    }
+  ],
+  "visual_qa": {
+    "result": "passed_color_only",
+    "checked": [
+      "archival border and road retained",
+      "ornament, openings, damage and facade arrangement retained",
+      "no object cleanup or geometry reconstruction",
+      "no external black padding"
+    ],
+    "limitations": [
+      "No direct period colour source found in current inventory; colours are model hypotheses.",
+      "Editor output remains a lower-resolution provisional colour reference, not replacement source imagery."
+    ]
+  },
+  "production_status": "passed_color_only_local",
+  "upload_status": "pending_pipeline_live_dedup_lock_and_remote_byte_hash_verify",
+  "backup_status": "attempt D/E/F SHA256 verified",
+  "created_at_utc": "2026-10-22T14:32:00Z"
+}

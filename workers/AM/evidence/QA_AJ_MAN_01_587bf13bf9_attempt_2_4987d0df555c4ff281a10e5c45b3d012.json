@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "pilot_id": "SPECIALIZED_20261022_MANESOVA",
+  "role": "AM",
+  "qa_phase": "color_only",
+  "qa_status": "passed_color_only",
+  "passed_color_only": true,
+  "cleanup_pass": null,
+  "attempts_used": 2,
+  "remaining_edit_attempts": 0,
+  "source_path": "[local evidence path omitted]",
+  "source_sha256": "587bf13bf940f38cb2b57b4028522f1e60ad6edeffa25930398c68c1e32faae5",
+  "output_path": "[local evidence path omitted]",
+  "output_sha256": "94cb58b1d716316f1af6433350f7138994c7c76d406ace948d105ecd017f2905",
+  "reference_records": [
+    {
+      "source_id": "4c412953-5678-43d8-8592-d4ba077efe62",
+      "path": "[local evidence path omitted]",
+      "sha256": "2606e6e270cc6ae78aca57c8b26d90a73095367f9e09e3035bb34203a28cd810"
+    }
+  ],
+  "material_brief_path": "[local evidence path omitted]",
+  "material_brief_sha256": "e093493688a8262860c6118dcba160cb1094181708c5545c6536ec2fbca19116",
+  "qa_receipt": "[local evidence path omitted]",
+  "actual_model": "gpt-6-astra",
+  "colour_evidence": {
+    "confidence": "model_hypothesis",
+    "status": "provisional",
+    "locked": false
+  },
+  "completed_at_utc": "2026-10-22T05:46:58.261126+00:00",
+  "job_id": "AJ_MAN_01_587bf13bf9",
+  "result": "accepted",
+  "visual_inspection": {
+    "source_opened": true,
+    "output_opened": true,
+    "references_opened": true,
+    "method": "Exact source/reference in same segment, v02 full frame plus diagnostic source/v02 plinth crops; all source/output/reference hashes revalidated",
+    "architecture_openings": "Window counts, pediments, curved corner opening, rustication, cornice and roof outline retained. Added repeated left-side grille openings removed in v02.",
+    "damage": "Dark corner underside restored; irregular grime and plaster wear retained rather than rebuilt clean",
+    "lettering": "No readable facade sign; identity1032 supported by card; no card annotations inserted into photograph",
+    "people_vehicles": "No clear source people/cars; none newly observed",
+    "vegetation_wires": "Left tree, right branches, facade wires, lamp and poles retained",
+    "composition_border": "Full original extent, perspective and pale border retained; invented cloud forms removed",
+    "materials": "Cream/grey/slate families coherent with provisional brief. No other1032 view in cohort to compare.",
+    "padding": "No new black padding. No output crop or other pixel edit performed."
+  },
+  "findings": [
+    {
+      "severity": "resolved",
+      "normalized_output_roi": [
+        0.13,
+        0.82,
+        0.81,
+        0.9
+      ],
+      "finding": "Diagnostic crop establishes central dark plinth rectangle and three right-side marks already exist in source. V02 preserves these as dark/ambiguous marks and removes the extra repeated left-side grille apertures seen in v01. Central dark patch alone is not an invented opening."
+    },
+    {
+      "severity": "resolved",
+      "normalized_output_roi": [
+        0.43,
+        0.6,
+        0.6,
+        0.81
+      ],
+      "finding": "Original deep underside shadow and damaged texture substantially restored; no new masonry layout apparent."
+    },
+    {
+      "severity": "limitation",
+      "normalized_output_roi": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "finding": "Some surface detail remains more legible than soft scan. Accepted as provisional material reference, not pixel-identical restoration or evidence for new fine geometry."
+    }
+  ],
+  "evidence_paths": [
+    "[local evidence path omitted]",
+    "[local evidence path omitted]"
+  ],
+  "upload_crop": {
+    "applied": false,
+    "reason": "No newly added exterior black padding visible"
+  },
+  "limitations": [
+    "Historical hue remains model_hypothesis, provisional, unlocked.",
+    "Fine texture is not evidence for previously unresolved architectural detail.",
+    "Only exact accepted output SHA may be uploaded by AN after its own checks; cleanup not performed or required."
+  ]
+}

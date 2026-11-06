@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "experiment_id": "split_phase_20261021",
+  "worker": "V",
+  "job_id": "T-HASLEROVA-CP379-002-4581BD0E-20261021",
+  "attempt": 1,
+  "state": "superseded",
+  "phase": "color_only",
+  "source_id": "4581bd0e-a7e0-4196-9a2b-6a4cbcd5841a",
+  "source_filename": "cp_379_002__2.jpg",
+  "source_path": "[interní cesta nezveřejněna]",
+  "source_sha256": "e8dce801758e3e1b1734867c3a653430091c0ee7cb3176607c67d6190d13eb36",
+  "output_filename": "cp_379_002__2__attempt01.png",
+  "output_path": "[interní cesta nezveřejněna]",
+  "output_sha256": "d9d3ab4df694585c39b125cbcf99866553008e24a2bb6d5445580d25b399a2b6",
+  "imagegen_cache_path": "[interní cesta nezveřejněna]",
+  "cache_to_D_sha256_verified": true,
+  "materials": {
+    "facade": "FACADE_GREY_WARM_01",
+    "roof": "ROOF_CLAY_RED_01",
+    "wood": "WOOD_DARK_BROWN_01",
+    "confidence": "model_hypothesis",
+    "status": "provisional",
+    "locked": false
+  },
+  "qa": {
+    "visual_reviewed": true,
+    "findings": [
+      "Corner facade geometry, floor/window rhythm, cornice, roller shutter and openings retained.",
+      "Damaged plaster, facade-mounted sign/plaque, neighboring building, background tree, overhead wires and snowy ground retained.",
+      "Archival card, handwriting and stamps remain visible.",
+      "No external black padding observed; no crop applied."
+    ],
+    "external_black_padding_found": false,
+    "crop_applied": false,
+    "upload": "not_authorized",
+    "remote_verify": "not_performed",
+    "review_correction": "Earlier tentative rejection was corrected after source comparison; superseded, not counted as rejected."
+  }
+}

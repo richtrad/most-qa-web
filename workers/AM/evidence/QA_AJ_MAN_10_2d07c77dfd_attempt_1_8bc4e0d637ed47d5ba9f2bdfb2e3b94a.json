@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "pilot_id": "SPECIALIZED_20261022_MANESOVA",
+  "role": "AM",
+  "qa_phase": "color_only",
+  "qa_status": "failed_color_only",
+  "passed_color_only": false,
+  "cleanup_pass": null,
+  "attempts_used": 1,
+  "remaining_edit_attempts": 1,
+  "source_path": "[local evidence path omitted]",
+  "source_sha256": "2d07c77dfdae28f945c46b026c3ee526b8a54722f991dcefbd94b4b379a1a578",
+  "output_path": "[local evidence path omitted]",
+  "output_sha256": "3f01c41dc8dfc31721a531b7ff781cc91cbae840e2f5727a6a51ae67e340ffea",
+  "reference_records": [
+    {
+      "source_id": "63b3a0af-c1f4-4d2d-a2c0-56c2092d2353",
+      "path": "[local evidence path omitted]",
+      "sha256": "77f9b7565618b45da9d16f0f4c1d3046c3e9642b0e0946bc5a5e5929ac050d7f"
+    },
+    {
+      "source_id": "440819c1-e90f-498d-8fdb-832dcfbb1cb7",
+      "path": "[local evidence path omitted]",
+      "sha256": "e35a15c5380bd157955297acfd9bdd071533167ef989e15455857bee1beb211d"
+    },
+    {
+      "source_id": "e6b5303d-38df-48bb-8075-c71604ab26e2",
+      "path": "[local evidence path omitted]",
+      "sha256": "0d2e479e3ae73b637d43d5b548760e821e6b56a5c20ee1831e01740547e986d8"
+    }
+  ],
+  "material_brief_path": "[local evidence path omitted]",
+  "material_brief_sha256": "7e340b28c19e6ea9be81ea03ee05bae5817d3712b3018777ed4e2765829b5a0f",
+  "qa_receipt": "[local evidence path omitted]",
+  "actual_model": "gpt-6-astra",
+  "colour_evidence": {
+    "confidence": "model_hypothesis",
+    "status": "provisional",
+    "locked": false
+  },
+  "completed_at_utc": "2026-10-22T05:51:40.117770+00:00",
+  "job_id": "AJ_MAN_10_2d07c77dfd",
+  "result": "repair",
+  "visual_inspection": {
+    "source_opened": true,
+    "output_opened": true,
+    "references_opened": true,
+    "method": "Source and L3 card opened; two matching plans previously opened in same segment",
+    "architecture_openings": "Half-timbered gable, paired arches, empty/broken openings, cellar openings and entrance steps retained",
+    "damage": "Major lower damage retained; upper quoin material reinterpreted as brick",
+    "lettering": "White rectangle in lower left window and pale wall scrawls retained without invented reading; card1269 matches",
+    "people_vehicles": "None visible; none added",
+    "vegetation_wires": "Tree, hanging top leaves, wires and left gate retained",
+    "composition_border": "Original skew, extent and archival cream edge/red fragment retained",
+    "materials": "Warm-grey/cream/timber/clay-red broadly coherent; quoin brick assignment unsupported",
+    "padding": "No new black padding; no crop"
+  },
+  "findings": [
+    {
+      "severity": "major",
+      "normalized_output_roi": [
+        0.14,
+        0.21,
+        0.2,
+        0.53
+      ],
+      "finding": "Left vertical corner band is rendered extensive red exposed brick, whereas source shows grey rusticated/plastered quoin faces; model has interpreted decorative masonry as plaster loss."
+    },
+    {
+      "severity": "moderate",
+      "normalized_output_roi": [
+        0.44,
+        0.38,
+        0.48,
+        0.52
+      ],
+      "finding": "Central rusticated corner blocks likewise gain red brick colouring; only visibly exposed source brick should use BRICK_RED_01."
+    }
+  ],
+  "repair_instruction": "Final attempt2: preserve exact original quoin/rustication material and damage boundaries. Restore left vertical corner band and central rusticated blocks to stone/plaster warm-grey/cream, remove invented red exposed-brick strips there. Use brick-red only where source clearly shows actual exposed brick in damaged lower plinth. Keep all empty/broken openings, half-timber gable, steps, gate, tree/leaves, small white window notice and archival border; preserve grain/softness.",
+  "limitations": [
+    "Main geometry/retained objects pass preliminary comparison; material misclassification blocks acceptance.",
+    "Colours remain provisional and not historic fact."
+  ]
+}
