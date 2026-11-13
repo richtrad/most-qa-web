@@ -39,7 +39,18 @@
     const payload = { schema_version: 1, public_web_revision: data.public_web_revision, availability_checked_on: data.availability_checked_on, street: data.street, exported_at: new Date().toISOString(), application_status: "not_applied", decisions: data.decisions.map(item => ({ case_id: item.id, source_id: item.source_id || null, source_sha256: item.sha256 || null, choice: values[item.id]?.choice || null, comment: values[item.id]?.note || "" })) };
     const link = document.createElement("a"); link.href = URL.createObjectURL(new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" })); link.download = text.exportName; document.body.append(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(link.href), 1000);
   });
-  document.querySelector("#clear").addEventListener("click", () => { if (window.confirm(lang === "cs" ? "Vymazat všechny lokálně uložené volby?" : "Clear all locally saved choices?")) { values = {}; localStorage.removeItem(key); render(); } });
+  const clearButton = document.querySelector("#clear");
+  let clearPrompt;
+  clearButton.addEventListener("click", () => {
+    if (clearPrompt) return;
+    clearPrompt = document.createElement("div"); clearPrompt.setAttribute("role", "alert");
+    const label = document.createElement("p"); label.textContent = lang === "cs" ? "Vymazat pouze místní volby a poznámky pro J. Svátka? Nejprve si můžete stáhnout JSON." : "Clear only local choices and notes for J. Svátka? You can export JSON first.";
+    const yes = document.createElement("button"); yes.className = "button"; yes.textContent = lang === "cs" ? "Potvrdit vymazání" : "Confirm clearing";
+    const no = document.createElement("button"); no.className = "button secondary"; no.textContent = lang === "cs" ? "Zrušit" : "Cancel";
+    const dismiss = () => { clearPrompt.remove(); clearPrompt = null; clearButton.focus(); };
+    yes.addEventListener("click", () => { localStorage.removeItem(key); values = {}; render(); dismiss(); });
+    no.addEventListener("click", dismiss); clearPrompt.append(label, yes, no); clearButton.after(clearPrompt); no.focus();
+  });
   document.querySelector("#modal-close").textContent = text.modalClose;
   document.querySelector("#modal-close").addEventListener("click", () => modal.classList.remove("open"));
   modal.addEventListener("click", event => { if (event.target === modal) modal.classList.remove("open"); });
