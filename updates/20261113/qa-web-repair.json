@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-13",
+  "role": "Q",
+  "route": "workers/Q/j-svatka/index.html",
+  "fixed": [
+    "missing base CSS",
+    "missing decision scripts",
+    "missing photo references",
+    "broken CZ/EN and catalogue navigation",
+    "unsafe rendering of saved note text"
+  ],
+  "decisions": 4,
+  "previews": 3,
+  "case_ids_and_storage_namespace_preserved": true,
+  "libuse": {
+    "ui": 200,
+    "known_current_area_api": 200,
+    "old_J_Svatka_area": 404,
+    "photo_downloads": 0,
+    "mapping_not_restored": true
+  },
+  "historical_qa_passed": false,
+  "new_generations": 0,
+  "api_mutations": 0
+}
